@@ -21,6 +21,10 @@ public class GameUIManagerScript : MonoBehaviour {
     private GameObject settingsUI;
     private int curentPanelIndex;
 
+    //Player variables
+    private Vector2 direction;
+    private GameObject player;
+
 	// Use this for initialization
 	void Start () {
         joystickBg = GameObject.FindGameObjectWithTag("Joystick").GetComponentInChildren<Image>(true);
@@ -30,8 +34,10 @@ public class GameUIManagerScript : MonoBehaviour {
 
         GameObject[] pauseObjects = GameObject.FindGameObjectsWithTag("Pause");
         pauseMenuUI = pauseObjects[0];        
-        pauseButton = pauseObjects[1].GetComponent<Button>();
-        settingsUI = pauseObjects[2];
+        pauseButton = pauseObjects[2].GetComponent<Button>();
+        settingsUI = pauseObjects[1];
+
+        player = GameObject.FindGameObjectWithTag("Player");
 
         ResumeGame();
     }
@@ -52,7 +58,7 @@ public class GameUIManagerScript : MonoBehaviour {
                     {
                         touchStart = true;
                         joystickBg.transform.position = startPos;
-                        joystickFg.transform.position = new Vector2(joystickBg.transform.position.x, joystickBg.transform.position.y) + (touch.position - startPos).normalized * 10;
+                        joystickFg.transform.position = new Vector2(joystickBg.transform.position.x, joystickBg.transform.position.y) + (touch.position - startPos).normalized * 70;
                     }
                 break;
                     case TouchPhase.Ended:
@@ -60,6 +66,7 @@ public class GameUIManagerScript : MonoBehaviour {
                 break;
             }
         }
+        
 
         if (touchStart)
         {
