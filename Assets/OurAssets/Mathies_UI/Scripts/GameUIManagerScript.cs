@@ -33,8 +33,8 @@ public class GameUIManagerScript : MonoBehaviour {
         fgImgColor = joystickFg.color;
 
         GameObject[] pauseObjects = GameObject.FindGameObjectsWithTag("Pause");
-        pauseMenuUI = pauseObjects[0];        
-        pauseButton = pauseObjects[2].GetComponent<Button>();
+        pauseMenuUI = pauseObjects[2];        
+        pauseButton = pauseObjects[0].GetComponent<Button>();
         settingsUI = pauseObjects[1];
 
         player = GameObject.FindGameObjectWithTag("Player");
@@ -59,6 +59,7 @@ public class GameUIManagerScript : MonoBehaviour {
                         touchStart = true;
                         joystickBg.transform.position = startPos;
                         joystickFg.transform.position = new Vector2(joystickBg.transform.position.x, joystickBg.transform.position.y) + (touch.position - startPos).normalized * 70;
+                        direction = (touch.position - startPos) / (touch.position - startPos).magnitude;
                     }
                 break;
                     case TouchPhase.Ended:
@@ -66,7 +67,8 @@ public class GameUIManagerScript : MonoBehaviour {
                 break;
             }
         }
-        
+
+        if (direction != null) player.GetComponent<Rigidbody>().AddForce(new Vector3(direction.x, 0f, direction.y) * 50f);
 
         if (touchStart)
         {

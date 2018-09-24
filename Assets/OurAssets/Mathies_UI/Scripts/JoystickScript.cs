@@ -10,6 +10,7 @@ public class JoystickScript : MonoBehaviour, IDragHandler, IPointerUpHandler, IP
     private Image jsContainer;
     private Image joystick;
     private Vector3 InputDirection;
+    private GameObject player;
 
     // Use this for initialization
     void Start () {
@@ -20,6 +21,9 @@ public class JoystickScript : MonoBehaviour, IDragHandler, IPointerUpHandler, IP
 	
 	// Update is called once per frame
 	void Update () {
+        player = GameObject.FindGameObjectWithTag("Player");
+        player.GetComponent<Rigidbody>().AddForce(InputDirection * 50f);
+
     }
 
     public void OnDrag(PointerEventData eventData)
