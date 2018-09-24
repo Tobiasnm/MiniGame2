@@ -18,6 +18,8 @@ public class GameUIManagerScript : MonoBehaviour {
     //Pause variables
     private Button pauseButton;
     private GameObject pauseMenuUI;
+    private GameObject settingsUI;
+    private int curentPanelIndex;
 
 	// Use this for initialization
 	void Start () {
@@ -27,11 +29,11 @@ public class GameUIManagerScript : MonoBehaviour {
         fgImgColor = joystickFg.color;
 
         GameObject[] pauseObjects = GameObject.FindGameObjectsWithTag("Pause");
-        pauseMenuUI = pauseObjects[0];
+        pauseMenuUI = pauseObjects[0];        
         pauseButton = pauseObjects[1].GetComponent<Button>();
+        settingsUI = pauseObjects[2];
 
-        pauseMenuUI.SetActive(false);
-
+        ResumeGame();
     }
 	
 	// Update is called once per frame
@@ -71,6 +73,21 @@ public class GameUIManagerScript : MonoBehaviour {
         }
     }
 
+    public void SetPanelActive(int panel)
+    {
+        switch (panel)
+        {
+            case 0:
+                pauseMenuUI.SetActive(true);
+                settingsUI.SetActive(false);
+                break;
+            case 1:
+                pauseMenuUI.SetActive(false);
+                settingsUI.SetActive(true);
+                break;
+        }
+    }
+
     private bool IsPointerOverUIObject()
     {
         PointerEventData eventDataCurrentPosition = new PointerEventData(EventSystem.current);
@@ -89,12 +106,14 @@ public class GameUIManagerScript : MonoBehaviour {
 
     public void ResumeGame()
     {
+        settingsUI.SetActive(false);
+        pauseMenuUI.SetActive(false);
         pauseButton.gameObject.SetActive(true);
         Time.timeScale = 1f;
     }
 
     public void QuitToMainMenu()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene("MainMenu");
     }
 }

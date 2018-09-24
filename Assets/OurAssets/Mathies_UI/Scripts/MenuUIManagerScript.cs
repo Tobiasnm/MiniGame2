@@ -38,4 +38,9 @@ public class MenuUIManagerScript : MonoBehaviour {
     {
         SceneManager.LoadScene(sceneIndex);
     }
+
+    public void LoadLevel(string levelname)
+    {
+        SceneManager.LoadScene(levelname);
+    }
 }

@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/OurAssets/Mathies_UI/Scenes/MainMenu.unity
     guid: f6164cbcad079484a8f08bbfc13f9d83
+  - enabled: 1
+    path: Assets/OurAssets/Mathies_UI/Scenes/GrayBox_With_Joystick_Pause.unity
+    guid: 8553b689edf678c4ea240a359e90c0dd
   m_configObjects: {}
