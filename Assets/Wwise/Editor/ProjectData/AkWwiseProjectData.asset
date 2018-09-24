@@ -15,12 +15,60 @@ MonoBehaviour:
   CurrentPluginConfig: 
   m_lastPopulateTimePart2: 0
   m_lastPopulateTimePsrt1: 0
-  AcousticTextureWwu: []
-  AuxBusWwu: []
-  BankWwu: []
-  EventWwu: []
+  AcousticTextureWwu:
+  - Guid: '{6A81CFA1-3EE8-4AB4-983B-56BB92A7936F}'
+    m_lastTimePart2: -1999232409
+    m_lastTimePsrt1: 1850683613
+    ParentPhysicalPath: 
+    PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    List: []
+  AuxBusWwu:
+  - Guid: '{7B533535-4201-4B94-9675-1FE3D41F10DD}'
+    m_lastTimePart2: -1999232409
+    m_lastTimePsrt1: 1850504362
+    ParentPhysicalPath: 
+    PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    List: []
+  BankWwu:
+  - Guid: '{43944F99-3A7E-48AE-9B0A-5C10428126D3}'
+    m_lastTimePart2: -1999232409
+    m_lastTimePsrt1: 1850743457
+    ParentPhysicalPath: 
+    PhysicalPath: SoundBanks\Default Work Unit.wwu
+    List: []
+  EventWwu:
+  - Guid: '{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}'
+    m_lastTimePart2: -1999232409
+    m_lastTimePsrt1: 1850324585
+    ParentPhysicalPath: 
+    PhysicalPath: Events\Default Work Unit.wwu
+    List: []
   ExpandedItems: []
-  RtpcWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  TriggerWwu: []
+  RtpcWwu:
+  - Guid: '{D988E8F9-23E3-4313-82D3-4B9EBAF10429}'
+    m_lastTimePart2: -1999232409
+    m_lastTimePsrt1: 1850394384
+    ParentPhysicalPath: 
+    PhysicalPath: Game Parameters\Default Work Unit.wwu
+    List: []
+  StateWwu:
+  - Guid: '{6262B9FF-1619-4BA7-9A20-6F88731B5C4C}'
+    m_lastTimePart2: -1999232409
+    m_lastTimePsrt1: 1851019282
+    ParentPhysicalPath: 
+    PhysicalPath: States\Default Work Unit.wwu
+    List: []
+  SwitchWwu:
+  - Guid: '{4AB545B4-F536-4416-938F-FAE96AD1C93D}'
+    m_lastTimePart2: -1999232409
+    m_lastTimePsrt1: 1850643743
+    ParentPhysicalPath: 
+    PhysicalPath: Switches\Default Work Unit.wwu
+    List: []
+  TriggerWwu:
+  - Guid: '{42742241-0334-49D7-BCFA-6FBDD2F4DF4D}'
+    m_lastTimePart2: -1999232409
+    m_lastTimePsrt1: 1851069115
+    ParentPhysicalPath: 
+    PhysicalPath: Triggers\Default Work Unit.wwu
+    List: []
