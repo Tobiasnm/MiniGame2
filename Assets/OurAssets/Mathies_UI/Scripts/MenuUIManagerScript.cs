@@ -19,7 +19,7 @@ public class MenuUIManagerScript : MonoBehaviour {
         }
         //Make the Main Menu-panel the last panel in the list so index is length-1.
         currentActivePanel = menuPanels.Length-1;
-        menuPanels[2].SetActive(true);
+        menuPanels[currentActivePanel].SetActive(true);
 	}
 	
 	// Update is called once per frame
