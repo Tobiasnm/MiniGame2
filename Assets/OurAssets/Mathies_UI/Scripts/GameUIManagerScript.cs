@@ -7,14 +7,6 @@ using UnityEngine.SceneManagement;
 
 public class GameUIManagerScript : MonoBehaviour {
 
-    //Joystick variables
-    private Image joystickBg;
-    private Image joystickFg;
-    private Color bgImgColor;
-    private Color fgImgColor;
-    private bool touchStart = false;
-    private Vector2 startPos;
-
     //Pause variables
     private Button pauseButton;
     private GameObject pauseMenuUI;
@@ -27,16 +19,14 @@ public class GameUIManagerScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        joystickBg = GameObject.FindGameObjectWithTag("Joystick").GetComponentInChildren<Image>(true);
-        joystickFg = joystickBg.transform.GetChild(0).GetComponent<Image>();
-        bgImgColor = joystickBg.color;
-        fgImgColor = joystickFg.color;
-
+   
         GameObject[] pauseObjects = GameObject.FindGameObjectsWithTag("Pause");
-        pauseMenuUI = pauseObjects[2];        
-        pauseButton = pauseObjects[0].GetComponent<Button>();
-        settingsUI = pauseObjects[1];
-
+        for (int i=0; i<pauseObjects.Length; i++)
+        {
+            if (pauseObjects[i].name == "PauseButton") pauseButton = pauseObjects[i].GetComponent<Button>();
+            else if (pauseObjects[i].name == "SettingsPanel") settingsUI = pauseObjects[i];
+            else pauseMenuUI = pauseObjects[i];
+        }
         player = GameObject.FindGameObjectWithTag("Player");
 
         ResumeGame();
@@ -44,42 +34,7 @@ public class GameUIManagerScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (Input.touchCount > 0)
-        {
-            Touch touch = Input.GetTouch(0);
-            switch(touch.phase)
-                {
-                    case TouchPhase.Began:
-                    if (!IsPointerOverUIObject())
-                    startPos = touch.position;
-                break;
-                    case TouchPhase.Moved:
-                    if (!IsPointerOverUIObject())
-                    {
-                        touchStart = true;
-                        joystickBg.transform.position = startPos;
-                        joystickFg.transform.position = new Vector2(joystickBg.transform.position.x, joystickBg.transform.position.y) + (touch.position - startPos).normalized * 70;
-                        direction = (touch.position - startPos) / (touch.position - startPos).magnitude;
-                    }
-                break;
-                    case TouchPhase.Ended:
-                    touchStart = false;
-                break;
-            }
-        }
 
-        if (direction != null) player.GetComponent<Rigidbody>().AddForce(new Vector3(direction.x, 0f, direction.y) * 50f);
-
-        if (touchStart)
-        {
-            joystickBg.color = bgImgColor;
-            joystickFg.color = fgImgColor;
-        }
-        else
-        {
-            joystickBg.color = new Color(0, 0, 0, 0);
-            joystickFg.color = new Color(0, 0, 0, 0);
-        }
     }
 
     public void SetPanelActive(int panel)
