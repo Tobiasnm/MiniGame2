@@ -11,11 +11,15 @@ public class GameUIManagerScript : MonoBehaviour {
     private Button pauseButton;
     private GameObject pauseMenuUI;
     private GameObject settingsUI;
+    private GameObject hintUI;
     private int curentPanelIndex;
 
     //Player variables
     private Vector2 direction;
     private GameObject player;
+
+    //Hints Array
+    public string[] hintText;
 
 	// Use this for initialization
 	void Start () {
@@ -23,10 +27,24 @@ public class GameUIManagerScript : MonoBehaviour {
         GameObject[] pauseObjects = GameObject.FindGameObjectsWithTag("Pause");
         for (int i=0; i<pauseObjects.Length; i++)
         {
-            if (pauseObjects[i].name == "PauseButton") pauseButton = pauseObjects[i].GetComponent<Button>();
-            else if (pauseObjects[i].name == "SettingsPanel") settingsUI = pauseObjects[i];
-            else pauseMenuUI = pauseObjects[i];
+            switch (pauseObjects[i].name)
+            {
+                case "PauseButton":
+                    pauseButton = pauseObjects[i].GetComponent<Button>();
+                    break;
+                case "SettingsPanel":
+                    settingsUI = pauseObjects[i];
+                    break;
+                case "HintPanel":
+                    hintUI = pauseObjects[i];
+                    break;
+                default:
+                    pauseMenuUI = pauseObjects[i];
+                    break;
+            }
         }
+
+        hintUI.transform.GetChild(0).GetComponent<Text>().text = hintText[0];
         player = GameObject.FindGameObjectWithTag("Player");
 
         ResumeGame();
@@ -43,22 +61,18 @@ public class GameUIManagerScript : MonoBehaviour {
         {
             case 0:
                 pauseMenuUI.SetActive(true);
+                hintUI.SetActive(false);
                 settingsUI.SetActive(false);
                 break;
             case 1:
                 pauseMenuUI.SetActive(false);
                 settingsUI.SetActive(true);
                 break;
+            case 2:
+                pauseMenuUI.SetActive(false);
+                hintUI.SetActive(true);
+                break;
         }
-    }
-
-    private bool IsPointerOverUIObject()
-    {
-        PointerEventData eventDataCurrentPosition = new PointerEventData(EventSystem.current);
-        eventDataCurrentPosition.position = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
-        List<RaycastResult> results = new List<RaycastResult>();
-        EventSystem.current.RaycastAll(eventDataCurrentPosition, results);
-        return results.Count > 0;
     }
 
     public void PauseGame()
@@ -70,6 +84,7 @@ public class GameUIManagerScript : MonoBehaviour {
 
     public void ResumeGame()
     {
+        hintUI.SetActive(false);
         settingsUI.SetActive(false);
         pauseMenuUI.SetActive(false);
         pauseButton.gameObject.SetActive(true);
