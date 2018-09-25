@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{32204484-BA60-4B3C-8310-BF840FF23C2B}" SchemaVersion="89">
+	<SoundBanks>
+		<WorkUnit Name="Anders Holm Soundbank" ID="{32204484-BA60-4B3C-8310-BF840FF23C2B}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Ambiance" ID="{2C7E2F80-3B7E-4DBF-B79B-254030E67E69}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Forest_Ambiance" ID="{482DA7DB-A9B5-4368-9CFF-8C95B1DD5919}" WorkUnitID="{E7381F8F-9844-4ADD-A61A-A1508F46025D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Background_Music" ID="{C7D0897A-FCFC-4819-AFFA-5DFF8FA1C5DC}" WorkUnitID="{E7381F8F-9844-4ADD-A61A-A1508F46025D}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Character" ID="{4D349807-7094-4B98-8B65-CEEEF4EB677D}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Footstep_grass" ID="{6C41C38C-BB8F-49AB-9A0C-7C7C6459D884}" WorkUnitID="{E7381F8F-9844-4ADD-A61A-A1508F46025D}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

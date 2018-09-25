@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{88215F09-63D1-4934-8FF5-4D20C78D0D2D}" SchemaVersion="89">
+	<GameParameters>
+		<WorkUnit Name="Anders Game Parameters" ID="{88215F09-63D1-4934-8FF5-4D20C78D0D2D}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="danger_level" ID="{3F85B5BF-DCD3-4836-AD06-CEA21AADE8DA}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0.5"/>
+						<Property Name="Max" Type="Real64" Value="4"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

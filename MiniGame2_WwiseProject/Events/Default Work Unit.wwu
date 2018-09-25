@@ -1,6 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" SchemaVersion="89">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Rain" ID="{608C3DF7-7EDA-42B3-B235-2612985BFD7E}">
+					<ChildrenList>
+						<Action Name="" ID="{9E50E6BD-59CC-4EC2-93EC-B0B149EEEE08}" ShortID="894053520">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Rain" ID="{8B1C8717-7F45-442C-90F5-F4705A7EB30C}" WorkUnitID="{13EEEA71-2979-435A-8F44-172814FC0E97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Soldier_FootstepsAsphalt" ID="{A10BD4C7-1173-433B-8541-B0643A4B3427}">
+					<ChildrenList>
+						<Action Name="" ID="{9EEB80D7-488B-4C3B-8436-14AB05F60ADC}" ShortID="97575717">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Soldier_FootstepsAsphalt" ID="{1A8B4309-E674-41D4-83AC-B6F9CCAE0716}" WorkUnitID="{13EEEA71-2979-435A-8F44-172814FC0E97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Soldier_FootstepsGrass" ID="{8D0BB2AB-A144-4D5F-8189-282370317917}">
+					<ChildrenList>
+						<Action Name="" ID="{1E312E03-71F8-4126-9059-BE5E62421FCA}" ShortID="342057916">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Soldier_FootstepsGrass" ID="{463C2F54-2080-44E6-91A2-71F37ADF9AAD}" WorkUnitID="{13EEEA71-2979-435A-8F44-172814FC0E97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Soldier_FootstepsGravel" ID="{A3B88DAF-4C05-458D-95E4-4D23E7338DD4}">
+					<ChildrenList>
+						<Action Name="" ID="{9D1351B8-1E6E-47B1-98AD-82AD5CE99C60}" ShortID="764011938">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Soldier_FootstepsGravel" ID="{8D202CCB-2875-4CA9-9861-6CE93BC2B86C}" WorkUnitID="{13EEEA71-2979-435A-8F44-172814FC0E97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Soldier_FootstepsPuddle" ID="{75E0C6BF-DB90-4D39-A9EC-6D537DB0D6CC}">
+					<ChildrenList>
+						<Action Name="" ID="{E93A0384-095A-4609-A32D-BD52B9444812}" ShortID="360808451">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Soldier_FootstepsPuddle" ID="{0A7FE5FC-0A9E-4FF9-ADCB-8F6610862A85}" WorkUnitID="{13EEEA71-2979-435A-8F44-172814FC0E97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
