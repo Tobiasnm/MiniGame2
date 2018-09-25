@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="132">
+	<RootPaths>
+		<ProjectRoot>C:\Users\faggka\Desktop\Git\MiniGame2\MiniGame2_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\faggka\Desktop\Git\MiniGame2\MiniGame2_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\faggka\Desktop\Git\MiniGame2\MiniGame2_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\faggka\Desktop\Git\MiniGame2\MiniGame2_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="436743010" Language="SFX">
+			<ObjectPath>\SoundBanks\Anders Holm Soundbank\Character</ObjectPath>
+			<ShortName>Character</ShortName>
+			<Path>Character.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4256116324" Name="Footstep_grass" ObjectPath="\Events\Anders Holm Work Unit\Footstep_grass"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="960551753" Language="SFX">
+					<ShortName>38874__swuing__footstep-grass.wav</ShortName>
+					<Path>SFX\38874__swuing__footstep-grass_56D34C19.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2981377429" Language="SFX">
+			<ObjectPath>\SoundBanks\Anders Holm Soundbank\Ambiance</ObjectPath>
+			<ShortName>Ambiance</ShortName>
+			<Path>Ambiance.bnk</Path>
+			<IncludedEvents>
+				<Event Id="65769146" Name="Play_Background_Music" ObjectPath="\Events\Anders Holm Work Unit\Play_Background_Music"/>
+				<Event Id="2215933556" Name="Play_Forest_Ambiance" ObjectPath="\Events\Anders Holm Work Unit\Play_Forest_Ambiance"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="10456786" Language="SFX">
+					<ShortName>31 Robin's Song01.wav</ShortName>
+					<Path>SFX\31 Robin's Song01_F72E6BF9.wem</Path>
+				</File>
+				<File Id="142449055" Language="SFX">
+					<ShortName>Drone_layer_three_02.wav</ShortName>
+					<Path>SFX\Drone_layer_three_02_5EDA3C1D.wem</Path>
+				</File>
+				<File Id="159363823" Language="SFX">
+					<ShortName>Drone_layer_five.wav</ShortName>
+					<Path>SFX\Drone_layer_five_56D34C19.wem</Path>
+				</File>
+				<File Id="225813450" Language="SFX">
+					<ShortName>31 Robin's Song01.wav</ShortName>
+					<Path>SFX\31 Robin's Song01_61E7AD31.wem</Path>
+				</File>
+				<File Id="230540445" Language="SFX">
+					<ShortName>31 Robin's Song01.wav</ShortName>
+					<Path>SFX\31 Robin's Song01_FD71E5BE.wem</Path>
+				</File>
+				<File Id="235432440" Language="SFX">
+					<ShortName>31 Robin's Song01.wav</ShortName>
+					<Path>SFX\31 Robin's Song01_033345BA.wem</Path>
+				</File>
+				<File Id="252083019" Language="SFX">
+					<ShortName>Drone_layer_two_01.wav</ShortName>
+					<Path>SFX\Drone_layer_two_01_E411DAF8.wem</Path>
+				</File>
+				<File Id="344927456" Language="SFX">
+					<ShortName>drone_layer_four.wav</ShortName>
+					<Path>SFX\drone_layer_four_56D34C19.wem</Path>
+				</File>
+				<File Id="457143373" Language="SFX">
+					<ShortName>Wind_Forest_Fienup_001.302.wav</ShortName>
+					<Path>SFX\Wind_Forest_Fienup_001.302_EC906126.wem</Path>
+				</File>
+				<File Id="572004116" Language="SFX">
+					<ShortName>31 Robin's Song01.wav</ShortName>
+					<Path>SFX\31 Robin's Song01_FEAFF7F1.wem</Path>
+				</File>
+				<File Id="578688371" Language="SFX">
+					<ShortName>Drone_layer_two_02.wav</ShortName>
+					<Path>SFX\Drone_layer_two_02_AAA4B23A.wem</Path>
+				</File>
+				<File Id="710671698" Language="SFX">
+					<ShortName>Drone_layer_one.wav</ShortName>
+					<Path>SFX\Drone_layer_one_69911DE4.wem</Path>
+				</File>
+				<File Id="750336811" Language="SFX">
+					<ShortName>31 Robin's Song01.wav</ShortName>
+					<Path>SFX\31 Robin's Song01_932895DF.wem</Path>
+				</File>
+				<File Id="766883646" Language="SFX">
+					<ShortName>Drone_layer_three_01.wav</ShortName>
+					<Path>SFX\Drone_layer_three_01_F1DF0C59.wem</Path>
+				</File>
+				<File Id="1008812096" Language="SFX">
+					<ShortName>31 Robin's Song01.wav</ShortName>
+					<Path>SFX\31 Robin's Song01_2D24BF06.wem</Path>
+				</File>
+				<File Id="1051169781" Language="SFX">
+					<ShortName>32 Moorhen03.wav</ShortName>
+					<Path>SFX\32 Moorhen03_56D34C19.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

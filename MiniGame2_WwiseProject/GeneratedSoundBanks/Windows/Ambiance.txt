@@ -1,0 +1,22 @@
+Event	ID	Name			Wwise Object Path	Notes
+	65769146	Play_Background_Music			\Anders Holm Work Unit\Play_Background_Music	
+	2215933556	Play_Forest_Ambiance			\Anders Holm Work Unit\Play_Forest_Ambiance	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	10456786	Birds	C:\Users\faggka\Desktop\Git\MiniGame2\MiniGame2_WwiseProject\.cache\Windows\SFX\31 Robin's Song01_F72E6BF9.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\2D\Forest Ambiance\Birds\Birds		627988
+	142449055	Drone_layer_three_02	C:\Users\faggka\Desktop\Git\MiniGame2\MiniGame2_WwiseProject\.cache\Windows\SFX\Drone_layer_three_02_5EDA3C1D.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\2D\Background Music\Layer Three\Drone_layer_three_02		2860820
+	159363823	Drone_layer_five	C:\Users\faggka\Desktop\Git\MiniGame2\MiniGame2_WwiseProject\.cache\Windows\SFX\Drone_layer_five_56D34C19.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\2D\Background Music\Drone_layer_five		15465584
+	225813450	Birds_04	C:\Users\faggka\Desktop\Git\MiniGame2\MiniGame2_WwiseProject\.cache\Windows\SFX\31 Robin's Song01_61E7AD31.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\2D\Forest Ambiance\Birds\Birds_04		819776
+	230540445	Birds_02	C:\Users\faggka\Desktop\Git\MiniGame2\MiniGame2_WwiseProject\.cache\Windows\SFX\31 Robin's Song01_FD71E5BE.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\2D\Forest Ambiance\Birds\Birds_02		714196
+	235432440	Birds_01	C:\Users\faggka\Desktop\Git\MiniGame2\MiniGame2_WwiseProject\.cache\Windows\SFX\31 Robin's Song01_033345BA.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\2D\Forest Ambiance\Birds\Birds_01		714196
+	252083019	Drone_layer_two_01	C:\Users\faggka\Desktop\Git\MiniGame2\MiniGame2_WwiseProject\.cache\Windows\SFX\Drone_layer_two_01_E411DAF8.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\2D\Background Music\Layer Two and One\Layer Two\Drone_layer_two_01		3271720
+	344927456	drone_layer_four	C:\Users\faggka\Desktop\Git\MiniGame2\MiniGame2_WwiseProject\.cache\Windows\SFX\drone_layer_four_56D34C19.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\2D\Background Music\drone_layer_four		11271280
+	457143373	Forest_Wind	C:\Users\faggka\Desktop\Git\MiniGame2\MiniGame2_WwiseProject\.cache\Windows\SFX\Wind_Forest_Fienup_001.302_EC906126.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\2D\Forest Ambiance\Forest_Wind		2594224
+	572004116	Birds_03	C:\Users\faggka\Desktop\Git\MiniGame2\MiniGame2_WwiseProject\.cache\Windows\SFX\31 Robin's Song01_FEAFF7F1.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\2D\Forest Ambiance\Birds\Birds_03		821320
+	578688371	Drone_layer_two_02	C:\Users\faggka\Desktop\Git\MiniGame2\MiniGame2_WwiseProject\.cache\Windows\SFX\Drone_layer_two_02_AAA4B23A.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\2D\Background Music\Layer Two and One\Layer Two\Drone_layer_two_02		2658176
+	710671698	Drone_layer_one	C:\Users\faggka\Desktop\Git\MiniGame2\MiniGame2_WwiseProject\.cache\Windows\SFX\Drone_layer_one_69911DE4.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\2D\Background Music\Layer Two and One\Drone_layer_one		7601328
+	750336811	Birds_05	C:\Users\faggka\Desktop\Git\MiniGame2\MiniGame2_WwiseProject\.cache\Windows\SFX\31 Robin's Song01_932895DF.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\2D\Forest Ambiance\Birds\Birds_05		589224
+	766883646	Drone_layer_three_01	C:\Users\faggka\Desktop\Git\MiniGame2\MiniGame2_WwiseProject\.cache\Windows\SFX\Drone_layer_three_01_F1DF0C59.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\2D\Background Music\Layer Three\Drone_layer_three_01		6586564
+	1008812096	Birds_06	C:\Users\faggka\Desktop\Git\MiniGame2\MiniGame2_WwiseProject\.cache\Windows\SFX\31 Robin's Song01_2D24BF06.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\2D\Forest Ambiance\Birds\Birds_06		732712
+	1051169781	Moorhen	C:\Users\faggka\Desktop\Git\MiniGame2\MiniGame2_WwiseProject\.cache\Windows\SFX\32 Moorhen03_56D34C19.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\2D\Forest Ambiance\Moorhen\Moorhen		2124000
+

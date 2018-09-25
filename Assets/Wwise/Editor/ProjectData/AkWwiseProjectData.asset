@@ -17,58 +17,219 @@ MonoBehaviour:
   m_lastPopulateTimePsrt1: 0
   AcousticTextureWwu:
   - Guid: '{6A81CFA1-3EE8-4AB4-983B-56BB92A7936F}'
-    m_lastTimePart2: -1999232409
-    m_lastTimePsrt1: 1850683613
+    m_lastTimePart2: -1999232327
+    m_lastTimePsrt1: 1077034227
     ParentPhysicalPath: 
     PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
     List: []
   AuxBusWwu:
   - Guid: '{7B533535-4201-4B94-9675-1FE3D41F10DD}'
-    m_lastTimePart2: -1999232409
-    m_lastTimePsrt1: 1850504362
+    m_lastTimePart2: -1999232327
+    m_lastTimePsrt1: 1076813305
     ParentPhysicalPath: 
     PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     List: []
   BankWwu:
+  - Guid: '{32204484-BA60-4B3C-8310-BF840FF23C2B}'
+    m_lastTimePart2: -1999232284
+    m_lastTimePsrt1: -329554765
+    ParentPhysicalPath: 
+    PhysicalPath: SoundBanks\Anders Holm Soundbank.wwu
+    List:
+    - Guid: 802f7e2c7e3bbf4db79b254030e67e69
+      ID: -1313589867
+      Name: Ambiance
+      Path: Anders Holm Soundbank\Ambiance
+      PathAndIcons:
+      - ElementName: Anders Holm Soundbank
+        ObjectType: 12
+      - ElementName: Ambiance
+        ObjectType: 7
+    - Guid: 0798344d9470984b8b65ceeef4eb677d
+      ID: 436743010
+      Name: Character
+      Path: Anders Holm Soundbank\Character
+      PathAndIcons:
+      - ElementName: Anders Holm Soundbank
+        ObjectType: 12
+      - ElementName: Character
+        ObjectType: 7
   - Guid: '{43944F99-3A7E-48AE-9B0A-5C10428126D3}'
-    m_lastTimePart2: -1999232409
-    m_lastTimePsrt1: 1850743457
+    m_lastTimePart2: -1999232327
+    m_lastTimePsrt1: 1076913406
     ParentPhysicalPath: 
     PhysicalPath: SoundBanks\Default Work Unit.wwu
     List: []
   EventWwu:
+  - Guid: '{E7381F8F-9844-4ADD-A61A-A1508F46025D}'
+    m_lastTimePart2: -1999232284
+    m_lastTimePsrt1: -355235799
+    ParentPhysicalPath: 
+    PhysicalPath: Events\Anders Holm Work Unit.wwu
+    List:
+    - Guid: 8cc3416c8fbbab499a0c7c7c6459d884
+      ID: -38850972
+      Name: Footstep_grass
+      Path: Anders Holm Work Unit\Footstep_grass
+      PathAndIcons:
+      - ElementName: Anders Holm Work Unit
+        ObjectType: 12
+      - ElementName: Footstep_grass
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 7a89d0c7fcfc1948affa5dff8fa1c5dc
+      ID: 65769146
+      Name: Play_Background_Music
+      Path: Anders Holm Work Unit\Play_Background_Music
+      PathAndIcons:
+      - ElementName: Anders Holm Work Unit
+        ObjectType: 12
+      - ElementName: Play_Background_Music
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: dba72d48b5a968439cff8c95b1dd5919
+      ID: -2079033740
+      Name: Play_Forest_Ambiance
+      Path: Anders Holm Work Unit\Play_Forest_Ambiance
+      PathAndIcons:
+      - ElementName: Anders Holm Work Unit
+        ObjectType: 12
+      - ElementName: Play_Forest_Ambiance
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   - Guid: '{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}'
-    m_lastTimePart2: -1999232409
-    m_lastTimePsrt1: 1850324585
+    m_lastTimePart2: -1999232284
+    m_lastTimePsrt1: -355225791
     ParentPhysicalPath: 
     PhysicalPath: Events\Default Work Unit.wwu
-    List: []
-  ExpandedItems: []
+    List:
+    - Guid: f73d8c60da7eb342b2352612985bfd7e
+      ID: -1456030348
+      Name: Play_Rain
+      Path: Default Work Unit\Play_Rain
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Rain
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: c7d40ba173113b438541b0643a4b3427
+      ID: -986728511
+      Name: Play_Soldier_FootstepsAsphalt
+      Path: Default Work Unit\Play_Soldier_FootstepsAsphalt
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Soldier_FootstepsAsphalt
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: abb20b8d44a15f4d8189282370317917
+      ID: -2034038594
+      Name: Play_Soldier_FootstepsGrass
+      Path: Default Work Unit\Play_Soldier_FootstepsGrass
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Soldier_FootstepsGrass
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: af8db8a3054c8d4595e44d23e7338dd4
+      ID: -788931907
+      Name: Play_Soldier_FootstepsGravel
+      Path: Default Work Unit\Play_Soldier_FootstepsGravel
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Soldier_FootstepsGravel
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: bfc6e07590db394da9ec6d537db0d6cc
+      ID: -1965425188
+      Name: Play_Soldier_FootstepsPuddle
+      Path: Default Work Unit\Play_Soldier_FootstepsPuddle
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Soldier_FootstepsPuddle
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  ExpandedItems:
+  - /MiniGame2_WwiseProject
+  - /MiniGame2_WwiseProject/Events
+  - /MiniGame2_WwiseProject/Events/Anders Holm Work Unit
+  - /MiniGame2_WwiseProject/SoundBanks
+  - /MiniGame2_WwiseProject/SoundBanks/Anders Holm Soundbank
   RtpcWwu:
+  - Guid: '{88215F09-63D1-4934-8FF5-4D20C78D0D2D}'
+    m_lastTimePart2: -1999232284
+    m_lastTimePsrt1: -355205772
+    ParentPhysicalPath: 
+    PhysicalPath: Game Parameters\Anders Game Parameters.wwu
+    List:
+    - Guid: bfb5853fd3dc3648ad06cea21aade8da
+      ID: 129997755
+      Name: danger_level
+      Path: Anders Game Parameters\danger_level
+      PathAndIcons:
+      - ElementName: Anders Game Parameters
+        ObjectType: 12
+      - ElementName: danger_level
+        ObjectType: 13
   - Guid: '{D988E8F9-23E3-4313-82D3-4B9EBAF10429}'
-    m_lastTimePart2: -1999232409
-    m_lastTimePsrt1: 1850394384
+    m_lastTimePart2: -1999232327
+    m_lastTimePsrt1: 1076793289
     ParentPhysicalPath: 
     PhysicalPath: Game Parameters\Default Work Unit.wwu
     List: []
+  - Guid: '{2A6262A5-341F-4D32-A0BB-76F90CF27011}'
+    m_lastTimePart2: -1999232284
+    m_lastTimePsrt1: -355195767
+    ParentPhysicalPath: 
+    PhysicalPath: Game Parameters\Frederik Work Unit(GP).wwu
+    List:
+    - Guid: ca4db89d8a16114c9010eaa1a90cca47
+      ID: 1866329414
+      Name: RainIntensity
+      Path: Frederik Work Unit(GP)\RainIntensity
+      PathAndIcons:
+      - ElementName: Frederik Work Unit(GP)
+        ObjectType: 12
+      - ElementName: RainIntensity
+        ObjectType: 13
   StateWwu:
   - Guid: '{6262B9FF-1619-4BA7-9A20-6F88731B5C4C}'
-    m_lastTimePart2: -1999232409
-    m_lastTimePsrt1: 1851019282
+    m_lastTimePart2: -1999232327
+    m_lastTimePsrt1: 1077004205
     ParentPhysicalPath: 
     PhysicalPath: States\Default Work Unit.wwu
     List: []
   SwitchWwu:
   - Guid: '{4AB545B4-F536-4416-938F-FAE96AD1C93D}'
-    m_lastTimePart2: -1999232409
-    m_lastTimePsrt1: 1850643743
+    m_lastTimePart2: -1999232327
+    m_lastTimePsrt1: 1077014214
     ParentPhysicalPath: 
     PhysicalPath: Switches\Default Work Unit.wwu
     List: []
   TriggerWwu:
   - Guid: '{42742241-0334-49D7-BCFA-6FBDD2F4DF4D}'
-    m_lastTimePart2: -1999232409
-    m_lastTimePsrt1: 1851069115
+    m_lastTimePart2: -1999232327
+    m_lastTimePsrt1: 1077024196
     ParentPhysicalPath: 
     PhysicalPath: Triggers\Default Work Unit.wwu
     List: []
