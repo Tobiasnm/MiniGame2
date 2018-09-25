@@ -4,8 +4,8 @@
 [Bb]uild/
 [Bb]uilds/
 Assets/Gaia/
-Assets/Gaia/GaiaExports/
-Assets/Gaia/GaiaSessions/
+Assets/GaiaExports/
+Assets/GaiaSessions/
 Assets/AssetStoreTools*
 
 # Visual Studio cache directory
