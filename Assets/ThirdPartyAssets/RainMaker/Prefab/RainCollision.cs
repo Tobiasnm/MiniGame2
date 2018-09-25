@@ -16,6 +16,7 @@ namespace DigitalRuby.RainMaker
         public ParticleSystem RainExplosion;
         public ParticleSystem RainParticleSystem;
         public float lifetime = 0.15f;
+
         private void Start()
         {
 
@@ -65,8 +66,9 @@ namespace DigitalRuby.RainMaker
             //check if player and apply damage. 
             if(obj.tag == "Player")
             {
-
                 //obj.GetComponent<HandlePlayer>().RemoveHealth(50);
+                Debug.Log("You died!");
+                obj.GetComponent<Animator>().SetTrigger("Die");
             }
 
         }
