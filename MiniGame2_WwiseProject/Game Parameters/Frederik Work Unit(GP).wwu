@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2A6262A5-341F-4D32-A0BB-76F90CF27011}" SchemaVersion="89">
+	<GameParameters>
+		<WorkUnit Name="Frederik Work Unit(GP)" ID="{2A6262A5-341F-4D32-A0BB-76F90CF27011}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="RainIntensity" ID="{9DB84DCA-168A-4C11-9010-EAA1A90CCA47}">
+					<Comment>Intenisty of the rain sound effect.</Comment>
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="4"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E7381F8F-9844-4ADD-A61A-A1508F46025D}" SchemaVersion="89">
+	<Events>
+		<WorkUnit Name="Anders Holm Work Unit" ID="{E7381F8F-9844-4ADD-A61A-A1508F46025D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Background_Music" ID="{C7D0897A-FCFC-4819-AFFA-5DFF8FA1C5DC}">
+					<ChildrenList>
+						<Action Name="" ID="{DD60F7F2-2AE1-4D7F-A01A-ABABFCDB6BDB}" ShortID="384155789">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Background Music" ID="{91398EDB-BC50-47AC-AA2D-2191B9FD19ED}" WorkUnitID="{2A43D33F-EF5A-4399-A127-482C5C486717}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Forest_Ambiance" ID="{482DA7DB-A9B5-4368-9CFF-8C95B1DD5919}">
+					<ChildrenList>
+						<Action Name="" ID="{175E4B8D-791C-46FC-9197-2A2E55696A09}" ShortID="186529196">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Forest Ambiance" ID="{D99A2D47-947D-4B1A-B18F-C7331A5ADAD9}" WorkUnitID="{2A43D33F-EF5A-4399-A127-482C5C486717}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Footstep_grass" ID="{6C41C38C-BB8F-49AB-9A0C-7C7C6459D884}">
+					<ChildrenList>
+						<Action Name="" ID="{F6ABF260-5691-4536-BBB3-FE8EBBD507E3}" ShortID="531173312">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Grass" ID="{FFD6CFFB-FA8B-4884-9484-B2B872081994}" WorkUnitID="{2A43D33F-EF5A-4399-A127-482C5C486717}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
