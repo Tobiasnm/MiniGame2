@@ -31,8 +31,8 @@ MonoBehaviour:
     List: []
   BankWwu:
   - Guid: '{32204484-BA60-4B3C-8310-BF840FF23C2B}'
-    m_lastTimePart2: -1999232284
-    m_lastTimePsrt1: -329554765
+    m_lastTimePart2: -1999232282
+    m_lastTimePsrt1: 1045269358
     ParentPhysicalPath: 
     PhysicalPath: SoundBanks\Anders Holm Soundbank.wwu
     List:
@@ -62,8 +62,8 @@ MonoBehaviour:
     List: []
   EventWwu:
   - Guid: '{E7381F8F-9844-4ADD-A61A-A1508F46025D}'
-    m_lastTimePart2: -1999232284
-    m_lastTimePsrt1: -355235799
+    m_lastTimePart2: -1999232282
+    m_lastTimePsrt1: 1019703170
     ParentPhysicalPath: 
     PhysicalPath: Events\Anders Holm Work Unit.wwu
     List:
@@ -104,8 +104,8 @@ MonoBehaviour:
       maxDuration: 0
       minDuration: 0
   - Guid: '{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}'
-    m_lastTimePart2: -1999232284
-    m_lastTimePsrt1: -355225791
+    m_lastTimePart2: -1999232282
+    m_lastTimePsrt1: 1019718179
     ParentPhysicalPath: 
     PhysicalPath: Events\Default Work Unit.wwu
     List:
@@ -177,8 +177,8 @@ MonoBehaviour:
   - /MiniGame2_WwiseProject/SoundBanks/Anders Holm Soundbank
   RtpcWwu:
   - Guid: '{88215F09-63D1-4934-8FF5-4D20C78D0D2D}'
-    m_lastTimePart2: -1999232284
-    m_lastTimePsrt1: -355205772
+    m_lastTimePart2: -1999232282
+    m_lastTimePsrt1: 1019733180
     ParentPhysicalPath: 
     PhysicalPath: Game Parameters\Anders Game Parameters.wwu
     List:
@@ -198,8 +198,8 @@ MonoBehaviour:
     PhysicalPath: Game Parameters\Default Work Unit.wwu
     List: []
   - Guid: '{2A6262A5-341F-4D32-A0BB-76F90CF27011}'
-    m_lastTimePart2: -1999232284
-    m_lastTimePsrt1: -355195767
+    m_lastTimePart2: -1999232282
+    m_lastTimePsrt1: 1019743188
     ParentPhysicalPath: 
     PhysicalPath: Game Parameters\Frederik Work Unit(GP).wwu
     List:
