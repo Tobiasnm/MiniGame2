@@ -12,6 +12,7 @@ public class GameUIManagerScript : MonoBehaviour {
     private GameObject pauseMenuUI;
     private GameObject settingsUI;
     private GameObject hintUI;
+    private GameObject walkieTalkieUI;
     private int curentPanelIndex;
 
     //Player variables
@@ -24,9 +25,11 @@ public class GameUIManagerScript : MonoBehaviour {
     private int currentShownHintIndex;
     private Text indexText;
 
+    private Animator animator;
+
 	// Use this for initialization
 	void Start () {
-   
+        animator = GetComponent<Animator>();
         GameObject[] pauseObjects = GameObject.FindGameObjectsWithTag("Pause");
         for (int i=0; i<pauseObjects.Length; i++)
         {
@@ -41,7 +44,10 @@ public class GameUIManagerScript : MonoBehaviour {
                 case "HintPanel":
                     hintUI = pauseObjects[i];
                     break;
-                default:
+                case "WalkieTalkieHint":
+                    walkieTalkieUI = pauseObjects[i];
+                    break;
+                case "PausePanel":
                     pauseMenuUI = pauseObjects[i];
                     break;
             }
@@ -58,12 +64,14 @@ public class GameUIManagerScript : MonoBehaviour {
                     break;
             }
         }
-        
         currentShownHintIndex = 0;
-        hintPanelText.text = hintTexts[0];
+        if (hintTexts != null && hintTexts.Length > 0) hintPanelText.text = hintTexts[0];
         player = GameObject.FindGameObjectWithTag("Player");
 
-        ResumeGame();
+        hintUI.SetActive(false);
+        settingsUI.SetActive(false);
+        pauseMenuUI.SetActive(false);
+        walkieTalkieUI.SetActive(false);
     }
 	
 	// Update is called once per frame
@@ -76,37 +84,45 @@ public class GameUIManagerScript : MonoBehaviour {
         switch (panel)
         {
             case 0:
-                pauseMenuUI.SetActive(true);
                 hintUI.SetActive(false);
                 settingsUI.SetActive(false);
+                SetChildrenActive(true);
                 currentShownHintIndex = 0;
                 hintPanelText.text = hintTexts[0];
                 break;
             case 1:
-                pauseMenuUI.SetActive(false);
+                SetChildrenActive(false);
                 settingsUI.SetActive(true);
                 break;
             case 2:
-                pauseMenuUI.SetActive(false);
                 hintUI.SetActive(true);
+                SetChildrenActive(false);
                 break;
+        }
+    }
+
+    private void SetChildrenActive(bool active)
+    {
+        foreach (Transform child in pauseMenuUI.transform)
+        {
+            child.gameObject.SetActive(active);
         }
     }
 
     public void PauseGame()
     {
-        pauseButton.gameObject.SetActive(false);
-        pauseMenuUI.SetActive(true);
+        animator.SetTrigger("pause_fade");
+    }
+
+    public void PauseComplete()
+    {
         Time.timeScale = 0;
     }
 
     public void ResumeGame()
     {
-        hintUI.SetActive(false);
-        settingsUI.SetActive(false);
-        pauseMenuUI.SetActive(false);
-        pauseButton.gameObject.SetActive(true);
         Time.timeScale = 1f;
+        animator.SetTrigger("pause_fade");
     }
 
     public void PrevHint()
@@ -138,5 +154,16 @@ public class GameUIManagerScript : MonoBehaviour {
     public void QuitToMainMenu()
     {
         SceneManager.LoadScene("MainMenu");
+    }
+
+    public void SetWalkieTalkie(int hintIndex)
+    {
+        walkieTalkieUI.SetActive(true);
+        walkieTalkieUI.GetComponentInChildren<Button>().GetComponentInChildren<Text>().text = hintTexts[hintIndex];
+    }
+
+    public void RemoveWalkieTalkie()
+    {
+        walkieTalkieUI.SetActive(false);
     }
 }
