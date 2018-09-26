@@ -153,6 +153,7 @@ public class GameUIManagerScript : MonoBehaviour {
 
     public void QuitToMainMenu()
     {
+        Time.timeScale = 1f;
         SceneManager.LoadScene("MainMenu");
     }
 
