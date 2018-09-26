@@ -19,7 +19,10 @@ public class GameUIManagerScript : MonoBehaviour {
     private GameObject player;
 
     //Hints Array
-    public string[] hintText;
+    private Text hintPanelText;
+    public string[] hintTexts;
+    private int currentShownHintIndex;
+    private Text indexText;
 
 	// Use this for initialization
 	void Start () {
@@ -43,8 +46,21 @@ public class GameUIManagerScript : MonoBehaviour {
                     break;
             }
         }
-
-        hintUI.transform.GetChild(0).GetComponent<Text>().text = hintText[0];
+        for (int i=0; i < hintUI.transform.childCount; i++)
+        {
+            switch (hintUI.transform.GetChild(i).name)
+            {
+                case "HintText":
+                    hintPanelText = hintUI.transform.GetChild(i).GetComponent<Text>();
+                    break;
+                case "IndexText":
+                    indexText = hintUI.transform.GetChild(i).GetComponent<Text>();
+                    break;
+            }
+        }
+        
+        currentShownHintIndex = 0;
+        hintPanelText.text = hintTexts[0];
         player = GameObject.FindGameObjectWithTag("Player");
 
         ResumeGame();
@@ -52,7 +68,7 @@ public class GameUIManagerScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
+        indexText.text = (currentShownHintIndex + 1) + " / " + hintTexts.Length;
     }
 
     public void SetPanelActive(int panel)
@@ -63,6 +79,8 @@ public class GameUIManagerScript : MonoBehaviour {
                 pauseMenuUI.SetActive(true);
                 hintUI.SetActive(false);
                 settingsUI.SetActive(false);
+                currentShownHintIndex = 0;
+                hintPanelText.text = hintTexts[0];
                 break;
             case 1:
                 pauseMenuUI.SetActive(false);
@@ -89,6 +107,32 @@ public class GameUIManagerScript : MonoBehaviour {
         pauseMenuUI.SetActive(false);
         pauseButton.gameObject.SetActive(true);
         Time.timeScale = 1f;
+    }
+
+    public void PrevHint()
+    {
+        currentShownHintIndex--;
+        if (currentShownHintIndex >= 0)
+            hintPanelText.text = hintTexts[currentShownHintIndex];
+        else
+        {
+            currentShownHintIndex = 0;
+            SetPanelActive(0);
+        }
+            
+    }
+
+    public void NextHint()
+    {
+        currentShownHintIndex++;
+        if (currentShownHintIndex < hintTexts.Length)
+            hintPanelText.text = hintTexts[currentShownHintIndex];
+        else
+        {
+            currentShownHintIndex = 0;
+            hintPanelText.text = hintTexts[currentShownHintIndex];
+            SetPanelActive(0);
+        }
     }
 
     public void QuitToMainMenu()
