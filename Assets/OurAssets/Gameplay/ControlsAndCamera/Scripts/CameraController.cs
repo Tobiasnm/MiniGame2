@@ -85,7 +85,6 @@ public class CameraController : MonoBehaviour
 
     void AdjustCamera()
     {
-        Vector3 CamDirection = player.GetComponent<Swipe>().dir;
         targetPos.y = yPosition;
         transform.position = Vector3.Slerp(transform.position, targetPos, Time.deltaTime * 2);
         Quaternion rotation = Quaternion.LookRotation(player.position - transform.position);
