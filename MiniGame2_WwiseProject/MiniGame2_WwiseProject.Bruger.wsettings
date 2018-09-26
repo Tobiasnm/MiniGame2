@@ -3,6 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{BCA56FA3-2DB3-4CFF-876C-898CF768450A}">
 			<PropertyList>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\Bruger\Desktop"/>
 				<Property Name="Event Action List\{608C3DF7-7EDA-42B3-B235-2612985BFD7E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{75E0C6BF-DB90-4D39-A9EC-6D537DB0D6CC}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{8D0BB2AB-A144-4D5F-8189-282370317917}\x64_Expand States" Type="string" Value=""/>
