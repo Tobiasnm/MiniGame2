@@ -24,15 +24,15 @@ MonoBehaviour:
     List: []
   AuxBusWwu:
   - Guid: '{7B533535-4201-4B94-9675-1FE3D41F10DD}'
-    m_lastTimePart2: -1999231917
-    m_lastTimePsrt1: 118536202
+    m_lastTimePart2: -1999231867
+    m_lastTimePsrt1: -696460368
     ParentPhysicalPath: 
     PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     List: []
   BankWwu:
   - Guid: '{32204484-BA60-4B3C-8310-BF840FF23C2B}'
-    m_lastTimePart2: -1999231917
-    m_lastTimePsrt1: 157263709
+    m_lastTimePart2: -1999231867
+    m_lastTimePsrt1: -690184778
     ParentPhysicalPath: 
     PhysicalPath: SoundBanks\Anders Holm Soundbank.wwu
     List:
@@ -54,6 +54,15 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Character
         ObjectType: 7
+    - Guid: 59b1109d09d2d04da323165337977632
+      ID: -932312201
+      Name: Dialouge
+      Path: Anders Holm Soundbank\Dialouge
+      PathAndIcons:
+      - ElementName: Anders Holm Soundbank
+        ObjectType: 12
+      - ElementName: Dialouge
+        ObjectType: 7
   - Guid: '{43944F99-3A7E-48AE-9B0A-5C10428126D3}'
     m_lastTimePart2: -1999231917
     m_lastTimePsrt1: 157273710
@@ -61,11 +70,29 @@ MonoBehaviour:
     PhysicalPath: SoundBanks\Default Work Unit.wwu
     List: []
   - Guid: '{4D7AC21B-028A-48E8-A7B2-965EC6111045}'
-    m_lastTimePart2: -1999231907
-    m_lastTimePsrt1: -535472919
+    m_lastTimePart2: -1999231865
+    m_lastTimePsrt1: -1553896333
     ParentPhysicalPath: 
     PhysicalPath: SoundBanks\Frederik Jensen Soundbank.wwu
     List:
+    - Guid: cbbfcafdec9fc4468aac8db2b0e0d25f
+      ID: -962746602
+      Name: Actions
+      Path: Frederik Jensen Soundbank\Actions
+      PathAndIcons:
+      - ElementName: Frederik Jensen Soundbank
+        ObjectType: 12
+      - ElementName: Actions
+        ObjectType: 7
+    - Guid: 70ec2622bcabcf41af9ea174294f2d36
+      ID: 1017660616
+      Name: Ambiences
+      Path: Frederik Jensen Soundbank\Ambiences
+      PathAndIcons:
+      - ElementName: Frederik Jensen Soundbank
+        ObjectType: 12
+      - ElementName: Ambiences
+        ObjectType: 7
     - Guid: 8e585b38037e5f4ba489ee1d2b23c69a
       ID: 2043403999
       Name: Rain
@@ -95,11 +122,23 @@ MonoBehaviour:
         ObjectType: 7
   EventWwu:
   - Guid: '{E7381F8F-9844-4ADD-A61A-A1508F46025D}'
-    m_lastTimePart2: -1999231917
-    m_lastTimePsrt1: 88769894
+    m_lastTimePart2: -1999231867
+    m_lastTimePsrt1: -699106018
     ParentPhysicalPath: 
     PhysicalPath: Events\Anders Holm Work Unit.wwu
     List:
+    - Guid: 627ca791d23f8b4198f0a201429b7579
+      ID: 950269311
+      Name: be_careful
+      Path: Anders Holm Work Unit\be_careful
+      PathAndIcons:
+      - ElementName: Anders Holm Work Unit
+        ObjectType: 12
+      - ElementName: be_careful
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - Guid: 8cc3416c8fbbab499a0c7c7c6459d884
       ID: -38850972
       Name: Footstep_grass
@@ -108,6 +147,42 @@ MonoBehaviour:
       - ElementName: Anders Holm Work Unit
         ObjectType: 12
       - ElementName: Footstep_grass
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 8cf1fccdb9508641a363ad1703113064
+      ID: -114844945
+      Name: hurry_up
+      Path: Anders Holm Work Unit\hurry_up
+      PathAndIcons:
+      - ElementName: Anders Holm Work Unit
+        ObjectType: 12
+      - ElementName: hurry_up
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 04efaf446538094ba606f527f6247c63
+      ID: -1659498838
+      Name: intro_dialouge
+      Path: Anders Holm Work Unit\intro_dialouge
+      PathAndIcons:
+      - ElementName: Anders Holm Work Unit
+        ObjectType: 12
+      - ElementName: intro_dialouge
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 8fe9bbf1c8f43741938ba84d14a4b75b
+      ID: 17964378
+      Name: one_gate_found
+      Path: Anders Holm Work Unit\one_gate_found
+      PathAndIcons:
+      - ElementName: Anders Holm Work Unit
+        ObjectType: 12
+      - ElementName: one_gate_found
         ObjectType: 3
       maxAttenuation: 0
       maxDuration: 0
@@ -136,9 +211,45 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - Guid: 4249fdc2beeb8c4991c786a9670a76ec
+      ID: -290640295
+      Name: rainfall_dialouge
+      Path: Anders Holm Work Unit\rainfall_dialouge
+      PathAndIcons:
+      - ElementName: Anders Holm Work Unit
+        ObjectType: 12
+      - ElementName: rainfall_dialouge
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 8dc4ef7d1c11ce4daac5380bb138da48
+      ID: 1407973414
+      Name: ruben_mad
+      Path: Anders Holm Work Unit\ruben_mad
+      PathAndIcons:
+      - ElementName: Anders Holm Work Unit
+        ObjectType: 12
+      - ElementName: ruben_mad
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 74b9ca0378eba74da213543e49b6199a
+      ID: -667157752
+      Name: shelter_safe
+      Path: Anders Holm Work Unit\shelter_safe
+      PathAndIcons:
+      - ElementName: Anders Holm Work Unit
+        ObjectType: 12
+      - ElementName: shelter_safe
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   - Guid: '{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}'
-    m_lastTimePart2: -1999231911
-    m_lastTimePsrt1: 1552820763
+    m_lastTimePart2: -1999231867
+    m_lastTimePsrt1: -14680588
     ParentPhysicalPath: 
     PhysicalPath: Events\Default Work Unit.wwu
     List:
@@ -198,6 +309,18 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
       - ElementName: Play_Military_Base_Ambience
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: c9a142c73816a24783ffdb330a6ad152
+      ID: 1250373215
+      Name: Play_MiniGame2_INtroSoundscape
+      Path: Default Work Unit\Play_MiniGame2_INtroSoundscape
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_MiniGame2_INtroSoundscape
         ObjectType: 3
       maxAttenuation: 0
       maxDuration: 0
@@ -278,6 +401,8 @@ MonoBehaviour:
   - /MiniGame2_WwiseProject
   - /MiniGame2_WwiseProject/Events
   - /MiniGame2_WwiseProject/Events/Default Work Unit
+  - /MiniGame2_WwiseProject/SoundBanks
+  - /MiniGame2_WwiseProject/SoundBanks/Frederik Jensen Soundbank
   RtpcWwu:
   - Guid: '{88215F09-63D1-4934-8FF5-4D20C78D0D2D}'
     m_lastTimePart2: -1999231917
@@ -301,11 +426,33 @@ MonoBehaviour:
     PhysicalPath: Game Parameters\Default Work Unit.wwu
     List: []
   - Guid: '{2A6262A5-341F-4D32-A0BB-76F90CF27011}'
-    m_lastTimePart2: -1999231917
-    m_lastTimePsrt1: 88809889
+    m_lastTimePart2: -1999231867
+    m_lastTimePsrt1: -699088302
     ParentPhysicalPath: 
     PhysicalPath: Game Parameters\Frederik Work Unit(GP).wwu
     List:
+    - Guid: c8fe6ecfbde30d4ba2617d5b75b341b5
+      ID: -1376955947
+      Name: MasterVolume
+      Path: Frederik Work Unit(GP)\Volume\MasterVolume
+      PathAndIcons:
+      - ElementName: Frederik Work Unit(GP)
+        ObjectType: 12
+      - ElementName: Volume
+        ObjectType: 4
+      - ElementName: MasterVolume
+        ObjectType: 13
+    - Guid: f29343f81d2ad743bb9083f7d4665928
+      ID: -1948435988
+      Name: MusicVolume
+      Path: Frederik Work Unit(GP)\Volume\MusicVolume
+      PathAndIcons:
+      - ElementName: Frederik Work Unit(GP)
+        ObjectType: 12
+      - ElementName: Volume
+        ObjectType: 4
+      - ElementName: MusicVolume
+        ObjectType: 13
     - Guid: ca4db89d8a16114c9010eaa1a90cca47
       ID: 1866329414
       Name: RainIntensity

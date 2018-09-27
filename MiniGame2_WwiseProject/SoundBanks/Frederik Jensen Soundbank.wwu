@@ -18,8 +18,8 @@
 						<ObjectRef Name="Play_Resume" ID="{F9B4EB30-02C7-43BF-A204-0CCD82F84D0A}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_MenuTrack1" ID="{F62D028B-DE04-4549-BC70-3F31E98BC30C}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Button2" ID="{D4D67533-49B3-46E4-8AAD-257686A29DCC}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_MiniGame2_INtroSoundscape" ID="{C742A1C9-1638-47A2-83FF-DB330A6AD152}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Button1" ID="{88392986-3D57-4937-83AE-5D068B1A6524}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="MiniGame2_INtroSoundscape" ID="{EFBB70CB-4D62-4A76-8B09-8B85DAED0FF7}" WorkUnitID="{13EEEA71-2979-435A-8F44-172814FC0E97}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

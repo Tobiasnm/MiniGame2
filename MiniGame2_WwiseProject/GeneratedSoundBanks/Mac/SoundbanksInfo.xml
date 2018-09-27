@@ -25,6 +25,56 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
+		<SoundBank Id="1017660616" Language="SFX">
+			<ObjectPath>\SoundBanks\Frederik Jensen Soundbank\Ambiences</ObjectPath>
+			<ShortName>Ambiences</ShortName>
+			<Path>Ambiences.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1631227588" Name="Play_Military_Base_Ambience" ObjectPath="\Events\Default Work Unit\Play_Military_Base_Ambience"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="10736095" Language="SFX">
+					<ShortName>Noise7.wav</ShortName>
+					<Path>SFX\Noise7_56D34C19.wem</Path>
+				</File>
+				<File Id="68484846" Language="SFX">
+					<ShortName>Noise3.wav</ShortName>
+					<Path>SFX\Noise3_56D34C19.wem</Path>
+				</File>
+				<File Id="189872014" Language="SFX">
+					<ShortName>Noise6.wav</ShortName>
+					<Path>SFX\Noise6_56D34C19.wem</Path>
+				</File>
+				<File Id="457010429" Language="SFX">
+					<ShortName>Noise4.wav</ShortName>
+					<Path>SFX\Noise4_56D34C19.wem</Path>
+				</File>
+				<File Id="490282618" Language="SFX">
+					<ShortName>steam1.wav</ShortName>
+					<Path>SFX\steam1_56D34C19.wem</Path>
+				</File>
+				<File Id="596852205" Language="SFX">
+					<ShortName>ALARM_Distorted_Echo_loop_stereo.wav</ShortName>
+					<Path>SFX\ALARM_Distorted_Echo_loop_stereo_8956FC97.wem</Path>
+				</File>
+				<File Id="635977214" Language="SFX">
+					<ShortName>Noise5.wav</ShortName>
+					<Path>SFX\Noise5_56D34C19.wem</Path>
+				</File>
+				<File Id="940296272" Language="SFX">
+					<ShortName>Vehicle1.wav</ShortName>
+					<Path>SFX\Vehicle1_3FBEBD5A.wem</Path>
+				</File>
+				<File Id="941368560" Language="SFX">
+					<ShortName>Noise1.wav</ShortName>
+					<Path>SFX\Noise1_56D34C19.wem</Path>
+				</File>
+				<File Id="943570333" Language="SFX">
+					<ShortName>droneMili1.wav</ShortName>
+					<Path>SFX\droneMili1_8FA467C4.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
 		<SoundBank Id="1355168291" Language="SFX">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
@@ -38,9 +88,14 @@
 				<Event Id="2461875431" Name="Play_Button1" ObjectPath="\Events\Default Work Unit\Play_Button1"/>
 				<Event Id="2461875428" Name="Play_Button2" ObjectPath="\Events\Default Work Unit\Play_Button2"/>
 				<Event Id="807462833" Name="Play_MenuTrack1" ObjectPath="\Events\Default Work Unit\Play_MenuTrack1"/>
+				<Event Id="1250373215" Name="Play_MiniGame2_INtroSoundscape" ObjectPath="\Events\Default Work Unit\Play_MiniGame2_INtroSoundscape"/>
 				<Event Id="2149395099" Name="Play_Resume" ObjectPath="\Events\Default Work Unit\Play_Resume"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="199205389" Language="SFX">
+					<ShortName>MiniGame2_INtroSoundscape.wav</ShortName>
+					<Path>SFX\MiniGame2_INtroSoundscape_56D34C19.wem</Path>
+				</File>
 				<File Id="361388268" Language="SFX">
 					<ShortName>MenuTrack1.wav</ShortName>
 					<Path>SFX\MenuTrack1_A14709A9.wem</Path>
@@ -136,7 +191,7 @@
 				</File>
 				<File Id="159363823" Language="SFX">
 					<ShortName>Drone_layer_five.wav</ShortName>
-					<Path>SFX\Drone_layer_five_56D34C19.wem</Path>
+					<Path>SFX\Drone_layer_five_0A97210C.wem</Path>
 				</File>
 				<File Id="225813450" Language="SFX">
 					<ShortName>31 Robin's Song01.wav</ShortName>
@@ -158,6 +213,10 @@
 					<ShortName>drone_layer_four.wav</ShortName>
 					<Path>SFX\drone_layer_four_56D34C19.wem</Path>
 				</File>
+				<File Id="427878890" Language="SFX">
+					<ShortName>Bird Crow01.wav</ShortName>
+					<Path>SFX\Bird Crow01_736B31A6.wem</Path>
+				</File>
 				<File Id="457143373" Language="SFX">
 					<ShortName>Wind_Forest_Fienup_001.302.wav</ShortName>
 					<Path>SFX\Wind_Forest_Fienup_001.302_EC906126.wem</Path>
@@ -174,6 +233,10 @@
 					<ShortName>Drone_layer_one.wav</ShortName>
 					<Path>SFX\Drone_layer_one_69911DE4.wem</Path>
 				</File>
+				<File Id="726941450" Language="SFX">
+					<ShortName>Bird Crow01.wav</ShortName>
+					<Path>SFX\Bird Crow01_1BEDEB52.wem</Path>
+				</File>
 				<File Id="750336811" Language="SFX">
 					<ShortName>31 Robin's Song01.wav</ShortName>
 					<Path>SFX\31 Robin's Song01_932895DF.wem</Path>
@@ -181,6 +244,10 @@
 				<File Id="766883646" Language="SFX">
 					<ShortName>Drone_layer_three_01.wav</ShortName>
 					<Path>SFX\Drone_layer_three_01_F1DF0C59.wem</Path>
+				</File>
+				<File Id="785451198" Language="SFX">
+					<ShortName>SW002_Stethoscope_Chest_Heart_Heartbeat_Blood_Flow_A.wav</ShortName>
+					<Path>SFX\SW002_Stethoscope_Chest_Heart_Heartbeat_Blood_Flow_A_8956FC97.wem</Path>
 				</File>
 				<File Id="1008812096" Language="SFX">
 					<ShortName>31 Robin's Song01.wav</ShortName>
@@ -302,6 +369,104 @@
 				<File Id="1066471746" Language="SFX">
 					<ShortName>FS3.wav</ShortName>
 					<Path>SFX\FS3_35884397.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="3332220694" Language="SFX">
+			<ObjectPath>\SoundBanks\Frederik Jensen Soundbank\Actions</ObjectPath>
+			<ShortName>Actions</ShortName>
+			<Path>Actions.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1720809208" Name="Play_Detected" ObjectPath="\Events\Default Work Unit\Play_Detected"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="373338240" Language="SFX">
+					<ShortName>Stinger3.wav</ShortName>
+					<Path>SFX\Stinger3_7E90B02E.wem</Path>
+				</File>
+				<File Id="735211814" Language="SFX">
+					<ShortName>Stinger1.wav</ShortName>
+					<Path>SFX\Stinger1_5110075D.wem</Path>
+				</File>
+				<File Id="960059470" Language="SFX">
+					<ShortName>6 Big Metal Hit .wav</ShortName>
+					<Path>SFX\6 Big Metal Hit _1199FC32.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="3362655095" Language="SFX">
+			<ObjectPath>\SoundBanks\Anders Holm Soundbank\Dialouge</ObjectPath>
+			<ShortName>Dialouge</ShortName>
+			<Path>Dialouge.bnk</Path>
+			<IncludedEvents>
+				<Event Id="950269311" Name="be_careful" ObjectPath="\Events\Anders Holm Work Unit\be_careful"/>
+				<Event Id="4180122351" Name="hurry_up" ObjectPath="\Events\Anders Holm Work Unit\hurry_up"/>
+				<Event Id="2635468458" Name="intro_dialouge" ObjectPath="\Events\Anders Holm Work Unit\intro_dialouge"/>
+				<Event Id="17964378" Name="one_gate_found" ObjectPath="\Events\Anders Holm Work Unit\one_gate_found"/>
+				<Event Id="4004327001" Name="rainfall_dialouge" ObjectPath="\Events\Anders Holm Work Unit\rainfall_dialouge"/>
+				<Event Id="1407973414" Name="ruben_mad" ObjectPath="\Events\Anders Holm Work Unit\ruben_mad"/>
+				<Event Id="3627809544" Name="shelter_safe" ObjectPath="\Events\Anders Holm Work Unit\shelter_safe"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="3490709" Language="SFX">
+					<ShortName>Walkie Talkie,Cobra MicroTalk,Radio Communication,End,Noise Squelch,Beep,Series.wav</ShortName>
+					<Path>SFX\Walkie Talkie,Cobra MicroTalk,Radio Communication,End,Noise Squelch,Beep,Series_AFD470DF.wem</Path>
+				</File>
+				<File Id="40631703" Language="SFX">
+					<ShortName>Walkie Talkie,Cobra MicroTalk,Radio Communication,End,Noise Squelch,Beep,Series.wav</ShortName>
+					<Path>SFX\Walkie Talkie,Cobra MicroTalk,Radio Communication,End,Noise Squelch,Beep,Series_9EAB9B0E.wem</Path>
+				</File>
+				<File Id="41417492" Language="SFX">
+					<ShortName>Walkie Talkie,Cobra MicroTalk,Radio Communication,End,Noise Squelch,Beep,Series.wav</ShortName>
+					<Path>SFX\Walkie Talkie,Cobra MicroTalk,Radio Communication,End,Noise Squelch,Beep,Series_B2E5A3BD.wem</Path>
+				</File>
+				<File Id="168905330" Language="SFX">
+					<ShortName>1_be_careful.wav</ShortName>
+					<Path>SFX\1_be_careful_56D34C19.wem</Path>
+				</File>
+				<File Id="182675609" Language="SFX">
+					<ShortName>1_intro.wav</ShortName>
+					<Path>SFX\1_intro_56D34C19.wem</Path>
+				</File>
+				<File Id="222076653" Language="SFX">
+					<ShortName>1_sina_end.wav</ShortName>
+					<Path>SFX\1_sina_end_56D34C19.wem</Path>
+				</File>
+				<File Id="264411909" Language="SFX">
+					<ShortName>Walkie Talkie,Cobra MicroTalk,Radio Communication,End,Noise Squelch,Beep,Series.wav</ShortName>
+					<Path>SFX\Walkie Talkie,Cobra MicroTalk,Radio Communication,End,Noise Squelch,Beep,Series_10D6A664.wem</Path>
+				</File>
+				<File Id="409572928" Language="SFX">
+					<ShortName>1_shelter_safe_dialouge.wav</ShortName>
+					<Path>SFX\1_shelter_safe_dialouge_56D34C19.wem</Path>
+				</File>
+				<File Id="421875732" Language="SFX">
+					<ShortName>1_gate_found_ruben.wav</ShortName>
+					<Path>SFX\1_gate_found_ruben_56D34C19.wem</Path>
+				</File>
+				<File Id="507179249" Language="SFX">
+					<ShortName>1_hurry_up.wav</ShortName>
+					<Path>SFX\1_hurry_up_56D34C19.wem</Path>
+				</File>
+				<File Id="600791617" Language="SFX">
+					<ShortName>1_ruben.wav</ShortName>
+					<Path>SFX\1_ruben_56D34C19.wem</Path>
+				</File>
+				<File Id="634723468" Language="SFX">
+					<ShortName>1_rainfall_dialouge.wav</ShortName>
+					<Path>SFX\1_rainfall_dialouge_56D34C19.wem</Path>
+				</File>
+				<File Id="781333106" Language="SFX">
+					<ShortName>1_gate_found_sina.wav</ShortName>
+					<Path>SFX\1_gate_found_sina_56D34C19.wem</Path>
+				</File>
+				<File Id="838800734" Language="SFX">
+					<ShortName>Walkie Talkie,Cobra MicroTalk,Radio Communication,End,Noise Squelch,Beep,Series.wav</ShortName>
+					<Path>SFX\Walkie Talkie,Cobra MicroTalk,Radio Communication,End,Noise Squelch,Beep,Series_62848D22.wem</Path>
+				</File>
+				<File Id="975177487" Language="SFX">
+					<ShortName>Walkie Talkie,Cobra MicroTalk,Radio Communication,End,Noise Squelch,Beep,Series.wav</ShortName>
+					<Path>SFX\Walkie Talkie,Cobra MicroTalk,Radio Communication,End,Noise Squelch,Beep,Series_BCC9271A.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

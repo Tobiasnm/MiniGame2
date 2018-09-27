@@ -25,6 +25,14 @@ public class GameUIManagerScript : MonoBehaviour {
     private int currentShownHintIndex;
     private Text indexText;
 
+    //Dialogue Array
+    public string[] dialogues;
+    public float[] timeLimits;
+    private bool dialogueEventIsRunning;
+    private int dialogueIndex;
+    private GameObject subOne;
+    private GameObject subTwo;
+
     private Animator animator;
 
 	// Use this for initialization
@@ -64,7 +72,22 @@ public class GameUIManagerScript : MonoBehaviour {
                     break;
             }
         }
+
+        for (int i = 0; i < hintUI.transform.childCount; i++)
+        {
+            switch (hintUI.transform.GetChild(i).name)
+            {
+                case "HintText":
+                    hintPanelText = hintUI.transform.GetChild(i).GetComponent<Text>();
+                    break;
+                case "IndexText":
+                    indexText = hintUI.transform.GetChild(i).GetComponent<Text>();
+                    break;
+            }
+        }
+        
         currentShownHintIndex = 0;
+        dialogueIndex = 0;
         if (hintTexts != null && hintTexts.Length > 0) hintPanelText.text = hintTexts[0];
         player = GameObject.FindGameObjectWithTag("Player");
 
@@ -75,8 +98,16 @@ public class GameUIManagerScript : MonoBehaviour {
     }
 	
 	// Update is called once per frame
-	void Update () {
+	void Update() {
         indexText.text = (currentShownHintIndex + 1) + " / " + hintTexts.Length;
+    }
+
+    void FixedUpdate()
+    {
+        if (dialogueEventIsRunning)
+        {
+
+        }
     }
 
     public void SetPanelActive(int panel)

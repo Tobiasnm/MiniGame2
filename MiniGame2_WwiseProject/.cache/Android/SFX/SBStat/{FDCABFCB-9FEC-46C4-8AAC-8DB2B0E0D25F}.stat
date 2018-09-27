@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <BankMemory>
-<<<<<<< HEAD:MiniGame2_WwiseProject/.cache/Android/SFX/SBStat/{4D349807-7094-4B98-8B65-CEEEF4EB677D}.stat
-	<Timestamp>1538041502</Timestamp>
-	<DataSize>80384</DataSize>
-	<FileSize>80730</FileSize>
-	<DecodedSize>80384</DecodedSize>
-=======
-	<Timestamp>1538058154</Timestamp>
+	<Timestamp>1538060381</Timestamp>
 	<DataSize>2045744</DataSize>
 	<FileSize>2046878</FileSize>
 	<DecodedSize>2045720</DecodedSize>
->>>>>>> origin/Production:MiniGame2_WwiseProject/.cache/Android/SFX/SBStat/{FDCABFCB-9FEC-46C4-8AAC-8DB2B0E0D25F}.stat
 	<SFXPreFetchSize>0</SFXPreFetchSize>
 	<SFXInMemorySize>2045720</SFXInMemorySize>
 	<SFXMissingFiles>0</SFXMissingFiles>
