@@ -1,0 +1,368 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1691583229203924}
+  m_IsPrefabAsset: 1
+--- !u!1 &1043790590265324
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4300154272517888}
+  - component: {fileID: 65928690204620116}
+  - component: {fileID: 114680420184791604}
+  m_Layer: 0
+  m_Name: endStory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1390705432748034
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4998028761311564}
+  - component: {fileID: 65123582738611236}
+  - component: {fileID: 114317885008396242}
+  m_Layer: 0
+  m_Name: introStory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1461335435591982
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4734986427853468}
+  - component: {fileID: 65391007415783334}
+  - component: {fileID: 114121883897495138}
+  m_Layer: 0
+  m_Name: objectiveStory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1498625218070480
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4372963197544924}
+  - component: {fileID: 65902115155282954}
+  - component: {fileID: 114674911808525956}
+  m_Layer: 0
+  m_Name: firstRainStory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1679124588590538
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4598458275176538}
+  - component: {fileID: 65473922794149902}
+  - component: {fileID: 114901277293358718}
+  m_Layer: 0
+  m_Name: insideStory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1691583229203924
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4746593036308406}
+  - component: {fileID: 114781987629348552}
+  m_Layer: 0
+  m_Name: StoryManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4300154272517888
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1043790590265324}
+  m_LocalRotation: {x: -0, y: 0.25601962, z: -0, w: 0.96667165}
+  m_LocalPosition: {x: 481.74, y: 97.43, z: 481.3}
+  m_LocalScale: {x: 4.17155, y: 4.17155, z: 4.17155}
+  m_Children: []
+  m_Father: {fileID: 4746593036308406}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 29.668001, z: 0}
+--- !u!4 &4372963197544924
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1498625218070480}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 656.1, y: 97.43, z: 269.08}
+  m_LocalScale: {x: 136.96245, y: 4.17155, z: 4.17155}
+  m_Children: []
+  m_Father: {fileID: 4746593036308406}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4598458275176538
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1679124588590538}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 671.33997, y: 97.43, z: 318.94998}
+  m_LocalScale: {x: 4.17155, y: 4.17155, z: 4.17155}
+  m_Children: []
+  m_Father: {fileID: 4746593036308406}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4734986427853468
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1461335435591982}
+  m_LocalRotation: {x: -0, y: 0.13999969, z: -0, w: 0.9901516}
+  m_LocalPosition: {x: 534.94, y: 97.43, z: 436.63998}
+  m_LocalScale: {x: 4.17155, y: 4.17155, z: 102.77193}
+  m_Children: []
+  m_Father: {fileID: 4746593036308406}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 16.096, z: 0}
+--- !u!4 &4746593036308406
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1691583229203924}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4998028761311564}
+  - {fileID: 4372963197544924}
+  - {fileID: 4598458275176538}
+  - {fileID: 4734986427853468}
+  - {fileID: 4300154272517888}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4998028761311564
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1390705432748034}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 635.46, y: 97.43, z: 234.55}
+  m_LocalScale: {x: 4.171552, y: 4.171552, z: 4.171552}
+  m_Children: []
+  m_Father: {fileID: 4746593036308406}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65123582738611236
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1390705432748034}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &65391007415783334
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1461335435591982}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &65473922794149902
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1679124588590538}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &65902115155282954
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1498625218070480}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &65928690204620116
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1043790590265324}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114121883897495138
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1461335435591982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4ffa60055d563644bdc1fe9bbe3b371, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  causeRain: 1
+  doSoundInSeconds: 10
+  startRainInSeconds: 30
+  isWinCondition: 0
+  story:
+  - "Sina: aw shed, that's the entr\xE9 to the basecamp"
+  - 'Ruben: double noice, get in, be careful'
+  nextLevelName: 
+--- !u!114 &114317885008396242
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1390705432748034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4ffa60055d563644bdc1fe9bbe3b371, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  causeRain: 0
+  doSoundInSeconds: 1
+  startRainInSeconds: 10
+  isWinCondition: 0
+  story:
+  - 'Ruben: how is it looking'
+  - 'Sina: umm?'
+  - 'Ruben: post-apocalyptic?'
+  - aw yeah!
+  nextLevelName: 
+--- !u!114 &114674911808525956
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1498625218070480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4ffa60055d563644bdc1fe9bbe3b371, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  causeRain: 1
+  doSoundInSeconds: 1
+  startRainInSeconds: 20
+  isWinCondition: 0
+  story:
+  - 'Ruben: Oh no, rain! seek shelter'
+  - 'Sina: shit, I will'
+  - 'Ruben: good luck'
+  nextLevelName: 
+--- !u!114 &114680420184791604
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1043790590265324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4ffa60055d563644bdc1fe9bbe3b371, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  causeRain: 0
+  doSoundInSeconds: 1
+  startRainInSeconds: 10
+  isWinCondition: 1
+  story:
+  - Hasta la vista, sista <3
+  nextLevelName: level2
+--- !u!114 &114781987629348552
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1691583229203924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d601348602bbfa40878a045d3311745, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHandler: {fileID: 0}
+  nextLevelName: 
+--- !u!114 &114901277293358718
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1679124588590538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4ffa60055d563644bdc1fe9bbe3b371, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  causeRain: 0
+  doSoundInSeconds: 1
+  startRainInSeconds: 10
+  isWinCondition: 0
+  story:
+  - 'Ruben: ya okay?'
+  - 'Sina: luckily, yeah!'
+  - 'Ruben: NOICE'
+  nextLevelName: 
