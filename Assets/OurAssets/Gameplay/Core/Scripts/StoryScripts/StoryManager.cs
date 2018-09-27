@@ -28,6 +28,8 @@ public class StoryManager : MonoBehaviour
     {
         //uiController.FillTextField(text);
         //uiController.ShowTextArea();
+
+        Debug.Log(text);
     }
 
     void FixedUpdate()

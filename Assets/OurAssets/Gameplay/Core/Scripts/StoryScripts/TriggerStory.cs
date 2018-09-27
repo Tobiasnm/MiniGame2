@@ -14,8 +14,8 @@ public class TriggerStory : MonoBehaviour
     [Header("...")]
 
     public bool isWinCondition = false;
-    public Transform focusTarget;
-    public float stopLookingInSeconds = 5;
+    //public Transform focusTarget;
+    //public float stopLookingInSeconds = 5;
     public List<string> story = new List<string>();
     public string nextLevelName;
 
