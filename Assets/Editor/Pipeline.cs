@@ -34,7 +34,7 @@ namespace UnityEditor
             get
             {
                 string assetsPath = Application.dataPath;
-                string dir = assetsPath.Substring(0, assetsPath.LastIndexOf('/')) + "/Build/Instincts";
+                string dir = assetsPath.Substring(0, assetsPath.LastIndexOf('/')) + "/Build/Niar";
                 if (!Directory.Exists(dir))
                 {
                     Directory.CreateDirectory(dir);
