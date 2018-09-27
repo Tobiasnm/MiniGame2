@@ -239,6 +239,12 @@ MonoBehaviour:
   saveDecodedBank: 0
   unloadTriggerList: 958ca0ea
   valueGuid: 802f7e2c7e3bbf4db79b254030e67e69
+--- !u!114 &286911242 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114798230129398202, guid: ec98925e1cd7fb94b9c79d0cd8c900bd,
+    type: 2}
+  m_PrefabInternal: {fileID: 994399583}
+  m_Script: {fileID: 11500000, guid: 94e7c2ff827ab2441b0d817c56fbc95e, type: 3}
 --- !u!4 &384823089 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4450637752532512, guid: 31bf73073e377664daa3cf03c9426c3b,
@@ -586,6 +592,48 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0981a30d48e2c6f4c920155ecef8d900, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!1001 &994399583
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4898970531943332, guid: ec98925e1cd7fb94b9c79d0cd8c900bd, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4898970531943332, guid: ec98925e1cd7fb94b9c79d0cd8c900bd, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4898970531943332, guid: ec98925e1cd7fb94b9c79d0cd8c900bd, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4898970531943332, guid: ec98925e1cd7fb94b9c79d0cd8c900bd, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4898970531943332, guid: ec98925e1cd7fb94b9c79d0cd8c900bd, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4898970531943332, guid: ec98925e1cd7fb94b9c79d0cd8c900bd, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4898970531943332, guid: ec98925e1cd7fb94b9c79d0cd8c900bd, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4898970531943332, guid: ec98925e1cd7fb94b9c79d0cd8c900bd, type: 2}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ec98925e1cd7fb94b9c79d0cd8c900bd, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1001 &1081868638
 Prefab:
@@ -1192,6 +1240,10 @@ MonoBehaviour:
   story:
   - Hasta la vista, sista
   nextLevelName: 
+  manager: {fileID: 286911242}
+  hintTexts:
+  - This is some hint text
+  - Hi, are you there?
 --- !u!65 &2143862261
 BoxCollider:
   m_ObjectHideFlags: 0

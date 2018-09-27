@@ -25,7 +25,7 @@ public class TriggerStory : MonoBehaviour
     private CameraHandler cameraHandler;
     private HandleRain rainHandler;
     //private GameObject rain;
-
+    public GameUIManagerScript uiManager;
 
     // Use this for initialization
     void Start()
@@ -60,6 +60,7 @@ public class TriggerStory : MonoBehaviour
 
             }
 
+            if (uiManager != null) uiManager.ShowWalkieTalkieText(story[0]);
             //if (focusTarget)
             //    cameraHandler.target = focusTarget;
             foreach (var text in story)
