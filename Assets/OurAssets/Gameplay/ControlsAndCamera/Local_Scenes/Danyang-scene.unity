@@ -641,9 +641,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32b5f59b16114754bfcbcdab8e47c0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rollAngle: -71
-  rotAngle: 60
-  distance: 6
+  rollAngle: -79.7
+  rotAngle: 45.4
+  distance: 12.6
   ZoomPos: {x: 0, y: 0, z: 0}
 --- !u!1 &865602471
 GameObject:

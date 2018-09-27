@@ -5,10 +5,10 @@ using UnityEngine;
 public class CameraFollow : MonoBehaviour
 {
 
-    public float rollAngle =-71f;//XZ
-    public float rotAngle = 60f;//YZ
+    public float rollAngle =-79.7f;//XZ
+    public float rotAngle = 45.4f;//YZ
 
-    public float distance = 6;//the distance from camera and player
+    public float distance = 12.6f;//the distance from camera and player
 
     private Transform player;
     private float roll;//XZ
