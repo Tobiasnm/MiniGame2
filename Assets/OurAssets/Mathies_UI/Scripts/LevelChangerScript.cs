@@ -25,9 +25,4 @@ public class LevelChangerScript : MonoBehaviour {
     {
         SceneManager.LoadScene(scenename);
     }
-
-    public void FadeMenuIn()
-    {
-        animator.SetTrigger("menu_fade_in");
-    }
 }
