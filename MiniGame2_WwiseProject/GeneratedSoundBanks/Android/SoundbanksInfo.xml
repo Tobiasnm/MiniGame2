@@ -88,9 +88,14 @@
 				<Event Id="2461875431" Name="Play_Button1" ObjectPath="\Events\Default Work Unit\Play_Button1"/>
 				<Event Id="2461875428" Name="Play_Button2" ObjectPath="\Events\Default Work Unit\Play_Button2"/>
 				<Event Id="807462833" Name="Play_MenuTrack1" ObjectPath="\Events\Default Work Unit\Play_MenuTrack1"/>
+				<Event Id="1250373215" Name="Play_MiniGame2_INtroSoundscape" ObjectPath="\Events\Default Work Unit\Play_MiniGame2_INtroSoundscape"/>
 				<Event Id="2149395099" Name="Play_Resume" ObjectPath="\Events\Default Work Unit\Play_Resume"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="199205389" Language="SFX">
+					<ShortName>MiniGame2_INtroSoundscape.wav</ShortName>
+					<Path>SFX\MiniGame2_INtroSoundscape_56D34C19.wem</Path>
+				</File>
 				<File Id="361388268" Language="SFX">
 					<ShortName>MenuTrack1.wav</ShortName>
 					<Path>SFX\MenuTrack1_A14709A9.wem</Path>
