@@ -9,6 +9,7 @@ TagManager:
   - Pause
   - ChapterButton
   - Language
+  - Cursor
   layers:
   - Default
   - TransparentFX
@@ -21,6 +22,8 @@ TagManager:
   - PostProcessing
   - MenuPanel
   - 
+  - IgnoreCollisions
+  - Terrain
   - 
   - 
   - 
