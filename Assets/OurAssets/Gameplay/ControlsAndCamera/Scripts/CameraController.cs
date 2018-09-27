@@ -3,6 +3,7 @@ using System.Collections;
 
 public class CameraController : MonoBehaviour
 {
+
     private Transform player;
     //private Transform cursor;
     private Vector3 offset;
@@ -31,7 +32,7 @@ public class CameraController : MonoBehaviour
     void FixedUpdate()
     {
         //        FacingBack();
-        points[0] = player.position + offset*0.8f;
+        points[0] = player.position + offset * 0.8f;
         points[4] = player.position + Vector3.up * distance;
 
         points[1] = Vector3.Lerp(points[0], points[4], 0.25f);
@@ -44,9 +45,6 @@ public class CameraController : MonoBehaviour
         AdjustCamera();
         //ZoomIn();
         transform.LookAt(player);
-
-
-        DoTapCalculations();
     }
 
     private Vector3 FindCameraTarget()
@@ -101,44 +99,6 @@ public class CameraController : MonoBehaviour
         if (Input.touchCount == 2)
         {
             transform.position = Vector3.Lerp(transform.position, ZoomInCamPos, Time.deltaTime * 3);
-        }
-
-    }
-
-    void DoTapCalculations()
-    {
-        
-
-        if (Application.platform == RuntimePlatform.Android)
-        {
-            if (Input.touchCount > 0 && Input.touchCount < 2)
-            {
-                if (Input.GetTouch(0).phase == TouchPhase.Began)
-                {
-                    CheckTouch(Input.GetTouch(0).position);
-                }
-            }
-        }
-        else if (Application.platform == RuntimePlatform.WindowsEditor)
-        {
-            if (Input.GetMouseButtonDown(0))
-            {
-                CheckTouch(Input.mousePosition);
-            }
-        }
-    }
-
-    private void CheckTouch(Vector3 pos)
-    {
-        Ray ray = Camera.main.ScreenPointToRay(pos);
-        RaycastHit hit;
-        Debug.Log("It happened");
-        Debug.DrawRay(Camera.main.ScreenToWorldPoint(pos), ray.direction, Color.white,100000);
-
-        if (Physics.Raycast(ray, out hit, 100000))
-        {
-            if (hit.collider.CompareTag("Obstacle"))
-                hit.transform.gameObject.GetComponent<ObstacleHandler>().RegisterTap();
         }
 
     }
