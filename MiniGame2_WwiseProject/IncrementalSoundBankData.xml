@@ -3,42 +3,17 @@
 	<Platform GUID="{8AD9F681-2C42-481F-9B67-BF65D0D57318}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Ambiance" Hash="341447757" Timestamp="1537880028"/>
-				<File Name="Character" Hash="2730450569" Timestamp="1537880028"/>
-				<File Name="Init" Hash="146210430" Timestamp="1537880028"/>
+				<File Name="Actions" Hash="4207858091" Timestamp="1538053297"/>
+				<File Name="Ambiences" Hash="2744971009" Timestamp="1538053297"/>
+				<File Name="Init" Hash="667876991" Timestamp="1538053297"/>
+				<File Name="Rain" Hash="4105034890" Timestamp="1538038602"/>
+				<File Name="Soldier" Hash="372931452" Timestamp="1537955474"/>
+				<File Name="UI" Hash="2817130039" Timestamp="1538051827"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3402861850" Timestamp="1537880028"/>
-			</Language>
-		</XMLInfo>
-	</Platform>
-	<Platform GUID="{9C5C5DB8-7BF5-498F-86E0-BF3E26DA4360}">
-		<Banks>
-			<Language ID="393239870">
-				<File Name="Ambiance" Hash="341447757" Timestamp="1537880030"/>
-				<File Name="Character" Hash="2730450569" Timestamp="1537880030"/>
-				<File Name="Init" Hash="4260880272" Timestamp="1537880030"/>
-			</Language>
-		</Banks>
-		<XMLInfo>
-			<Language ID="-1">
-				<File Name="" Hash="1221646382" Timestamp="1537880030"/>
-			</Language>
-		</XMLInfo>
-	</Platform>
-	<Platform GUID="{BFC96FDC-C6A3-4A34-AD31-7F6737F7E8BD}">
-		<Banks>
-			<Language ID="393239870">
-				<File Name="Ambiance" Hash="341447757" Timestamp="1537880033"/>
-				<File Name="Character" Hash="2730450569" Timestamp="1537880034"/>
-				<File Name="Init" Hash="804027454" Timestamp="1537880035"/>
-			</Language>
-		</Banks>
-		<XMLInfo>
-			<Language ID="-1">
-				<File Name="" Hash="2130096404" Timestamp="1537880035"/>
+				<File Name="" Hash="4160541042" Timestamp="1538053297"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

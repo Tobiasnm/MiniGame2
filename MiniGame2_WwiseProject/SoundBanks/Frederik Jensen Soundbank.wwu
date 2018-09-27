@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4D7AC21B-028A-48E8-A7B2-965EC6111045}" SchemaVersion="89">
+	<SoundBanks>
+		<WorkUnit Name="Frederik Jensen Soundbank" ID="{4D7AC21B-028A-48E8-A7B2-965EC6111045}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Soldier" ID="{78A3C888-6721-40A5-8EF9-744D0F3A87FB}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Soldier_FootstepsAsphalt" ID="{A10BD4C7-1173-433B-8541-B0643A4B3427}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Soldier_FootstepsGravel" ID="{A3B88DAF-4C05-458D-95E4-4D23E7338DD4}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Soldier_FootstepsPuddle" ID="{75E0C6BF-DB90-4D39-A9EC-6D537DB0D6CC}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Soldier_FootstepsGrass" ID="{8D0BB2AB-A144-4D5F-8189-282370317917}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="UI" ID="{D6729870-AAC6-443F-865D-CBE4332FD316}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Resume" ID="{F9B4EB30-02C7-43BF-A204-0CCD82F84D0A}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_MenuTrack1" ID="{F62D028B-DE04-4549-BC70-3F31E98BC30C}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Button2" ID="{D4D67533-49B3-46E4-8AAD-257686A29DCC}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Button1" ID="{88392986-3D57-4937-83AE-5D068B1A6524}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Rain" ID="{385B588E-7E03-4B5F-A489-EE1D2B23C69A}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Rain" ID="{608C3DF7-7EDA-42B3-B235-2612985BFD7E}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Ambiences" ID="{2226EC70-ABBC-41CF-AF9E-A174294F2D36}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Military_Base_Ambience" ID="{C702E52B-B539-407C-B292-1E604BB51BBA}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Actions" ID="{FDCABFCB-9FEC-46C4-8AAC-8DB2B0E0D25F}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Detected" ID="{3C28F38F-7F46-4464-AB2D-BAEF1EDF3862}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
