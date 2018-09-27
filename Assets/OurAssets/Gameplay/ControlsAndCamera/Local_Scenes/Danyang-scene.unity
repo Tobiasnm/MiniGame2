@@ -285,6 +285,7 @@ GameObject:
   - component: {fileID: 611569103}
   - component: {fileID: 611569109}
   - component: {fileID: 611569107}
+  - component: {fileID: 611569108}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -385,12 +386,26 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 611569102}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e3b2b36c58ef94b32a365a1bbc59b1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ZoomPos: {x: 0, y: 0, z: 0}
+--- !u!114 &611569108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 611569102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea52a8ecc4f7f4a31bee021dac872afe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thirdPersonPlayer: {fileID: 1942188126}
+  FollowCamera: {fileID: 611569102}
+  CameraSmoothTime: 0
 --- !u!114 &611569109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -940,6 +955,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc32db880957a42198ce498aa0870709, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  joystick: {fileID: 0}
   UpSpeed: 5
 --- !u!54 &1294233580
 Rigidbody:
@@ -1304,6 +1320,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1942188126 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1779308808144914, guid: c4a20a98cbf71ab41bcdb2f89ec2839f,
+    type: 2}
+  m_PrefabInternal: {fileID: 1499827740}
 --- !u!1 &2033620497 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1369736554747154, guid: 9461eadf56a8cb04a9ab93236754c42f,

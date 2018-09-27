@@ -18,7 +18,7 @@ public class CameraController : MonoBehaviour
 
     private void Start()
     {
-        player = GameObject.FindWithTag("Cursor").transform;
+        player = GameObject.FindWithTag("Player").transform;
         //cursor = GameObject.FindWithTag("Cursor").transform;
 
         offset = transform.position - player.position;
@@ -26,12 +26,21 @@ public class CameraController : MonoBehaviour
 
         yPosition = this.transform.position.y;
     }
+    private void Awake()
+    {
+        player = GameObject.FindWithTag("CameraFollow").transform;
+        //cursor = GameObject.FindWithTag("Cursor").transform;
+
+        offset = transform.position - player.position;
+        distance = offset.magnitude;
+
+    }
 
 
     void FixedUpdate()
     {
         //        FacingBack();
-        points[0] = player.position + offset*0.8f;
+        points[0] = player.position + offset;
         points[4] = player.position + Vector3.up * distance;
 
         points[1] = Vector3.Lerp(points[0], points[4], 0.25f);
@@ -72,11 +81,14 @@ public class CameraController : MonoBehaviour
 
         Vector3 dir = target - origin;
         ray = new Ray(origin, dir);
+        Debug.DrawLine(player.position, transform.position,Color.red);
         if (Physics.Raycast(ray, out hit))
         {
-            if (hit.transform.tag == "Cursor")
+            if (hit.transform.tag == "Player")
             {
+                Debug.DrawRay(hit.point, Vector3.up, Color.blue);
                 result = true;
+                Debug.Log("Hit Player");
             }
         }
         return result;
