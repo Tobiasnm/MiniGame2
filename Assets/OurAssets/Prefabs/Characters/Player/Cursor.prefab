@@ -21,8 +21,8 @@ GameObject:
   - component: {fileID: 4450637752532512}
   - component: {fileID: 33612243246461922}
   - component: {fileID: 23556261863323000}
-  - component: {fileID: 54814594369421572}
   - component: {fileID: 65096895560000084}
+  - component: {fileID: 54379175102882516}
   - component: {fileID: 114421268779159600}
   m_Layer: 9
   m_Name: Cursor
@@ -86,7 +86,7 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1975598243390606}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!54 &54814594369421572
+--- !u!54 &54379175102882516
 Rigidbody:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}

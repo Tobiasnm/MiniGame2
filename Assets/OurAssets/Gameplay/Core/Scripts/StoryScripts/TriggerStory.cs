@@ -34,7 +34,7 @@ public class TriggerStory : MonoBehaviour
         storyManager = GetComponentInParent<StoryManager>();
         audioSource = GetComponent<AkEvent>();
         cameraHandler = Camera.main.GetComponent<CameraHandler>();
-        rainHandler = GameObject.FindGameObjectWithTag("RainHandler").GetComponent<HandleRain>();
+        rainHandler = GameObject.FindGameObjectWithTag("RainManager").GetComponent<HandleRain>();
         //rain = GameObject.FindGameObjectWithTag("TheRain");
     }
 

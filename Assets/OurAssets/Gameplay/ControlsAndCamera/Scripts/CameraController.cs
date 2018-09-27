@@ -18,7 +18,7 @@ public class CameraController : MonoBehaviour
 
     private void Start()
     {
-        player = GameObject.FindWithTag("Cursor").transform;
+        player = GameObject.FindWithTag("Player").transform;
         //cursor = GameObject.FindWithTag("Cursor").transform;
 
         offset = transform.position - player.position;
@@ -74,7 +74,7 @@ public class CameraController : MonoBehaviour
         ray = new Ray(origin, dir);
         if (Physics.Raycast(ray, out hit))
         {
-            if (hit.transform.tag == "Cursor")
+            if (hit.transform.tag == "Player")
             {
                 result = true;
             }

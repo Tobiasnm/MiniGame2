@@ -17,20 +17,20 @@ public class PlayerHandler : MonoBehaviour
     private Camera mainCamera;
     private bool canHowl = false;
     private bool doHowl = false;
-    private PlayerController playerController;
+
     //private float storedAgentSpeed;
 
     public void StopLocomotion()
     {
-        playerController.CanMove = false;
-        playerController.Agent.isStopped = true;
+        //playerController.CanMove = false;
+        //playerController.Agent.isStopped = true;
         //playerController.Agent.SetDestination(playerController.transform.position);
     }
 
     public void StartLocomotion()
     {
-        playerController.CanMove = true;
-        playerController.Agent.isStopped = false;
+        //playerController.CanMove = true;
+        //playerController.Agent.isStopped = false;
     }
 
 
@@ -68,11 +68,11 @@ public class PlayerHandler : MonoBehaviour
     }
 
 
-    private void MakeGirlShout()
-    {
-        Debug.Log("Girl shouts!!!");
-        //girlHandler.GirlScream();
-    }
+    //private void MakeGirlShout()
+    //{
+    //    Debug.Log("Girl shouts!!!");
+    //    //girlHandler.GirlScream();
+    //}
 
 
     //public void Bark()
@@ -87,19 +87,19 @@ public class PlayerHandler : MonoBehaviour
     //    mainCamera.GetComponent<CameraHandler>().target = littleGirl.transform;
     //}
 
-    public void StopBarking()
-    {
-        //marks the barking sound as stopped for the rest of the scripts. Does not affect sound.
-        isBarking = false;
+    //public void StopBarking()
+    //{
+    //    //marks the barking sound as stopped for the rest of the scripts. Does not affect sound.
+    //    isBarking = false;
 
-    }
+    //}
 
     // Use this for initialization
     void Start()
     {
         mainCamera = Camera.main;
         //girlHandler = littleGirl.GetComponent<HandleGirl>();
-        playerController = GameObject.FindGameObjectWithTag("Cursor").GetComponent<PlayerController>();
+        //playerController = GameObject.FindGameObjectWithTag("Cursor").GetComponent<PlayerController>();
     }
 
     // Update is called once per frame
