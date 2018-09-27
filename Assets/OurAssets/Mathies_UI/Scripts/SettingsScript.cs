@@ -11,6 +11,21 @@ public class SettingsScript : MonoBehaviour {
 
     private bool danish = true;
 
+    private Button languageButton;
+
+    private void Start()
+    {
+    }
+
+    private void FixedUpdate()
+    {
+        if (languageButton == null)
+        {
+            GameObject languageObject = GameObject.FindGameObjectWithTag("Language");
+            if (languageObject != null) languageButton = languageObject.GetComponent<Button>();
+        }
+    }
+
     public void SetVibration(bool vibration)
     {
         int vibInt = vibration ? 1 : 0;
@@ -37,11 +52,11 @@ public class SettingsScript : MonoBehaviour {
         danish = danish ? false : true;
         if (danish)
         {
-            Debug.Log("Dansk");
+            languageButton.GetComponentInChildren<Text>().text = "Dansk";
             PlayerPrefs.SetString("language", "danish");
         } else
         {
-            Debug.Log("English");
+            languageButton.GetComponentInChildren<Text>().text = "English";
             PlayerPrefs.SetString("language", "english");
         }
     }
