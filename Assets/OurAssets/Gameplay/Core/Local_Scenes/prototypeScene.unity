@@ -1240,10 +1240,7 @@ MonoBehaviour:
   story:
   - Hasta la vista, sista
   nextLevelName: 
-  manager: {fileID: 286911242}
-  hintTexts:
-  - This is some hint text
-  - Hi, are you there?
+  uiManager: {fileID: 286911242}
 --- !u!65 &2143862261
 BoxCollider:
   m_ObjectHideFlags: 0
