@@ -8,6 +8,7 @@ public class ObstacleHandler : MonoBehaviour
     [SerializeField]
     int tapsToBreak = 10;
 
+    [SerializeField]
     int tapsRemaining;
     // Use this for initialization
     void Start()
@@ -30,7 +31,7 @@ public class ObstacleHandler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (tapsRemaining == 0)
+        if (tapsRemaining <= 0)
             DestroyObstacle();
     }
 

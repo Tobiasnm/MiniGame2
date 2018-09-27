@@ -16,7 +16,7 @@ public class PlayerHandler : MonoBehaviour
     private Camera mainCamera;
     private bool canHowl = false;
     private bool doHowl = false;
-
+    private int obstacleRaycastMask = 1 << 12;
     //private float storedAgentSpeed;
 
     public void StopLocomotion()
@@ -159,7 +159,7 @@ public class PlayerHandler : MonoBehaviour
 
         Debug.Log("Click");
 
-        if (Physics.Raycast(ray, out hit, 100000))
+        if (Physics.Raycast(ray, out hit, 100000, obstacleRaycastMask))
         {
             if (hit.collider.CompareTag("Obstacle"))
             {
