@@ -73,6 +73,104 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Button1" ID="{88392986-3D57-4937-83AE-5D068B1A6524}">
+					<ChildrenList>
+						<Action Name="" ID="{BA63A5A8-B6D0-455E-82B3-DD7FECB5CA87}" ShortID="535175713">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Button1" ID="{DBC67F11-9019-4B61-B314-7C4F01CE5C87}" WorkUnitID="{13EEEA71-2979-435A-8F44-172814FC0E97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Button2" ID="{D4D67533-49B3-46E4-8AAD-257686A29DCC}">
+					<ChildrenList>
+						<Action Name="" ID="{BACDBB24-E772-422D-B1F5-36C99C1483B6}" ShortID="434885117">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Button2" ID="{8F868AE3-2100-4CA1-9F5E-1240B64772E4}" WorkUnitID="{13EEEA71-2979-435A-8F44-172814FC0E97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Resume" ID="{F9B4EB30-02C7-43BF-A204-0CCD82F84D0A}">
+					<ChildrenList>
+						<Action Name="" ID="{28757DA5-0121-456B-A7F3-B69F69155F46}" ShortID="448222981">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Resume" ID="{E353C33B-8F84-40FE-B01F-DC5CE3596C2D}" WorkUnitID="{13EEEA71-2979-435A-8F44-172814FC0E97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Detected" ID="{3C28F38F-7F46-4464-AB2D-BAEF1EDF3862}">
+					<ChildrenList>
+						<Action Name="" ID="{23F6A686-5656-471A-9AA9-6C44D3A85EA7}" ShortID="792346306">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Detected" ID="{02A3162F-D3CB-4C98-8714-60D9A6AC1B0C}" WorkUnitID="{13EEEA71-2979-435A-8F44-172814FC0E97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Military_Base_Ambience" ID="{C702E52B-B539-407C-B292-1E604BB51BBA}">
+					<ChildrenList>
+						<Action Name="" ID="{6D972432-82EE-4F93-B730-24DED917C923}" ShortID="352422010">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Military_Base_Ambience" ID="{F84FEE51-527A-4F32-B2CE-46E6F34D4840}" WorkUnitID="{13EEEA71-2979-435A-8F44-172814FC0E97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MenuTrack1" ID="{F62D028B-DE04-4549-BC70-3F31E98BC30C}">
+					<ChildrenList>
+						<Action Name="" ID="{F5762C4D-48A0-4C9F-9BC8-4F14118D03CE}" ShortID="826764064">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MenuTrack1" ID="{AD27115F-F13F-42D3-A5A1-2DCB944BD0FD}" WorkUnitID="{13EEEA71-2979-435A-8F44-172814FC0E97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MiniGame2_INtroSoundscape" ID="{C742A1C9-1638-47A2-83FF-DB330A6AD152}">
+					<ChildrenList>
+						<Action Name="" ID="{BD8A5750-F998-4475-B5A8-81C8EDD46137}" ShortID="61721640">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MiniGame2_INtroSoundscape" ID="{EFBB70CB-4D62-4A76-8B09-8B85DAED0FF7}" WorkUnitID="{13EEEA71-2979-435A-8F44-172814FC0E97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

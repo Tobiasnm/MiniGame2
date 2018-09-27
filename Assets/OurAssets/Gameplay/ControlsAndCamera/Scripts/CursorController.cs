@@ -2,50 +2,75 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CursorController : MonoBehaviour {
+public class CursorController : MonoBehaviour
+{
+
+    public float maxDistance = 10;
+
     protected Joystick joystick;
-    protected Joybuttom joybuttom;
-    private float MinSpeed = 5f;
-    public float UpSpeed = 5f;
-    private float MaxSpeed = 50f;
-    private float SpeedIncrease = 5f;
-	// Use this for initialization
-	void Start () {
+    protected Joybutton joybutton;
+    private float MinSpeed = 10f;
+    public float UpSpeed = 10f;
+    private float MaxSpeed = 20f;
+    private float SpeedIncrease = 10f;
+    private Transform cursor;
+    private Transform player;
+
+
+    // Use this for initialization
+    void Start()
+    {
         joystick = FindObjectOfType<Joystick>();
-        joybuttom = FindObjectOfType<Joybuttom>();
-	}
-	
-	// Update is called once per frame
-	void Update () {
+        joybutton = FindObjectOfType<Joybutton>();
+        cursor = this.transform;
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
         var rigidbody = GetComponent<Rigidbody>();
         SpeedControl();
-        rigidbody.velocity = new Vector3(joystick.Horizontal * UpSpeed, rigidbody.velocity.y, joystick.Vertical * UpSpeed);
-	}
+        // rigidbody.velocity = new Vector3(joystick.Horizontal * UpSpeed, rigidbody.velocity.y, joystick.Vertical * UpSpeed);
+        Vector3 move = new Vector3(joystick.Horizontal * UpSpeed, 0, joystick.Vertical * UpSpeed);
+
+        if (Vector3.Distance(cursor.position, player.position) > maxDistance)
+            move = new Vector3(0, 0, 0);
+
+        cursor.transform.position = Vector3.Lerp(cursor.position, (cursor.position + move), Time.deltaTime);
+
+    }
+
     void SpeedControl()
     {
-        if(joybuttom.Pressed)
+        if (joybutton.Pressed)
         {
-            
-            if(UpSpeed > MaxSpeed)
+
+            if (UpSpeed > MaxSpeed)
             {
                 UpSpeed = MaxSpeed;
             }
-            if(UpSpeed <= MaxSpeed)
+            if (UpSpeed <= MaxSpeed)
             {
-                UpSpeed += SpeedIncrease*Time.deltaTime ; 
+                UpSpeed += SpeedIncrease * Time.deltaTime;
             }
         }
-        else if(!joybuttom.Pressed)
+        else if (!joybutton.Pressed)
         {
             if (UpSpeed < MinSpeed)
             {
                 UpSpeed = MinSpeed;
             }
-            else if(UpSpeed >= MinSpeed)
+            else if (UpSpeed >= MinSpeed)
             {
-                UpSpeed -= SpeedIncrease*Time.deltaTime ;
+                UpSpeed -= SpeedIncrease * Time.deltaTime;
             }
         }
-            
+
+    }
+    void ControlMaxDistance()
+    {
+
     }
 }
