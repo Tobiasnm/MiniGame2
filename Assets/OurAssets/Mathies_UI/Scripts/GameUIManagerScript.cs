@@ -163,6 +163,12 @@ public class GameUIManagerScript : MonoBehaviour {
         walkieTalkieUI.GetComponentInChildren<Button>().GetComponentInChildren<Text>().text = hintTexts[hintIndex];
     }
 
+    public void ShowWalkieTalkieText(string text)
+    {
+        walkieTalkieUI.SetActive(true);
+        walkieTalkieUI.GetComponentInChildren<Button>().GetComponentInChildren<Text>().text = text;
+    }
+
     public void RemoveWalkieTalkie()
     {
         walkieTalkieUI.SetActive(false);

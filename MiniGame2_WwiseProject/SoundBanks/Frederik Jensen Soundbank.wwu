@@ -16,8 +16,8 @@
 				<SoundBank Name="UI" ID="{D6729870-AAC6-443F-865D-CBE4332FD316}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Resume" ID="{F9B4EB30-02C7-43BF-A204-0CCD82F84D0A}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_MenuTrack1" ID="{F62D028B-DE04-4549-BC70-3F31E98BC30C}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Button2" ID="{D4D67533-49B3-46E4-8AAD-257686A29DCC}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Background_Music" ID="{C7D0897A-FCFC-4819-AFFA-5DFF8FA1C5DC}" WorkUnitID="{E7381F8F-9844-4ADD-A61A-A1508F46025D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Button1" ID="{88392986-3D57-4937-83AE-5D068B1A6524}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
