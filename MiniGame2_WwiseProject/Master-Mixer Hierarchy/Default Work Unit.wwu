@@ -4,11 +4,88 @@
 		<WorkUnit Name="Default Work Unit" ID="{7B533535-4201-4B94-9675-1FE3D41F10DD}" PersistMode="Standalone">
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{929C7E58-F0C9-4A67-99FE-4D496A6A80C6}" ShortID="1072001733">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="MasterVolume" ID="{CF6EFEC8-E3BD-4B0D-A261-7D5B75B341B5}" WorkUnitID="{2A6262A5-341F-4D32-A0BB-76F90CF27011}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{A0E06FE2-F301-4C5A-BD02-4BBEAD215D22}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{764DC373-257E-4B79-81AE-050EEAC14855}" WorkUnitID="{EB646CF6-32C0-4DB2-911A-2CBB4B27094C}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Music Volume Bus" ID="{37BE4937-1C63-4B3A-966B-8DE72B0A0EE9}">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{DBDB7C91-20EB-4654-9BE1-77FD212FF8FC}" ShortID="350887203">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="MusicVolume" ID="{F84393F2-2A1D-43D7-BB90-83F7D4665928}" WorkUnitID="{2A6262A5-341F-4D32-A0BB-76F90CF27011}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{AFD7AA5A-DAD1-4864-95EA-6CC945E1A1F6}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+						</Bus>
+						<Bus Name="UI Sound Bus" ID="{C8A9510B-486C-4D39-8AFB-A51FFBAB166A}">
+							<DuckingList>
+								<DuckItem>
+									<BusRef Name="Music Volume Bus" ID="{37BE4937-1C63-4B3A-966B-8DE72B0A0EE9}"/>
+									<DuckingParam>
+										<Volume>-6</Volume>
+										<FadeInTime>1</FadeInTime>
+										<FadeOutTime>1</FadeOutTime>
+										<FadeCurve>FadeLinear</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+							</DuckingList>
+						</Bus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>
