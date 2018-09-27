@@ -2,7 +2,7 @@
 <ValidationCache Version="1" SchemaVersion="89">
 	<ValidationCacheItem File="C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\Actor-Mixer Hierarchy\Anders Holm Work Unit.wwu" DateLow="1537799594" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1537875032" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\Actor-Mixer Hierarchy\Frederik Work Unit.wwu" DateLow="1537877976" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\Actor-Mixer Hierarchy\Frederik Work Unit.wwu" DateLow="1538033323" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\Actor-Mixer Hierarchy\Prøve Work Unit.wwu" DateLow="1537877246" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1537875032" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1537875032" DateHigh="0"/>
@@ -11,15 +11,15 @@
 	<ValidationCacheItem File="C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1537875032" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1537875032" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1537875032" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\Effects\Factory Effects.wwu" DateLow="1537875032" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\Effects\Factory Effects.wwu" DateLow="1537967129" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\Events\Anders Holm Work Unit.wwu" DateLow="1537878034" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\Events\Default Work Unit.wwu" DateLow="1537877558" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\Events\Default Work Unit.wwu" DateLow="1538032165" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\Game Parameters\Anders Game Parameters.wwu" DateLow="1537878034" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1537875032" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\Game Parameters\Frederik Work Unit(GP).wwu" DateLow="1537875882" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\Game Parameters\Frederik Work Unit(GP).wwu" DateLow="1537878771" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1537875032" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1537875032" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\MiniGame2_WwiseProject.Bruger.wsettings" DateLow="1537878691" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\MiniGame2_WwiseProject.Bruger.wsettings" DateLow="1538033431" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\MiniGame2_WwiseProject.wproj" DateLow="1537875032" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1537875032" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="1537875032" DateHigh="0"/>
@@ -28,6 +28,7 @@
 	<ValidationCacheItem File="C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\Queries\Factory Queries.wwu" DateLow="1537875032" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\SoundBanks\Anders Holm Soundbank.wwu" DateLow="1537878034" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1537875032" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\SoundBanks\Frederik Jensen Soundbank.wwu" DateLow="1537955481" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1537875032" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\States\Default Work Unit.wwu" DateLow="1537875032" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1537875032" DateHigh="0"/>

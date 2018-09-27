@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Android" BasePlatform="Android" SchemaVersion="11" SoundbankVersion="132">
 	<RootPaths>
-		<ProjectRoot>C:\Users\faggka\Desktop\Git\MiniGame2\MiniGame2_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\faggka\Desktop\Git\MiniGame2\MiniGame2_WwiseProject\.cache\Android\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\faggka\Desktop\Git\MiniGame2\MiniGame2_WwiseProject\GeneratedSoundBanks\Android\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\GeneratedSoundBanks\Android\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\faggka\Desktop\Git\MiniGame2\MiniGame2_WwiseProject\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -29,6 +29,88 @@
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1551306167" Language="SFX">
+			<ObjectPath>\SoundBanks\Frederik Jensen Soundbank\UI</ObjectPath>
+			<ShortName>UI</ShortName>
+			<Path>UI.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2461875431" Name="Play_Button1" ObjectPath="\Events\Default Work Unit\Play_Button1"/>
+				<Event Id="2461875428" Name="Play_Button2" ObjectPath="\Events\Default Work Unit\Play_Button2"/>
+				<Event Id="2149395099" Name="Play_Resume" ObjectPath="\Events\Default Work Unit\Play_Resume"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="489016350" Language="SFX">
+					<ShortName>UI_Beep_Bend_Short_stereo.wav</ShortName>
+					<Path>SFX\UI_Beep_Bend_Short_stereo_56D34C19.wem</Path>
+				</File>
+				<File Id="619622850" Language="SFX">
+					<ShortName>WHOOSH_Air_Super_Fast_RR4_mono.wav</ShortName>
+					<Path>SFX\WHOOSH_Air_Super_Fast_RR4_mono_56D34C19.wem</Path>
+				</File>
+				<File Id="800148568" Language="SFX">
+					<ShortName>UI_Beep_Single_Clean_stereo.wav</ShortName>
+					<Path>SFX\UI_Beep_Single_Clean_stereo_56D34C19.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="2043403999" Language="SFX">
+			<ObjectPath>\SoundBanks\Frederik Jensen Soundbank\Rain</ObjectPath>
+			<ShortName>Rain</ShortName>
+			<Path>Rain.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2838936948" Name="Play_Rain" ObjectPath="\Events\Default Work Unit\Play_Rain"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="101782059" Language="SFX">
+					<ShortName>thunder_mountainous_big_crack_02.wav</ShortName>
+					<Path>SFX\thunder_mountainous_big_crack_02_56D34C19.wem</Path>
+				</File>
+				<File Id="166099676" Language="SFX">
+					<ShortName>RATH - Rain Hard Loop 08.wav</ShortName>
+					<Path>SFX\RATH - Rain Hard Loop 08_84CB93B1.wem</Path>
+				</File>
+				<File Id="308894312" Language="SFX">
+					<ShortName>Vindpust1.wav</ShortName>
+					<Path>SFX\Vindpust1_56D34C19.wem</Path>
+				</File>
+				<File Id="679480057" Language="SFX">
+					<ShortName>Vindpust2.wav</ShortName>
+					<Path>SFX\Vindpust2_56D34C19.wem</Path>
+				</File>
+				<File Id="746519542" Language="SFX">
+					<ShortName>Vindpust3.wav</ShortName>
+					<Path>SFX\Vindpust3_56D34C19.wem</Path>
+				</File>
+				<File Id="828872827" Language="SFX">
+					<ShortName>Vindpust5.wav</ShortName>
+					<Path>SFX\Vindpust5_56D34C19.wem</Path>
+				</File>
+				<File Id="869447023" Language="SFX">
+					<ShortName>Rain in forest the day_120118_13.wav</ShortName>
+					<Path>SFX\Rain in forest the day_120118_13_69BAF378.wem</Path>
+				</File>
+				<File Id="897929999" Language="SFX">
+					<ShortName>Wind2d.wav</ShortName>
+					<Path>SFX\Wind2d_9716411F.wem</Path>
+				</File>
+				<File Id="964968574" Language="SFX">
+					<ShortName>thunder_clap_04.wav</ShortName>
+					<Path>SFX\thunder_clap_04_DFF406D2.wem</Path>
+				</File>
+				<File Id="971076657" Language="SFX">
+					<ShortName>thunder_strike_03.wav</ShortName>
+					<Path>SFX\thunder_strike_03_56D34C19.wem</Path>
+				</File>
+				<File Id="999435447" Language="SFX">
+					<ShortName>THUNDER_Clap_Rumble_02_stereo.wav</ShortName>
+					<Path>SFX\THUNDER_Clap_Rumble_02_stereo_1B0F69B6.wem</Path>
+				</File>
+				<File Id="1049510695" Language="SFX">
+					<ShortName>Vindpust4.wav</ShortName>
+					<Path>SFX\Vindpust4_56D34C19.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 		<SoundBank Id="2981377429" Language="SFX">
 			<ObjectPath>\SoundBanks\Anders Holm Soundbank\Ambiance</ObjectPath>
@@ -102,6 +184,119 @@
 				<File Id="1051169781" Language="SFX">
 					<ShortName>32 Moorhen03.wav</ShortName>
 					<Path>SFX\32 Moorhen03_56D34C19.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="3121013053" Language="SFX">
+			<ObjectPath>\SoundBanks\Frederik Jensen Soundbank\Soldier</ObjectPath>
+			<ShortName>Soldier</ShortName>
+			<Path>Soldier.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3308238785" Name="Play_Soldier_FootstepsAsphalt" ObjectPath="\Events\Default Work Unit\Play_Soldier_FootstepsAsphalt"/>
+				<Event Id="2260928702" Name="Play_Soldier_FootstepsGrass" ObjectPath="\Events\Default Work Unit\Play_Soldier_FootstepsGrass"/>
+				<Event Id="3506035389" Name="Play_Soldier_FootstepsGravel" ObjectPath="\Events\Default Work Unit\Play_Soldier_FootstepsGravel"/>
+				<Event Id="2329542108" Name="Play_Soldier_FootstepsPuddle" ObjectPath="\Events\Default Work Unit\Play_Soldier_FootstepsPuddle"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="5406923" Language="SFX">
+					<ShortName>Fsp3.wav</ShortName>
+					<Path>SFX\Fsp3_56D34C19.wem</Path>
+				</File>
+				<File Id="85180155" Language="SFX">
+					<ShortName>Fsp2.wav</ShortName>
+					<Path>SFX\Fsp2_56D34C19.wem</Path>
+				</File>
+				<File Id="138428989" Language="SFX">
+					<ShortName>Fsa4.wav</ShortName>
+					<Path>SFX\Fsa4_56D34C19.wem</Path>
+				</File>
+				<File Id="221040264" Language="SFX">
+					<ShortName>AG1.wav</ShortName>
+					<Path>SFX\AG1_976815A2.wem</Path>
+				</File>
+				<File Id="245767875" Language="SFX">
+					<ShortName>FOOTSTEP_Trainers_Gravel_Compact_Run_RR3_mono.wav</ShortName>
+					<Path>SFX\FOOTSTEP_Trainers_Gravel_Compact_Run_RR3_mono_56D34C19.wem</Path>
+				</File>
+				<File Id="266814016" Language="SFX">
+					<ShortName>FOOTSTEP_Trainers_Gravel_Compact_Run_RR1_mono.wav</ShortName>
+					<Path>SFX\FOOTSTEP_Trainers_Gravel_Compact_Run_RR1_mono_56D34C19.wem</Path>
+				</File>
+				<File Id="289672608" Language="SFX">
+					<ShortName>AG4.wav</ShortName>
+					<Path>SFX\AG4_ABCCFCE4.wem</Path>
+				</File>
+				<File Id="489486064" Language="SFX">
+					<ShortName>AG2.wav</ShortName>
+					<Path>SFX\AG2_CA3DB4DC.wem</Path>
+				</File>
+				<File Id="489598189" Language="SFX">
+					<ShortName>Fsp5.wav</ShortName>
+					<Path>SFX\Fsp5_56D34C19.wem</Path>
+				</File>
+				<File Id="498428051" Language="SFX">
+					<ShortName>Fsp4.wav</ShortName>
+					<Path>SFX\Fsp4_56D34C19.wem</Path>
+				</File>
+				<File Id="501912401" Language="SFX">
+					<ShortName>FS1.wav</ShortName>
+					<Path>SFX\FS1_439C9263.wem</Path>
+				</File>
+				<File Id="519037421" Language="SFX">
+					<ShortName>FS2.wav</ShortName>
+					<Path>SFX\FS2_CAA296BA.wem</Path>
+				</File>
+				<File Id="550863026" Language="SFX">
+					<ShortName>FS4.wav</ShortName>
+					<Path>SFX\FS4_64D36FE8.wem</Path>
+				</File>
+				<File Id="608000289" Language="SFX">
+					<ShortName>AG5.wav</ShortName>
+					<Path>SFX\AG5_9B6D086F.wem</Path>
+				</File>
+				<File Id="613321222" Language="SFX">
+					<ShortName>AG3.wav</ShortName>
+					<Path>SFX\AG3_8C434CCC.wem</Path>
+				</File>
+				<File Id="616120344" Language="SFX">
+					<ShortName>Fsa1.wav</ShortName>
+					<Path>SFX\Fsa1_56D34C19.wem</Path>
+				</File>
+				<File Id="693354133" Language="SFX">
+					<ShortName>FOOTSTEP_Trainers_Gravel_Compact_Run_RR2_mono.wav</ShortName>
+					<Path>SFX\FOOTSTEP_Trainers_Gravel_Compact_Run_RR2_mono_56D34C19.wem</Path>
+				</File>
+				<File Id="700851822" Language="SFX">
+					<ShortName>FS5.wav</ShortName>
+					<Path>SFX\FS5_06AE37B3.wem</Path>
+				</File>
+				<File Id="744683102" Language="SFX">
+					<ShortName>Fsa3.wav</ShortName>
+					<Path>SFX\Fsa3_56D34C19.wem</Path>
+				</File>
+				<File Id="751344678" Language="SFX">
+					<ShortName>Fsa2.wav</ShortName>
+					<Path>SFX\Fsa2_56D34C19.wem</Path>
+				</File>
+				<File Id="878935706" Language="SFX">
+					<ShortName>FOOTSTEP_Trainers_Gravel_Compact_Run_RR4_mono.wav</ShortName>
+					<Path>SFX\FOOTSTEP_Trainers_Gravel_Compact_Run_RR4_mono_56D34C19.wem</Path>
+				</File>
+				<File Id="954080899" Language="SFX">
+					<ShortName>Fsp1.wav</ShortName>
+					<Path>SFX\Fsp1_56D34C19.wem</Path>
+				</File>
+				<File Id="1029876179" Language="SFX">
+					<ShortName>FOOTSTEP_Trainers_Gravel_Compact_Run_RR5_mono.wav</ShortName>
+					<Path>SFX\FOOTSTEP_Trainers_Gravel_Compact_Run_RR5_mono_56D34C19.wem</Path>
+				</File>
+				<File Id="1037788437" Language="SFX">
+					<ShortName>Fsa5.wav</ShortName>
+					<Path>SFX\Fsa5_56D34C19.wem</Path>
+				</File>
+				<File Id="1066471746" Language="SFX">
+					<ShortName>FS3.wav</ShortName>
+					<Path>SFX\FS3_35884397.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
