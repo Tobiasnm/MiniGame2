@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Collider))]
 public class TriggerStory : MonoBehaviour
 {
-
 
     //private string storyText = "";
     [Header("Toogle and fill if this should cause rain.")]
@@ -24,7 +24,7 @@ public class TriggerStory : MonoBehaviour
     private AkEvent audioSource;
     private CameraHandler cameraHandler;
     private HandleRain rainHandler;
-    public GameObject rain;
+    //private GameObject rain;
 
 
     // Use this for initialization
@@ -35,12 +35,12 @@ public class TriggerStory : MonoBehaviour
         audioSource = GetComponent<AkEvent>();
         cameraHandler = Camera.main.GetComponent<CameraHandler>();
         rainHandler = GameObject.FindGameObjectWithTag("RainHandler").GetComponent<HandleRain>();
-        rain = GameObject.FindGameObjectWithTag("TheRain");
+        //rain = GameObject.FindGameObjectWithTag("TheRain");
     }
 
     private void DoSound()
     {
-        AkSoundEngine.PostEvent("Thunderstrike", rain);
+        //AkSoundEngine.PostEvent("Thunderstrike", rain);
     }
 
 
@@ -49,8 +49,8 @@ public class TriggerStory : MonoBehaviour
 
         if (other.tag == "Player")
         {
-            storyManager.nextLevelName = nextLevelName;
-            storyManager.HasWon = isWinCondition;
+            //storyManager.nextLevelName = nextLevelName;
+            storyManager.hasWon = isWinCondition;
 
             storyManager.textList = new Queue<string>(story);
             if (causeRain)
@@ -60,8 +60,11 @@ public class TriggerStory : MonoBehaviour
 
             }
 
-            if (focusTarget)
-                cameraHandler.target = focusTarget;
+            //if (focusTarget)
+            //    cameraHandler.target = focusTarget;
+            foreach (var text in story)
+                storyManager.ShowText(text);
+
             Destroy(this.gameObject);
         }
     }

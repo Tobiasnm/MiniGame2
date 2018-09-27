@@ -14,20 +14,8 @@ public class StoryManager : MonoBehaviour
     //public LevelChangerScript levelChanger;
     [HideInInspector]
     public string nextLevelName;
-    private bool hasWon = false;
 
-    public bool HasWon
-    {
-        get
-        {
-            return hasWon;
-        }
-
-        set
-        {
-            hasWon = value;
-        }
-    }
+    public bool hasWon { get; set; } = false;
 
     // Use this for initialization
     void Start()
