@@ -44,6 +44,9 @@ public class CameraController : MonoBehaviour
         AdjustCamera();
         //ZoomIn();
         transform.LookAt(player);
+
+
+        DoTapCalculations();
     }
 
     private Vector3 FindCameraTarget()
@@ -91,15 +94,6 @@ public class CameraController : MonoBehaviour
         transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * 2f);
 
 
-        //       if (player.GetComponent<Swipe>().SWright)
-        //       {
-        ////           offset = CamDirection * distance;
-        //       }
-        //       else if (player.GetComponent<Swipe>().SWleft)
-        //       {
-
-        //       }
-
     }
     void ZoomIn()
     {
@@ -110,18 +104,43 @@ public class CameraController : MonoBehaviour
         }
 
     }
-    //void FacingBack()
-    //{
-    //    Vector3 CamDirection = player.GetComponent<Swipe>().dir;
-    //    if (player.GetComponent<Swipe>().GoX)
-    //    {
-    //        offset = transform.position - player.position + CamDirection.normalized;
-    //    }
-    //    else if (player.GetComponent<Swipe>().GOZ)
-    //    {
-    //        offset = (transform.position - player.position) + CamDirection.normalized;
-    //    }
 
+    void DoTapCalculations()
+    {
+        
 
-    //}
+        if (Application.platform == RuntimePlatform.Android)
+        {
+            if (Input.touchCount > 0 && Input.touchCount < 2)
+            {
+                if (Input.GetTouch(0).phase == TouchPhase.Began)
+                {
+                    CheckTouch(Input.GetTouch(0).position);
+                }
+            }
+        }
+        else if (Application.platform == RuntimePlatform.WindowsEditor)
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                CheckTouch(Input.mousePosition);
+            }
+        }
+    }
+
+    private void CheckTouch(Vector3 pos)
+    {
+        Ray ray = Camera.main.ScreenPointToRay(pos);
+        RaycastHit hit;
+        Debug.Log("It happened");
+        Debug.DrawRay(Camera.main.ScreenToWorldPoint(pos), ray.direction, Color.white,100000);
+
+        if (Physics.Raycast(ray, out hit, 100000))
+        {
+            if (hit.collider.CompareTag("Obstacle"))
+                hit.transform.gameObject.GetComponent<ObstacleHandler>().RegisterTap();
+        }
+
+    }
+
 }
