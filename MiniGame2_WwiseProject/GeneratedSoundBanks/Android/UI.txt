@@ -1,18 +1,12 @@
 Event	ID	Name			Wwise Object Path	Notes
-	65769146	Play_Background_Music			\Anders Holm Work Unit\Play_Background_Music	
+	807462833	Play_MenuTrack1			\Default Work Unit\Play_MenuTrack1	
 	2149395099	Play_Resume			\Default Work Unit\Play_Resume	
 	2461875428	Play_Button2			\Default Work Unit\Play_Button2	
 	2461875431	Play_Button1			\Default Work Unit\Play_Button1	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	142449055	Drone_layer_three_02	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\Drone_layer_three_02_5EDA3C1D.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\2D\Background Music\Layer Three\Drone_layer_three_02		2860820
-	159363823	Drone_layer_five	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\Drone_layer_five_56D34C19.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\2D\Background Music\Drone_layer_five		15465584
-	252083019	Drone_layer_two_01	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\Drone_layer_two_01_E411DAF8.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\2D\Background Music\Layer Two and One\Layer Two\Drone_layer_two_01		3271720
-	344927456	drone_layer_four	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\drone_layer_four_56D34C19.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\2D\Background Music\drone_layer_four		11271280
+	361388268	MenuTrack1	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\MenuTrack1_A14709A9.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\UI\MenuTrack1		9940964
 	489016350	UI_Beep_Bend_Short_stereo	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\UI_Beep_Bend_Short_stereo_56D34C19.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\UI\Button2\UI_Beep_Bend_Short_stereo		10984
-	578688371	Drone_layer_two_02	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\Drone_layer_two_02_AAA4B23A.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\2D\Background Music\Layer Two and One\Layer Two\Drone_layer_two_02		2658176
 	619622850	Resume	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\WHOOSH_Air_Super_Fast_RR4_mono_56D34C19.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\UI\Resume		7582
-	710671698	Drone_layer_one	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\Drone_layer_one_69911DE4.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\2D\Background Music\Layer Two and One\Drone_layer_one		7601328
-	766883646	Drone_layer_three_01	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\Drone_layer_three_01_F1DF0C59.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\2D\Background Music\Layer Three\Drone_layer_three_01		6586564
 	800148568	UI_Beep_Single_Clean_stereo	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\UI_Beep_Single_Clean_stereo_56D34C19.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\UI\Button1\UI_Beep_Single_Clean_stereo		7216
 
