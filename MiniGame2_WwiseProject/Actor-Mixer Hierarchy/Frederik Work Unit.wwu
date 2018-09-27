@@ -1068,6 +1068,9 @@
 											</ChildrenList>
 											<PositioningInfo>
 												<Position Name="" ID="{2B704BF1-2E38-4276-8C0D-F426085372E7}">
+													<PropertyList>
+														<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+													</PropertyList>
 													<ChildrenList>
 														<Path2D Name="Random_Alarm_Path" ID="{FA444484-66E8-49B2-95EC-A6F859EC5421}">
 															<PointList>
@@ -1084,6 +1087,26 @@
 																<Point>
 																	<XPos>93.01075</XPos>
 																	<YPos>75.06394</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="Misc_Sequence_Path" ID="{2A984402-27B1-489D-8BBC-163CF851138E}">
+															<PointList>
+																<Point>
+																	<XPos>-57.52688</XPos>
+																	<YPos>77.62148</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="Misc_Sequence_Path_01" ID="{D9933FE6-8FB1-4E50-8C0C-053564FE1555}">
+															<PointList>
+																<Point>
+																	<XPos>55.91398</XPos>
+																	<YPos>76.59847</YPos>
 																	<Flags>12</Flags>
 																	<Time>0</Time>
 																</Point>
@@ -1762,6 +1785,34 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="WHOOSH_Air_Super_Fast_RR4_mono" ID="{7DFCD2E7-85FA-4B97-9702-1B175A4B5C18}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MenuTrack1" ID="{AD27115F-F13F-42D3-A5A1-2DCB944BD0FD}" ShortID="273500088">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B6753272-8AAE-410A-A6BE-F784408B7732}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7B533535-4201-4B94-9675-1FE3D41F10DD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MenuTrack1" ID="{13C9A80E-667D-4BA4-9006-1DB78FFB2F3A}" ShortID="361388268">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="3000"/>
+										<Property Name="LoopBegin" Type="Real64" Value="1.72864863736906"/>
+										<Property Name="LoopEnd" Type="Real64" Value="54.7240768629976"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>MenuTrack1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MenuTrack1" ID="{13C9A80E-667D-4BA4-9006-1DB78FFB2F3A}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
