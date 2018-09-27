@@ -6,9 +6,9 @@
 				<File Name="Ambiance" Hash="341447757" Timestamp="1537880028"/>
 				<File Name="Character" Hash="2730450569" Timestamp="1537880028"/>
 				<File Name="Init" Hash="146210430" Timestamp="1537955475"/>
-				<File Name="Rain" Hash="3861589923" Timestamp="1537955475"/>
+				<File Name="Rain" Hash="4105034890" Timestamp="1538038602"/>
 				<File Name="Soldier" Hash="372931452" Timestamp="1537955474"/>
-				<File Name="UI" Hash="3765566017" Timestamp="1537955474"/>
+				<File Name="UI" Hash="2900383908" Timestamp="1538038602"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
@@ -41,7 +41,7 @@
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="2130096404" Timestamp="1537880035"/>
+				<File Name="" Hash="2263705783" Timestamp="1538038602"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

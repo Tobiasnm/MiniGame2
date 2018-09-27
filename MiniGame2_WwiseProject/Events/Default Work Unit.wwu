@@ -143,15 +143,15 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_MenuTrack1" ID="{C9CCF81F-162D-43BC-B2F0-F909DDBAE00A}">
+				<Event Name="Play_MenuTrack1" ID="{F62D028B-DE04-4549-BC70-3F31E98BC30C}">
 					<ChildrenList>
-						<Action Name="" ID="{1A9EE1E1-54D1-43B4-8458-E9B3620D5966}" ShortID="954535658">
+						<Action Name="" ID="{F5762C4D-48A0-4C9F-9BC8-4F14118D03CE}" ShortID="826764064">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="MenuTrack1" ID="{7F49392E-8177-4628-B6F5-97F2BC0ECF99}" WorkUnitID="{13EEEA71-2979-435A-8F44-172814FC0E97}"/>
+									<ObjectRef Name="MenuTrack1" ID="{AD27115F-F13F-42D3-A5A1-2DCB944BD0FD}" WorkUnitID="{13EEEA71-2979-435A-8F44-172814FC0E97}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
