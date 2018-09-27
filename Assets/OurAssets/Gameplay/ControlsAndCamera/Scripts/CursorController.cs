@@ -21,6 +21,7 @@ public class CursorController : MonoBehaviour {
         SpeedControl();
         rigidbody.velocity = new Vector3(joystick.Horizontal * UpSpeed, rigidbody.velocity.y, joystick.Vertical * UpSpeed);
 	}
+
     void SpeedControl()
     {
         if(joybuttom.Pressed)

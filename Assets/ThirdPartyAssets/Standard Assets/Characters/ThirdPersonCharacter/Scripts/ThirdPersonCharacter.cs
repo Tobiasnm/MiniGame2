@@ -29,6 +29,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         CapsuleCollider m_Capsule;
         bool m_Crouching;
 
+        AnimationController anim;
 
         void Start()
         {
@@ -40,6 +41,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
             m_Rigidbody.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
             m_OrigGroundCheckDistance = m_GroundCheckDistance;
+
+            anim = GetComponent<AnimationController>();
         }
 
 
@@ -55,6 +58,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             move = Vector3.ProjectOnPlane(move, m_GroundNormal);
             m_TurnAmount = Mathf.Atan2(move.x, move.z);
             m_ForwardAmount = move.z;
+
+            Debug.Log("Moving Forward: " + m_ForwardAmount + " and turning " + m_TurnAmount);
 
             ApplyExtraTurnRotation();
 
@@ -72,7 +77,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             PreventStandingInLowHeadroom();
 
             // send input and other state parameters to the animator
-            UpdateAnimator(move);
+            // UpdateAnimator(move); // Default
+            //UpdateAnimator(m_TurnAmount, );
         }
 
 
@@ -115,8 +121,10 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         }
 
 
-        void UpdateAnimator(Vector3 move)
+        void UpdateAnimator(float rot, float speed)
         {
+            #region Default version
+            /*
             // update the animator parameters
             m_Animator.SetFloat("Forward", m_ForwardAmount, 0.1f, Time.deltaTime);
             m_Animator.SetFloat("Turn", m_TurnAmount, 0.1f, Time.deltaTime);
@@ -149,7 +157,11 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             {
                 // don't use that while airborne
                 m_Animator.speed = 1;
-            }
+            }*/
+            #endregion
+
+            anim.UpdateParams(rot, speed);
+
         }
 
 
@@ -181,6 +193,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             // help the character turn faster (this is in addition to root rotation in the animation)
             float turnSpeed = Mathf.Lerp(m_StationaryTurnSpeed, m_MovingTurnSpeed, m_ForwardAmount);
             transform.Rotate(0, m_TurnAmount * turnSpeed * Time.deltaTime, 0);
+            //Debug.Log("Turning " + m_TurnAmount*180);
         }
 
 
