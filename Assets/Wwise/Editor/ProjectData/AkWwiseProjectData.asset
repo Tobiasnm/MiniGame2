@@ -70,8 +70,8 @@ MonoBehaviour:
     PhysicalPath: SoundBanks\Default Work Unit.wwu
     List: []
   - Guid: '{4D7AC21B-028A-48E8-A7B2-965EC6111045}'
-    m_lastTimePart2: -1999231865
-    m_lastTimePsrt1: -1553896333
+    m_lastTimePart2: -1999231864
+    m_lastTimePsrt1: 1386343936
     ParentPhysicalPath: 
     PhysicalPath: SoundBanks\Frederik Jensen Soundbank.wwu
     List:
