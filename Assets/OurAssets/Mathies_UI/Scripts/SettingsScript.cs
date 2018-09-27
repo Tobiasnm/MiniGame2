@@ -15,6 +15,11 @@ public class SettingsScript : MonoBehaviour {
 
     private void Start()
     {
+        if (languageButton == null)
+        {
+            GameObject languageObject = GameObject.FindGameObjectWithTag("Language");
+            if (languageObject != null) languageButton = languageObject.GetComponent<Button>();
+        }
     }
 
     private void FixedUpdate()
