@@ -3,7 +3,9 @@
 	<Platform GUID="{8AD9F681-2C42-481F-9B67-BF65D0D57318}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Init" Hash="3828281917" Timestamp="1538051827"/>
+				<File Name="Actions" Hash="4207858091" Timestamp="1538053297"/>
+				<File Name="Ambiences" Hash="2744971009" Timestamp="1538053297"/>
+				<File Name="Init" Hash="667876991" Timestamp="1538053297"/>
 				<File Name="Rain" Hash="4105034890" Timestamp="1538038602"/>
 				<File Name="Soldier" Hash="372931452" Timestamp="1537955474"/>
 				<File Name="UI" Hash="2817130039" Timestamp="1538051827"/>
@@ -11,7 +13,7 @@
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="2938209516" Timestamp="1538051827"/>
+				<File Name="" Hash="4160541042" Timestamp="1538053297"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

@@ -1,0 +1,14 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1720809208	Play_Detected			\Default Work Unit\Play_Detected	
+
+Effect plug-ins	ID	Name	Type				Notes
+	550632737	High_Pass_60Hz (Custom)	Wwise Parametric EQ			
+	746958789	Have_U_Ever_Been_Outside (Custom)	Wwise RoomVerb			
+	758768032	Have_U_Ever_Been_Outside (Custom)	Wwise RoomVerb			
+	939486497	High_Pass_60Hz (Custom)	Wwise Parametric EQ			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	373338240	Stinger3	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\Stinger3_7E90B02E.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Reactions\Detected\Stinger3		454388
+	735211814	Stinger1	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\Stinger1_5110075D.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Reactions\Detected\Stinger1		807892
+	960059470	6 Big Metal Hit	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\6 Big Metal Hit _1199FC32.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Reactions\Detected\6 Big Metal Hit		783440
+

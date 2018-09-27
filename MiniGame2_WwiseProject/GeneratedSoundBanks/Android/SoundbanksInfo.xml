@@ -25,6 +25,56 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
+		<SoundBank Id="1017660616" Language="SFX">
+			<ObjectPath>\SoundBanks\Frederik Jensen Soundbank\Ambiences</ObjectPath>
+			<ShortName>Ambiences</ShortName>
+			<Path>Ambiences.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1631227588" Name="Play_Military_Base_Ambience" ObjectPath="\Events\Default Work Unit\Play_Military_Base_Ambience"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="10736095" Language="SFX">
+					<ShortName>Noise7.wav</ShortName>
+					<Path>SFX\Noise7_56D34C19.wem</Path>
+				</File>
+				<File Id="68484846" Language="SFX">
+					<ShortName>Noise3.wav</ShortName>
+					<Path>SFX\Noise3_56D34C19.wem</Path>
+				</File>
+				<File Id="189872014" Language="SFX">
+					<ShortName>Noise6.wav</ShortName>
+					<Path>SFX\Noise6_56D34C19.wem</Path>
+				</File>
+				<File Id="457010429" Language="SFX">
+					<ShortName>Noise4.wav</ShortName>
+					<Path>SFX\Noise4_56D34C19.wem</Path>
+				</File>
+				<File Id="490282618" Language="SFX">
+					<ShortName>steam1.wav</ShortName>
+					<Path>SFX\steam1_56D34C19.wem</Path>
+				</File>
+				<File Id="596852205" Language="SFX">
+					<ShortName>ALARM_Distorted_Echo_loop_stereo.wav</ShortName>
+					<Path>SFX\ALARM_Distorted_Echo_loop_stereo_8956FC97.wem</Path>
+				</File>
+				<File Id="635977214" Language="SFX">
+					<ShortName>Noise5.wav</ShortName>
+					<Path>SFX\Noise5_56D34C19.wem</Path>
+				</File>
+				<File Id="940296272" Language="SFX">
+					<ShortName>Vehicle1.wav</ShortName>
+					<Path>SFX\Vehicle1_3FBEBD5A.wem</Path>
+				</File>
+				<File Id="941368560" Language="SFX">
+					<ShortName>Noise1.wav</ShortName>
+					<Path>SFX\Noise1_56D34C19.wem</Path>
+				</File>
+				<File Id="943570333" Language="SFX">
+					<ShortName>droneMili1.wav</ShortName>
+					<Path>SFX\droneMili1_8FA467C4.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
 		<SoundBank Id="1355168291" Language="SFX">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
@@ -314,6 +364,28 @@
 				<File Id="1066471746" Language="SFX">
 					<ShortName>FS3.wav</ShortName>
 					<Path>SFX\FS3_35884397.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="3332220694" Language="SFX">
+			<ObjectPath>\SoundBanks\Frederik Jensen Soundbank\Actions</ObjectPath>
+			<ShortName>Actions</ShortName>
+			<Path>Actions.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1720809208" Name="Play_Detected" ObjectPath="\Events\Default Work Unit\Play_Detected"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="373338240" Language="SFX">
+					<ShortName>Stinger3.wav</ShortName>
+					<Path>SFX\Stinger3_7E90B02E.wem</Path>
+				</File>
+				<File Id="735211814" Language="SFX">
+					<ShortName>Stinger1.wav</ShortName>
+					<Path>SFX\Stinger1_5110075D.wem</Path>
+				</File>
+				<File Id="960059470" Language="SFX">
+					<ShortName>6 Big Metal Hit .wav</ShortName>
+					<Path>SFX\6 Big Metal Hit _1199FC32.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

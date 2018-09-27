@@ -21,8 +21,10 @@ namespace AK
         static const AkUniqueID PLAY_BACKGROUND_MUSIC = 65769146U;
         static const AkUniqueID PLAY_BUTTON1 = 2461875431U;
         static const AkUniqueID PLAY_BUTTON2 = 2461875428U;
+        static const AkUniqueID PLAY_DETECTED = 1720809208U;
         static const AkUniqueID PLAY_FOREST_AMBIANCE = 2215933556U;
         static const AkUniqueID PLAY_MENUTRACK1 = 807462833U;
+        static const AkUniqueID PLAY_MILITARY_BASE_AMBIENCE = 1631227588U;
         static const AkUniqueID PLAY_RAIN = 2838936948U;
         static const AkUniqueID PLAY_RESUME = 2149395099U;
         static const AkUniqueID PLAY_SOLDIER_FOOTSTEPSASPHALT = 3308238785U;
@@ -45,7 +47,9 @@ namespace AK
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
+        static const AkUniqueID ACTIONS = 3332220694U;
         static const AkUniqueID AMBIANCE = 2981377429U;
+        static const AkUniqueID AMBIENCES = 1017660616U;
         static const AkUniqueID CHARACTER = 436743010U;
         static const AkUniqueID DIALOUGE = 3362655095U;
         static const AkUniqueID RAIN = 2043403999U;
