@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class Joybuttom : MonoBehaviour,IPointerUpHandler,IPointerDownHandler,IPointerClickHandler {
+public class Joybutton : MonoBehaviour,IPointerUpHandler,IPointerDownHandler,IPointerClickHandler {
 
     [HideInInspector]
     public bool Pressed;

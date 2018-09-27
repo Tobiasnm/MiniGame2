@@ -6,9 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class PlayerHandler : MonoBehaviour
 {
-    public bool isBarking = false;
-    public float barkLength = 5;
-    public float girlShoutsInSecondsAfterBark = 1;
+    public float distanceToTap = 100;
+
 
     private int maxHealth = 100;
     //private HandleGirl girlHandler;
@@ -68,32 +67,6 @@ public class PlayerHandler : MonoBehaviour
     }
 
 
-    //private void MakeGirlShout()
-    //{
-    //    Debug.Log("Girl shouts!!!");
-    //    //girlHandler.GirlScream();
-    //}
-
-
-    //public void Bark()
-    //{
-    //    if (isBarking)
-    //        return;
-    //    isBarking = true;
-    //    AkSoundEngine.PostEvent("Bark", gameObject);
-    //    Invoke("MakeGirlShout", girlShoutsInSecondsAfterBark);
-    //    Invoke("StopBarking", barkLength);
-    //    this.GetComponent<Animator>().SetTrigger("Howl");
-    //    mainCamera.GetComponent<CameraHandler>().target = littleGirl.transform;
-    //}
-
-    //public void StopBarking()
-    //{
-    //    //marks the barking sound as stopped for the rest of the scripts. Does not affect sound.
-    //    isBarking = false;
-
-    //}
-
     // Use this for initialization
     void Start()
     {
@@ -109,41 +82,6 @@ public class PlayerHandler : MonoBehaviour
         HandleDeath();
 
 
-        //#if UNITY_ANDROID
-        //        //mobile input
-        //        // Track a single touch as a direction control.
-        //        if (Input.touchCount > 0)
-        //        {
-        //            Touch touch = Input.GetTouch(0);
-        //            // Handle finger movements based on TouchPhase
-        //            switch (touch.phase)
-        //            {
-        //                //When a touch has first been detected, change the message and record the starting position
-        //                case TouchPhase.Began:
-        //                    // Record initial touch position.
-
-        //                    if(canHowl)
-        //                    {
-        //                        doHowl = true;
-        //                    }
-        //                    else
-        //                        doHowl = false;
-        //                        canHowl = true;
-        //                    break;
-
-        //                case TouchPhase.Ended:
-        //                    if(doHowl)
-        //                    {
-        //                        Bark();
-        //                        Debug.Log("I am barking");
-        //                        canHowl = false;
-        //                        doHowl = false;
-        //                    }
-        //                    break;
-        //            }
-        //        }
-        //#endif
-
 #if UNITY_STANDALONE
         //if (Input.GetKeyDown("h"))
         //{
@@ -157,6 +95,11 @@ public class PlayerHandler : MonoBehaviour
         }
 #endif
 
+    }
+
+    private void FixedUpdate()
+    {
+        DoTapCalculations();
     }
 
 
@@ -184,4 +127,48 @@ public class PlayerHandler : MonoBehaviour
         food = other;
         food.SetActive(false);
     }
+
+
+    void DoTapCalculations()
+    {
+
+
+        if (Application.platform == RuntimePlatform.Android)
+        {
+            if (Input.touchCount > 0 && Input.touchCount < 2)
+            {
+                if (Input.GetTouch(0).phase == TouchPhase.Began)
+                {
+                    CheckTouch(Input.GetTouch(0).position);
+                }
+            }
+        }
+        else if (Application.platform == RuntimePlatform.WindowsEditor)
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                CheckTouch(Input.mousePosition);
+            }
+        }
+    }
+
+    private void CheckTouch(Vector3 pos)
+    {
+        Ray ray = Camera.main.ScreenPointToRay(pos);
+        RaycastHit hit;
+
+        Debug.Log("Click");
+
+        if (Physics.Raycast(ray, out hit, 100000))
+        {
+            if (hit.collider.CompareTag("Obstacle"))
+            {
+                Debug.Log("Checking distance");
+                if (Vector3.Distance(this.transform.position, hit.transform.position) < distanceToTap)
+                    hit.transform.gameObject.GetComponent<ObstacleHandler>().RegisterTap();
+            }
+        }
+
+    }
+
 }

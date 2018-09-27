@@ -3,6 +3,7 @@ using System.Collections;
 
 public class CameraController : MonoBehaviour
 {
+
     private Transform player;
     //private Transform cursor;
     private Vector3 offset;
@@ -31,7 +32,7 @@ public class CameraController : MonoBehaviour
     void FixedUpdate()
     {
         //        FacingBack();
-        points[0] = player.position + offset*0.8f;
+        points[0] = player.position + offset * 0.8f;
         points[4] = player.position + Vector3.up * distance;
 
         points[1] = Vector3.Lerp(points[0], points[4], 0.25f);
@@ -91,15 +92,6 @@ public class CameraController : MonoBehaviour
         transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * 2f);
 
 
-        //       if (player.GetComponent<Swipe>().SWright)
-        //       {
-        ////           offset = CamDirection * distance;
-        //       }
-        //       else if (player.GetComponent<Swipe>().SWleft)
-        //       {
-
-        //       }
-
     }
     void ZoomIn()
     {
@@ -110,18 +102,5 @@ public class CameraController : MonoBehaviour
         }
 
     }
-    //void FacingBack()
-    //{
-    //    Vector3 CamDirection = player.GetComponent<Swipe>().dir;
-    //    if (player.GetComponent<Swipe>().GoX)
-    //    {
-    //        offset = transform.position - player.position + CamDirection.normalized;
-    //    }
-    //    else if (player.GetComponent<Swipe>().GOZ)
-    //    {
-    //        offset = (transform.position - player.position) + CamDirection.normalized;
-    //    }
 
-
-    //}
 }
