@@ -5,15 +5,15 @@ using UnityEngine;
 public class CameraFollow : MonoBehaviour
 {
 
-    private float rollAngle =-71f;//XZ平面的角度控制
-    private float rotAngle = 37f;//YZ平面的角度控制
+    public float rollAngle =-71f;//XZ
+    public float rotAngle = 60f;//YZ
 
-    private float distance = 20;//摄像机与角色的距离
+    public float distance = 6;//the distance from camera and player
 
-    private Transform player;//跟随角色
-    private float roll;//XZ平面的弧度控制
+    private Transform player;
+    private float roll;//XZ
 
-    private float rot;//YZ平面的弧度控制
+    private float rot;//YZ平
     private Vector3 ZoomInCamPos;
     private Vector3 targetPos;
     public Vector3 ZoomPos;
@@ -35,20 +35,20 @@ public class CameraFollow : MonoBehaviour
     }
     private void UpdatePosition()
     {
-        roll = rollAngle * Mathf.PI * 2 / 360;//把角度转化为弧度
+        roll = rollAngle * Mathf.PI * 2 / 360;
         rot = rotAngle * Mathf.PI * 2 / 360;
 
 
-        targetPos = player.position;//目标位置
-        Vector3 CameraPos;//定义一个三维向量用来存储摄像机的位置
-        float height = distance * Mathf.Sin(rot);//获得摄像机的高度
+        targetPos = new Vector3(player.position.x,player.position.y,player.position.z) ;//Target position
+        Vector3 CameraPos;//camera position
+        float height = distance * Mathf.Sin(rot);//hight of camera
         float d = distance * Mathf.Cos(rot);
         CameraPos.x = targetPos.x + d * Mathf.Cos(roll);
         CameraPos.y = targetPos.y + height;
         CameraPos.z = targetPos.z + d * Mathf.Sin(roll);
 
-        transform.position = CameraPos;//更新位置
-        transform.LookAt(player);//使摄像机对着角色
+        transform.position = CameraPos;//update position
+        transform.LookAt(player);
 
     }
     void zoomIn()
@@ -59,5 +59,14 @@ public class CameraFollow : MonoBehaviour
             transform.position = Vector3.Lerp(transform.position, ZoomInCamPos, Time.deltaTime * 3);
         }
 
+    }
+    private void OnDrawGizmos()
+    {
+        if (player)
+        {
+            Gizmos.DrawLine(transform.position, targetPos); //draw a line from player to camera.
+            Gizmos.DrawSphere(targetPos, 0.5f); //draw a solid sphere with player position and 1.5f radius.
+        }
+        Gizmos.DrawSphere(transform.position, 0.5f); // draw a solid sphere with camera position.
     }
 }
