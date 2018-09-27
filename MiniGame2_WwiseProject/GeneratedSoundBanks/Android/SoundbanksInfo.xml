@@ -35,18 +35,47 @@
 			<ShortName>UI</ShortName>
 			<Path>UI.bnk</Path>
 			<IncludedEvents>
+				<Event Id="65769146" Name="Play_Background_Music" ObjectPath="\Events\Anders Holm Work Unit\Play_Background_Music"/>
 				<Event Id="2461875431" Name="Play_Button1" ObjectPath="\Events\Default Work Unit\Play_Button1"/>
 				<Event Id="2461875428" Name="Play_Button2" ObjectPath="\Events\Default Work Unit\Play_Button2"/>
 				<Event Id="2149395099" Name="Play_Resume" ObjectPath="\Events\Default Work Unit\Play_Resume"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="142449055" Language="SFX">
+					<ShortName>Drone_layer_three_02.wav</ShortName>
+					<Path>SFX\Drone_layer_three_02_5EDA3C1D.wem</Path>
+				</File>
+				<File Id="159363823" Language="SFX">
+					<ShortName>Drone_layer_five.wav</ShortName>
+					<Path>SFX\Drone_layer_five_56D34C19.wem</Path>
+				</File>
+				<File Id="252083019" Language="SFX">
+					<ShortName>Drone_layer_two_01.wav</ShortName>
+					<Path>SFX\Drone_layer_two_01_E411DAF8.wem</Path>
+				</File>
+				<File Id="344927456" Language="SFX">
+					<ShortName>drone_layer_four.wav</ShortName>
+					<Path>SFX\drone_layer_four_56D34C19.wem</Path>
+				</File>
 				<File Id="489016350" Language="SFX">
 					<ShortName>UI_Beep_Bend_Short_stereo.wav</ShortName>
 					<Path>SFX\UI_Beep_Bend_Short_stereo_56D34C19.wem</Path>
 				</File>
+				<File Id="578688371" Language="SFX">
+					<ShortName>Drone_layer_two_02.wav</ShortName>
+					<Path>SFX\Drone_layer_two_02_AAA4B23A.wem</Path>
+				</File>
 				<File Id="619622850" Language="SFX">
 					<ShortName>WHOOSH_Air_Super_Fast_RR4_mono.wav</ShortName>
 					<Path>SFX\WHOOSH_Air_Super_Fast_RR4_mono_56D34C19.wem</Path>
+				</File>
+				<File Id="710671698" Language="SFX">
+					<ShortName>Drone_layer_one.wav</ShortName>
+					<Path>SFX\Drone_layer_one_69911DE4.wem</Path>
+				</File>
+				<File Id="766883646" Language="SFX">
+					<ShortName>Drone_layer_three_01.wav</ShortName>
+					<Path>SFX\Drone_layer_three_01_F1DF0C59.wem</Path>
 				</File>
 				<File Id="800148568" Language="SFX">
 					<ShortName>UI_Beep_Single_Clean_stereo.wav</ShortName>
