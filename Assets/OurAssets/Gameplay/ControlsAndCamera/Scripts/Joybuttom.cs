@@ -1,10 +1,11 @@
 ﻿using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class Joybuttom : MonoBehaviour,IPointerUpHandler,IPointerDownHandler {
+public class Joybuttom : MonoBehaviour,IPointerUpHandler,IPointerDownHandler,IPointerClickHandler {
 
     [HideInInspector]
     public bool Pressed;
+    public bool clicked;
     // Use this for initialization
     void Start () {
 		
@@ -23,5 +24,10 @@ public class Joybuttom : MonoBehaviour,IPointerUpHandler,IPointerDownHandler {
     public void OnPointerUp(PointerEventData eventData)
     {
         Pressed = false;
+    }
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        clicked = true;
     }
 }

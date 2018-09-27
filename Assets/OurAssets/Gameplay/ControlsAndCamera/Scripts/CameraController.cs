@@ -31,7 +31,7 @@ public class CameraController : MonoBehaviour
     void FixedUpdate()
     {
         //        FacingBack();
-        points[0] = player.position + offset;
+        points[0] = player.position + offset*0.8f;
         points[4] = player.position + Vector3.up * distance;
 
         points[1] = Vector3.Lerp(points[0], points[4], 0.25f);
