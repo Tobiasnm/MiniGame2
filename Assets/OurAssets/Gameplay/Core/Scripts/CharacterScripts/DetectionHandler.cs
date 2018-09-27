@@ -16,7 +16,7 @@ public class DetectionHandler : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Player")
+        if (other.tag == "Player" && !isFarCollider)
         {
             enemyHandler.hasSeenPlayer = true;
             other.GetComponent<PlayerHandler>().HandleDetection(isDeadly);
