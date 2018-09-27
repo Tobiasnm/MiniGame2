@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <BankMemory>
-	<Timestamp>1538041502</Timestamp>
+<<<<<<< HEAD:MiniGame2_WwiseProject/.cache/Mac/SFX/SBStat/{2C7E2F80-3B7E-4DBF-B79B-254030E67E69}.stat
+	<Timestamp>1538040251</Timestamp>
+	<DataSize>59453200</DataSize>
+	<FileSize>59455244</FileSize>
+	<DecodedSize>59453108</DecodedSize>
+=======
+	<Timestamp>1538058155</Timestamp>
 	<DataSize>23368436</DataSize>
 	<FileSize>23370533</FileSize>
 	<DecodedSize>23368340</DecodedSize>
+>>>>>>> origin/Production:MiniGame2_WwiseProject/.cache/Android/SFX/SBStat/{385B588E-7E03-4B5F-A489-EE1D2B23C69A}.stat
 	<SFXPreFetchSize>0</SFXPreFetchSize>
 	<SFXInMemorySize>23368340</SFXInMemorySize>
 	<SFXMissingFiles>0</SFXMissingFiles>

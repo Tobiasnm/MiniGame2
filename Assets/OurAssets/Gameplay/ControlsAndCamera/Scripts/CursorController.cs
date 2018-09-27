@@ -8,7 +8,7 @@ public class CursorController : MonoBehaviour
     public float maxDistance = 10;
 
     protected Joystick joystick;
-    protected Joybuttom joybuttom;
+    protected Joybutton joybutton;
     private float MinSpeed = 10f;
     public float UpSpeed = 10f;
     private float MaxSpeed = 20f;
@@ -21,7 +21,7 @@ public class CursorController : MonoBehaviour
     void Start()
     {
         joystick = FindObjectOfType<Joystick>();
-        joybuttom = FindObjectOfType<Joybuttom>();
+        joybutton = FindObjectOfType<Joybutton>();
         cursor = this.transform;
         player = GameObject.FindGameObjectWithTag("Player").transform;
 
@@ -44,7 +44,7 @@ public class CursorController : MonoBehaviour
 
     void SpeedControl()
     {
-        if (joybuttom.Pressed)
+        if (joybutton.Pressed)
         {
 
             if (UpSpeed > MaxSpeed)
@@ -56,7 +56,7 @@ public class CursorController : MonoBehaviour
                 UpSpeed += SpeedIncrease * Time.deltaTime;
             }
         }
-        else if (!joybuttom.Pressed)
+        else if (!joybutton.Pressed)
         {
             if (UpSpeed < MinSpeed)
             {

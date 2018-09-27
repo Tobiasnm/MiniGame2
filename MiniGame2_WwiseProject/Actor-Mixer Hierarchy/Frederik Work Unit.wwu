@@ -2,6 +2,10 @@
 <WwiseDocument Type="WorkUnit" ID="{13EEEA71-2979-435A-8F44-172814FC0E97}" SchemaVersion="89">
 	<AudioObjects>
 		<WorkUnit Name="Frederik Work Unit" ID="{13EEEA71-2979-435A-8F44-172814FC0E97}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="4"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
 				<ActorMixer Name="2D" ID="{EF36A27F-DE9C-4A22-87B9-733FBEF5E584}" ShortID="205284708">
 					<ReferenceList>
@@ -1678,6 +1682,7 @@
 					<ChildrenList>
 						<RandomSequenceContainer Name="Button1" ID="{DBC67F11-9019-4B61-B314-7C4F01CE5C87}" ShortID="957415689">
 							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -1697,7 +1702,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B6753272-8AAE-410A-A6BE-F784408B7732}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7B533535-4201-4B94-9675-1FE3D41F10DD}"/>
+									<ObjectRef Name="UI Sound Bus" ID="{C8A9510B-486C-4D39-8AFB-A51FFBAB166A}" WorkUnitID="{7B533535-4201-4B94-9675-1FE3D41F10DD}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1724,6 +1729,7 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Button2" ID="{8F868AE3-2100-4CA1-9F5E-1240B64772E4}" ShortID="981602213">
 							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -1743,7 +1749,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B6753272-8AAE-410A-A6BE-F784408B7732}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7B533535-4201-4B94-9675-1FE3D41F10DD}"/>
+									<ObjectRef Name="UI Sound Bus" ID="{C8A9510B-486C-4D39-8AFB-A51FFBAB166A}" WorkUnitID="{7B533535-4201-4B94-9675-1FE3D41F10DD}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1769,12 +1775,15 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<Sound Name="Resume" ID="{E353C33B-8F84-40FE-B01F-DC5CE3596C2D}" ShortID="455938681">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B6753272-8AAE-410A-A6BE-F784408B7732}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7B533535-4201-4B94-9675-1FE3D41F10DD}"/>
+									<ObjectRef Name="UI Sound Bus" ID="{C8A9510B-486C-4D39-8AFB-A51FFBAB166A}" WorkUnitID="{7B533535-4201-4B94-9675-1FE3D41F10DD}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1790,13 +1799,14 @@
 						<Sound Name="MenuTrack1" ID="{AD27115F-F13F-42D3-A5A1-2DCB944BD0FD}" ShortID="273500088">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B6753272-8AAE-410A-A6BE-F784408B7732}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7B533535-4201-4B94-9675-1FE3D41F10DD}"/>
+									<ObjectRef Name="Music Volume Bus" ID="{37BE4937-1C63-4B3A-966B-8DE72B0A0EE9}" WorkUnitID="{7B533535-4201-4B94-9675-1FE3D41F10DD}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1813,6 +1823,25 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="MenuTrack1" ID="{13C9A80E-667D-4BA4-9006-1DB78FFB2F3A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MiniGame2_INtroSoundscape" ID="{EFBB70CB-4D62-4A76-8B09-8B85DAED0FF7}" ShortID="405681179">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B6753272-8AAE-410A-A6BE-F784408B7732}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7B533535-4201-4B94-9675-1FE3D41F10DD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MiniGame2_INtroSoundscape" ID="{710C4670-1C9E-45EE-A42D-58EACB3C0A67}" ShortID="199205389">
+									<Language>SFX</Language>
+									<AudioFile>MiniGame2_INtroSoundscape.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MiniGame2_INtroSoundscape" ID="{710C4670-1C9E-45EE-A42D-58EACB3C0A67}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

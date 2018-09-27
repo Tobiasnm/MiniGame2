@@ -51,7 +51,7 @@ GameObject:
   - component: {fileID: 4212169983220456}
   - component: {fileID: 33900848843820272}
   - component: {fileID: 23079986052937784}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: circleOfAwareness
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -143,7 +143,7 @@ GameObject:
   - component: {fileID: 4755738668787906}
   - component: {fileID: 33452761530021708}
   - component: {fileID: 23348600346503050}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: coneOfVision
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -300,7 +300,7 @@ GameObject:
   - component: {fileID: 4014486712967168}
   - component: {fileID: 65584471048021068}
   - component: {fileID: 114721753326841134}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: FrontCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -540,7 +540,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4389874293393772}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: StealthDetectionColliders
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -588,7 +588,7 @@ GameObject:
   - component: {fileID: 4118334208598704}
   - component: {fileID: 33971894925797556}
   - component: {fileID: 23893707689256956}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: circleOfAwareness
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -605,7 +605,7 @@ GameObject:
   - component: {fileID: 4548749286331800}
   - component: {fileID: 135804503804198030}
   - component: {fileID: 114928377884597398}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: CloseCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -926,7 +926,7 @@ GameObject:
   - component: {fileID: 4106115952101972}
   - component: {fileID: 135552578634099638}
   - component: {fileID: 114571123375148202}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: FarCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1023,7 +1023,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1988359323309440}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 21.32632, y: 1.7771934, z: 12.440353}
   m_Children:
   - {fileID: 4212169983220456}
@@ -1402,7 +1402,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1498494080767750}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.43, z: 0}
+  m_LocalPosition: {x: 0, y: 0.2, z: 0}
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_Children:
   - {fileID: 4548749286331800}
@@ -1503,7 +1503,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1545873284334294}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.89, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.993616, y: 0.993616, z: 0.993616}
   m_Children:
   - {fileID: 4118334208598704}
@@ -1787,7 +1787,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: c7db326c55207144789a7e5cffa6c9f7, type: 2}
+  - {fileID: 2100000, guid: cbb693b50304ec24fa081b12e5c32d04, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1998,7 +1998,6 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   player: {fileID: 0}
-  hasHeardPlayer: 0
   hasSeenPlayer: 0
   barkDetectionLength: 5
 --- !u!114 &114347962797131294
@@ -2029,6 +2028,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDeadly: 0
+  isFarCollider: 1
 --- !u!114 &114721753326841134
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2041,6 +2041,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDeadly: 0
+  isFarCollider: 0
 --- !u!114 &114914359895941800
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2067,7 +2068,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee5abf0361811ca4dbe4eb347b898d55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isDeadly: 0
+  isDeadly: 1
+  isFarCollider: 0
 --- !u!135 &135552578634099638
 SphereCollider:
   m_ObjectHideFlags: 1

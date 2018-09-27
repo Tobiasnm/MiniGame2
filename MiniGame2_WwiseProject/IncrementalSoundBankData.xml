@@ -3,16 +3,26 @@
 	<Platform GUID="{8AD9F681-2C42-481F-9B67-BF65D0D57318}">
 		<Banks>
 			<Language ID="393239870">
+<<<<<<< HEAD
 				<File Name="Ambiance" Hash="1668980998" Timestamp="1538040248"/>
 				<File Name="Character" Hash="2096995443" Timestamp="1538041502"/>
 				<File Name="Init" Hash="146210430" Timestamp="1538040248"/>
 				<File Name="Rain" Hash="1092370470" Timestamp="1538041502"/>
 				<File Name="Soldier" Hash="2150982646" Timestamp="1538040248"/>
 				<File Name="UI" Hash="2351063375" Timestamp="1538041451"/>
+=======
+				<File Name="Actions" Hash="2085519339" Timestamp="1538058154"/>
+				<File Name="Ambiences" Hash="713868773" Timestamp="1538058154"/>
+				<File Name="Init" Hash="667876991" Timestamp="1538058155"/>
+				<File Name="Rain" Hash="4105034890" Timestamp="1538058155"/>
+				<File Name="Soldier" Hash="2991509712" Timestamp="1538058155"/>
+				<File Name="UI" Hash="741357935" Timestamp="1538058155"/>
+>>>>>>> origin/Production
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
+<<<<<<< HEAD
 				<File Name="" Hash="1845092475" Timestamp="1538041502"/>
 			</Language>
 		</XMLInfo>
@@ -48,6 +58,9 @@
 		<XMLInfo>
 			<Language ID="-1">
 				<File Name="" Hash="642701829" Timestamp="1538041451"/>
+=======
+				<File Name="" Hash="3190556029" Timestamp="1538058155"/>
+>>>>>>> origin/Production
 			</Language>
 		</XMLInfo>
 	</Platform>

@@ -19,6 +19,7 @@
 						<ObjectRef Name="Play_MenuTrack1" ID="{F62D028B-DE04-4549-BC70-3F31E98BC30C}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Button2" ID="{D4D67533-49B3-46E4-8AAD-257686A29DCC}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Button1" ID="{88392986-3D57-4937-83AE-5D068B1A6524}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="MiniGame2_INtroSoundscape" ID="{EFBB70CB-4D62-4A76-8B09-8B85DAED0FF7}" WorkUnitID="{13EEEA71-2979-435A-8F44-172814FC0E97}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
@@ -26,6 +27,20 @@
 				<SoundBank Name="Rain" ID="{385B588E-7E03-4B5F-A489-EE1D2B23C69A}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Rain" ID="{608C3DF7-7EDA-42B3-B235-2612985BFD7E}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Ambiences" ID="{2226EC70-ABBC-41CF-AF9E-A174294F2D36}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Military_Base_Ambience" ID="{C702E52B-B539-407C-B292-1E604BB51BBA}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Actions" ID="{FDCABFCB-9FEC-46C4-8AAC-8DB2B0E0D25F}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Detected" ID="{3C28F38F-7F46-4464-AB2D-BAEF1EDF3862}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

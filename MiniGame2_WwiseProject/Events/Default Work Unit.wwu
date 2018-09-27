@@ -157,6 +157,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_MiniGame2_INtroSoundscape" ID="{C742A1C9-1638-47A2-83FF-DB330A6AD152}">
+					<ChildrenList>
+						<Action Name="" ID="{BD8A5750-F998-4475-B5A8-81C8EDD46137}" ShortID="61721640">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MiniGame2_INtroSoundscape" ID="{EFBB70CB-4D62-4A76-8B09-8B85DAED0FF7}" WorkUnitID="{13EEEA71-2979-435A-8F44-172814FC0E97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
