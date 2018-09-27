@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class PlayerController : MonoBehaviour
+public class Controller : MonoBehaviour
 {
     public float SpeedControl = 10f;
     Touch touch;
@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
 
     // Bit shift the index of the layer (9) to get a bit mask
     int layerMask = 1 << 9;
-
+    
     private bool canMove = true;
 
     public bool CanMove
@@ -70,22 +70,22 @@ public class PlayerController : MonoBehaviour
         //if (!canMove)
         //    return;
 
-#if UNITY_EDITOR
+//#if UNITY_EDITOR
 
-        if (Input.GetMouseButtonDown(0))
-        {
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            if (Physics.Raycast(ray.origin, ray.direction, out hitInfo, layerMask))
-                Agent.destination = hitInfo.point;
-        }
+//        if (Input.GetMouseButtonDown(0))
+//        {
+//            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+//            if (Physics.Raycast(ray.origin, ray.direction, out hitInfo, layerMask))
+//                Agent.destination = hitInfo.point;
+//        }
 
-#endif
+//#endif
 
 
 
 
         // Track a single touch as a direction control.
-        if (Input.touchCount > 0)
+        if (Input.touches.Length >0)
         {
             Touch touch = Input.GetTouch(0);
             // Handle finger movements based on TouchPhase
@@ -100,16 +100,17 @@ public class PlayerController : MonoBehaviour
                 //Determine if the touch is a moving touch
                 case TouchPhase.Moved:
                     // Determine direction by comparing the current touch position with the initial one
-                    direction = touch.position - startPos;
+                    direction = touch.position -startPos;
                     direction = Rotate(direction, 360 - angle);
-                    break;
+                        break;
 
                 case TouchPhase.Ended:
-                    direction = new Vector2(0, 0);
+                        direction = new Vector2(0,0);
                     break;
             }
             transform.position = (player.transform.position + new Vector3(direction.x, 0, direction.y).normalized * SpeedControl);
         }
+      
 
 
     }
