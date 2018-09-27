@@ -241,154 +241,41 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 114616351791884234, guid: 3be7e458ba99ba34c935e2bb700de4b3,
-        type: 2}
-      propertyPath: story.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4397235617103452, guid: 3be7e458ba99ba34c935e2bb700de4b3, type: 2}
+    - target: {fileID: 4398673205245080, guid: 0080c0361987ff842bf18a950342ebc6, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4397235617103452, guid: 3be7e458ba99ba34c935e2bb700de4b3, type: 2}
+    - target: {fileID: 4398673205245080, guid: 0080c0361987ff842bf18a950342ebc6, type: 2}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4397235617103452, guid: 3be7e458ba99ba34c935e2bb700de4b3, type: 2}
+    - target: {fileID: 4398673205245080, guid: 0080c0361987ff842bf18a950342ebc6, type: 2}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4397235617103452, guid: 3be7e458ba99ba34c935e2bb700de4b3, type: 2}
+    - target: {fileID: 4398673205245080, guid: 0080c0361987ff842bf18a950342ebc6, type: 2}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4397235617103452, guid: 3be7e458ba99ba34c935e2bb700de4b3, type: 2}
+    - target: {fileID: 4398673205245080, guid: 0080c0361987ff842bf18a950342ebc6, type: 2}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4397235617103452, guid: 3be7e458ba99ba34c935e2bb700de4b3, type: 2}
+    - target: {fileID: 4398673205245080, guid: 0080c0361987ff842bf18a950342ebc6, type: 2}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4397235617103452, guid: 3be7e458ba99ba34c935e2bb700de4b3, type: 2}
+    - target: {fileID: 4398673205245080, guid: 0080c0361987ff842bf18a950342ebc6, type: 2}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4397235617103452, guid: 3be7e458ba99ba34c935e2bb700de4b3, type: 2}
+    - target: {fileID: 4398673205245080, guid: 0080c0361987ff842bf18a950342ebc6, type: 2}
       propertyPath: m_RootOrder
       value: 9
       objectReference: {fileID: 0}
-    - target: {fileID: 114616351791884234, guid: 3be7e458ba99ba34c935e2bb700de4b3,
-        type: 2}
-      propertyPath: isWinCondition
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1001755725800534, guid: 3be7e458ba99ba34c935e2bb700de4b3, type: 2}
-      propertyPath: m_Name
-      value: introStory
-      objectReference: {fileID: 0}
-    - target: {fileID: 4209294701950460, guid: 3be7e458ba99ba34c935e2bb700de4b3, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 828.26
-      objectReference: {fileID: 0}
-    - target: {fileID: 4209294701950460, guid: 3be7e458ba99ba34c935e2bb700de4b3, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -78.14
-      objectReference: {fileID: 0}
-    - target: {fileID: 114616351791884234, guid: 3be7e458ba99ba34c935e2bb700de4b3,
-        type: 2}
-      propertyPath: story.Array.data[1]
-      value: 'Sina: umm?'
-      objectReference: {fileID: 0}
-    - target: {fileID: 114616351791884234, guid: 3be7e458ba99ba34c935e2bb700de4b3,
-        type: 2}
-      propertyPath: story.Array.data[2]
-      value: 'Ruben: post-apocalyptic?'
-      objectReference: {fileID: 0}
-    - target: {fileID: 114616351791884234, guid: 3be7e458ba99ba34c935e2bb700de4b3,
-        type: 2}
-      propertyPath: story.Array.data[3]
-      value: aw yeah!
-      objectReference: {fileID: 0}
-    - target: {fileID: 114616351791884234, guid: 3be7e458ba99ba34c935e2bb700de4b3,
-        type: 2}
-      propertyPath: story.Array.data[0]
-      value: 'Ruben: how is it looking'
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3be7e458ba99ba34c935e2bb700de4b3, type: 2}
+  m_SourcePrefab: {fileID: 100100000, guid: 0080c0361987ff842bf18a950342ebc6, type: 2}
   m_IsPrefabAsset: 0
---- !u!4 &180031087 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4397235617103452, guid: 3be7e458ba99ba34c935e2bb700de4b3,
-    type: 2}
-  m_PrefabInternal: {fileID: 180031086}
---- !u!1 &364578192
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1001755725800534, guid: 3be7e458ba99ba34c935e2bb700de4b3,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 364578193}
-  - component: {fileID: 364578195}
-  - component: {fileID: 364578194}
-  m_Layer: 0
-  m_Name: insideStory
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &364578193
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4209294701950460, guid: 3be7e458ba99ba34c935e2bb700de4b3,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 364578192}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 831.1, y: 97.43, z: 43.91}
-  m_LocalScale: {x: 4.17155, y: 4.17155, z: 4.17155}
-  m_Children: []
-  m_Father: {fileID: 180031087}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &364578194
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 114616351791884234, guid: 3be7e458ba99ba34c935e2bb700de4b3,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 364578192}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4ffa60055d563644bdc1fe9bbe3b371, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  causeRain: 0
-  doSoundInSeconds: 1
-  startRainInSeconds: 10
-  isWinCondition: 0
-  story:
-  - 'Ruben: ya okay?'
-  - 'Sina: luckily, yeah!'
-  - 'Ruben: NOICE'
-  nextLevelName: 
---- !u!65 &364578195
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 65216243665856344, guid: 3be7e458ba99ba34c935e2bb700de4b3,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 364578192}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &384823089 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4450637752532512, guid: 31bf73073e377664daa3cf03c9426c3b,
@@ -525,70 +412,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   profile: {fileID: 0}
---- !u!1 &860297617
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1001755725800534, guid: 3be7e458ba99ba34c935e2bb700de4b3,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 860297618}
-  - component: {fileID: 860297620}
-  - component: {fileID: 860297619}
-  m_Layer: 0
-  m_Name: endStory
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &860297618
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4209294701950460, guid: 3be7e458ba99ba34c935e2bb700de4b3,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 860297617}
-  m_LocalRotation: {x: -0, y: 0.25601962, z: -0, w: 0.96667165}
-  m_LocalPosition: {x: 641.5, y: 97.43, z: 206.26}
-  m_LocalScale: {x: 4.17155, y: 4.17155, z: 4.17155}
-  m_Children: []
-  m_Father: {fileID: 180031087}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 29.668001, z: 0}
---- !u!114 &860297619
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 114616351791884234, guid: 3be7e458ba99ba34c935e2bb700de4b3,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 860297617}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4ffa60055d563644bdc1fe9bbe3b371, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  causeRain: 0
-  doSoundInSeconds: 1
-  startRainInSeconds: 10
-  isWinCondition: 1
-  story:
-  - Hasta la vista, sista <3
-  nextLevelName: level2
---- !u!65 &860297620
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 65216243665856344, guid: 3be7e458ba99ba34c935e2bb700de4b3,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 860297617}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &865602471
 GameObject:
   m_ObjectHideFlags: 0
@@ -854,72 +677,6 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f92ee59ed0781a4ab9c9d2b92ffe5ca, type: 2}
   m_IsPrefabAsset: 0
---- !u!1 &1185018643
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1001755725800534, guid: 3be7e458ba99ba34c935e2bb700de4b3,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1185018644}
-  - component: {fileID: 1185018646}
-  - component: {fileID: 1185018645}
-  m_Layer: 0
-  m_Name: firstRainStory
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1185018644
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4209294701950460, guid: 3be7e458ba99ba34c935e2bb700de4b3,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1185018643}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 815.86, y: 97.43, z: -5.96}
-  m_LocalScale: {x: 136.96245, y: 4.17155, z: 4.17155}
-  m_Children: []
-  m_Father: {fileID: 180031087}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1185018645
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 114616351791884234, guid: 3be7e458ba99ba34c935e2bb700de4b3,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1185018643}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4ffa60055d563644bdc1fe9bbe3b371, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  causeRain: 1
-  doSoundInSeconds: 1
-  startRainInSeconds: 20
-  isWinCondition: 0
-  story:
-  - 'Ruben: Oh no, rain! seek shelter'
-  - 'Sina: shit, I will'
-  - 'Ruben: good luck'
-  nextLevelName: 
---- !u!65 &1185018646
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 65216243665856344, guid: 3be7e458ba99ba34c935e2bb700de4b3,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1185018643}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1257033758
 GameObject:
   m_ObjectHideFlags: 0
@@ -1297,71 +1054,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1 &1375136519
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1001755725800534, guid: 3be7e458ba99ba34c935e2bb700de4b3,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1375136520}
-  - component: {fileID: 1375136522}
-  - component: {fileID: 1375136521}
-  m_Layer: 0
-  m_Name: objectiveStory
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1375136520
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4209294701950460, guid: 3be7e458ba99ba34c935e2bb700de4b3,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1375136519}
-  m_LocalRotation: {x: -0, y: 0.13999969, z: -0, w: 0.9901516}
-  m_LocalPosition: {x: 694.7, y: 97.43, z: 161.6}
-  m_LocalScale: {x: 4.17155, y: 4.17155, z: 102.77193}
-  m_Children: []
-  m_Father: {fileID: 180031087}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 16.096, z: 0}
---- !u!114 &1375136521
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 114616351791884234, guid: 3be7e458ba99ba34c935e2bb700de4b3,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1375136519}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4ffa60055d563644bdc1fe9bbe3b371, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  causeRain: 1
-  doSoundInSeconds: 10
-  startRainInSeconds: 30
-  isWinCondition: 0
-  story:
-  - "Sina: aw shed, that's the entr\xE9 to the basecamp"
-  - 'Ruben: double noice, get in, be careful'
-  nextLevelName: 
---- !u!65 &1375136522
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 65216243665856344, guid: 3be7e458ba99ba34c935e2bb700de4b3,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1375136519}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1393870541
 Prefab:
   m_ObjectHideFlags: 0
