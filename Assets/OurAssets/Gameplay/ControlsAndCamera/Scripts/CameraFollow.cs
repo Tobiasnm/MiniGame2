@@ -39,7 +39,7 @@ public class CameraFollow : MonoBehaviour
         rot = rotAngle * Mathf.PI * 2 / 360;
 
 
-        targetPos = new Vector3(player.position.x,player.position.y,player.position.z) ;//Target position
+        targetPos = new Vector3(player.position.x,player.position.y,player.position.z+3f) ;//Target position
         Vector3 CameraPos;//camera position
         float height = distance * Mathf.Sin(rot);//hight of camera
         float d = distance * Mathf.Cos(rot);
@@ -48,7 +48,7 @@ public class CameraFollow : MonoBehaviour
         CameraPos.z = targetPos.z + d * Mathf.Sin(roll);
 
         transform.position = CameraPos;//update position
-        transform.LookAt(player);
+        transform.LookAt(targetPos);
 
     }
     void zoomIn()
