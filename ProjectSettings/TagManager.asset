@@ -10,6 +10,8 @@ TagManager:
   - ChapterButton
   - Language
   - Cursor
+  - Enemy
+  - Obstacle
   layers:
   - Default
   - TransparentFX
