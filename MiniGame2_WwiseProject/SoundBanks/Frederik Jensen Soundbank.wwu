@@ -46,6 +46,15 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="MilitaryBase" ID="{52AD9B0B-C6AC-4B80-8F5D-2B5A42A0D4C0}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Idle_Truck" ID="{054F8475-DC30-44AB-8642-CBC5B18C6B8F}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Military_Base_Ambience" ID="{E3CE51B0-2BFC-4762-A648-6A42C7ED6476}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Tent_Noises" ID="{9C06EFE7-7B83-4A66-8E9F-730F73C9A684}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>
