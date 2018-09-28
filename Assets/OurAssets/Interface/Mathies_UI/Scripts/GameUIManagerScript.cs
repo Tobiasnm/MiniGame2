@@ -25,22 +25,16 @@ public class GameUIManagerScript : MonoBehaviour {
     private int currentShownHintIndex;
     private Text indexText;
 
-    //Dialogue Array
-    public string[] dialogues;
-    public float[] timeLimits;
-    private bool dialogueEventIsRunning;
-    private int dialogueIndex;
-    private GameObject subOne;
-    private GameObject subTwo;
-
     private Animator animator;
 
     private SubtitlesScript subtitlesScript;
+    private SettingsScript settingsScript;
 
 	// Use this for initialization
 	void Start () {
         animator = GetComponent<Animator>();
         subtitlesScript = GetComponent<SubtitlesScript>();
+        settingsScript = GetComponent<SettingsScript>();
         GameObject[] pauseObjects = GameObject.FindGameObjectsWithTag("Pause");
         for (int i=0; i<pauseObjects.Length; i++)
         {
@@ -90,14 +84,12 @@ public class GameUIManagerScript : MonoBehaviour {
         }
         
         currentShownHintIndex = 0;
-        dialogueIndex = 0;
         if (hintTexts != null && hintTexts.Length > 0) hintPanelText.text = hintTexts[0];
         player = GameObject.FindGameObjectWithTag("Player");
 
         hintUI.SetActive(false);
         settingsUI.SetActive(false);
         pauseMenuUI.SetActive(false);
-        walkieTalkieUI.SetActive(false);
     }
 	
 	// Update is called once per frame
@@ -121,6 +113,7 @@ public class GameUIManagerScript : MonoBehaviour {
                 SetChildrenActive(0, false);
                 SetChildrenActive(1, false);
                 settingsUI.SetActive(true);
+                if (settingsScript.GetLanguageButton() == null) settingsScript.SetLanguageButton(GameObject.FindGameObjectWithTag("LanguageButton"));
                 break;
             case 2:
                 hintUI.SetActive(true);
@@ -142,7 +135,7 @@ public class GameUIManagerScript : MonoBehaviour {
     public void PauseGame()
     {
         SetChildrenActive(0, true);
-        subtitlesScript.ResetSubtitles();
+        if (subtitlesScript.startAnimation) subtitlesScript.ResetSubtitles();
         animator.SetTrigger("pause_fade");
     }
 

@@ -3558,6 +3558,34 @@
 												<ActiveSource Name="DeathSound" ID="{980017D6-8E07-4B2A-8C7C-9796D145321B}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="DeathMusic" ID="{F19C6833-BA41-4168-9AEB-6E0F248B1DDC}" ShortID="759181323">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B6753272-8AAE-410A-A6BE-F784408B7732}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7B533535-4201-4B94-9675-1FE3D41F10DD}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="DeathMusic" ID="{B69B9D44-8DE7-4BE1-A455-F7934767F685}" ShortID="700939131">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="2667.05789765512"/>
+														<Property Name="LoopBegin" Type="Real64" Value="1.33352894882756"/>
+														<Property Name="LoopEnd" Type="Real64" Value="54.8722467462007"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>DeathMusic.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="DeathMusic" ID="{B69B9D44-8DE7-4BE1-A455-F7934767F685}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</Folder>
 							</ChildrenList>

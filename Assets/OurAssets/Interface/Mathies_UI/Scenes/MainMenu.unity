@@ -323,6 +323,9 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 1258379653827536, guid: d5a32926f2a94e34384ee2ef66799029, type: 2}
+      propertyPath: m_TagString
+      value: LanguageButton
     - target: {fileID: 114721570185786816, guid: d5a32926f2a94e34384ee2ef66799029,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument

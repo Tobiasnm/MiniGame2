@@ -23,7 +23,6 @@ public class SubtitlesScript : MonoBehaviour {
         timer = 0;
         animator = GetComponent<Animator>();
         GameObject[] subObjects = GameObject.FindGameObjectsWithTag("Language");
-
         for (int i = 0; i < subObjects.Length; i++) {
             if (subObjects[i] != null && subObjects[i].name == "SubOne") subOne = subObjects[i];
             if (subObjects[i] != null && subObjects[i].name == "SubTwo") subTwo = subObjects[i];
@@ -75,6 +74,7 @@ public class SubtitlesScript : MonoBehaviour {
     {
         subIndex = 0;
         timer = 0f;
+        startAnimation = false;
         animator.ResetTrigger("enter_subtitle");
         animator.ResetTrigger("next_subtitle");
         animator.ResetTrigger("next_next_subtitle");
