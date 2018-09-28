@@ -67,7 +67,7 @@ public class HandleRain : MonoBehaviour
         if (isRaining)
         {
             isRaining = false;
-            Invoke("stopRain", rainDuration);
+            Invoke("StopRain", rainDuration);
         }
 
     }

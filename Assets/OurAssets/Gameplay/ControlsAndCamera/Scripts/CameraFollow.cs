@@ -7,37 +7,36 @@ public class CameraFollow : MonoBehaviour
 
     public float rollAngle =-79.7f;//XZ
     public float rotAngle = 45.4f;//YZ
-
     public float distance = 12.6f;//the distance from camera and player
 
     private Transform player;
     private float roll;//XZ
-
-    private float rot;//YZ
-    private Vector3 ZoomInCamPos;
+    private float rot;//YZ平
     private Vector3 targetPos;
-    public Vector3 ZoomPos;
-
+    public float ZoomInrotAngleValue = 20f;
+    public float ZoomOutrotAngleValue = 5f;
+    public float ZoomIndistanceValue = 50f;
+    public float ZoomOutdistanceValue = 20f;
 
     void Start()
     {
         player = GameObject.FindWithTag("Player").transform;
     }
-
-    // Update is called once per frame
-    private void FixedUpdate()
-    {
-        ZoomIn();
-    }
     private void LateUpdate()
     {
-        UpdatePosition();
+        UpdatePosition(); 
+        Zooming();
     }
+
+    private void FixedUpdate()
+    {
+
+    }
+
     private void UpdatePosition()
     {
         roll = rollAngle * Mathf.PI * 2 / 360;
         rot = rotAngle * Mathf.PI * 2 / 360;
-
 
         targetPos = new Vector3(player.position.x,player.position.y,player.position.z+3f) ;//Target position
         Vector3 CameraPos;//camera position
@@ -51,15 +50,40 @@ public class CameraFollow : MonoBehaviour
         transform.LookAt(targetPos);
 
     }
-    void ZoomIn()
+
+     void Zooming()
     {
-        ZoomInCamPos = player.position + ZoomPos;
-        if (Input.touchCount == 2)
+        //if (Input.GetMouseButton(0))
+        //{
+        //    transform.position = Vector3.Lerp(transform.position, ZoomIn, Time.deltaTime * 3);
+        //    Debug.Log("zoomIn");
+        //}
+
+        //if(Input.GetMouseButton(1))
+        //{
+        //    transform.position = Vector3.Lerp(transform.position, ZoomOut, Time.deltaTime * 3);
+        //    Debug.Log("zoomOut");
+        //}
+        if(Input.GetMouseButton(0))
         {
-            transform.position = Vector3.Lerp(transform.position, ZoomInCamPos, Time.deltaTime * 3);
+            StartCoroutine(ChangeRotAngleValue(rotAngle, 20f, 1f));
+            StartCoroutine(ChangeDistanceValue(distance, 5f, 1f));
+            Debug.Log("zoomIn");
+        }
+        if(Input.GetMouseButton(1))
+        {
+            StartCoroutine(ChangeRotAngleValue(rotAngle, 50f, 1f));
+            StartCoroutine(ChangeDistanceValue(distance, 20f, 1f));
+        }
+        if(Input.GetMouseButton(2))
+        {
+            StartCoroutine(ChangeRotAngleValue(rotAngle, 45.4f, 1f));
+            StartCoroutine(ChangeDistanceValue(distance, 12.6f, 1f));
+
         }
 
     }
+
     private void OnDrawGizmos()
     {
         if (player)
@@ -68,5 +92,28 @@ public class CameraFollow : MonoBehaviour
             Gizmos.DrawSphere(targetPos, 0.5f); //draw a solid sphere with player position and 1.5f radius.
         }
         Gizmos.DrawSphere(transform.position, 0.5f); // draw a solid sphere with camera position.
+    }
+
+    IEnumerator ChangeRotAngleValue(float v_start, float v_end, float duration)
+    {
+        float elapsed = 0.0f;
+        while (elapsed < duration)
+        {
+            rotAngle = Mathf.Lerp(v_start, v_end, elapsed / duration);
+            elapsed += Time.deltaTime;
+            yield return null;
+        }
+        rotAngle = v_end;
+    }
+    IEnumerator ChangeDistanceValue(float v_start, float v_end, float duration)
+    {
+        float elapsed = 0.0f;
+        while (elapsed < duration)
+        {
+            distance = Mathf.Lerp(v_start, v_end, elapsed / duration);
+            elapsed += Time.deltaTime;
+            yield return null;
+        }
+        distance = v_end;
     }
 }
