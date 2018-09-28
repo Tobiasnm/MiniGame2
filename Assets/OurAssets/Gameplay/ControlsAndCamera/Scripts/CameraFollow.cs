@@ -13,7 +13,7 @@ public class CameraFollow : MonoBehaviour
     private Transform player;
     private float roll;//XZ
 
-    private float rot;//YZ平
+    private float rot;//YZ
     private Vector3 ZoomInCamPos;
     private Vector3 targetPos;
     public Vector3 ZoomPos;
@@ -27,7 +27,7 @@ public class CameraFollow : MonoBehaviour
     // Update is called once per frame
     private void FixedUpdate()
     {
-        zoomIn();
+        ZoomIn();
     }
     private void LateUpdate()
     {
@@ -51,7 +51,7 @@ public class CameraFollow : MonoBehaviour
         transform.LookAt(targetPos);
 
     }
-    void zoomIn()
+    void ZoomIn()
     {
         ZoomInCamPos = player.position + ZoomPos;
         if (Input.touchCount == 2)
