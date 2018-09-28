@@ -46,7 +46,7 @@ public class SettingsScript : MonoBehaviour {
 
     public void SetMaster(float volume)
     {
-        AkSoundEngine.SetRTPCValue("MasterVolume", volume);
+        AkSoundEngine.SetRTPCValue("UIVolume", volume);
     }
 
     public void ChangeLangauge()

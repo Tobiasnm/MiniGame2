@@ -47,6 +47,7 @@ namespace AK
         static const AkUniqueID MASTERVOLUME = 2918011349U;
         static const AkUniqueID MUSICVOLUME = 2346531308U;
         static const AkUniqueID RAININTENSITY = 1866329414U;
+        static const AkUniqueID UIVOLUME = 3415057477U;
     } // namespace GAME_PARAMETERS
 
     namespace BANKS

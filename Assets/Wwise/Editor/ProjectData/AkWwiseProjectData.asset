@@ -24,8 +24,8 @@ MonoBehaviour:
     List: []
   AuxBusWwu:
   - Guid: '{7B533535-4201-4B94-9675-1FE3D41F10DD}'
-    m_lastTimePart2: -1999231863
-    m_lastTimePsrt1: -467231007
+    m_lastTimePart2: -1999231700
+    m_lastTimePsrt1: -1374630814
     ParentPhysicalPath: 
     PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     List: []
@@ -485,8 +485,8 @@ MonoBehaviour:
     PhysicalPath: Game Parameters\Default Work Unit.wwu
     List: []
   - Guid: '{2A6262A5-341F-4D32-A0BB-76F90CF27011}'
-    m_lastTimePart2: -1999231863
-    m_lastTimePsrt1: -474422037
+    m_lastTimePart2: -1999231700
+    m_lastTimePsrt1: -1374670546
     ParentPhysicalPath: 
     PhysicalPath: Game Parameters\Frederik Work Unit(GP).wwu
     List:
@@ -520,6 +520,17 @@ MonoBehaviour:
       - ElementName: Frederik Work Unit(GP)
         ObjectType: 12
       - ElementName: RainIntensity
+        ObjectType: 13
+    - Guid: 0d9c7490b12349449dec4a2403ecab2f
+      ID: -879909819
+      Name: UIVolume
+      Path: Frederik Work Unit(GP)\Volume\UIVolume
+      PathAndIcons:
+      - ElementName: Frederik Work Unit(GP)
+        ObjectType: 12
+      - ElementName: Volume
+        ObjectType: 4
+      - ElementName: UIVolume
         ObjectType: 13
   StateWwu:
   - Guid: '{6262B9FF-1619-4BA7-9A20-6F88731B5C4C}'
