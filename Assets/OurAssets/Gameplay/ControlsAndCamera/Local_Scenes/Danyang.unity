@@ -402,7 +402,7 @@ MonoBehaviour:
   rollAngle: -79.7
   rotAngle: 45.4
   distance: 12.6
-  ZoomPos: {x: 0, y: 0, z: 0}
+  ZoomPos: {x: 0, y: 0, z: 5}
 --- !u!114 &611569109
 MonoBehaviour:
   m_ObjectHideFlags: 0

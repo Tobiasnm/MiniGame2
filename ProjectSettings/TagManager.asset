@@ -27,19 +27,13 @@ TagManager:
   - 
   - PostProcessing
   - MenuPanel
-  - 
-  - IgnoreCollisions
   - Terrain
+  - IgnoreCollisions
+  - Obstacles
   - Player
   - Obstacles
   - IgnoreCollisions
   - Terrain
-  - 
-  - Obstacles
-  - 
-  - 
-  - 
-  - 
   - 
   - 
   - 
