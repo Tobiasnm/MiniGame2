@@ -60,7 +60,7 @@ public class TriggerStory : MonoBehaviour
 
             }
 
-            if (uiManager != null) uiManager.ShowWalkieTalkieText(story[0]);
+            if (uiManager != null) uiManager.ShowWalkieTalkieText();
             //if (focusTarget)
             //    cameraHandler.target = focusTarget;
             foreach (var text in story)

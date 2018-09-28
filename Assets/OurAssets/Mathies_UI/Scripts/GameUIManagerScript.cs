@@ -35,9 +35,12 @@ public class GameUIManagerScript : MonoBehaviour {
 
     private Animator animator;
 
+    private SubtitlesScript subtitlesScript;
+
 	// Use this for initialization
 	void Start () {
         animator = GetComponent<Animator>();
+        subtitlesScript = GetComponent<SubtitlesScript>();
         GameObject[] pauseObjects = GameObject.FindGameObjectsWithTag("Pause");
         for (int i=0; i<pauseObjects.Length; i++)
         {
@@ -102,14 +105,6 @@ public class GameUIManagerScript : MonoBehaviour {
         indexText.text = (currentShownHintIndex + 1) + " / " + hintTexts.Length;
     }
 
-    void FixedUpdate()
-    {
-        if (dialogueEventIsRunning)
-        {
-
-        }
-    }
-
     public void SetPanelActive(int panel)
     {
         switch (panel)
@@ -117,24 +112,28 @@ public class GameUIManagerScript : MonoBehaviour {
             case 0:
                 hintUI.SetActive(false);
                 settingsUI.SetActive(false);
-                SetChildrenActive(true);
+                SetChildrenActive(0, true);
+                SetChildrenActive(1, false);
                 currentShownHintIndex = 0;
                 hintPanelText.text = hintTexts[0];
                 break;
             case 1:
-                SetChildrenActive(false);
+                SetChildrenActive(0, false);
+                SetChildrenActive(1, false);
                 settingsUI.SetActive(true);
                 break;
             case 2:
                 hintUI.SetActive(true);
-                SetChildrenActive(false);
+                walkieTalkieUI.SetActive(false);
+                SetChildrenActive(0, false);
                 break;
         }
     }
 
-    private void SetChildrenActive(bool active)
+    private void SetChildrenActive(int index, bool active)
     {
-        foreach (Transform child in pauseMenuUI.transform)
+        GameObject[] go = { pauseMenuUI, walkieTalkieUI };
+        foreach (Transform child in go[index].transform)
         {
             child.gameObject.SetActive(active);
         }
@@ -142,6 +141,8 @@ public class GameUIManagerScript : MonoBehaviour {
 
     public void PauseGame()
     {
+        SetChildrenActive(0, true);
+        subtitlesScript.ResetSubtitles();
         animator.SetTrigger("pause_fade");
     }
 
@@ -152,8 +153,9 @@ public class GameUIManagerScript : MonoBehaviour {
 
     public void ResumeGame()
     {
+        SetChildrenActive(1, false);
         Time.timeScale = 1f;
-        animator.SetTrigger("pause_fade");
+        animator.SetTrigger("pause_disable");
     }
 
     public void PrevHint()
@@ -194,14 +196,17 @@ public class GameUIManagerScript : MonoBehaviour {
         walkieTalkieUI.GetComponentInChildren<Button>().GetComponentInChildren<Text>().text = hintTexts[hintIndex];
     }
 
-    public void ShowWalkieTalkieText(string text)
+    public void ShowWalkieTalkieText()
     {
-        walkieTalkieUI.SetActive(true);
-        walkieTalkieUI.GetComponentInChildren<Button>().GetComponentInChildren<Text>().text = text;
+        SetChildrenActive(1, true);
+        SetChildrenActive(0, false);
+        subtitlesScript.startAnimation = true;
+        animator.SetTrigger("enter_subtitle");
     }
 
     public void RemoveWalkieTalkie()
     {
+        subtitlesScript.ResetSubtitles();
         walkieTalkieUI.SetActive(false);
     }
 }
