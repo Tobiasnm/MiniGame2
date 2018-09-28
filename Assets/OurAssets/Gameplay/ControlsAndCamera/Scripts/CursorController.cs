@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class CursorController : MonoBehaviour {
-    public Joystick joystick;
+    public static Joystick joystick;
     protected Joybuttom joybuttom;
     public float MinSpeed = 10f;
     public float UpSpeed = 10f;

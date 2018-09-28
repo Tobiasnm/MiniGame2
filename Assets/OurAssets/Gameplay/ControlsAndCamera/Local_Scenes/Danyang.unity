@@ -348,7 +348,7 @@ Camera:
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
-  m_AllowMSAA: 1
+  m_AllowMSAA: 0
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
@@ -402,7 +402,12 @@ MonoBehaviour:
   rollAngle: -79.7
   rotAngle: 45.4
   distance: 12.6
-  ZoomPos: {x: 0, y: 0, z: 5}
+  zoomInrotAngleValue: 20
+  zoomIndistanceValue: 5
+  zoomInRollAngleValue: -88.2
+  zoomOutrotAngleValue: 50
+  zoomOutdistanceValue: 20
+  zoomOutRollAngleValue: -80
 --- !u!114 &611569109
 MonoBehaviour:
   m_ObjectHideFlags: 0
