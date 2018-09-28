@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CursorController : MonoBehaviour {
 
-    public Joystick joystick;
+    public static Joystick joystick;
     protected Joybuttom joybuttom;
     public float minSpeed = 10f;
     public float upSpeed = 10f;

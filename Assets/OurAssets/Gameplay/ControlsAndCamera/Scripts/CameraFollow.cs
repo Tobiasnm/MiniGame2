@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-
+    //orignal camera postion.
     public float rollAngle =-79.7f;//XZ
     public float rotAngle = 45.4f;//YZ
     public float distance = 12.6f;//the distance from camera and player
@@ -14,12 +14,15 @@ public class CameraFollow : MonoBehaviour
     private float rot;//YZ
     private Vector3 targetPos;
 
+    public float zoomInRollAngleValue = -88.2f;
     public float zoomInrotAngleValue = 20f;
     public float zoomIndistanceValue = 5f;
-    public float zoomInRollAngleValue = -88.2f;
+
+    public float zoomOutRollAngleValue = -80f;
     public float zoomOutrotAngleValue = 50f;
     public float zoomOutdistanceValue = 20f;
-    public float zoomOutRollAngleValue = 20f;
+
+    private Vector3 CameraPos;//camera position  
 
 
     void Start()
@@ -28,8 +31,9 @@ public class CameraFollow : MonoBehaviour
     }
     private void LateUpdate()
     {
-        UpdatePosition();
+        UpdatePosition(); 
         Zooming();
+
     }
 
     public void UpdatePosition()
@@ -38,7 +42,7 @@ public class CameraFollow : MonoBehaviour
         rot = rotAngle * Mathf.PI * 2 / 360;
 
         targetPos = new Vector3(player.position.x,player.position.y,player.position.z+3f) ;//Target position
-        Vector3 CameraPos;//camera position
+
         float height = distance * Mathf.Sin(rot);//hight of camera
         float d = distance * Mathf.Cos(rot);
         CameraPos.x = targetPos.x + d * Mathf.Cos(roll);
@@ -46,6 +50,7 @@ public class CameraFollow : MonoBehaviour
         CameraPos.z = targetPos.z + d * Mathf.Sin(roll);
 
         transform.position = CameraPos;//update position
+       // RotationController();
         transform.LookAt(targetPos);
     }
 
@@ -66,6 +71,7 @@ public class CameraFollow : MonoBehaviour
             StartCoroutine(ChangeDistanceValue(distance, zoomOutdistanceValue, 1f));
             StartCoroutine(ChangeRollAngleValue(rollAngle, zoomOutRollAngleValue, 1f));
         }
+        //Back to orignal position
         if(Input.GetMouseButton(2))
         {
             StartCoroutine(ChangeRotAngleValue(rotAngle, 45.4f, 1f));
@@ -82,6 +88,22 @@ public class CameraFollow : MonoBehaviour
             Gizmos.DrawSphere(targetPos, 0.5f); //draw a solid sphere with player position and 1.5f radius.
         }
         Gizmos.DrawSphere(transform.position, 0.5f); // draw a solid sphere with camera position.
+    }
+
+    private void RotationController()
+    {
+        float smooth = 5.0f;
+        float tiltAngle = 60.0f;
+        float h_joystick = CursorController.joystick.Horizontal;
+        float v_joystick = CursorController.joystick.Vertical;
+        float tiltAroundZ = h_joystick * tiltAngle;
+        float tiltAroundX = v_joystick * tiltAngle;
+
+        Quaternion target = Quaternion.Euler(tiltAroundX, 0, tiltAroundZ);
+        // Dampen towards the target rotation
+        transform.rotation = Quaternion.Slerp(transform.rotation, target, Time.deltaTime * smooth);
+        Debug.Log("rotation");
+
     }
 
     IEnumerator ChangeRotAngleValue(float v_start, float v_end, float duration)
