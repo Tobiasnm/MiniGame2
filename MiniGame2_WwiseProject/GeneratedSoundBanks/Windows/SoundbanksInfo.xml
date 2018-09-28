@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="132">
 	<RootPaths>
-		<ProjectRoot>C:\Users\mathi\OneDrive\Documents\Github\MiniGame2\MiniGame2_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\mathi\OneDrive\Documents\Github\MiniGame2\MiniGame2_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\mathi\OneDrive\Documents\Github\MiniGame2\MiniGame2_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\faggka\Desktop\Git\MiniGame\MiniGame2_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\faggka\Desktop\Git\MiniGame\MiniGame2_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\faggka\Desktop\Git\MiniGame\MiniGame2_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\mathi\OneDrive\Documents\Github\MiniGame2\MiniGame2_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\faggka\Desktop\Git\MiniGame\MiniGame2_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>

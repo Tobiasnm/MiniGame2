@@ -183,8 +183,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ebbb6f08f2832a0439855b72de30298c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   triggerList: f7e1664c
   useOtherObject: 0
   actionOnEventType: 0
@@ -208,8 +208,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9616965b2e037a04684133359cb69a31, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_listeners:
     initialListenerList: []
     useDefaultListeners: 1
@@ -229,8 +229,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 98b0dbd53187424408b2429ab98672b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   triggerList: f7e1664c
   useOtherObject: 0
   bankName: Ambiance
@@ -295,8 +295,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bba9616af763c9140a122770e6286b6e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   tapsToBreak: 10
 --- !u!65 &199469607
 BoxCollider:
@@ -349,8 +349,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a615d2b77e54fd14e96cf530de057b9c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   isDefaultListener: 1
   listenerId: 0
 --- !u!20 &611569104
@@ -415,8 +415,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9616965b2e037a04684133359cb69a31, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_listeners:
     initialListenerList: []
     useDefaultListeners: 1
@@ -436,8 +436,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e3b2b36c58ef94b32a365a1bbc59b1d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   ZoomPos: {x: 0, y: 0, z: 0}
 --- !u!114 &611569109
 MonoBehaviour:
@@ -448,8 +448,8 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ff26db721962cdf4a8edcdfa9a767d2a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   profile: {fileID: 0}
 --- !u!4 &665013942 stripped
 Transform:
@@ -582,7 +582,11 @@ Prefab:
     - target: {fileID: 224150102286229872, guid: 8d2501b820c50964686c72acc7f55f09,
         type: 2}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
+      value: 6
+=======
       value: 13
+>>>>>>> efa52a03f9429aef9d3d3d1bb7b3e8c3a8ef3c11
       objectReference: {fileID: 0}
     - target: {fileID: 224150102286229872, guid: 8d2501b820c50964686c72acc7f55f09,
         type: 2}
@@ -678,32 +682,36 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4265336180986980, guid: 0981a30d48e2c6f4c920155ecef8d900, type: 2}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
+      value: 5
+=======
       value: 1
+>>>>>>> efa52a03f9429aef9d3d3d1bb7b3e8c3a8ef3c11
       objectReference: {fileID: 0}
     - target: {fileID: 114325476379726042, guid: 0981a30d48e2c6f4c920155ecef8d900,
         type: 2}
       propertyPath: points.Array.data[0]
-      value: 
+      value:
       objectReference: {fileID: 7913286}
     - target: {fileID: 114325476379726042, guid: 0981a30d48e2c6f4c920155ecef8d900,
         type: 2}
       propertyPath: points.Array.data[1]
-      value: 
+      value:
       objectReference: {fileID: 1275117451}
     - target: {fileID: 114325476379726042, guid: 0981a30d48e2c6f4c920155ecef8d900,
         type: 2}
       propertyPath: points.Array.data[2]
-      value: 
+      value:
       objectReference: {fileID: 455428573}
     - target: {fileID: 114325476379726042, guid: 0981a30d48e2c6f4c920155ecef8d900,
         type: 2}
       propertyPath: points.Array.data[3]
-      value: 
+      value:
       objectReference: {fileID: 665013942}
     - target: {fileID: 95607354242060910, guid: 0981a30d48e2c6f4c920155ecef8d900,
         type: 2}
       propertyPath: m_Controller
-      value: 
+      value:
       objectReference: {fileID: 9100000, guid: c2bfb8a6af4baaa469e5537ebcb10d90, type: 2}
     - target: {fileID: 1498494080767750, guid: 0981a30d48e2c6f4c920155ecef8d900, type: 2}
       propertyPath: m_Layer
@@ -762,7 +770,7 @@ Prefab:
     - target: {fileID: 23079986052937784, guid: 0981a30d48e2c6f4c920155ecef8d900,
         type: 2}
       propertyPath: m_Materials.Array.data[0]
-      value: 
+      value:
       objectReference: {fileID: 2100000, guid: cbb693b50304ec24fa081b12e5c32d04, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0981a30d48e2c6f4c920155ecef8d900, type: 2}
@@ -851,7 +859,7 @@ Prefab:
     - target: {fileID: 114911081860698008, guid: 5f92ee59ed0781a4ab9c9d2b92ffe5ca,
         type: 2}
       propertyPath: Camera
-      value: 
+      value:
       objectReference: {fileID: 611569104}
     - target: {fileID: 114911081860698008, guid: 5f92ee59ed0781a4ab9c9d2b92ffe5ca,
         type: 2}
@@ -903,8 +911,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bba9616af763c9140a122770e6286b6e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   tapsToBreak: 10
 --- !u!65 &1147020312
 BoxCollider:
@@ -932,8 +940,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bba9616af763c9140a122770e6286b6e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   tapsToBreak: 10
 --- !u!65 &1207606133
 BoxCollider:
@@ -1155,7 +1163,7 @@ Prefab:
     - target: {fileID: 23556261863323000, guid: 31bf73073e377664daa3cf03c9426c3b,
         type: 2}
       propertyPath: m_Materials.Array.data[0]
-      value: 
+      value:
       objectReference: {fileID: 2100000, guid: 26d3b01a216559c41a37cf37a2cf9092, type: 2}
     - target: {fileID: 114421268779159600, guid: 31bf73073e377664daa3cf03c9426c3b,
         type: 2}
@@ -1208,7 +1216,7 @@ Prefab:
     - target: {fileID: 114533146676706502, guid: c4a20a98cbf71ab41bcdb2f89ec2839f,
         type: 2}
       propertyPath: target
-      value: 
+      value:
       objectReference: {fileID: 384823089}
     - target: {fileID: 114819935209491838, guid: c4a20a98cbf71ab41bcdb2f89ec2839f,
         type: 2}
@@ -1218,6 +1226,11 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c4a20a98cbf71ab41bcdb2f89ec2839f, type: 2}
   m_IsPrefabAsset: 0
+--- !u!224 &1551523306 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 224070147403872398, guid: ce5089f3caa5bb042a4d4c23a427bc82,
+    type: 2}
+  m_PrefabInternal: {fileID: 947627617}
 --- !u!4 &1556732433 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4411028580839940, guid: 9461eadf56a8cb04a9ab93236754c42f,
@@ -1237,8 +1250,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bba9616af763c9140a122770e6286b6e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   tapsToBreak: 10
 --- !u!65 &1578885725
 BoxCollider:
@@ -1296,8 +1309,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bba9616af763c9140a122770e6286b6e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   tapsToBreak: 10
 --- !u!65 &1655166064
 BoxCollider:
@@ -1436,12 +1449,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6ab375be49a32da4fac4a55b71446e16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   InitializationSettings: {fileID: 11400000, guid: ea7d56af27475d843bd3c98f39f32f45,
     type: 2}
-  basePath: 
-  language: 
+  basePath:
+  language:
   defaultPoolSize: 0
   lowerPoolSize: 0
   streamingPoolSize: 0

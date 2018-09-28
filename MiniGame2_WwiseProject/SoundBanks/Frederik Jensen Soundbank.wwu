@@ -27,6 +27,7 @@
 				<SoundBank Name="Rain" ID="{385B588E-7E03-4B5F-A489-EE1D2B23C69A}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Rain" ID="{608C3DF7-7EDA-42B3-B235-2612985BFD7E}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Thunderclap" ID="{D6226017-863C-4769-BC91-12004BF62CB1}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
@@ -41,6 +42,16 @@
 				<SoundBank Name="Actions" ID="{FDCABFCB-9FEC-46C4-8AAC-8DB2B0E0D25F}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Detected" ID="{3C28F38F-7F46-4464-AB2D-BAEF1EDF3862}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Search_Trash" ID="{A7846941-C8E7-483D-B4F4-49B228985230}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="MilitaryBase" ID="{52AD9B0B-C6AC-4B80-8F5D-2B5A42A0D4C0}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Idle_Truck" ID="{054F8475-DC30-44AB-8642-CBC5B18C6B8F}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Military_Base_Ambience" ID="{E3CE51B0-2BFC-4762-A648-6A42C7ED6476}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Tent_Noises" ID="{9C06EFE7-7B83-4A66-8E9F-730F73C9A684}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

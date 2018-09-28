@@ -17,22 +17,22 @@ MonoBehaviour:
   m_lastPopulateTimePsrt1: 0
   AcousticTextureWwu:
   - Guid: '{6A81CFA1-3EE8-4AB4-983B-56BB92A7936F}'
-    m_lastTimePart2: -1999231917
-    m_lastTimePsrt1: 157353743
+    m_lastTimePart2: -1999232082
+    m_lastTimePsrt1: 642154956
     ParentPhysicalPath: 
     PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
     List: []
   AuxBusWwu:
   - Guid: '{7B533535-4201-4B94-9675-1FE3D41F10DD}'
-    m_lastTimePart2: -1999231867
-    m_lastTimePsrt1: -696460368
+    m_lastTimePart2: -1999231863
+    m_lastTimePsrt1: -467231007
     ParentPhysicalPath: 
     PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     List: []
   BankWwu:
   - Guid: '{32204484-BA60-4B3C-8310-BF840FF23C2B}'
-    m_lastTimePart2: -1999231867
-    m_lastTimePsrt1: -690184778
+    m_lastTimePart2: -1999231863
+    m_lastTimePsrt1: -436104896
     ParentPhysicalPath: 
     PhysicalPath: SoundBanks\Anders Holm Soundbank.wwu
     List:
@@ -64,14 +64,14 @@ MonoBehaviour:
       - ElementName: Dialouge
         ObjectType: 7
   - Guid: '{43944F99-3A7E-48AE-9B0A-5C10428126D3}'
-    m_lastTimePart2: -1999231917
-    m_lastTimePsrt1: 157273710
+    m_lastTimePart2: -1999232082
+    m_lastTimePsrt1: 642099903
     ParentPhysicalPath: 
     PhysicalPath: SoundBanks\Default Work Unit.wwu
     List: []
   - Guid: '{4D7AC21B-028A-48E8-A7B2-965EC6111045}'
-    m_lastTimePart2: -1999231864
-    m_lastTimePsrt1: 1386343936
+    m_lastTimePart2: -1999231726
+    m_lastTimePsrt1: 1087738745
     ParentPhysicalPath: 
     PhysicalPath: SoundBanks\Frederik Jensen Soundbank.wwu
     List:
@@ -122,8 +122,8 @@ MonoBehaviour:
         ObjectType: 7
   EventWwu:
   - Guid: '{E7381F8F-9844-4ADD-A61A-A1508F46025D}'
-    m_lastTimePart2: -1999231867
-    m_lastTimePsrt1: -699106018
+    m_lastTimePart2: -1999231863
+    m_lastTimePsrt1: -474447040
     ParentPhysicalPath: 
     PhysicalPath: Events\Anders Holm Work Unit.wwu
     List:
@@ -248,8 +248,8 @@ MonoBehaviour:
       maxDuration: 0
       minDuration: 0
   - Guid: '{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}'
-    m_lastTimePart2: -1999231867
-    m_lastTimePsrt1: -14680588
+    m_lastTimePart2: -1999231863
+    m_lastTimePsrt1: -474432028
     ParentPhysicalPath: 
     PhysicalPath: Events\Default Work Unit.wwu
     List:
@@ -400,13 +400,15 @@ MonoBehaviour:
   ExpandedItems:
   - /MiniGame2_WwiseProject
   - /MiniGame2_WwiseProject/Events
+  - /MiniGame2_WwiseProject/Events/Anders Holm Work Unit
   - /MiniGame2_WwiseProject/Events/Default Work Unit
   - /MiniGame2_WwiseProject/SoundBanks
+  - /MiniGame2_WwiseProject/SoundBanks/Anders Holm Soundbank
   - /MiniGame2_WwiseProject/SoundBanks/Frederik Jensen Soundbank
   RtpcWwu:
   - Guid: '{88215F09-63D1-4934-8FF5-4D20C78D0D2D}'
-    m_lastTimePart2: -1999231917
-    m_lastTimePsrt1: 88793319
+    m_lastTimePart2: -1999232082
+    m_lastTimePsrt1: 550869046
     ParentPhysicalPath: 
     PhysicalPath: Game Parameters\Anders Game Parameters.wwu
     List:
@@ -420,14 +422,14 @@ MonoBehaviour:
       - ElementName: danger_level
         ObjectType: 13
   - Guid: '{D988E8F9-23E3-4313-82D3-4B9EBAF10429}'
-    m_lastTimePart2: -1999231917
-    m_lastTimePsrt1: 88800753
+    m_lastTimePart2: -1999232082
+    m_lastTimePsrt1: 550884058
     ParentPhysicalPath: 
     PhysicalPath: Game Parameters\Default Work Unit.wwu
     List: []
   - Guid: '{2A6262A5-341F-4D32-A0BB-76F90CF27011}'
-    m_lastTimePart2: -1999231867
-    m_lastTimePsrt1: -699088302
+    m_lastTimePart2: -1999231863
+    m_lastTimePsrt1: -474422037
     ParentPhysicalPath: 
     PhysicalPath: Game Parameters\Frederik Work Unit(GP).wwu
     List:
@@ -464,22 +466,22 @@ MonoBehaviour:
         ObjectType: 13
   StateWwu:
   - Guid: '{6262B9FF-1619-4BA7-9A20-6F88731B5C4C}'
-    m_lastTimePart2: -1999231917
-    m_lastTimePsrt1: 157313898
+    m_lastTimePart2: -1999232082
+    m_lastTimePsrt1: 642119908
     ParentPhysicalPath: 
     PhysicalPath: States\Default Work Unit.wwu
     List: []
   SwitchWwu:
   - Guid: '{4AB545B4-F536-4416-938F-FAE96AD1C93D}'
-    m_lastTimePart2: -1999231917
-    m_lastTimePsrt1: 157324774
+    m_lastTimePart2: -1999232082
+    m_lastTimePsrt1: 642129936
     ParentPhysicalPath: 
     PhysicalPath: Switches\Default Work Unit.wwu
     List: []
   TriggerWwu:
   - Guid: '{42742241-0334-49D7-BCFA-6FBDD2F4DF4D}'
-    m_lastTimePart2: -1999231917
-    m_lastTimePsrt1: 157343709
+    m_lastTimePart2: -1999232082
+    m_lastTimePsrt1: 642139941
     ParentPhysicalPath: 
     PhysicalPath: Triggers\Default Work Unit.wwu
     List: []

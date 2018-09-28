@@ -10,9 +10,8 @@ TagManager:
   - ChapterButton
   - Language
   - Cursor
-  - Enemy
-  - Obstacle
-  - RainManager
+  - CameraFollow
+  - Scrollbar
   layers:
   - Default
   - TransparentFX
@@ -29,6 +28,10 @@ TagManager:
   - Terrain
   - Player
   - Obstacles
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
