@@ -14,7 +14,7 @@ public class SettingsScript : MonoBehaviour {
     {
         if (languageButton == null)
         {
-            GameObject languageObject = GameObject.FindGameObjectWithTag("Language");
+            GameObject languageObject = GameObject.FindGameObjectWithTag("LanguageButton");
             if (languageObject != null) languageButton = languageObject.GetComponent<Button>();
         }
     }
@@ -23,7 +23,7 @@ public class SettingsScript : MonoBehaviour {
     {
         if (languageButton == null)
         {
-            GameObject languageObject = GameObject.FindGameObjectWithTag("Language");
+            GameObject languageObject = GameObject.FindGameObjectWithTag("LanguageButton");
             if (languageObject != null) languageButton = languageObject.GetComponent<Button>();
         }
     }
@@ -37,6 +37,16 @@ public class SettingsScript : MonoBehaviour {
         {
             Handheld.Vibrate();
         }
+    }
+
+    public Button GetLanguageButton()
+    {
+        return languageButton;
+    }
+
+    public void SetLanguageButton(GameObject go)
+    {
+        languageButton = go.GetComponent<Button>();
     }
 
     public void SetMusic(float volume)
