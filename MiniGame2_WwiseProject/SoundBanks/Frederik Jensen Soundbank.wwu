@@ -20,6 +20,7 @@
 						<ObjectRef Name="Play_Button2" ID="{D4D67533-49B3-46E4-8AAD-257686A29DCC}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_MiniGame2_INtroSoundscape" ID="{C742A1C9-1638-47A2-83FF-DB330A6AD152}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Button1" ID="{88392986-3D57-4937-83AE-5D068B1A6524}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_MenuTrack1" ID="{F7B33046-689A-4A3F-BCE4-146D9B82DBAD}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

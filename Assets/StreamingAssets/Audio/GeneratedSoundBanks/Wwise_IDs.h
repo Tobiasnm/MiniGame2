@@ -39,6 +39,7 @@ namespace AK
         static const AkUniqueID RAINFALL_DIALOUGE = 4004327001U;
         static const AkUniqueID RUBEN_MAD = 1407973414U;
         static const AkUniqueID SHELTER_SAFE = 3627809544U;
+        static const AkUniqueID STOP_MENUTRACK1 = 1554289743U;
     } // namespace EVENTS
 
     namespace GAME_PARAMETERS
