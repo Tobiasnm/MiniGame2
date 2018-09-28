@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4256116324	Footstep_grass			\Anders Holm Work Unit\Footstep_grass	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	960551753	38874__swuing__footstep-grass	C:\Users\faggka\Desktop\Git\MiniGame\MiniGame2_WwiseProject\.cache\Windows\SFX\38874__swuing__footstep-grass_56D34C19.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\Character\Footsteps\Grass\38874__swuing__footstep-grass		80384
+
