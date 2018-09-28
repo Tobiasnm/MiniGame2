@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 249987318}
   - component: {fileID: 249987317}
   m_Layer: 5
-  m_Name: subtitleTwo
+  m_Name: SubTwo
   m_TagString: Language
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -418,6 +418,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   subtitles:
+  - Somethings something
   - Sis, are you there?
   - Shut up bro, I'm trying to sleep.
   - But sis, I'm dying.
@@ -429,6 +430,8 @@ MonoBehaviour:
   - 3
   - 4
   - 2
+  - 2
+  startAnimation: 1
 --- !u!95 &1196522265
 Animator:
   serializedVersion: 3
@@ -529,7 +532,7 @@ GameObject:
   - component: {fileID: 1380820825}
   - component: {fileID: 1380820824}
   m_Layer: 5
-  m_Name: subtitleOne
+  m_Name: SubOne
   m_TagString: Language
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
