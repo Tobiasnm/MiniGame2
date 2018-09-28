@@ -213,6 +213,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Search_Trash" ID="{A7846941-C8E7-483D-B4F4-49B228985230}">
+					<ChildrenList>
+						<Action Name="" ID="{96EB2D38-372B-4CB6-8D7D-1BEE96DEEFD6}" ShortID="735316427">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Search_Trash" ID="{EB48F90E-16B0-4B02-9F91-30EB46CBCD83}" WorkUnitID="{13EEEA71-2979-435A-8F44-172814FC0E97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

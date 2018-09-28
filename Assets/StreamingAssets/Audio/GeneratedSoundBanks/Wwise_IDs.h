@@ -29,6 +29,7 @@ namespace AK
         static const AkUniqueID PLAY_MINIGAME2_INTROSOUNDSCAPE = 1250373215U;
         static const AkUniqueID PLAY_RAIN = 2838936948U;
         static const AkUniqueID PLAY_RESUME = 2149395099U;
+        static const AkUniqueID PLAY_SEARCH_TRASH = 3023115453U;
         static const AkUniqueID PLAY_SOLDIER_FOOTSTEPSASPHALT = 3308238785U;
         static const AkUniqueID PLAY_SOLDIER_FOOTSTEPSGRASS = 2260928702U;
         static const AkUniqueID PLAY_SOLDIER_FOOTSTEPSGRAVEL = 3506035389U;

@@ -3537,6 +3537,239 @@
 										</Sound>
 									</ChildrenList>
 								</BlendContainer>
+								<Folder Name="Player_Death" ID="{262B399C-ECBA-48B5-B66D-10AEF3BC1EA5}" ShortID="89581166">
+									<ChildrenList>
+										<Sound Name="DeathSound" ID="{01529517-F4E1-4A65-A1F4-FEECAF10563C}" ShortID="1051753481">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B6753272-8AAE-410A-A6BE-F784408B7732}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7B533535-4201-4B94-9675-1FE3D41F10DD}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="DeathSound" ID="{980017D6-8E07-4B2A-8C7C-9796D145321B}" ShortID="534379739">
+													<Language>SFX</Language>
+													<AudioFile>DeathSound.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="DeathSound" ID="{980017D6-8E07-4B2A-8C7C-9796D145321B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="Actions" ID="{BCAB6B29-9637-4D94-804F-9E999DC25E7B}" ShortID="702315824">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B6753272-8AAE-410A-A6BE-F784408B7732}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7B533535-4201-4B94-9675-1FE3D41F10DD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Search_Trash" ID="{EB48F90E-16B0-4B02-9F91-30EB46CBCD83}" ShortID="724092599">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B6753272-8AAE-410A-A6BE-F784408B7732}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7B533535-4201-4B94-9675-1FE3D41F10DD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="TrashSearch1" ID="{524D3602-F190-47DD-96EC-CFFC5E268968}" ShortID="808468097">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B6753272-8AAE-410A-A6BE-F784408B7732}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7B533535-4201-4B94-9675-1FE3D41F10DD}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="TrashSearch1" ID="{301A7AAA-EA7E-4668-B71E-BA87E59B7F11}" ShortID="489207521">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="7.38352600754003E-02"/>
+														<Property Name="TrimBegin" Type="Real64" Value="8.63009533348835E-03"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.137122625854315"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>TrashSearch1.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="853319014"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="TrashSearch1" ID="{301A7AAA-EA7E-4668-B71E-BA87E59B7F11}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="TrashSearch3" ID="{BAF8D7BE-B4FF-433F-B1FF-521827EF8CEC}" ShortID="457495382">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B6753272-8AAE-410A-A6BE-F784408B7732}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7B533535-4201-4B94-9675-1FE3D41F10DD}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="TrashSearch3" ID="{A8CDEB50-9D73-40DD-B747-6A00CE9D1185}" ShortID="973755901">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.11123233985385"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.327943622672557"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.489997635045838"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>TrashSearch3.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="682261727"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="TrashSearch3" ID="{A8CDEB50-9D73-40DD-B747-6A00CE9D1185}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="TrashSearch4" ID="{131C6CDF-C4FE-4EBC-8465-D4A4CE2CDFB9}" ShortID="180263883">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B6753272-8AAE-410A-A6BE-F784408B7732}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7B533535-4201-4B94-9675-1FE3D41F10DD}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="TrashSearch4" ID="{FDC21CB2-41EB-4994-B5AF-A6A84F4A7683}" ShortID="537442384">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.10356114400186"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.596435477492195"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.734517002828008"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>TrashSearch4.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="878006226"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="TrashSearch4" ID="{FDC21CB2-41EB-4994-B5AF-A6A84F4A7683}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="TrashSearch1_01" ID="{563E3970-ED75-4320-A4D6-9361485A1C81}" ShortID="137916330">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B6753272-8AAE-410A-A6BE-F784408B7732}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7B533535-4201-4B94-9675-1FE3D41F10DD}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="TrashSearch1" ID="{E0264F4A-4581-46AE-9404-5EB1BF0B6F74}" ShortID="853319014">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="8.34242548903873E-02"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.362464004006511"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.465066248526872"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>TrashSearch1.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="489207521"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="TrashSearch1" ID="{E0264F4A-4581-46AE-9404-5EB1BF0B6F74}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="TrashSearch3_01" ID="{6173E3A4-0B26-4A1D-8B2E-2D779E5143D1}" ShortID="237235397">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B6753272-8AAE-410A-A6BE-F784408B7732}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7B533535-4201-4B94-9675-1FE3D41F10DD}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="TrashSearch3" ID="{38776DC6-56A2-45C0-A9BC-D50E96C52918}" ShortID="682261727">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="8.91776517793796E-02"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.444929359415399"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.582051985269714"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>TrashSearch3.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="973755901"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="TrashSearch3" ID="{38776DC6-56A2-45C0-A9BC-D50E96C52918}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="TrashSearch4_01" ID="{61C3B4D2-1432-4899-B58C-B6CB434B1774}" ShortID="761855770">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B6753272-8AAE-410A-A6BE-F784408B7732}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7B533535-4201-4B94-9675-1FE3D41F10DD}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="TrashSearch4" ID="{0B87B2EB-8C4C-4A26-B6E9-78DF8BACF482}" ShortID="878006226">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="8.05475564458912E-02"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.450682756304391"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.57054519149173"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>TrashSearch4.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="537442384"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="TrashSearch4" ID="{0B87B2EB-8C4C-4A26-B6E9-78DF8BACF482}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="TrashSearch1_02" ID="{DEB7143A-E167-4675-A724-FEA6F770CF41}" ShortID="1038274822">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B6753272-8AAE-410A-A6BE-F784408B7732}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7B533535-4201-4B94-9675-1FE3D41F10DD}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="TrashSearch1" ID="{4F97B5A1-99F5-4333-82DC-83B6E66FFD79}" ShortID="515322455">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="7.38352600754003E-02"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.595476578010696"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.75465389193948"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>TrashSearch1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="TrashSearch1" ID="{4F97B5A1-99F5-4333-82DC-83B6E66FFD79}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>
