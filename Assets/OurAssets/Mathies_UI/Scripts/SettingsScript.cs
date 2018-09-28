@@ -6,9 +6,6 @@ using UnityEngine.UI;
 
 public class SettingsScript : MonoBehaviour {
 
-    public AudioMixer musicMixer;
-    public AudioMixer audioMixer;
-
     private bool danish = true;
 
     private Button languageButton;
