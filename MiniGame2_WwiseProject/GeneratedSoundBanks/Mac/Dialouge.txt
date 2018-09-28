@@ -1,0 +1,26 @@
+Event	ID	Name			Wwise Object Path	Notes
+	17964378	one_gate_found			\Anders Holm Work Unit\one_gate_found	
+	950269311	be_careful			\Anders Holm Work Unit\be_careful	
+	1407973414	ruben_mad			\Anders Holm Work Unit\ruben_mad	
+	2635468458	intro_dialouge			\Anders Holm Work Unit\intro_dialouge	
+	3627809544	shelter_safe			\Anders Holm Work Unit\shelter_safe	
+	4004327001	rainfall_dialouge			\Anders Holm Work Unit\rainfall_dialouge	
+	4180122351	hurry_up			\Anders Holm Work Unit\hurry_up	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	3490709	WalkieTalkie_05	C:\Users\faggka\Desktop\Git\MiniGame\MiniGame2_WwiseProject\.cache\Mac\SFX\Walkie Talkie,Cobra MicroTalk,Radio Communication,End,Noise Squelch,Beep,Series_AFD470DF.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\2D\Voice Overs\WalkieTalkieNoise\WalkieTalkie_05		93052
+	40631703	WalkieTalkie_01	C:\Users\faggka\Desktop\Git\MiniGame\MiniGame2_WwiseProject\.cache\Mac\SFX\Walkie Talkie,Cobra MicroTalk,Radio Communication,End,Noise Squelch,Beep,Series_9EAB9B0E.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\2D\Voice Overs\WalkieTalkieNoise\WalkieTalkie_01		53482
+	41417492	WalkieTalkie_04	C:\Users\faggka\Desktop\Git\MiniGame\MiniGame2_WwiseProject\.cache\Mac\SFX\Walkie Talkie,Cobra MicroTalk,Radio Communication,End,Noise Squelch,Beep,Series_B2E5A3BD.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\2D\Voice Overs\WalkieTalkieNoise\WalkieTalkie_04		85138
+	168905330	1_be_careful	C:\Users\faggka\Desktop\Git\MiniGame\MiniGame2_WwiseProject\.cache\Mac\SFX\1_be_careful_56D34C19.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\Dialouge\1_be_careful		386016
+	182675609	1_intro	C:\Users\faggka\Desktop\Git\MiniGame\MiniGame2_WwiseProject\.cache\Mac\SFX\1_intro_56D34C19.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\Dialouge\1_intro		2315428
+	222076653	1_sina_end	C:\Users\faggka\Desktop\Git\MiniGame\MiniGame2_WwiseProject\.cache\Mac\SFX\1_sina_end_56D34C19.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\Dialouge\1_ruben_mad\1_sina_end		957112
+	264411909	WalkieTalkie_03	C:\Users\faggka\Desktop\Git\MiniGame\MiniGame2_WwiseProject\.cache\Mac\SFX\Walkie Talkie,Cobra MicroTalk,Radio Communication,End,Noise Squelch,Beep,Series_10D6A664.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\2D\Voice Overs\WalkieTalkieNoise\WalkieTalkie_03		44470
+	409572928	1_shelter_safe_dialouge	C:\Users\faggka\Desktop\Git\MiniGame\MiniGame2_WwiseProject\.cache\Mac\SFX\1_shelter_safe_dialouge_56D34C19.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\Dialouge\1_shelter_safe_dialouge		5049592
+	421875732	1_gate_found_ruben	C:\Users\faggka\Desktop\Git\MiniGame\MiniGame2_WwiseProject\.cache\Mac\SFX\1_gate_found_ruben_56D34C19.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\Dialouge\1_gate_found_ruben		661644
+	507179249	1_hurry_up	C:\Users\faggka\Desktop\Git\MiniGame\MiniGame2_WwiseProject\.cache\Mac\SFX\1_hurry_up_56D34C19.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\Dialouge\1_hurry_up		406328
+	600791617	1_ruben	C:\Users\faggka\Desktop\Git\MiniGame\MiniGame2_WwiseProject\.cache\Mac\SFX\1_ruben_56D34C19.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\Dialouge\1_ruben_mad\1_ruben		6357892
+	634723468	1_rainfall_dialouge	C:\Users\faggka\Desktop\Git\MiniGame\MiniGame2_WwiseProject\.cache\Mac\SFX\1_rainfall_dialouge_56D34C19.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\Dialouge\1_rainfall_dialouge		2308076
+	781333106	1_gate_found_sina	C:\Users\faggka\Desktop\Git\MiniGame\MiniGame2_WwiseProject\.cache\Mac\SFX\1_gate_found_sina_56D34C19.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\Dialouge\1_gate_found_sina		1058544
+	838800734	WalkieTalkie_02	C:\Users\faggka\Desktop\Git\MiniGame\MiniGame2_WwiseProject\.cache\Mac\SFX\Walkie Talkie,Cobra MicroTalk,Radio Communication,End,Noise Squelch,Beep,Series_62848D22.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\2D\Voice Overs\WalkieTalkieNoise\WalkieTalkie_02		53190
+	975177487	WalkieTalkie	C:\Users\faggka\Desktop\Git\MiniGame\MiniGame2_WwiseProject\.cache\Mac\SFX\Walkie Talkie,Cobra MicroTalk,Radio Communication,End,Noise Squelch,Beep,Series_BCC9271A.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\2D\Voice Overs\WalkieTalkieNoise\WalkieTalkie		61396
+

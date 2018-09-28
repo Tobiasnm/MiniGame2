@@ -56,7 +56,7 @@ public class TriggerStory : MonoBehaviour
             if (causeRain)
             {
                 DoSoundInSeconds(doSoundInSeconds);
-                rainHandler.startRainInSeconds(startRainInSeconds);
+                rainHandler.StartRainInSeconds(startRainInSeconds);
 
             }
 

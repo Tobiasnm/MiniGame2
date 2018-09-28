@@ -32,6 +32,7 @@ namespace AK
         static const AkUniqueID PLAY_SOLDIER_FOOTSTEPSGRASS = 2260928702U;
         static const AkUniqueID PLAY_SOLDIER_FOOTSTEPSGRAVEL = 3506035389U;
         static const AkUniqueID PLAY_SOLDIER_FOOTSTEPSPUDDLE = 2329542108U;
+        static const AkUniqueID PLAY_THUNDERCLAP = 509637542U;
         static const AkUniqueID RAINFALL_DIALOUGE = 4004327001U;
         static const AkUniqueID RUBEN_MAD = 1407973414U;
         static const AkUniqueID SHELTER_SAFE = 3627809544U;
