@@ -11,12 +11,16 @@ public class CameraFollow : MonoBehaviour
 
     private Transform player;
     private float roll;//XZ
-    private float rot;//YZ平
+    private float rot;//YZ
     private Vector3 targetPos;
-    public float ZoomInrotAngleValue = 20f;
-    public float ZoomOutrotAngleValue = 5f;
-    public float ZoomIndistanceValue = 50f;
-    public float ZoomOutdistanceValue = 20f;
+
+    public float zoomInrotAngleValue = 20f;
+    public float zoomIndistanceValue = 5f;
+    public float zoomInRollAngleValue = -88.2f;
+    public float zoomOutrotAngleValue = 50f;
+    public float zoomOutdistanceValue = 20f;
+    public float zoomOutRollAngleValue = 20f;
+
 
     void Start()
     {
@@ -24,16 +28,11 @@ public class CameraFollow : MonoBehaviour
     }
     private void LateUpdate()
     {
-        UpdatePosition(); 
+        UpdatePosition();
         Zooming();
     }
 
-    private void FixedUpdate()
-    {
-
-    }
-
-    private void UpdatePosition()
+    public void UpdatePosition()
     {
         roll = rollAngle * Mathf.PI * 2 / 360;
         rot = rotAngle * Mathf.PI * 2 / 360;
@@ -48,40 +47,31 @@ public class CameraFollow : MonoBehaviour
 
         transform.position = CameraPos;//update position
         transform.LookAt(targetPos);
-
     }
 
      void Zooming()
     {
-        //if (Input.GetMouseButton(0))
-        //{
-        //    transform.position = Vector3.Lerp(transform.position, ZoomIn, Time.deltaTime * 3);
-        //    Debug.Log("zoomIn");
-        //}
-
-        //if(Input.GetMouseButton(1))
-        //{
-        //    transform.position = Vector3.Lerp(transform.position, ZoomOut, Time.deltaTime * 3);
-        //    Debug.Log("zoomOut");
-        //}
+        //zoom in
         if(Input.GetMouseButton(0))
         {
-            StartCoroutine(ChangeRotAngleValue(rotAngle, 20f, 1f));
-            StartCoroutine(ChangeDistanceValue(distance, 5f, 1f));
+            StartCoroutine(ChangeRotAngleValue(rotAngle, zoomInrotAngleValue, 1f));
+            StartCoroutine(ChangeDistanceValue(distance, zoomIndistanceValue, 1f));
+            StartCoroutine(ChangeRollAngleValue(rollAngle,zoomInRollAngleValue, 1f));
             Debug.Log("zoomIn");
         }
+        //zoom out
         if(Input.GetMouseButton(1))
         {
-            StartCoroutine(ChangeRotAngleValue(rotAngle, 50f, 1f));
-            StartCoroutine(ChangeDistanceValue(distance, 20f, 1f));
+            StartCoroutine(ChangeRotAngleValue(rotAngle, zoomOutrotAngleValue, 1f));
+            StartCoroutine(ChangeDistanceValue(distance, zoomOutdistanceValue, 1f));
+            StartCoroutine(ChangeRollAngleValue(rollAngle, zoomOutRollAngleValue, 1f));
         }
         if(Input.GetMouseButton(2))
         {
             StartCoroutine(ChangeRotAngleValue(rotAngle, 45.4f, 1f));
             StartCoroutine(ChangeDistanceValue(distance, 12.6f, 1f));
-
+            StartCoroutine(ChangeRollAngleValue(rollAngle, -79.7f, 1f));
         }
-
     }
 
     private void OnDrawGizmos()
@@ -115,5 +105,16 @@ public class CameraFollow : MonoBehaviour
             yield return null;
         }
         distance = v_end;
+    }
+    IEnumerator ChangeRollAngleValue(float v_start, float v_end, float duration)
+    {
+        float elapsed = 0.0f;
+        while (elapsed < duration)
+        {
+            rollAngle = Mathf.Lerp(v_start, v_end, elapsed / duration);
+            elapsed += Time.deltaTime;
+            yield return null;
+        }
+        rollAngle = v_end;
     }
 }
