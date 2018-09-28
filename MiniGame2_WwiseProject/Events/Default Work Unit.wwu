@@ -171,6 +171,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Thunderclap" ID="{D6226017-863C-4769-BC91-12004BF62CB1}">
+					<ChildrenList>
+						<Action Name="" ID="{D89F659D-0A29-4C50-92FC-E4EEFC37DDAD}" ShortID="158704173">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Thunderclap" ID="{479521AC-8B59-4EAE-A431-9F64BCB58330}" WorkUnitID="{13EEEA71-2979-435A-8F44-172814FC0E97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

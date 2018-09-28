@@ -1658,6 +1658,75 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</BlendContainer>
+						<RandomSequenceContainer Name="Thunderclap" ID="{479521AC-8B59-4EAE-A431-9F64BCB58330}" ShortID="207837289">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B6753272-8AAE-410A-A6BE-F784408B7732}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7B533535-4201-4B94-9675-1FE3D41F10DD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="THUNDER_Clap_Rumble_01_stereo" ID="{6401DD3A-55A6-45E6-A1E2-7950C1240490}" ShortID="106498123">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B6753272-8AAE-410A-A6BE-F784408B7732}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7B533535-4201-4B94-9675-1FE3D41F10DD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="THUNDER_Clap_Rumble_01_stereo" ID="{94807537-F1CA-4DCA-9DA4-7B753B450B75}" ShortID="367148356">
+											<Language>SFX</Language>
+											<AudioFile>THUNDER_Clap_Rumble_01_stereo.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="THUNDER_Clap_Rumble_01_stereo" ID="{94807537-F1CA-4DCA-9DA4-7B753B450B75}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="THUNDER_Clap_Rumble_02_stereo" ID="{5AC725BB-6119-4315-9FB9-1817E0C0B2B4}" ShortID="603474944">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B6753272-8AAE-410A-A6BE-F784408B7732}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7B533535-4201-4B94-9675-1FE3D41F10DD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="THUNDER_Clap_Rumble_02_stereo" ID="{916D91AC-0599-41A8-89C2-3A8E70281C52}" ShortID="971949006">
+											<Language>SFX</Language>
+											<AudioFile>THUNDER_Clap_Rumble_02_stereo.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="THUNDER_Clap_Rumble_02_stereo" ID="{916D91AC-0599-41A8-89C2-3A8E70281C52}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="THUNDER_Clap_Rumble_03_stereo" ID="{F10B5BE7-89EA-4806-B4DA-FD4A27C0F6A3}" ShortID="3388234">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B6753272-8AAE-410A-A6BE-F784408B7732}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7B533535-4201-4B94-9675-1FE3D41F10DD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="THUNDER_Clap_Rumble_03_stereo" ID="{83D419F0-4C2F-433B-B407-61C462B274D0}" ShortID="716116991">
+											<Language>SFX</Language>
+											<AudioFile>THUNDER_Clap_Rumble_03_stereo.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="THUNDER_Clap_Rumble_03_stereo" ID="{83D419F0-4C2F-433B-B407-61C462B274D0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="3D" ID="{E772A99B-C721-4B94-B4F8-5328F35DADB5}" ShortID="445415287">

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Android" BasePlatform="Android" SchemaVersion="11" SoundbankVersion="132">
 	<RootPaths>
-		<ProjectRoot>C:\Users\faggka\Desktop\Git\MiniGame\MiniGame2_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\faggka\Desktop\Git\MiniGame\MiniGame2_WwiseProject\.cache\Android\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\faggka\Desktop\Git\MiniGame\MiniGame2_WwiseProject\GeneratedSoundBanks\Android\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\GeneratedSoundBanks\Android\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\faggka\Desktop\Git\MiniGame\MiniGame2_WwiseProject\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -120,6 +120,7 @@
 			<Path>Rain.bnk</Path>
 			<IncludedEvents>
 				<Event Id="2838936948" Name="Play_Rain" ObjectPath="\Events\Default Work Unit\Play_Rain"/>
+				<Event Id="509637542" Name="Play_Thunderclap" ObjectPath="\Events\Default Work Unit\Play_Thunderclap"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="101782059" Language="SFX">
@@ -134,9 +135,17 @@
 					<ShortName>Vindpust1.wav</ShortName>
 					<Path>SFX\Vindpust1_56D34C19.wem</Path>
 				</File>
+				<File Id="367148356" Language="SFX">
+					<ShortName>THUNDER_Clap_Rumble_01_stereo.wav</ShortName>
+					<Path>SFX\THUNDER_Clap_Rumble_01_stereo_56D34C19.wem</Path>
+				</File>
 				<File Id="679480057" Language="SFX">
 					<ShortName>Vindpust2.wav</ShortName>
 					<Path>SFX\Vindpust2_56D34C19.wem</Path>
+				</File>
+				<File Id="716116991" Language="SFX">
+					<ShortName>THUNDER_Clap_Rumble_03_stereo.wav</ShortName>
+					<Path>SFX\THUNDER_Clap_Rumble_03_stereo_56D34C19.wem</Path>
 				</File>
 				<File Id="746519542" Language="SFX">
 					<ShortName>Vindpust3.wav</ShortName>
@@ -161,6 +170,10 @@
 				<File Id="971076657" Language="SFX">
 					<ShortName>thunder_strike_03.wav</ShortName>
 					<Path>SFX\thunder_strike_03_56D34C19.wem</Path>
+				</File>
+				<File Id="971949006" Language="SFX">
+					<ShortName>THUNDER_Clap_Rumble_02_stereo.wav</ShortName>
+					<Path>SFX\THUNDER_Clap_Rumble_02_stereo_56D34C19.wem</Path>
 				</File>
 				<File Id="999435447" Language="SFX">
 					<ShortName>THUNDER_Clap_Rumble_02_stereo.wav</ShortName>

@@ -27,6 +27,7 @@
 				<SoundBank Name="Rain" ID="{385B588E-7E03-4B5F-A489-EE1D2B23C69A}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Rain" ID="{608C3DF7-7EDA-42B3-B235-2612985BFD7E}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Thunderclap" ID="{D6226017-863C-4769-BC91-12004BF62CB1}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
