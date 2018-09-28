@@ -70,8 +70,8 @@ MonoBehaviour:
     PhysicalPath: SoundBanks\Default Work Unit.wwu
     List: []
   - Guid: '{4D7AC21B-028A-48E8-A7B2-965EC6111045}'
-    m_lastTimePart2: -1999231726
-    m_lastTimePsrt1: 1087738745
+    m_lastTimePart2: -1999231721
+    m_lastTimePsrt1: 504127912
     ParentPhysicalPath: 
     PhysicalPath: SoundBanks\Frederik Jensen Soundbank.wwu
     List:
@@ -248,8 +248,8 @@ MonoBehaviour:
       maxDuration: 0
       minDuration: 0
   - Guid: '{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}'
-    m_lastTimePart2: -1999231863
-    m_lastTimePsrt1: -474432028
+    m_lastTimePart2: -1999231721
+    m_lastTimePsrt1: 497992942
     ParentPhysicalPath: 
     PhysicalPath: Events\Default Work Unit.wwu
     List:
@@ -393,6 +393,18 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
       - ElementName: Play_Soldier_FootstepsPuddle
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 176022d63c866947bc9112004bf62cb1
+      ID: 509637542
+      Name: Play_Thunderclap
+      Path: Default Work Unit\Play_Thunderclap
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Thunderclap
         ObjectType: 3
       maxAttenuation: 0
       maxDuration: 0

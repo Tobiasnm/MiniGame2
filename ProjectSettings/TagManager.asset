@@ -9,6 +9,7 @@ TagManager:
   - Obstacle
   - RainManager
   - RainAudio
+  - StoryManager
   layers:
   - Default
   - TransparentFX
