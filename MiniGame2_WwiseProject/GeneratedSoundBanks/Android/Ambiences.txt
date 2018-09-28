@@ -1,13 +1,13 @@
 Event	ID	Name			Wwise Object Path	Notes
-	1631227588	Play_Military_Base_Ambience			\Default Work Unit\Play_Military_Base_Ambience	
+	1631227588	Play_Military_Base_Ambience			\Default Work Unit\Play_Military_Base_Ambience
 
 Effect plug-ins	ID	Name	Type				Notes
-	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
-	323686936	Low_Pass_20KHz (Custom)	Wwise Parametric EQ			
-	439285831	Low_Pass_20KHz (Custom)	Wwise Parametric EQ			
-	534839732	Have_U_Ever_Been_Outside (Custom)	Wwise RoomVerb			
-	562905463	Have_U_Ever_Been_Outside (Custom)	Wwise RoomVerb			
-	855537336	Have_U_Ever_Been_Outside (Custom)	Wwise RoomVerb			
+	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb
+	323686936	Low_Pass_20KHz (Custom)	Wwise Parametric EQ
+	439285831	Low_Pass_20KHz (Custom)	Wwise Parametric EQ
+	534839732	Have_U_Ever_Been_Outside (Custom)	Wwise RoomVerb
+	562905463	Have_U_Ever_Been_Outside (Custom)	Wwise RoomVerb
+	855537336	Have_U_Ever_Been_Outside (Custom)	Wwise RoomVerb
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	10736095	Noise7	C:\Users\faggka\Desktop\Git\MiniGame\MiniGame2_WwiseProject\.cache\Android\SFX\Noise7_56D34C19.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\2D\Military_Base_Ambience\Random_Noise\Noise7		1953644
@@ -20,4 +20,3 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	940296272	Vehicle1	C:\Users\faggka\Desktop\Git\MiniGame\MiniGame2_WwiseProject\.cache\Android\SFX\Vehicle1_3FBEBD5A.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\2D\Military_Base_Ambience\Random_Vehicles\Vehicle1		7358168
 	941368560	Noise1	C:\Users\faggka\Desktop\Git\MiniGame\MiniGame2_WwiseProject\.cache\Android\SFX\Noise1_56D34C19.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\2D\Military_Base_Ambience\Random_Noise\Noise1		1572744
 	943570333	droneMili1	C:\Users\faggka\Desktop\Git\MiniGame\MiniGame2_WwiseProject\.cache\Android\SFX\droneMili1_8FA467C4.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\2D\Military_Base_Ambience\droneMili1		3786268
-
