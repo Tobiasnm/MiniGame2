@@ -70,8 +70,8 @@ MonoBehaviour:
     PhysicalPath: SoundBanks\Default Work Unit.wwu
     List: []
   - Guid: '{4D7AC21B-028A-48E8-A7B2-965EC6111045}'
-    m_lastTimePart2: -1999231705
-    m_lastTimePsrt1: 427056649
+    m_lastTimePart2: -1999231721
+    m_lastTimePsrt1: 504127912
     ParentPhysicalPath: 
     PhysicalPath: SoundBanks\Frederik Jensen Soundbank.wwu
     List:
@@ -257,8 +257,8 @@ MonoBehaviour:
       maxDuration: 0
       minDuration: 0
   - Guid: '{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}'
-    m_lastTimePart2: -1999231705
-    m_lastTimePsrt1: 379063304
+    m_lastTimePart2: -1999231721
+    m_lastTimePsrt1: 497992942
     ParentPhysicalPath: 
     PhysicalPath: Events\Default Work Unit.wwu
     List:
@@ -426,18 +426,6 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
       - ElementName: Play_Soldier_FootstepsPuddle
-        ObjectType: 3
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
-    - Guid: e7ef069c837b664a8e9f730f73c9a684
-      ID: -1720262587
-      Name: Play_Tent_Noises
-      Path: Default Work Unit\Play_Tent_Noises
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Play_Tent_Noises
         ObjectType: 3
       maxAttenuation: 0
       maxDuration: 0

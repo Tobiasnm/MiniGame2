@@ -8,8 +8,9 @@ public class HandleRain : MonoBehaviour
     
     public RainScript theRain;
     [Header("Select if repeating rain only")]
+    public bool startAndRepeatRain = false;
     public float beginRain = 15;
-    public bool rainRepeating = false;
+    
 
     [Header("Select anyway")]
     public float repeatEverySec = 10;
@@ -25,11 +26,15 @@ public class HandleRain : MonoBehaviour
         Debug.Log("Rain begun!");
     }
 
-    public void StartRainInSeconds(float seconds)
+    private void DoThunder()
     {
-        Invoke("StartRain",seconds);
-        //AkSoundEngine.PostEvent("Thunderstrike", gameObject);
-        AkSoundEngine.SetRTPCValue("RainIntensity", 1, rain, 1000);
+        AkSoundEngine.PostEvent("Play_Thunderclap", gameObject);
+    }
+
+    public void StartRainInSeconds(float startRainInSeconds, float doThunderInSeconds)
+    {
+        Invoke("StartRain", startRainInSeconds);
+        Invoke("DoThunder", doThunderInSeconds);
     }
 
     public void StopRain()
@@ -49,7 +54,7 @@ public class HandleRain : MonoBehaviour
     void Start()
     {
         StopRain();
-        if (rainRepeating)
+        if (startAndRepeatRain)
             InvokeRepeating("StartRain", beginRain, repeatEverySec + rainDuration);
 
         rain = GameObject.FindGameObjectWithTag("RainAudio");
@@ -62,7 +67,7 @@ public class HandleRain : MonoBehaviour
         if (isRaining)
         {
             isRaining = false;
-            Invoke("stopRain", rainDuration);
+            Invoke("StopRain", rainDuration);
         }
 
     }
