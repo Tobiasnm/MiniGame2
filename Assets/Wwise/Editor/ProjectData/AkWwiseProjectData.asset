@@ -24,8 +24,8 @@ MonoBehaviour:
     List: []
   AuxBusWwu:
   - Guid: '{7B533535-4201-4B94-9675-1FE3D41F10DD}'
-    m_lastTimePart2: -1999231863
-    m_lastTimePsrt1: -467231007
+    m_lastTimePart2: -1999231700
+    m_lastTimePsrt1: -1374630814
     ParentPhysicalPath: 
     PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     List: []
@@ -70,8 +70,8 @@ MonoBehaviour:
     PhysicalPath: SoundBanks\Default Work Unit.wwu
     List: []
   - Guid: '{4D7AC21B-028A-48E8-A7B2-965EC6111045}'
-    m_lastTimePart2: -1999231726
-    m_lastTimePsrt1: 1087738745
+    m_lastTimePart2: -1999231721
+    m_lastTimePsrt1: 504127912
     ParentPhysicalPath: 
     PhysicalPath: SoundBanks\Frederik Jensen Soundbank.wwu
     List:
@@ -92,6 +92,15 @@ MonoBehaviour:
       - ElementName: Frederik Jensen Soundbank
         ObjectType: 12
       - ElementName: Ambiences
+        ObjectType: 7
+    - Guid: 0b9bad52acc6804b8f5d2b5a42a0d4c0
+      ID: -1230907357
+      Name: MilitaryBase
+      Path: Frederik Jensen Soundbank\MilitaryBase
+      PathAndIcons:
+      - ElementName: Frederik Jensen Soundbank
+        ObjectType: 12
+      - ElementName: MilitaryBase
         ObjectType: 7
     - Guid: 8e585b38037e5f4ba489ee1d2b23c69a
       ID: 2043403999
@@ -248,8 +257,8 @@ MonoBehaviour:
       maxDuration: 0
       minDuration: 0
   - Guid: '{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}'
-    m_lastTimePart2: -1999231863
-    m_lastTimePsrt1: -474432028
+    m_lastTimePart2: -1999231721
+    m_lastTimePsrt1: 497992942
     ParentPhysicalPath: 
     PhysicalPath: Events\Default Work Unit.wwu
     List:
@@ -289,6 +298,18 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - Guid: 75844f0530dcab448642cbc5b18c6b8f
+      ID: -1039652752
+      Name: Play_Idle_Truck
+      Path: Default Work Unit\Play_Idle_Truck
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Idle_Truck
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - Guid: 8b022df604de4945bc703f31e98bc30c
       ID: 807462833
       Name: Play_MenuTrack1
@@ -301,7 +322,7 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
-    - Guid: 2be502c739b57c40b2921e604bb51bba
+    - Guid: b051cee3fc2b6247a6486a42c7ed6476
       ID: 1631227588
       Name: Play_Military_Base_Ambience
       Path: Default Work Unit\Play_Military_Base_Ambience
@@ -345,6 +366,18 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
       - ElementName: Play_Resume
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 416984a7e7c83d48b4f449b228985230
+      ID: -1271851843
+      Name: Play_Search_Trash
+      Path: Default Work Unit\Play_Search_Trash
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Search_Trash
         ObjectType: 3
       maxAttenuation: 0
       maxDuration: 0
@@ -397,6 +430,18 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - Guid: 176022d63c866947bc9112004bf62cb1
+      ID: 509637542
+      Name: Play_Thunderclap
+      Path: Default Work Unit\Play_Thunderclap
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Thunderclap
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   ExpandedItems:
   - /MiniGame2_WwiseProject
   - /MiniGame2_WwiseProject/Events
@@ -428,8 +473,8 @@ MonoBehaviour:
     PhysicalPath: Game Parameters\Default Work Unit.wwu
     List: []
   - Guid: '{2A6262A5-341F-4D32-A0BB-76F90CF27011}'
-    m_lastTimePart2: -1999231863
-    m_lastTimePsrt1: -474422037
+    m_lastTimePart2: -1999231700
+    m_lastTimePsrt1: -1374670546
     ParentPhysicalPath: 
     PhysicalPath: Game Parameters\Frederik Work Unit(GP).wwu
     List:
@@ -463,6 +508,17 @@ MonoBehaviour:
       - ElementName: Frederik Work Unit(GP)
         ObjectType: 12
       - ElementName: RainIntensity
+        ObjectType: 13
+    - Guid: 0d9c7490b12349449dec4a2403ecab2f
+      ID: -879909819
+      Name: UIVolume
+      Path: Frederik Work Unit(GP)\Volume\UIVolume
+      PathAndIcons:
+      - ElementName: Frederik Work Unit(GP)
+        ObjectType: 12
+      - ElementName: Volume
+        ObjectType: 4
+      - ElementName: UIVolume
         ObjectType: 13
   StateWwu:
   - Guid: '{6262B9FF-1619-4BA7-9A20-6F88731B5C4C}'

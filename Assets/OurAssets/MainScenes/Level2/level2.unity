@@ -299,11 +299,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   causeRain: 0
-  doSoundInSeconds: 1
   startRainInSeconds: 10
+  doThunderInSeconds: 10
   isWinCondition: 1
   story:
   - Hasta la vista, sista <3
+  audioSources: []
   nextLevelName: Credits
 --- !u!65 &592969879
 BoxCollider:
@@ -2336,11 +2337,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 114325476379726042, guid: 0981a30d48e2c6f4c920155ecef8d900,
-        type: 2}
-      propertyPath: points.Array.size
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 4265336180986980, guid: 0981a30d48e2c6f4c920155ecef8d900, type: 2}
       propertyPath: m_LocalPosition.x
       value: 591.9164

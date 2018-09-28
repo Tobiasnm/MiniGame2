@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="132">
 	<RootPaths>
-		<ProjectRoot>C:\Users\faggka\Desktop\Git\MiniGame\MiniGame2_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\faggka\Desktop\Git\MiniGame\MiniGame2_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\faggka\Desktop\Git\MiniGame\MiniGame2_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\mathi\OneDrive\Documents\Github\MiniGame2\MiniGame2_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\mathi\OneDrive\Documents\Github\MiniGame2\MiniGame2_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\mathi\OneDrive\Documents\Github\MiniGame2\MiniGame2_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\faggka\Desktop\Git\MiniGame\MiniGame2_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\mathi\OneDrive\Documents\Github\MiniGame2\MiniGame2_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -29,51 +29,6 @@
 			<ObjectPath>\SoundBanks\Frederik Jensen Soundbank\Ambiences</ObjectPath>
 			<ShortName>Ambiences</ShortName>
 			<Path>Ambiences.bnk</Path>
-			<IncludedEvents>
-				<Event Id="1631227588" Name="Play_Military_Base_Ambience" ObjectPath="\Events\Default Work Unit\Play_Military_Base_Ambience"/>
-			</IncludedEvents>
-			<IncludedMemoryFiles>
-				<File Id="10736095" Language="SFX">
-					<ShortName>Noise7.wav</ShortName>
-					<Path>SFX\Noise7_56D34C19.wem</Path>
-				</File>
-				<File Id="68484846" Language="SFX">
-					<ShortName>Noise3.wav</ShortName>
-					<Path>SFX\Noise3_56D34C19.wem</Path>
-				</File>
-				<File Id="189872014" Language="SFX">
-					<ShortName>Noise6.wav</ShortName>
-					<Path>SFX\Noise6_56D34C19.wem</Path>
-				</File>
-				<File Id="457010429" Language="SFX">
-					<ShortName>Noise4.wav</ShortName>
-					<Path>SFX\Noise4_56D34C19.wem</Path>
-				</File>
-				<File Id="490282618" Language="SFX">
-					<ShortName>steam1.wav</ShortName>
-					<Path>SFX\steam1_56D34C19.wem</Path>
-				</File>
-				<File Id="596852205" Language="SFX">
-					<ShortName>ALARM_Distorted_Echo_loop_stereo.wav</ShortName>
-					<Path>SFX\ALARM_Distorted_Echo_loop_stereo_8956FC97.wem</Path>
-				</File>
-				<File Id="635977214" Language="SFX">
-					<ShortName>Noise5.wav</ShortName>
-					<Path>SFX\Noise5_56D34C19.wem</Path>
-				</File>
-				<File Id="940296272" Language="SFX">
-					<ShortName>Vehicle1.wav</ShortName>
-					<Path>SFX\Vehicle1_3FBEBD5A.wem</Path>
-				</File>
-				<File Id="941368560" Language="SFX">
-					<ShortName>Noise1.wav</ShortName>
-					<Path>SFX\Noise1_56D34C19.wem</Path>
-				</File>
-				<File Id="943570333" Language="SFX">
-					<ShortName>droneMili1.wav</ShortName>
-					<Path>SFX\droneMili1_8FA467C4.wem</Path>
-				</File>
-			</IncludedMemoryFiles>
 		</SoundBank>
 		<SoundBank Id="1355168291" Language="SFX">
 			<ObjectPath>Init</ObjectPath>
@@ -120,6 +75,7 @@
 			<Path>Rain.bnk</Path>
 			<IncludedEvents>
 				<Event Id="2838936948" Name="Play_Rain" ObjectPath="\Events\Default Work Unit\Play_Rain"/>
+				<Event Id="509637542" Name="Play_Thunderclap" ObjectPath="\Events\Default Work Unit\Play_Thunderclap"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="101782059" Language="SFX">
@@ -134,9 +90,17 @@
 					<ShortName>Vindpust1.wav</ShortName>
 					<Path>SFX\Vindpust1_56D34C19.wem</Path>
 				</File>
+				<File Id="367148356" Language="SFX">
+					<ShortName>THUNDER_Clap_Rumble_01_stereo.wav</ShortName>
+					<Path>SFX\THUNDER_Clap_Rumble_01_stereo_56D34C19.wem</Path>
+				</File>
 				<File Id="679480057" Language="SFX">
 					<ShortName>Vindpust2.wav</ShortName>
 					<Path>SFX\Vindpust2_56D34C19.wem</Path>
+				</File>
+				<File Id="716116991" Language="SFX">
+					<ShortName>THUNDER_Clap_Rumble_03_stereo.wav</ShortName>
+					<Path>SFX\THUNDER_Clap_Rumble_03_stereo_56D34C19.wem</Path>
 				</File>
 				<File Id="746519542" Language="SFX">
 					<ShortName>Vindpust3.wav</ShortName>
@@ -161,6 +125,10 @@
 				<File Id="971076657" Language="SFX">
 					<ShortName>thunder_strike_03.wav</ShortName>
 					<Path>SFX\thunder_strike_03_56D34C19.wem</Path>
+				</File>
+				<File Id="971949006" Language="SFX">
+					<ShortName>THUNDER_Clap_Rumble_02_stereo.wav</ShortName>
+					<Path>SFX\THUNDER_Clap_Rumble_02_stereo_56D34C19.wem</Path>
 				</File>
 				<File Id="999435447" Language="SFX">
 					<ShortName>THUNDER_Clap_Rumble_02_stereo.wav</ShortName>
@@ -256,6 +224,50 @@
 				<File Id="1051169781" Language="SFX">
 					<ShortName>32 Moorhen03.wav</ShortName>
 					<Path>SFX\32 Moorhen03_56D34C19.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="3064059939" Language="SFX">
+			<ObjectPath>\SoundBanks\Frederik Jensen Soundbank\MilitaryBase</ObjectPath>
+			<ShortName>MilitaryBase</ShortName>
+			<Path>MilitaryBase.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3255314544" Name="Play_Idle_Truck" ObjectPath="\Events\Default Work Unit\Play_Idle_Truck"/>
+				<Event Id="1631227588" Name="Play_Military_Base_Ambience" ObjectPath="\Events\Default Work Unit\Play_Military_Base_Ambience"/>
+				<Event Id="2574704709" Name="Play_Tent_Noises" ObjectPath="\Events\Default Work Unit\Play_Tent_Noises"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="10736095" Language="SFX">
+					<ShortName>Noise7.wav</ShortName>
+					<Path>SFX\Noise7_56D34C19.wem</Path>
+				</File>
+				<File Id="68484846" Language="SFX">
+					<ShortName>Noise3.wav</ShortName>
+					<Path>SFX\Noise3_56D34C19.wem</Path>
+				</File>
+				<File Id="132177151" Language="SFX">
+					<ShortName>FABRIC_Flag_or_Fabric_in_Wind_loop_mono.wav</ShortName>
+					<Path>SFX\FABRIC_Flag_or_Fabric_in_Wind_loop_mono_210D5088.wem</Path>
+				</File>
+				<File Id="189872014" Language="SFX">
+					<ShortName>Noise6.wav</ShortName>
+					<Path>SFX\Noise6_56D34C19.wem</Path>
+				</File>
+				<File Id="457010429" Language="SFX">
+					<ShortName>Noise4.wav</ShortName>
+					<Path>SFX\Noise4_56D34C19.wem</Path>
+				</File>
+				<File Id="635977214" Language="SFX">
+					<ShortName>Noise5.wav</ShortName>
+					<Path>SFX\Noise5_56D34C19.wem</Path>
+				</File>
+				<File Id="737833130" Language="SFX">
+					<ShortName>TRUCK_Idle_02_Crop_loop_mono.wav</ShortName>
+					<Path>SFX\TRUCK_Idle_02_Crop_loop_mono_8956FC97.wem</Path>
+				</File>
+				<File Id="941368560" Language="SFX">
+					<ShortName>Noise1.wav</ShortName>
+					<Path>SFX\Noise1_56D34C19.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -378,19 +390,48 @@
 			<Path>Actions.bnk</Path>
 			<IncludedEvents>
 				<Event Id="1720809208" Name="Play_Detected" ObjectPath="\Events\Default Work Unit\Play_Detected"/>
+				<Event Id="3023115453" Name="Play_Search_Trash" ObjectPath="\Events\Default Work Unit\Play_Search_Trash"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="373338240" Language="SFX">
 					<ShortName>Stinger3.wav</ShortName>
 					<Path>SFX\Stinger3_7E90B02E.wem</Path>
 				</File>
+				<File Id="489207521" Language="SFX">
+					<ShortName>TrashSearch1.wav</ShortName>
+					<Path>SFX\TrashSearch1_9200EF4B.wem</Path>
+				</File>
+				<File Id="515322455" Language="SFX">
+					<ShortName>TrashSearch1.wav</ShortName>
+					<Path>SFX\TrashSearch1_180F0752.wem</Path>
+				</File>
+				<File Id="537442384" Language="SFX">
+					<ShortName>TrashSearch4.wav</ShortName>
+					<Path>SFX\TrashSearch4_48E70B2A.wem</Path>
+				</File>
+				<File Id="682261727" Language="SFX">
+					<ShortName>TrashSearch3.wav</ShortName>
+					<Path>SFX\TrashSearch3_4D314F0F.wem</Path>
+				</File>
 				<File Id="735211814" Language="SFX">
 					<ShortName>Stinger1.wav</ShortName>
 					<Path>SFX\Stinger1_5110075D.wem</Path>
 				</File>
+				<File Id="853319014" Language="SFX">
+					<ShortName>TrashSearch1.wav</ShortName>
+					<Path>SFX\TrashSearch1_1EAB9A35.wem</Path>
+				</File>
+				<File Id="878006226" Language="SFX">
+					<ShortName>TrashSearch4.wav</ShortName>
+					<Path>SFX\TrashSearch4_E58C17F4.wem</Path>
+				</File>
 				<File Id="960059470" Language="SFX">
 					<ShortName>6 Big Metal Hit .wav</ShortName>
 					<Path>SFX\6 Big Metal Hit _1199FC32.wem</Path>
+				</File>
+				<File Id="973755901" Language="SFX">
+					<ShortName>TrashSearch3.wav</ShortName>
+					<Path>SFX\TrashSearch3_9AB94BDD.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
