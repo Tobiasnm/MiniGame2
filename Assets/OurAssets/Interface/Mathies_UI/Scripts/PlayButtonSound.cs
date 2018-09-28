@@ -8,4 +8,10 @@ public class PlayButtonSound : MonoBehaviour {
     {
         AkSoundEngine.PostEvent("Play_Button1",gameObject);
     }
+
+    public void StopMusic()
+    {
+        Debug.Log("Stop music");
+        AkSoundEngine.PostEvent("Stop_MenuTrack1", GameObject.Find("MenuTheme"));
+    }
 }

@@ -70,8 +70,8 @@ MonoBehaviour:
     PhysicalPath: SoundBanks\Default Work Unit.wwu
     List: []
   - Guid: '{4D7AC21B-028A-48E8-A7B2-965EC6111045}'
-    m_lastTimePart2: -1999231705
-    m_lastTimePsrt1: 427056649
+    m_lastTimePart2: -1999231675
+    m_lastTimePsrt1: 1471720222
     ParentPhysicalPath: 
     PhysicalPath: SoundBanks\Frederik Jensen Soundbank.wwu
     List:
@@ -257,8 +257,8 @@ MonoBehaviour:
       maxDuration: 0
       minDuration: 0
   - Guid: '{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}'
-    m_lastTimePart2: -1999231705
-    m_lastTimePsrt1: 379063304
+    m_lastTimePart2: -1999231675
+    m_lastTimePsrt1: 1469060212
     ParentPhysicalPath: 
     PhysicalPath: Events\Default Work Unit.wwu
     List:
@@ -450,6 +450,18 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
       - ElementName: Play_Thunderclap
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 4630b3f79a683f4abce4146d9b82dbad
+      ID: 1554289743
+      Name: Stop_MenuTrack1
+      Path: Default Work Unit\Stop_MenuTrack1
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_MenuTrack1
         ObjectType: 3
       maxAttenuation: 0
       maxDuration: 0

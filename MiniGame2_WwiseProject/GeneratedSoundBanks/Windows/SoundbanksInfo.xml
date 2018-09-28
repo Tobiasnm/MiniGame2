@@ -45,6 +45,7 @@
 				<Event Id="807462833" Name="Play_MenuTrack1" ObjectPath="\Events\Default Work Unit\Play_MenuTrack1"/>
 				<Event Id="1250373215" Name="Play_MiniGame2_INtroSoundscape" ObjectPath="\Events\Default Work Unit\Play_MiniGame2_INtroSoundscape"/>
 				<Event Id="2149395099" Name="Play_Resume" ObjectPath="\Events\Default Work Unit\Play_Resume"/>
+				<Event Id="1554289743" Name="Stop_MenuTrack1" ObjectPath="\Events\Default Work Unit\Stop_MenuTrack1" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="199205389" Language="SFX">

@@ -1,6 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	807462833	Play_MenuTrack1			\Default Work Unit\Play_MenuTrack1	
 	1250373215	Play_MiniGame2_INtroSoundscape			\Default Work Unit\Play_MiniGame2_INtroSoundscape	
+	1554289743	Stop_MenuTrack1			\Default Work Unit\Stop_MenuTrack1	
 	2149395099	Play_Resume			\Default Work Unit\Play_Resume	
 	2461875428	Play_Button2			\Default Work Unit\Play_Button2	
 	2461875431	Play_Button1			\Default Work Unit\Play_Button1	
