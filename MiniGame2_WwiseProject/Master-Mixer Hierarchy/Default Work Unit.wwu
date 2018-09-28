@@ -73,11 +73,41 @@
 							</PropertyList>
 						</Bus>
 						<Bus Name="UI Sound Bus" ID="{C8A9510B-486C-4D39-8AFB-A51FFBAB166A}">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{4A422F1F-7024-425C-9D0A-BE27FCB310F1}" ShortID="427166574">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="UIVolume" ID="{90749C0D-23B1-4449-9DEC-4A2403ECAB2F}" WorkUnitID="{2A6262A5-341F-4D32-A0BB-76F90CF27011}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{9E484ACE-E6B6-48EE-A7D6-E3C23369C935}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
 							<DuckingList>
 								<DuckItem>
 									<BusRef Name="Music Volume Bus" ID="{37BE4937-1C63-4B3A-966B-8DE72B0A0EE9}"/>
 									<DuckingParam>
-										<Volume>-6</Volume>
+										<Volume>-9</Volume>
 										<FadeInTime>1</FadeInTime>
 										<FadeOutTime>1</FadeOutTime>
 										<FadeCurve>FadeLinear</FadeCurve>
