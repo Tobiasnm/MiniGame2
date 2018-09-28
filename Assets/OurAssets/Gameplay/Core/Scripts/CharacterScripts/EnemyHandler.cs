@@ -9,7 +9,6 @@ public class EnemyHandler : MonoBehaviour
     public Transform[] points;
     public Transform player;
     public bool hasSeenPlayer = false;
-    public float barkDetectionLength = 5;
 
     private int destPoint = 0;
     private UnityEngine.AI.NavMeshAgent agent;

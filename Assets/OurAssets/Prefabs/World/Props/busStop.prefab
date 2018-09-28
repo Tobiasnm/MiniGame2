@@ -21,8 +21,8 @@ GameObject:
   - component: {fileID: 4068175140707628}
   - component: {fileID: 65265104594998710}
   m_Layer: 0
-  m_Name: Obstacle
-  m_TagString: Obstacle
+  m_Name: Obstacles
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -69,9 +69,11 @@ GameObject:
   - component: {fileID: 33046475254459518}
   - component: {fileID: 23242691258300292}
   - component: {fileID: 65092518076310858}
-  m_Layer: 0
+  - component: {fileID: 65316518423725776}
+  - component: {fileID: 114435114230761068}
+  m_Layer: 12
   m_Name: busStop_trashCan
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -87,9 +89,11 @@ GameObject:
   - component: {fileID: 33863492299862396}
   - component: {fileID: 23153838619795600}
   - component: {fileID: 65900522499922422}
-  m_Layer: 0
+  - component: {fileID: 65409325829276450}
+  - component: {fileID: 114765207617241438}
+  m_Layer: 12
   m_Name: busStop_trashCan (3)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -122,9 +126,11 @@ GameObject:
   - component: {fileID: 33790147574674070}
   - component: {fileID: 23686728773980244}
   - component: {fileID: 65097602047201190}
-  m_Layer: 0
+  - component: {fileID: 65658575724056174}
+  - component: {fileID: 114819464493526188}
+  m_Layer: 12
   m_Name: busStop_trashCan (2)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -157,9 +163,11 @@ GameObject:
   - component: {fileID: 33706376595507638}
   - component: {fileID: 23374964359886896}
   - component: {fileID: 65967776295148366}
-  m_Layer: 0
+  - component: {fileID: 65550365649086838}
+  - component: {fileID: 114384686801058350}
+  m_Layer: 12
   m_Name: busStop_trashCan (1)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -785,6 +793,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.3, y: 3.12, z: 9.77}
   m_Center: {x: -0.8, y: 1.66, z: -1.9}
+--- !u!65 &65316518423725776
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1254310300829282}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.9783177, y: 1.5500369, z: 3.436784}
+  m_Center: {x: 0.10076892, y: 0.7636657, z: -0.00083446485}
 --- !u!65 &65374023892138610
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -797,6 +817,42 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.59, y: 0.1, z: 9}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &65409325829276450
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1259637201883636}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.9783177, y: 1.5500369, z: 3.436784}
+  m_Center: {x: 0.10076892, y: 0.7636657, z: -0.00083446485}
+--- !u!65 &65550365649086838
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1615723248550908}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.9783177, y: 1.5500369, z: 3.436784}
+  m_Center: {x: 0.10076892, y: 0.7636657, z: -0.00083446485}
+--- !u!65 &65658575724056174
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1274025677780016}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.9783177, y: 1.5500369, z: 3.436784}
+  m_Center: {x: 0.10076892, y: 0.7636657, z: -0.00083446485}
 --- !u!65 &65900522499922422
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -821,6 +877,54 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.9783177, y: 1.5500369, z: 3.436784}
   m_Center: {x: 0.10076892, y: 0.7636657, z: -0.00083446497}
+--- !u!114 &114384686801058350
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1615723248550908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bba9616af763c9140a122770e6286b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tapsToBreak: 10
+--- !u!114 &114435114230761068
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1254310300829282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bba9616af763c9140a122770e6286b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tapsToBreak: 10
+--- !u!114 &114765207617241438
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1259637201883636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bba9616af763c9140a122770e6286b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tapsToBreak: 10
+--- !u!114 &114819464493526188
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1274025677780016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bba9616af763c9140a122770e6286b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tapsToBreak: 10
 --- !u!114 &114856553732854624
 MonoBehaviour:
   m_ObjectHideFlags: 1

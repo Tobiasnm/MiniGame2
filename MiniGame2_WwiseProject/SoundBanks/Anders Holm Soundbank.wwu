@@ -18,6 +18,19 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Dialouge" ID="{9D10B159-D209-4DD0-A323-165337977632}">
+					<ObjectInclusionList>
+						<ObjectRef Name="one_gate_found" ID="{F1BBE98F-F4C8-4137-938B-A84D14A4B75B}" WorkUnitID="{B6F57FE7-6FB3-4ED0-9B7C-37A3A2D96D96}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="hurry_up" ID="{CDFCF18C-50B9-4186-A363-AD1703113064}" WorkUnitID="{B6F57FE7-6FB3-4ED0-9B7C-37A3A2D96D96}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="be_careful" ID="{91A77C62-3FD2-418B-98F0-A201429B7579}" WorkUnitID="{B6F57FE7-6FB3-4ED0-9B7C-37A3A2D96D96}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="rainfall_dialouge" ID="{C2FD4942-EBBE-498C-91C7-86A9670A76EC}" WorkUnitID="{B6F57FE7-6FB3-4ED0-9B7C-37A3A2D96D96}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="intro_dialouge" ID="{44AFEF04-3865-4B09-A606-F527F6247C63}" WorkUnitID="{B6F57FE7-6FB3-4ED0-9B7C-37A3A2D96D96}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="shelter_safe" ID="{03CAB974-EB78-4DA7-A213-543E49B6199A}" WorkUnitID="{B6F57FE7-6FB3-4ED0-9B7C-37A3A2D96D96}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="ruben_mad" ID="{7DEFC48D-111C-4DCE-AAC5-380BB138DA48}" WorkUnitID="{B6F57FE7-6FB3-4ED0-9B7C-37A3A2D96D96}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>
