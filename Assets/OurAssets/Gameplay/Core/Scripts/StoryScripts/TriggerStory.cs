@@ -28,12 +28,9 @@ public class TriggerStory : MonoBehaviour
     private AkEvent audioSource;
     private CameraHandler cameraHandler;
     private HandleRain rainHandler;
-<<<<<<< HEAD
-    //private GameObject rain;
-    public GameUIManagerScript uiManager;
-=======
 
->>>>>>> 274e5b79c08b634585dd2855537c31070af935f1
+    public GameUIManagerScript uiManager;
+
 
     void Start()
     {
