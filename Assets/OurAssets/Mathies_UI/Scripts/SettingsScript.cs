@@ -44,12 +44,12 @@ public class SettingsScript : MonoBehaviour {
 
     public void SetMusic(float volume)
     {
-        musicMixer.SetFloat("musicVolume", volume);
+        AkSoundEngine.SetRTPCValue("MusicVolume", volume);
     }
 
-    public void SetAmbience(float volume)
+    public void SetMaster(float volume)
     {
-        audioMixer.SetFloat("ambienceVolume", volume);
+        AkSoundEngine.SetRTPCValue("MasterVolume", volume);
     }
 
     public void ChangeLangauge()

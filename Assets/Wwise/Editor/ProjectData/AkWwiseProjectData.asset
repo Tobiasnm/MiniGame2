@@ -70,8 +70,8 @@ MonoBehaviour:
     PhysicalPath: SoundBanks\Default Work Unit.wwu
     List: []
   - Guid: '{4D7AC21B-028A-48E8-A7B2-965EC6111045}'
-    m_lastTimePart2: -1999231726
-    m_lastTimePsrt1: 1087738745
+    m_lastTimePart2: -1999231705
+    m_lastTimePsrt1: 427056649
     ParentPhysicalPath: 
     PhysicalPath: SoundBanks\Frederik Jensen Soundbank.wwu
     List:
@@ -92,6 +92,15 @@ MonoBehaviour:
       - ElementName: Frederik Jensen Soundbank
         ObjectType: 12
       - ElementName: Ambiences
+        ObjectType: 7
+    - Guid: 0b9bad52acc6804b8f5d2b5a42a0d4c0
+      ID: -1230907357
+      Name: MilitaryBase
+      Path: Frederik Jensen Soundbank\MilitaryBase
+      PathAndIcons:
+      - ElementName: Frederik Jensen Soundbank
+        ObjectType: 12
+      - ElementName: MilitaryBase
         ObjectType: 7
     - Guid: 8e585b38037e5f4ba489ee1d2b23c69a
       ID: 2043403999
@@ -248,8 +257,8 @@ MonoBehaviour:
       maxDuration: 0
       minDuration: 0
   - Guid: '{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}'
-    m_lastTimePart2: -1999231863
-    m_lastTimePsrt1: -474432028
+    m_lastTimePart2: -1999231705
+    m_lastTimePsrt1: 379063304
     ParentPhysicalPath: 
     PhysicalPath: Events\Default Work Unit.wwu
     List:
@@ -289,6 +298,18 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - Guid: 75844f0530dcab448642cbc5b18c6b8f
+      ID: -1039652752
+      Name: Play_Idle_Truck
+      Path: Default Work Unit\Play_Idle_Truck
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Idle_Truck
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - Guid: 8b022df604de4945bc703f31e98bc30c
       ID: 807462833
       Name: Play_MenuTrack1
@@ -301,7 +322,7 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
-    - Guid: 2be502c739b57c40b2921e604bb51bba
+    - Guid: b051cee3fc2b6247a6486a42c7ed6476
       ID: 1631227588
       Name: Play_Military_Base_Ambience
       Path: Default Work Unit\Play_Military_Base_Ambience
@@ -345,6 +366,18 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
       - ElementName: Play_Resume
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 416984a7e7c83d48b4f449b228985230
+      ID: -1271851843
+      Name: Play_Search_Trash
+      Path: Default Work Unit\Play_Search_Trash
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Search_Trash
         ObjectType: 3
       maxAttenuation: 0
       maxDuration: 0
@@ -393,6 +426,30 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
       - ElementName: Play_Soldier_FootstepsPuddle
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: e7ef069c837b664a8e9f730f73c9a684
+      ID: -1720262587
+      Name: Play_Tent_Noises
+      Path: Default Work Unit\Play_Tent_Noises
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Tent_Noises
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 176022d63c866947bc9112004bf62cb1
+      ID: 509637542
+      Name: Play_Thunderclap
+      Path: Default Work Unit\Play_Thunderclap
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Thunderclap
         ObjectType: 3
       maxAttenuation: 0
       maxDuration: 0

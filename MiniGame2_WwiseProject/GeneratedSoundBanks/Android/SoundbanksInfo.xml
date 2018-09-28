@@ -399,19 +399,19 @@
 				</File>
 				<File Id="489207521" Language="SFX">
 					<ShortName>TrashSearch1.wav</ShortName>
-					<Path>SFX\TrashSearch1_BD67D5F6.wem</Path>
+					<Path>SFX\TrashSearch1_9200EF4B.wem</Path>
 				</File>
 				<File Id="515322455" Language="SFX">
 					<ShortName>TrashSearch1.wav</ShortName>
-					<Path>SFX\TrashSearch1_A961F56E.wem</Path>
+					<Path>SFX\TrashSearch1_180F0752.wem</Path>
 				</File>
 				<File Id="537442384" Language="SFX">
 					<ShortName>TrashSearch4.wav</ShortName>
-					<Path>SFX\TrashSearch4_0B1DDD80.wem</Path>
+					<Path>SFX\TrashSearch4_48E70B2A.wem</Path>
 				</File>
 				<File Id="682261727" Language="SFX">
 					<ShortName>TrashSearch3.wav</ShortName>
-					<Path>SFX\TrashSearch3_F2B09F34.wem</Path>
+					<Path>SFX\TrashSearch3_4D314F0F.wem</Path>
 				</File>
 				<File Id="735211814" Language="SFX">
 					<ShortName>Stinger1.wav</ShortName>
@@ -419,11 +419,11 @@
 				</File>
 				<File Id="853319014" Language="SFX">
 					<ShortName>TrashSearch1.wav</ShortName>
-					<Path>SFX\TrashSearch1_3515C2A2.wem</Path>
+					<Path>SFX\TrashSearch1_1EAB9A35.wem</Path>
 				</File>
 				<File Id="878006226" Language="SFX">
 					<ShortName>TrashSearch4.wav</ShortName>
-					<Path>SFX\TrashSearch4_5CA0DFF9.wem</Path>
+					<Path>SFX\TrashSearch4_E58C17F4.wem</Path>
 				</File>
 				<File Id="960059470" Language="SFX">
 					<ShortName>6 Big Metal Hit .wav</ShortName>
@@ -431,7 +431,7 @@
 				</File>
 				<File Id="973755901" Language="SFX">
 					<ShortName>TrashSearch3.wav</ShortName>
-					<Path>SFX\TrashSearch3_8AF82705.wem</Path>
+					<Path>SFX\TrashSearch3_9AB94BDD.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
