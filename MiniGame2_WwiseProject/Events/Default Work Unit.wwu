@@ -227,6 +227,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Stop_MenuTrack1" ID="{F7B33046-689A-4A3F-BCE4-146D9B82DBAD}">
+					<ChildrenList>
+						<Action Name="" ID="{4C07FBE6-F176-4A48-BE28-34D120547D80}" ShortID="559836281">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MenuTrack1" ID="{AD27115F-F13F-42D3-A5A1-2DCB944BD0FD}" WorkUnitID="{13EEEA71-2979-435A-8F44-172814FC0E97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
