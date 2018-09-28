@@ -20,11 +20,11 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 100
   m_LinearFogEnd: 2000
-  m_AmbientSkyColor: {r: 0.7372549, g: 0.73333335, b: 0.85490197, a: 1}
+  m_AmbientSkyColor: {r: 0.1, g: 0.1, b: 0.1, a: 1}
   m_AmbientEquatorColor: {r: 0.42352942, g: 0.4509804, b: 0.5803922, a: 1}
   m_AmbientGroundColor: {r: 0.5294118, g: 0.50980395, b: 0.38431373, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 1
+  m_AmbientMode: 4
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 595370cf0a5494b42a24e66b3d27208b, type: 2}
   m_HaloStrength: 0.5
@@ -1213,11 +1213,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rollAngle: -79.7
   rotAngle: 45.4
-  distance: 0
-  ZoomInrotAngleValue: 20
-  ZoomOutrotAngleValue: 5
-  ZoomIndistanceValue: 50
-  ZoomOutdistanceValue: 20
+  distance: 12.6
+  zoomInrotAngleValue: 20
+  zoomIndistanceValue: 12.6
+  zoomInRollAngleValue: -88.2
+  zoomOutrotAngleValue: 50
+  zoomOutdistanceValue: 5
+  zoomOutRollAngleValue: -80
 --- !u!114 &611569109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2894,6 +2896,11 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 95195776342527110, guid: c4a20a98cbf71ab41bcdb2f89ec2839f,
+        type: 2}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: 0993794dfb086e64bbd91c102507feba, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c4a20a98cbf71ab41bcdb2f89ec2839f, type: 2}
   m_IsPrefabAsset: 0
