@@ -323,6 +323,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 1258379653827536, guid: d5a32926f2a94e34384ee2ef66799029, type: 2}
+      propertyPath: m_TagString
+      value: LanguageButton
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d5a32926f2a94e34384ee2ef66799029, type: 2}
   m_IsPrefabAsset: 0
