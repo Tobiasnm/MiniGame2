@@ -10,6 +10,10 @@ public class ObstacleHandler : MonoBehaviour
 
     [SerializeField]
     int tapsRemaining;
+
+    [SerializeField]
+    string tapSound;
+
     // Use this for initialization
     void Start()
     {
@@ -19,6 +23,7 @@ public class ObstacleHandler : MonoBehaviour
     public void RegisterTap()
     {
         tapsRemaining -= 1;
+        AkSoundEngine.PostEvent(tapSound, gameObject);
         Debug.Log("Tap");
     }
 
