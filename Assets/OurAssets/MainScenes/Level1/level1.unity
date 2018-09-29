@@ -24,7 +24,7 @@ RenderSettings:
   m_AmbientEquatorColor: {r: 0.42352942, g: 0.4509804, b: 0.5803922, a: 1}
   m_AmbientGroundColor: {r: 0.5294118, g: 0.50980395, b: 0.38431373, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 4
+  m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 595370cf0a5494b42a24e66b3d27208b, type: 2}
   m_HaloStrength: 0.5
@@ -89,7 +89,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
-  m_LightingDataAsset: {fileID: 112000002, guid: f2c274580bcb7a347ae4a58292e38c08,
+  m_LightingDataAsset: {fileID: 112000002, guid: a431b2ce2615f88448a50db71fbfc1bb,
     type: 2}
   m_UseShadowmask: 1
 --- !u!196 &4
