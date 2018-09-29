@@ -418,19 +418,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   subtitles:
-  - Somethings something
-  - Sis, are you there?
-  - Shut up bro, I'm trying to sleep.
-  - But sis, I'm dying.
-  - That's what you get for taking my last drugs.
-  - You damn asshole.
+  - 
+  - (Door opens)
+  - (Footsteps down stairs)
+  - Ruben! Ruben! Ruben!
+  - I think I found the entrance to the compound.
+  - ' Actually they haven''t hidden it very well'
+  - "(moans, his voice sounds shaky) I\u2026 I can\u2019t move my leg. "
+  - Oh, I thought you were doing better already?
   timeLimits:
-  - 6
-  - 3
-  - 3
+  - 1
+  - 5
+  - 2
+  - 2
+  - 2
+  - 2
+  - 3.5
   - 4
-  - 2
-  - 2
   startAnimation: 1
 --- !u!95 &1196522265
 Animator:
