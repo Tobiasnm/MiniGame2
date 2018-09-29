@@ -70,8 +70,8 @@ MonoBehaviour:
     PhysicalPath: SoundBanks\Default Work Unit.wwu
     List: []
   - Guid: '{4D7AC21B-028A-48E8-A7B2-965EC6111045}'
-    m_lastTimePart2: -1999231504
-    m_lastTimePsrt1: -1527057768
+    m_lastTimePart2: -1999231499
+    m_lastTimePsrt1: -854167448
     ParentPhysicalPath: 
     PhysicalPath: SoundBanks\Frederik Jensen Soundbank.wwu
     List:
@@ -257,8 +257,8 @@ MonoBehaviour:
       maxDuration: 0
       minDuration: 0
   - Guid: '{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}'
-    m_lastTimePart2: -1999231504
-    m_lastTimePsrt1: -1565381531
+    m_lastTimePart2: -1999231499
+    m_lastTimePsrt1: -862146278
     ParentPhysicalPath: 
     PhysicalPath: Events\Default Work Unit.wwu
     List:
@@ -469,6 +469,7 @@ MonoBehaviour:
   ExpandedItems:
   - /MiniGame2_WwiseProject
   - /MiniGame2_WwiseProject/Events
+  - /MiniGame2_WwiseProject/Events/Anders Holm Work Unit
   - /MiniGame2_WwiseProject/Events/Default Work Unit
   - /MiniGame2_WwiseProject/SoundBanks
   - /MiniGame2_WwiseProject/SoundBanks/Frederik Jensen Soundbank

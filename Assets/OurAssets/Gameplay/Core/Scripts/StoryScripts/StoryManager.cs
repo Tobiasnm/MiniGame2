@@ -5,22 +5,24 @@ using UnityEngine.SceneManagement;
 
 public class StoryManager : MonoBehaviour
 {
-    private List<TriggerStory> stories = new List<TriggerStory>();
+    private TriggerStory activeStory;
     //public string textToShow ="";
     //private UIController uiController;
     [HideInInspector]
     public PlayerHandler playerHandler;
-    public Queue<string> textList = new Queue<string>();
+    private Queue<Sentence> conversation = new Queue<Sentence>();
 
     //public LevelChangerScript levelChanger;
-    [HideInInspector]
-    public string nextLevelName;
+    //public string nextLevelName;
 
-    public bool hasWon { get; set; } = false;
+    //public bool hasWon { get; set; } = false;
+
+    private bool conversationLockEnabled = false;
 
     public void AddStory(TriggerStory story)
     {
-        stories.Add(story);
+        activeStory = story;
+        conversation = new Queue<Sentence>(activeStory.conversation);
     }
 
     // Use this for initialization
@@ -30,18 +32,28 @@ public class StoryManager : MonoBehaviour
         playerHandler = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHandler>();
     }
 
-    public void ShowText(string text,string sound)
+    public void ShowText(Sentence line)
     {
         //uiController.FillTextField(text);
         //uiController.ShowTextArea();
-        AkSoundEngine.PostEvent(sound, gameObject);
-        Debug.Log("sound; "+sound+" text; "+text);
+        if (line.audioClipName != "")
+            AkSoundEngine.PostEvent(line.audioClipName, gameObject);
 
+        Debug.Log("Audio name: " + line.audioClipName + " Duration: " + line.conversationLength + " Text: " + line.text);
     }
 
     void FixedUpdate()
     {
+        HandlePlayerPause();
         ShowStory();
+    }
+
+    private void HandlePlayerPause()
+    {
+        if (activeStory == null || !activeStory.pauseToListen)
+            return;
+        if (conversationLockEnabled)
+            playerHandler.StopLocomotion();
     }
 
     public void ShowStory()
@@ -67,5 +79,24 @@ public class StoryManager : MonoBehaviour
             }
         }
         */
+
+        if (!conversationLockEnabled && conversation.Count > 0)
+        {
+            StartCoroutine(PerformConversation());
+            conversationLockEnabled = true;
+        }
     }
+
+    IEnumerator PerformConversation()
+    {
+        while (conversation.Count > 0)
+        {
+            Sentence line = conversation.Dequeue();
+            ShowText(line);
+            yield return new WaitForSecondsRealtime(line.conversationLength);
+        }
+        conversationLockEnabled = false;
+        playerHandler.StartLocomotion();
+    }
+
 }

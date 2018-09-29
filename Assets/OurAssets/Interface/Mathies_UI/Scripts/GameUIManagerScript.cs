@@ -36,6 +36,9 @@ public class GameUIManagerScript : MonoBehaviour {
         subtitlesScript = GetComponent<SubtitlesScript>();
         settingsScript = GetComponent<SettingsScript>();
         GameObject[] pauseObjects = GameObject.FindGameObjectsWithTag("Pause");
+
+
+
         for (int i=0; i<pauseObjects.Length; i++)
         {
             switch (pauseObjects[i].name)
@@ -94,6 +97,9 @@ public class GameUIManagerScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update() {
+        if (hintTexts == null)
+            return;
+
         indexText.text = (currentShownHintIndex + 1) + " / " + hintTexts.Length;
     }
 

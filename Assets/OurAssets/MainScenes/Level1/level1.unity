@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1358542599}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.4035251, g: 0.44704765, b: 0.54552746, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -528,6 +528,11 @@ Prefab:
       propertyPath: audioSources.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114362821269330546, guid: 0080c0361987ff842bf18a950342ebc6,
+        type: 2}
+      propertyPath: conversation.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4398673205245080, guid: 0080c0361987ff842bf18a950342ebc6, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -596,6 +601,61 @@ Prefab:
         type: 2}
       propertyPath: audioSources.Array.data[3]
       value: intro_dialouge
+      objectReference: {fileID: 0}
+    - target: {fileID: 114362821269330546, guid: 0080c0361987ff842bf18a950342ebc6,
+        type: 2}
+      propertyPath: conversation.Array.data[0].text
+      value: How is it out there, any danger?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114362821269330546, guid: 0080c0361987ff842bf18a950342ebc6,
+        type: 2}
+      propertyPath: conversation.Array.data[0].conversationLength
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114362821269330546, guid: 0080c0361987ff842bf18a950342ebc6,
+        type: 2}
+      propertyPath: conversation.Array.data[0].audioClipName
+      value: intro_dialouge
+      objectReference: {fileID: 0}
+    - target: {fileID: 114362821269330546, guid: 0080c0361987ff842bf18a950342ebc6,
+        type: 2}
+      propertyPath: conversation.Array.data[1].text
+      value: Eeeeh, you remember that show..cringy text blabla
+      objectReference: {fileID: 0}
+    - target: {fileID: 114362821269330546, guid: 0080c0361987ff842bf18a950342ebc6,
+        type: 2}
+      propertyPath: conversation.Array.data[1].audioClipName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114362821269330546, guid: 0080c0361987ff842bf18a950342ebc6,
+        type: 2}
+      propertyPath: conversation.Array.data[1].conversationLength
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114362821269330546, guid: 0080c0361987ff842bf18a950342ebc6,
+        type: 2}
+      propertyPath: conversation.Array.data[2].text
+      value: You mean like.. post-apocalyptic...OMFG THE CRINGEEEE
+      objectReference: {fileID: 0}
+    - target: {fileID: 114362821269330546, guid: 0080c0361987ff842bf18a950342ebc6,
+        type: 2}
+      propertyPath: conversation.Array.data[2].conversationLength
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114362821269330546, guid: 0080c0361987ff842bf18a950342ebc6,
+        type: 2}
+      propertyPath: conversation.Array.data[3].text
+      value: '*Insert panda growling sounds here*'
+      objectReference: {fileID: 0}
+    - target: {fileID: 114362821269330546, guid: 0080c0361987ff842bf18a950342ebc6,
+        type: 2}
+      propertyPath: conversation.Array.data[3].conversationLength
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114362821269330546, guid: 0080c0361987ff842bf18a950342ebc6,
+        type: 2}
+      propertyPath: pauseToListen
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0080c0361987ff842bf18a950342ebc6, type: 2}
@@ -1041,6 +1101,52 @@ Transform:
   m_Father: {fileID: 572157541}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &539408552
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4041403828118628, guid: e9cd3be9c6deb404cbd57c9f44bc3f08, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -5.303832
+      objectReference: {fileID: 0}
+    - target: {fileID: 4041403828118628, guid: e9cd3be9c6deb404cbd57c9f44bc3f08, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 89.478226
+      objectReference: {fileID: 0}
+    - target: {fileID: 4041403828118628, guid: e9cd3be9c6deb404cbd57c9f44bc3f08, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -54.530907
+      objectReference: {fileID: 0}
+    - target: {fileID: 4041403828118628, guid: e9cd3be9c6deb404cbd57c9f44bc3f08, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4041403828118628, guid: e9cd3be9c6deb404cbd57c9f44bc3f08, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4041403828118628, guid: e9cd3be9c6deb404cbd57c9f44bc3f08, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4041403828118628, guid: e9cd3be9c6deb404cbd57c9f44bc3f08, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4041403828118628, guid: e9cd3be9c6deb404cbd57c9f44bc3f08, type: 2}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1860866918519424, guid: e9cd3be9c6deb404cbd57c9f44bc3f08, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e9cd3be9c6deb404cbd57c9f44bc3f08, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &546922473
 GameObject:
   m_ObjectHideFlags: 0
@@ -1247,19 +1353,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32b5f59b16114754bfcbcdab8e47c0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rollAngle: -79.7
-  rotAngle: 45.4
-  distance: 12.6
-  player: {fileID: 0}
-  roll: 0
-  rot: 0
-  targetPos: {x: 0, y: 0, z: 0}
-  zoomInrotAngleValue: 20
-  zoomIndistanceValue: 12.6
-  zoomInRollAngleValue: -88.2
-  zoomOutrotAngleValue: 50
-  zoomOutdistanceValue: 5
-  zoomOutRollAngleValue: -80
 --- !u!20 &611569108
 Camera:
   m_ObjectHideFlags: 0

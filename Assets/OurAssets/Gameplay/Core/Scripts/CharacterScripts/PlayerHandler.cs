@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using cakeslice;
 using UnityEngine.SceneManagement;
+using UnityStandardAssets.Characters.ThirdPerson;
 
 public class PlayerHandler : MonoBehaviour
 {
     public float distanceToTap = 100;
-
 
     private int maxHealth = 100;
     //private HandleGirl girlHandler;
@@ -17,19 +17,25 @@ public class PlayerHandler : MonoBehaviour
     private bool canHowl = false;
     private bool doHowl = false;
     private int obstacleRaycastMask = 1 << 12;
-    //private float storedAgentSpeed;
+    private AICharacterControl playerController;
+
+
+    // Use this for initialization
+    void Start()
+    {
+        mainCamera = Camera.main;
+        //girlHandler = littleGirl.GetComponent<HandleGirl>();
+        playerController = GetComponent<AICharacterControl>();
+    }
 
     public void StopLocomotion()
     {
-        //playerController.CanMove = false;
-        //playerController.Agent.isStopped = true;
-        //playerController.Agent.SetDestination(playerController.transform.position);
+        playerController.SetTarget(this.transform);
     }
 
     public void StartLocomotion()
     {
-        //playerController.CanMove = true;
-        //playerController.Agent.isStopped = false;
+        playerController.SetCursorAsTarget();
     }
 
 
@@ -64,15 +70,6 @@ public class PlayerHandler : MonoBehaviour
         //SceneManager.LoadScene("GameOver", LoadSceneMode.Single);
 
 
-    }
-
-
-    // Use this for initialization
-    void Start()
-    {
-        mainCamera = Camera.main;
-        //girlHandler = littleGirl.GetComponent<HandleGirl>();
-        //playerController = GameObject.FindGameObjectWithTag("Cursor").GetComponent<PlayerController>();
     }
 
     // Update is called once per frame

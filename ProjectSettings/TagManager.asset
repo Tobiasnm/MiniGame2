@@ -16,6 +16,7 @@ TagManager:
   - RainAudio
   - StoryManager
   - LanguageButton
+  - UIManager
   layers:
   - Default
   - TransparentFX
@@ -34,6 +35,12 @@ TagManager:
   - Obstacles
   - IgnoreCollisions
   - Terrain
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 

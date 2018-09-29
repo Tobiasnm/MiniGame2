@@ -9,19 +9,23 @@ namespace UnityStandardAssets.Characters.ThirdPerson
     {
         public UnityEngine.AI.NavMeshAgent agent { get; private set; }             // the navmesh agent required for the path finding
         public ThirdPersonCharacter character { get; private set; } // the character we are controlling
-        public Transform target;                                    // target to aim for
-
+        private Transform target;                                    // target to aim for
 
         private void Start()
         {
             // get the components on the object we need ( should not be null due to require component so no need to check )
             agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
             character = GetComponent<ThirdPersonCharacter>();
+            SetCursorAsTarget();
 
-	        agent.updateRotation = false;
+            agent.updateRotation = false;
 	        agent.updatePosition = true;
         }
 
+        public void SetCursorAsTarget()
+        {
+            target = GameObject.FindGameObjectWithTag("Cursor").transform;
+        }
 
         private void Update()
         {
