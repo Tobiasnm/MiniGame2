@@ -9,14 +9,14 @@ Effect plug-ins	ID	Name	Type				Notes
 	939486497	High_Pass_60Hz (Custom)	Wwise Parametric EQ			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	373338240	Stinger3	C:\Users\mathi\OneDrive\Documents\Github\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\Stinger3_7E90B02E.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Reactions\Detected\Stinger3		454388
-	489207521	TrashSearch1_01	C:\Users\mathi\OneDrive\Documents\Github\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\TrashSearch1_9200EF4B.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Search_Trash\TrashSearch1_01		18160
-	515322455	TrashSearch1_02	C:\Users\mathi\OneDrive\Documents\Github\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\TrashSearch1_180F0752.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Search_Trash\TrashSearch1_02		28140
-	537442384	TrashSearch4_01	C:\Users\mathi\OneDrive\Documents\Github\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\TrashSearch4_48E70B2A.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Search_Trash\TrashSearch4_01		21208
-	682261727	TrashSearch3	C:\Users\mathi\OneDrive\Documents\Github\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\TrashSearch3_4D314F0F.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Search_Trash\TrashSearch3		28652
-	735211814	Stinger1	C:\Users\mathi\OneDrive\Documents\Github\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\Stinger1_5110075D.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Reactions\Detected\Stinger1		807892
-	853319014	TrashSearch1	C:\Users\mathi\OneDrive\Documents\Github\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\TrashSearch1_1EAB9A35.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Search_Trash\TrashSearch1		22728
-	878006226	TrashSearch4	C:\Users\mathi\OneDrive\Documents\Github\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\TrashSearch4_E58C17F4.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Search_Trash\TrashSearch4		24420
-	960059470	6 Big Metal Hit	C:\Users\mathi\OneDrive\Documents\Github\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\6 Big Metal Hit _1199FC32.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Reactions\Detected\6 Big Metal Hit		783440
-	973755901	TrashSearch3_01	C:\Users\mathi\OneDrive\Documents\Github\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\TrashSearch3_9AB94BDD.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Search_Trash\TrashSearch3_01		24252
+	373338240	Stinger3	D:\Git\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\Stinger3_7E90B02E.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Reactions\Detected\Stinger3		454388
+	489207521	TrashSearch1_01	D:\Git\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\TrashSearch1_9200EF4B.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Search_Trash\TrashSearch1_01		18160
+	515322455	TrashSearch1_02	D:\Git\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\TrashSearch1_180F0752.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Search_Trash\TrashSearch1_02		28140
+	537442384	TrashSearch4_01	D:\Git\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\TrashSearch4_48E70B2A.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Search_Trash\TrashSearch4_01		21208
+	682261727	TrashSearch3	D:\Git\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\TrashSearch3_4D314F0F.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Search_Trash\TrashSearch3		28652
+	735211814	Stinger1	D:\Git\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\Stinger1_5110075D.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Reactions\Detected\Stinger1		807892
+	853319014	TrashSearch1	D:\Git\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\TrashSearch1_1EAB9A35.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Search_Trash\TrashSearch1		22728
+	878006226	TrashSearch4	D:\Git\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\TrashSearch4_E58C17F4.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Search_Trash\TrashSearch4		24420
+	960059470	6 Big Metal Hit	D:\Git\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\6 Big Metal Hit _1199FC32.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Reactions\Detected\6 Big Metal Hit		783440
+	973755901	TrashSearch3_01	D:\Git\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\TrashSearch3_9AB94BDD.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Search_Trash\TrashSearch3_01		24252
 

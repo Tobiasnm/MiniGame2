@@ -5,7 +5,7 @@ using UnityEngine;
 public class CursorController : MonoBehaviour {
 
     public static Joystick joystick;
-    protected Joybuttom joybuttom;
+    private JoystickButton joybutton;
     public float minSpeed = 10f;
     public float upSpeed = 10f;
     public float maxSpeed = 20f;
@@ -16,7 +16,7 @@ public class CursorController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         joystick = FindObjectOfType<Joystick>();
-        joybuttom = FindObjectOfType<Joybuttom>();
+        joybutton = FindObjectOfType<JoystickButton>();
         cursor = GameObject.FindWithTag("Cursor").transform;
         player = GameObject.FindWithTag("Player").transform;
 
@@ -37,39 +37,14 @@ public class CursorController : MonoBehaviour {
 
 
     }
-    //void SpeedControl()
-    //{
-    //    if(joybuttom.Pressed )
-    //    {
-            
-    //        if(UpSpeed > MaxSpeed)
-    //        {
-    //            UpSpeed = MaxSpeed;
-    //        }
-    //        if(UpSpeed <= MaxSpeed)
-    //        {
-    //            UpSpeed += SpeedIncrease*Time.deltaTime ; 
-    //        }
-    //    }
-    //    else if(!joybuttom.Pressed)
-    //    {
-    //        if (UpSpeed < MinSpeed)
-    //        {
-    //            UpSpeed = MinSpeed;
-    //        }
-    //        else if(UpSpeed >= MinSpeed)
-    //        {
-    //            UpSpeed -= SpeedIncrease*Time.deltaTime ;
-    //        }
-    //    }
-            
-    //}
+
+
     void SpeedController(){
-        if(joybuttom.Pressed)
+        if(joybutton.Pressed)
         {
             upSpeed = maxSpeed;
         }
-        else if(!joybuttom.Pressed)
+        else if(!joybutton.Pressed)
         {
             if(upSpeed>minSpeed)
             {
