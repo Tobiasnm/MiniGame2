@@ -3195,6 +3195,16 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: e52fb17f9b1e7fd48b8955f1391d3688,
         type: 2}
+    - target: {fileID: 218803499718818236, guid: 95f731b9343e91d488daed3546332e3b,
+        type: 2}
+      propertyPath: m_TreeDistance
+      value: 276
+      objectReference: {fileID: 0}
+    - target: {fileID: 218803499718818236, guid: 95f731b9343e91d488daed3546332e3b,
+        type: 2}
+      propertyPath: m_TreeBillboardDistance
+      value: 47
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95f731b9343e91d488daed3546332e3b, type: 2}
   m_IsPrefabAsset: 0
