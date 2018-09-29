@@ -24,7 +24,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1425704940587398
 GameObject:
@@ -39,7 +39,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1475365478392418
 GameObject:
@@ -54,7 +54,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1517903561103080
 GameObject:
@@ -66,12 +66,13 @@ GameObject:
   - component: {fileID: 4231588768972174}
   - component: {fileID: 33492662865673748}
   - component: {fileID: 23672153859846754}
+  - component: {fileID: 65122962013627380}
   m_Layer: 0
   m_Name: militaryBarrier
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1563060028708006
 GameObject:
@@ -89,7 +90,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1951991751851540
 GameObject:
@@ -104,7 +105,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1981085804611676
 GameObject:
@@ -116,12 +117,13 @@ GameObject:
   - component: {fileID: 4129591602651364}
   - component: {fileID: 33881389352766518}
   - component: {fileID: 23214365546746730}
+  - component: {fileID: 65541083555269116}
   m_Layer: 0
   m_Name: militaryFence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4129591602651364
 Transform:
@@ -346,6 +348,30 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1981085804611676}
   m_Mesh: {fileID: 4300000, guid: 285dfd97e65d12b46bce868093593882, type: 3}
+--- !u!65 &65122962013627380
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1517903561103080}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.79085, y: 10.558311, z: 9.772954}
+  m_Center: {x: 0, y: 5.0106525, z: 0}
+--- !u!65 &65541083555269116
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1981085804611676}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.259716, y: 10.558311, z: 0.4000001}
+  m_Center: {x: -14.05068, y: 5.0106525, z: 4.456497}
 --- !u!65 &65813451899266220
 BoxCollider:
   m_ObjectHideFlags: 1
