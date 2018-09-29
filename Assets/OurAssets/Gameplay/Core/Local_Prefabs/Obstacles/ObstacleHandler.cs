@@ -24,6 +24,7 @@ public class ObstacleHandler : MonoBehaviour
     {
         tapsRemaining -= 1;
         AkSoundEngine.PostEvent(tapSound, gameObject);
+        this.GetComponentInChildren<ParticleSystem>().Emit(10);
         Debug.Log("Tap");
     }
 
