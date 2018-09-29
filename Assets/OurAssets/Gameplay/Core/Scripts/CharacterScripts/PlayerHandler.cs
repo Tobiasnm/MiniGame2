@@ -8,8 +8,8 @@ using UnityStandardAssets.Characters.ThirdPerson;
 public class PlayerHandler : MonoBehaviour
 {
     public float distanceToTap = 100;
-
-    private int maxHealth = 100;
+    public float healthPercentageLostOnRainCollision = 50;
+    private float maxHealth = 100;
     //private HandleGirl girlHandler;
     private bool hasPickedFood = false;
     private GameObject food;
@@ -44,12 +44,18 @@ public class PlayerHandler : MonoBehaviour
         maxHealth -= amount;
     }
 
+
+    public void RemoveHealthOnRainCollision()
+    {
+        maxHealth -= healthPercentageLostOnRainCollision;
+    }
+
     public void AddHealth(int amount)
     {
         maxHealth += amount;
     }
 
-    public int GetHealth(int amount)
+    public float GetHealth()
     {
         return maxHealth;
     }
@@ -58,16 +64,23 @@ public class PlayerHandler : MonoBehaviour
     {
         if (maxHealth <= 0)
         {
-            SceneManager.LoadScene("GameOver", LoadSceneMode.Single);
+            this.GetComponent<Animator>().SetTrigger("Die");
+            Invoke("GoToGameOverScene", 3);
         }
+    }
 
+    private void GoToGameOverScene()
+    {
+        SceneManager.LoadScene("MainMenu", LoadSceneMode.Single);
     }
 
     public void HandleDetection(bool isDeadly)
     {
         if (isDeadly)
+        {
             Debug.Log("You are dead. Fuckin casual..");
-        //SceneManager.LoadScene("GameOver", LoadSceneMode.Single);
+            GoToGameOverScene();
+        }
     }
 
     // Update is called once per frame

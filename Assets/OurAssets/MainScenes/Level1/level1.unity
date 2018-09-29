@@ -655,7 +655,7 @@ Prefab:
     - target: {fileID: 114362821269330546, guid: 0080c0361987ff842bf18a950342ebc6,
         type: 2}
       propertyPath: pauseToListen
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0080c0361987ff842bf18a950342ebc6, type: 2}
@@ -2041,6 +2041,11 @@ Prefab:
     - target: {fileID: 1348487711710204, guid: 5f92ee59ed0781a4ab9c9d2b92ffe5ca, type: 2}
       propertyPath: m_TagString
       value: RainManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 114528718330587112, guid: 5f92ee59ed0781a4ab9c9d2b92ffe5ca,
+        type: 2}
+      propertyPath: startAndRepeatRain
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f92ee59ed0781a4ab9c9d2b92ffe5ca, type: 2}

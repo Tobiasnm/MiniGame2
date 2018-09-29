@@ -19,7 +19,6 @@ public class StoryManager : MonoBehaviour
         conversation = new Queue<Sentence>(activeStory.conversation);
     }
 
-    // Use this for initialization
     void Start()
     {
         playerHandler = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHandler>();

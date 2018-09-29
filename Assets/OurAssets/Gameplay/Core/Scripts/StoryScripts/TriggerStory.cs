@@ -5,8 +5,6 @@ using UnityEngine;
 [RequireComponent(typeof(Collider))]
 public class TriggerStory : MonoBehaviour
 {
-
-    //private string storyText = "";
     [Header("Toogle and fill if this should cause rain")]
     public bool causeRain = false;
     public float startRainInSeconds = 10;
@@ -17,9 +15,6 @@ public class TriggerStory : MonoBehaviour
     public bool pauseToListen = false;
 
     public List<Sentence> conversation = new List<Sentence>();
-
-    //public Transform focusTarget;
-    //public float stopLookingInSeconds = 5;
 
     public string nextLevelName;
 
