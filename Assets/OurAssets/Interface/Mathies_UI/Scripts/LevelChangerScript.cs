@@ -25,4 +25,9 @@ public class LevelChangerScript : MonoBehaviour {
     {
         SceneManager.LoadScene(scenename);
     }
+
+    public void GoToNextScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
 }

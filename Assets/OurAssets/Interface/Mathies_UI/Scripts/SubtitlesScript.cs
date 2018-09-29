@@ -16,6 +16,7 @@ public class SubtitlesScript : MonoBehaviour {
     public float[] timeLimits;
 
     public bool startAnimation = false;
+    public bool gameplayScene = false;
 
 	// Use this for initialization
 	void Start () {
@@ -51,13 +52,11 @@ public class SubtitlesScript : MonoBehaviour {
         {
             if ((subIndex + 1) % 2 == 0)
             {
-                Debug.Log("next");
                 subTwo.GetComponent<Text>().text = subtitles[subIndex];
                 animator.SetTrigger("next_subtitle");
             }
             else
             {
-                Debug.Log("next_next");
                 subOne.GetComponent<Text>().text = subtitles[subIndex];
                 animator.SetTrigger("next_next_subtitle");
             }
@@ -78,6 +77,7 @@ public class SubtitlesScript : MonoBehaviour {
         animator.ResetTrigger("enter_subtitle");
         animator.ResetTrigger("next_subtitle");
         animator.ResetTrigger("next_next_subtitle");
+        animator.ResetTrigger("end_subtitles");
         animator.ResetTrigger("end_subtitles_on_subone");
         animator.ResetTrigger("end_subtitles_on_subtwo");
         subOne.GetComponent<Text>().text = subtitles[subIndex];
