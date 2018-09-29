@@ -41,9 +41,6 @@ public class TriggerStory : MonoBehaviour
         audioSource = GetComponent<AkEvent>();
         cameraHandler = Camera.main.GetComponent<CameraHandler>();
         rainHandler = GameObject.FindGameObjectWithTag("RainManager").GetComponent<HandleRain>();
-
-
-        //uiManager = GameObject.FindGameObjectWithTag("UIManager").GetComponent<GameUIManagerScript>();
     }
 
 
@@ -52,21 +49,12 @@ public class TriggerStory : MonoBehaviour
 
         if (other.tag == "Player")
         {
-            //storyManager.nextLevelName = nextLevelName;
-            //storyManager.hasWon = isWinCondition;
-
-            //storyManager.conversation = new Queue<Sentence>(conversation);
-
             storyManager.AddStory(this);
 
             if (causeRain)
             {
                 rainHandler.StartRainInSeconds(startRainInSeconds, doThunderInSeconds);
             }
-
-            //if (uiManager != null) uiManager.ShowWalkieTalkieText();
-            //if (focusTarget)
-            //    cameraHandler.target = focusTarget;
             
             this.gameObject.GetComponent<Collider>().enabled = false;
         }

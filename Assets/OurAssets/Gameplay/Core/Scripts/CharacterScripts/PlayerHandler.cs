@@ -68,16 +68,12 @@ public class PlayerHandler : MonoBehaviour
         if (isDeadly)
             Debug.Log("You are dead. Fuckin casual..");
         //SceneManager.LoadScene("GameOver", LoadSceneMode.Single);
-
-
     }
 
     // Update is called once per frame
     void Update()
     {
-
         HandleDeath();
-
 
 #if UNITY_STANDALONE
         //if (Input.GetKeyDown("h"))
@@ -128,8 +124,6 @@ public class PlayerHandler : MonoBehaviour
 
     void DoTapCalculations()
     {
-
-
         if (Application.platform == RuntimePlatform.Android)
         {
             if (Input.touchCount > 0 && Input.touchCount < 2)

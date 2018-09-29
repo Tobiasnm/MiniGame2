@@ -6,16 +6,10 @@ using UnityEngine.SceneManagement;
 public class StoryManager : MonoBehaviour
 {
     private TriggerStory activeStory;
-    //public string textToShow ="";
-    //private UIController uiController;
+
     [HideInInspector]
     public PlayerHandler playerHandler;
     private Queue<Sentence> conversation = new Queue<Sentence>();
-
-    //public LevelChangerScript levelChanger;
-    //public string nextLevelName;
-
-    //public bool hasWon { get; set; } = false;
 
     private bool conversationLockEnabled = false;
 
@@ -28,14 +22,11 @@ public class StoryManager : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        //uiController = GameObject.FindGameObjectWithTag("UIController").GetComponent<UIController>();
         playerHandler = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHandler>();
     }
 
     public void ShowText(Sentence line)
     {
-        //uiController.FillTextField(text);
-        //uiController.ShowTextArea();
         if (line.audioClipName != "")
             AkSoundEngine.PostEvent(line.audioClipName, gameObject);
 
@@ -58,27 +49,6 @@ public class StoryManager : MonoBehaviour
 
     public void ShowStory()
     {
-        /*
-        if (uiController.GetTextEmpty() && textList.Count > 0)
-        {
-            ShowText(textList.Dequeue());
-            playerHandler.StopLocomotion();
-            //Debug.Log("Stopped Locomotion."+ textList.Count);
-        }
-        else if (uiController.GetTextEmpty() && textList.Count == 0)
-        {
-            if (hasWon)
-            {
-                levelChanger.FadeToLevel(nextLevelName);
-                PlayerPrefs.SetString("reached_level", nextLevelName);
-            }
-            else
-            {
-                playerHandler.StartLocomotion();
-                //Debug.Log("Started Locomotion");
-            }
-        }
-        */
 
         if (!conversationLockEnabled && conversation.Count > 0)
         {
