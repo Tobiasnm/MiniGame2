@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 65928690204620116}
   - component: {fileID: 114680420184791604}
   m_Layer: 0
-  m_Name: endStory
+  m_Name: shelterStory
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73,7 +73,7 @@ GameObject:
   - component: {fileID: 65902115155282954}
   - component: {fileID: 114674911808525956}
   m_Layer: 0
-  m_Name: firstRainStory
+  m_Name: firstSoldierStory
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -107,24 +107,54 @@ GameObject:
   - component: {fileID: 114781987629348552}
   m_Layer: 0
   m_Name: StoryManager
+  m_TagString: StoryManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1901473130975008
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4184449011956580}
+  - component: {fileID: 65590813366486946}
+  - component: {fileID: 114324648526446304}
+  m_Layer: 0
+  m_Name: endStory
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!4 &4184449011956580
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1901473130975008}
+  m_LocalRotation: {x: -0, y: 0.42410064, z: -0, w: 0.90561515}
+  m_LocalPosition: {x: 530.3, y: 97.43, z: 460.3}
+  m_LocalScale: {x: 4.1715508, y: 4.17155, z: 93.14233}
+  m_Children: []
+  m_Father: {fileID: 4746593036308406}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 50.187004, z: 0}
 --- !u!4 &4300154272517888
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1043790590265324}
-  m_LocalRotation: {x: -0, y: 0.25601962, z: -0, w: 0.96667165}
-  m_LocalPosition: {x: 481.74, y: 97.43, z: 481.3}
+  m_LocalRotation: {x: -0, y: 0.42410064, z: -0, w: 0.90561515}
+  m_LocalPosition: {x: 651.55, y: 97.43, z: 365.41}
   m_LocalScale: {x: 4.17155, y: 4.17155, z: 4.17155}
   m_Children: []
   m_Father: {fileID: 4746593036308406}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 29.668001, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 50.187004, z: 0}
 --- !u!4 &4372963197544924
 Transform:
   m_ObjectHideFlags: 1
@@ -132,8 +162,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1498625218070480}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 656.1, y: 97.43, z: 269.08}
-  m_LocalScale: {x: 136.96245, y: 4.17155, z: 4.17155}
+  m_LocalPosition: {x: 631.49, y: 97.43, z: 247.06}
+  m_LocalScale: {x: 27.31031, y: 4.17155, z: 4.17155}
   m_Children: []
   m_Father: {fileID: 4746593036308406}
   m_RootOrder: 1
@@ -145,8 +175,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1679124588590538}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 671.33997, y: 97.43, z: 318.94998}
-  m_LocalScale: {x: 4.17155, y: 4.17155, z: 4.17155}
+  m_LocalPosition: {x: 650.9, y: 97.43, z: 297.6}
+  m_LocalScale: {x: 8.239228, y: 4.17155, z: 48.279686}
   m_Children: []
   m_Father: {fileID: 4746593036308406}
   m_RootOrder: 2
@@ -158,8 +188,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1461335435591982}
   m_LocalRotation: {x: -0, y: 0.13999969, z: -0, w: 0.9901516}
-  m_LocalPosition: {x: 534.94, y: 97.43, z: 436.63998}
-  m_LocalScale: {x: 4.17155, y: 4.17155, z: 102.77193}
+  m_LocalPosition: {x: 591.9, y: 97.43, z: 391.4}
+  m_LocalScale: {x: 14.907033, y: 4.17155, z: 17.225021}
   m_Children: []
   m_Father: {fileID: 4746593036308406}
   m_RootOrder: 3
@@ -179,6 +209,7 @@ Transform:
   - {fileID: 4598458275176538}
   - {fileID: 4734986427853468}
   - {fileID: 4300154272517888}
+  - {fileID: 4184449011956580}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -231,6 +262,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &65590813366486946
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1901473130975008}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &65902115155282954
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -267,12 +310,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   causeRain: 1
-  doSoundInSeconds: 10
-  startRainInSeconds: 30
+  startRainInSeconds: 15
+  doThunderInSeconds: 10
   isWinCondition: 0
-  story:
-  - "Sina: aw shed, that's the entr\xE9 to the basecamp"
-  - 'Ruben: double noice, get in, be careful'
+  pauseToListen: 0
+  conversation: []
   nextLevelName: 
 --- !u!114 &114317885008396242
 MonoBehaviour:
@@ -286,15 +328,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   causeRain: 0
-  doSoundInSeconds: 1
   startRainInSeconds: 10
+  doThunderInSeconds: 10
   isWinCondition: 0
-  story:
-  - 'Ruben: how is it looking'
-  - 'Sina: umm?'
-  - 'Ruben: post-apocalyptic?'
-  - aw yeah!
+  pauseToListen: 0
+  conversation: []
   nextLevelName: 
+--- !u!114 &114324648526446304
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1901473130975008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4ffa60055d563644bdc1fe9bbe3b371, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  causeRain: 0
+  startRainInSeconds: 10
+  doThunderInSeconds: 10
+  isWinCondition: 1
+  pauseToListen: 0
+  conversation: []
+  nextLevelName: Credits
 --- !u!114 &114674911808525956
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -306,14 +363,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4ffa60055d563644bdc1fe9bbe3b371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  causeRain: 1
-  doSoundInSeconds: 1
+  causeRain: 0
   startRainInSeconds: 20
+  doThunderInSeconds: 10
   isWinCondition: 0
-  story:
-  - 'Ruben: Oh no, rain! seek shelter'
-  - 'Sina: shit, I will'
-  - 'Ruben: good luck'
+  pauseToListen: 0
+  conversation: []
   nextLevelName: 
 --- !u!114 &114680420184791604
 MonoBehaviour:
@@ -327,11 +382,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   causeRain: 0
-  doSoundInSeconds: 1
   startRainInSeconds: 10
-  isWinCondition: 1
-  story:
-  - Hasta la vista, sista <3
+  doThunderInSeconds: 10
+  isWinCondition: 0
+  pauseToListen: 0
+  conversation: []
   nextLevelName: level2
 --- !u!114 &114781987629348552
 MonoBehaviour:
@@ -345,7 +400,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerHandler: {fileID: 0}
-  nextLevelName: 
 --- !u!114 &114901277293358718
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -358,11 +412,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   causeRain: 0
-  doSoundInSeconds: 1
   startRainInSeconds: 10
+  doThunderInSeconds: 10
   isWinCondition: 0
-  story:
-  - 'Ruben: ya okay?'
-  - 'Sina: luckily, yeah!'
-  - 'Ruben: NOICE'
+  pauseToListen: 0
+  conversation: []
   nextLevelName: 
