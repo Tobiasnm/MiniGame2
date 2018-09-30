@@ -319,7 +319,10 @@ MonoBehaviour:
   doThunderInSeconds: 10
   isWinCondition: 0
   pauseToListen: 1
-  conversation: []
+  conversation:
+  - text: freeze you son of a gremlin
+    audioClipName: Play_Thunderclap
+    conversationLength: 10
   nextLevelName: 
 --- !u!114 &114744548829791102
 MonoBehaviour:
@@ -352,7 +355,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   causeRain: 1
   startRainInSeconds: 20
-  doThunderInSeconds: 10
+  doThunderInSeconds: 5
   isWinCondition: 0
   pauseToListen: 0
   conversation: []

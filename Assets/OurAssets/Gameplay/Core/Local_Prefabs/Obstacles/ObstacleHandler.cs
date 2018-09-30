@@ -4,12 +4,16 @@ using UnityEngine;
 
 public class ObstacleHandler : MonoBehaviour
 {
+    [Range(0,1)]
+    private float triggerEventAtPercentage = 0.0f;
+
+    private Queue<GameObject> obstacles = new Queue<GameObject>();
 
     [SerializeField]
     int tapsToBreak = 10;
 
     [SerializeField]
-    int tapsRemaining;
+    int tapsDone = 0;
 
     [SerializeField]
     string tapSound;
@@ -17,28 +21,48 @@ public class ObstacleHandler : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        tapsRemaining = tapsToBreak;
+        MeshRenderer[] renderedChildren = GetComponentsInChildren<MeshRenderer>();
+        foreach (MeshRenderer child in renderedChildren)
+        {
+            obstacles.Enqueue(child.gameObject);
+            Debug.Log(child.name);
+        }
+        
     }
 
     public void RegisterTap()
     {
-        tapsRemaining -= 1;
+        tapsDone += 1;
         AkSoundEngine.PostEvent(tapSound, gameObject);
-        this.GetComponentInChildren<ParticleSystem>().Emit(10);
+        this.GetComponentInChildren<ParticleSystem>().Emit(Mathf.CeilToInt(200/tapsToBreak));
         Debug.Log("Tap");
     }
 
     private void DestroyObstacle()
     {
         //Do before destruction
-        Destroy(this.gameObject);
+        if (obstacles.Count > 0)
+        {
+            Destroy(obstacles.Dequeue());
+            if (obstacles.Count < triggerEventAtPercentage)
+                TriggerEvent();
+        }
+        if (obstacles.Count <= 0)
+            Destroy(this.gameObject);
+    }
+
+    private void TriggerEvent()
+    {
+        Debug.Log("Event triggered!");
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (tapsRemaining <= 0)
+        if (obstacles.Count>0 && tapsDone*obstacles.Count >= tapsToBreak)
+        {
             DestroyObstacle();
+        }
     }
 
 

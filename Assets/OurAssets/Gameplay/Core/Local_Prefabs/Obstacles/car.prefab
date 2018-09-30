@@ -19,9 +19,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4416933160051942}
-  m_Layer: 0
+  - component: {fileID: 114448873625671596}
+  m_Layer: 14
   m_Name: car_door
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -54,9 +55,9 @@ GameObject:
   - component: {fileID: 65509012595565216}
   - component: {fileID: 65128486734794384}
   - component: {fileID: 114797479589024222}
-  m_Layer: 12
+  m_Layer: 0
   m_Name: door_car
-  m_TagString: Obstacle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -94,7 +95,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4007231698550602
 Transform:
@@ -285,6 +286,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 12.494051, y: 4.6310415, z: 5.964324}
   m_Center: {x: 0.0057072644, y: 2.3190346, z: 0}
+--- !u!114 &114448873625671596
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1270532368536160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bba9616af763c9140a122770e6286b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tapsToBreak: 20
+  tapsRemaining: 0
+  tapSound: Play_Thunderclap
 --- !u!114 &114797479589024222
 MonoBehaviour:
   m_ObjectHideFlags: 1

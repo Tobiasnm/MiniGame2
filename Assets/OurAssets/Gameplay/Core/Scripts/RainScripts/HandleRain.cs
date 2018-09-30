@@ -22,8 +22,7 @@ public class HandleRain : MonoBehaviour
     private GameObject rain;
     private Light theSun;
     private float sunStartingIntensity;
-    private float lightTransitionDuration = 3;
-    private float currTime = 0;
+    public float lightTransitionDuration = 5;
 
     public void StartRain()
     {
@@ -39,7 +38,7 @@ public class HandleRain : MonoBehaviour
         theRain.RainIntensity = 0;
         AkSoundEngine.SetRTPCValue("RainIntensity", 0, rain, 4000);
         Debug.Log("Rain stopped!");
-        InvokeRepeating("LerpToLight", 0.1f, Time.deltaTime);
+        InvokeRepeating("LerpToLight", 0.1f, 0.1f);
     }
 
 
@@ -47,32 +46,23 @@ public class HandleRain : MonoBehaviour
     {
         Debug.Log("Started lerping to dark");
 
-        if (currTime <= 1)
-        {
-            currTime += Time.deltaTime / lightTransitionDuration;
+        theSun.intensity = Mathf.Lerp(theSun.intensity, darknessLevel, Time.deltaTime*10 / lightTransitionDuration);
 
-            theSun.intensity = Mathf.Lerp(theSun.intensity, darknessLevel, currTime);
-        }
-        if (currTime >= 1)
+        if (theSun.intensity <=  (darknessLevel*1.01f))
         {
-            currTime = 0;
-            Invoke("CancelLerpToDarkness", 0.5f);
+            Invoke("CancelLerpToDarkness", 0.01f);
+            //theSun.intensity = darknessLevel;
         }
     }
 
     private void LerpToLight()
     {
-        if (currTime <= 1)
-        {
-            currTime += Time.deltaTime/lightTransitionDuration;
 
-            theSun.intensity = Mathf.Lerp( theSun.intensity, sunStartingIntensity, currTime);
-        }
+        theSun.intensity = Mathf.Lerp(theSun.intensity, sunStartingIntensity, Time.deltaTime*10 / lightTransitionDuration);
 
-        if (currTime >= 1)
+        if (theSun.intensity >= (sunStartingIntensity * 0.99f))
         {
-            currTime = 0;
-            Invoke("CancelLerpToLight",0.5f);
+            Invoke("CancelLerpToLight", 0.1f);
         }
     }
 
@@ -94,11 +84,11 @@ public class HandleRain : MonoBehaviour
     public void StartRainInSeconds(float startRainInSeconds, float doThunderInSeconds)
     {
         Invoke("StartRain", startRainInSeconds);
-        InvokeRepeating("LerpToDarkness", 0.1f, Time.deltaTime);
+        InvokeRepeating("LerpToDarkness", 0.1f, 0.1f);
         Invoke("DoThunder", doThunderInSeconds);
     }
 
-   
+
     public void Awake()
     {
         StopRain();
@@ -122,7 +112,7 @@ public class HandleRain : MonoBehaviour
         if (isRaining)
         {
             isRaining = false;
-            Invoke("StopRain", rainDuration);          
+            Invoke("StopRain", rainDuration);
         }
     }
 }
