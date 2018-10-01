@@ -212,7 +212,7 @@ public class GameUIManagerScript : MonoBehaviour {
 
     public void RemoveWalkieTalkie()
     {
-        //SetChildrenActive(1, false);
+        SetChildrenActive(1, false);
         subtitlesScript.ResetSubtitles();
     }
 }
