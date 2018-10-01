@@ -7,7 +7,7 @@ public class LevelChangerScript : MonoBehaviour {
 
     private Animator animator;
 
-    private string scenename;
+    public string scenename;
 
     void Start()
     {
@@ -26,8 +26,4 @@ public class LevelChangerScript : MonoBehaviour {
         SceneManager.LoadScene(scenename);
     }
 
-    public void GoToNextScene()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-    }
 }
