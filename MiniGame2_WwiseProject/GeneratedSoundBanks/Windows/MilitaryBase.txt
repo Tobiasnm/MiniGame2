@@ -9,12 +9,12 @@ Effect plug-ins	ID	Name	Type				Notes
 	957191799	Have_U_Ever_Been_Outside (Custom)	Wwise RoomVerb			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	10736095	Noise7	D:\Git\MiniGame2\MiniGame2_WwiseProject\.cache\Windows\SFX\Noise7_56D34C19.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\2D\Military Base\Military_Base_Ambience\Random_Noise\Noise7		1953644
-	68484846	Noise3	D:\Git\MiniGame2\MiniGame2_WwiseProject\.cache\Windows\SFX\Noise3_56D34C19.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\2D\Military Base\Military_Base_Ambience\Random_Noise\Noise3		954156
-	132177151	FABRIC_Flag_or_Fabric_in_Wind_loop_mono	D:\Git\MiniGame2\MiniGame2_WwiseProject\.cache\Windows\SFX\FABRIC_Flag_or_Fabric_in_Wind_loop_mono_210D5088.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\2D\Military Base\Tent_Noises\FABRIC_Flag_or_Fabric_in_Wind_loop_mono		498578
-	189872014	Noise6	D:\Git\MiniGame2\MiniGame2_WwiseProject\.cache\Windows\SFX\Noise6_56D34C19.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\2D\Military Base\Military_Base_Ambience\Random_Noise\Noise6		1372552
-	457010429	Noise4	D:\Git\MiniGame2\MiniGame2_WwiseProject\.cache\Windows\SFX\Noise4_56D34C19.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\2D\Military Base\Military_Base_Ambience\Random_Noise\Noise4		1065992
-	635977214	Noise5	D:\Git\MiniGame2\MiniGame2_WwiseProject\.cache\Windows\SFX\Noise5_56D34C19.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\2D\Military Base\Military_Base_Ambience\Random_Noise\Noise5		1653128
-	737833130	Idle_Truck	D:\Git\MiniGame2\MiniGame2_WwiseProject\.cache\Windows\SFX\TRUCK_Idle_02_Crop_loop_mono_8956FC97.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\2D\Military Base\Idle_Truck		186128
-	941368560	Noise1	D:\Git\MiniGame2\MiniGame2_WwiseProject\.cache\Windows\SFX\Noise1_56D34C19.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\2D\Military Base\Military_Base_Ambience\Random_Noise\Noise1		1572744
+	10736095	Noise7	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Windows\SFX\Noise7_56D34C19.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\2D\Military Base\Military_Base_Ambience\Random_Noise\Noise7		1953644
+	68484846	Noise3	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Windows\SFX\Noise3_56D34C19.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\2D\Military Base\Military_Base_Ambience\Random_Noise\Noise3		954156
+	132177151	FABRIC_Flag_or_Fabric_in_Wind_loop_mono	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Windows\SFX\FABRIC_Flag_or_Fabric_in_Wind_loop_mono_210D5088.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\2D\Military Base\Tent_Noises\FABRIC_Flag_or_Fabric_in_Wind_loop_mono		498578
+	189872014	Noise6	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Windows\SFX\Noise6_56D34C19.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\2D\Military Base\Military_Base_Ambience\Random_Noise\Noise6		1372552
+	457010429	Noise4	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Windows\SFX\Noise4_56D34C19.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\2D\Military Base\Military_Base_Ambience\Random_Noise\Noise4		1065992
+	635977214	Noise5	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Windows\SFX\Noise5_56D34C19.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\2D\Military Base\Military_Base_Ambience\Random_Noise\Noise5		1653128
+	737833130	Idle_Truck	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Windows\SFX\TRUCK_Idle_02_Crop_loop_mono_8956FC97.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\2D\Military Base\Idle_Truck		186128
+	941368560	Noise1	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Windows\SFX\Noise1_56D34C19.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\2D\Military Base\Military_Base_Ambience\Random_Noise\Noise1		1572744
 
