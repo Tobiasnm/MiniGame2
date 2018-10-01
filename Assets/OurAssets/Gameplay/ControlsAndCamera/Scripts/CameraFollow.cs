@@ -73,7 +73,8 @@ public class CameraFollow : MonoBehaviour
      void Zooming()
     {
         //zoom in
-        if(cursor.GetComponent<CursorController>().isRunning == true)
+       // cursor.GetComponent<CursorController>().isRunning == true
+        if(Input.GetMouseButton(0))
         {
 
             StartCoroutine(ChangeRotAngleValue(rotAngle, zoomInrotAngleValue, 1f));
@@ -89,7 +90,7 @@ public class CameraFollow : MonoBehaviour
             StartCoroutine(ChangeRollAngleValue(rollAngle, zoomOutRollAngleValue, 1f));
         }
         //Back to orignal position
-        if(cursor.GetComponent<CursorController>().isRunning == false)
+        if(Input.GetMouseButton(2))
         {
             StartCoroutine(ChangeRotAngleValue(rotAngle, 45.4f, 1f));
             StartCoroutine(ChangeDistanceValue(distance, 12.6f, 1f));
