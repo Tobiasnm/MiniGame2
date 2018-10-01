@@ -34,15 +34,16 @@ public class SubtitlesScript : MonoBehaviour {
             if (subObjects[i] != null && subObjects[i].name == "SubOne") subOne = subObjects[i];
             if (subObjects[i] != null && subObjects[i].name == "SubTwo") subTwo = subObjects[i];
         }
-
-       
     }
 	
 	// Update is called once per frame
 	void Update () {
-
         if (startAnimation)
         {
+            if (subIndex < 1)
+            {
+                subOne.GetComponent<Text>().text = subtitles[0];
+            }
             if (timer >= timeLimits[subIndex])
             {
                 timer = 0f;
@@ -95,7 +96,7 @@ public class SubtitlesScript : MonoBehaviour {
             subIndex = 0;
             animator.SetTrigger("end_subtitles");   
         }
-        
+
     }
 
     public void ResetSubtitles()
@@ -107,8 +108,6 @@ public class SubtitlesScript : MonoBehaviour {
         animator.ResetTrigger("next_subtitle");
         animator.ResetTrigger("next_next_subtitle");
         animator.ResetTrigger("end_subtitles");
-        animator.ResetTrigger("end_subtitles_on_subone");
-        animator.ResetTrigger("end_subtitles_on_subtwo");
         subOne.GetComponent<Text>().text = subtitles[subIndex];
     }
 
