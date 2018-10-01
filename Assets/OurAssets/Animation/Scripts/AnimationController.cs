@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEditor;
 using System.IO;
 using System.Globalization;
+using UnityEngine.AI;
 
 
 /* This class contains the implementation of the first iteration of our Motion Matching System.
@@ -30,7 +31,7 @@ public class AnimationController : MonoBehaviour
     #region Attributes
     private Animator animator;  // Character animator component
 
-    private int frames = 309; //Amount of frames in the fbx
+    private int frames = 3038; //Amount of frames in the fbx
     private float frameNumber = 3.0f; //Which frame you want to play
     private int frameCount = 0; // How many frames have been played after last frame search. Used for loop protection
 
@@ -39,9 +40,10 @@ public class AnimationController : MonoBehaviour
     private bool playingAnim = false;   // True if the system is automatically playing frames
 
     //private string nextAnim = "startWalk0";  // Animation state name of the Animator Controller
-    private string nextAnim = "LongTake";
+    private string nextAnim = "take1";
     private float nextAnimFrame = 0;    // Frame within the 'nextAnim' state
     private GameObject player;
+    private GameObject cursor;
 
 
     private List<FrameInfo> walking, jogging, turnLeft, turnRight, fastLeft, fastRight, running, startWalk, stop;  // Frame info of each animation file
@@ -73,12 +75,15 @@ public class AnimationController : MonoBehaviour
     #region Attributes for new DB approach
     private float currentFrame;
 
-    private float longTakeFrameCount = 3037; // TODO: Delete this and read it from file
-    private string longTakeStateName = "longTake";
+    private float longTakeFrameCount = 3038; // TODO: Delete this and read it from file
+    private string longTakeStateName = "take1";
 
     public FrameDB framedb;
     private float currSpeed, nextSpeed;
     private float currRot, nextRot;
+    private float playerRotation, playerVel;
+    private Vector3 targetRot;
+    
     //private FrameDB framedb;
     #endregion
 
@@ -101,11 +106,12 @@ public class AnimationController : MonoBehaviour
         //ReadCSV();
         //SetStatesAndFrames();
         player = GameObject.FindGameObjectWithTag("Player");
+        cursor = GameObject.FindGameObjectWithTag("Cursor");
         Debug.Log(framedb.GetAllFrames().Count);
 
     }
 
-    void Update()
+    void FixedUpdate()
     {
         #region Old version
         /*
@@ -257,9 +263,14 @@ public class AnimationController : MonoBehaviour
             if (currCost < bestCost && n > currentFrame || n < currentFrame - 15 ) {
                 bestCost = currCost;
                 bestFrame = n;
+                
             }
         }
-
+        playerVel = player.GetComponent <NavMeshAgent>().velocity.magnitude;
+        targetRot = cursor.transform.position - player.transform.position;
+        playerRotation = Vector3.SignedAngle(player.transform.forward, targetRot, Vector3.up);
+        print("vel: " + playerVel + "rot: " + playerRotation);
+        UpdateParams(playerRotation, playerVel);
         return framedb.GetFrame(bestFrame);
     }
 

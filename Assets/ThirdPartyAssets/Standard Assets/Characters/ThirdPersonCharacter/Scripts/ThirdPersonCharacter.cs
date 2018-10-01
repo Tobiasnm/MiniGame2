@@ -59,7 +59,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             m_TurnAmount = Mathf.Atan2(move.x, move.z);
             m_ForwardAmount = move.z;
 
-            Debug.Log("Moving Forward: " + m_ForwardAmount + " and turning " + m_TurnAmount);
+            //Debug.Log("Moving Forward: " + m_ForwardAmount + " and turning " + m_TurnAmount);
 
             ApplyExtraTurnRotation();
 

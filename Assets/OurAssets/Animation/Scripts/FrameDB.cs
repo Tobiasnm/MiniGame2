@@ -5,7 +5,7 @@ using UnityEditor;
 
 
 /* This is the frame database class. It will store frame info to be used in the new velocity/rotation approach.*/
-[CreateAssetMenu(fileName = "FrameDB", menuName = "FrameDataBase", order = 1)]
+[CreateAssetMenu(fileName = "FrameDB2", menuName = "FrameDataBase", order = 1)]
 public class FrameDB : ScriptableObject{
 
     #region Attributes
