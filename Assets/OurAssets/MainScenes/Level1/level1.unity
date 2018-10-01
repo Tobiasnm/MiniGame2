@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 595370cf0a5494b42a24e66b3d27208b, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 71b634fec31b38b46a30f6185273a772, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1358542599}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.4035252, g: 0.4470479, b: 0.5455283, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -305,6 +305,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114744548829791102, guid: 0080c0361987ff842bf18a950342ebc6,
+        type: 2}
+      propertyPath: conversation.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4398673205245080, guid: 0080c0361987ff842bf18a950342ebc6, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -360,6 +365,46 @@ Prefab:
     - target: {fileID: 1653492130386838, guid: 0080c0361987ff842bf18a950342ebc6, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 114362821269330546, guid: 0080c0361987ff842bf18a950342ebc6,
+        type: 2}
+      propertyPath: startRainInSeconds
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 114362821269330546, guid: 0080c0361987ff842bf18a950342ebc6,
+        type: 2}
+      propertyPath: isWinCondition
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114362821269330546, guid: 0080c0361987ff842bf18a950342ebc6,
+        type: 2}
+      propertyPath: pauseToListen
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114744548829791102, guid: 0080c0361987ff842bf18a950342ebc6,
+        type: 2}
+      propertyPath: conversation.Array.data[0].text
+      value: i am grut
+      objectReference: {fileID: 0}
+    - target: {fileID: 114744548829791102, guid: 0080c0361987ff842bf18a950342ebc6,
+        type: 2}
+      propertyPath: conversation.Array.data[0].conversationLength
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114744548829791102, guid: 0080c0361987ff842bf18a950342ebc6,
+        type: 2}
+      propertyPath: conversation.Array.data[1].text
+      value: i am a good boy
+      objectReference: {fileID: 0}
+    - target: {fileID: 114744548829791102, guid: 0080c0361987ff842bf18a950342ebc6,
+        type: 2}
+      propertyPath: conversation.Array.data[1].conversationLength
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114744548829791102, guid: 0080c0361987ff842bf18a950342ebc6,
+        type: 2}
+      propertyPath: conversation.Array.data[0].audioClipName
+      value: iamgrut
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0080c0361987ff842bf18a950342ebc6, type: 2}
@@ -2311,7 +2356,7 @@ Terrain:
   m_TreeCrossFadeLength: 50
   m_TreeMaximumFullLODCount: 50
   m_DetailObjectDistance: 120
-  m_DetailObjectDensity: 0.5
+  m_DetailObjectDensity: 0.206
   m_HeightmapPixelError: 5
   m_SplatMapDistance: 512
   m_HeightmapMaximumLOD: 0
@@ -2423,6 +2468,23 @@ Prefab:
     - target: {fileID: 4411028580839940, guid: 9461eadf56a8cb04a9ab93236754c42f, type: 2}
       propertyPath: m_RootOrder
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4422593544394270, guid: 9461eadf56a8cb04a9ab93236754c42f, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4372473312168368, guid: 9461eadf56a8cb04a9ab93236754c42f, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4336177225062094, guid: 9461eadf56a8cb04a9ab93236754c42f, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114587866285656790, guid: 9461eadf56a8cb04a9ab93236754c42f,
+        type: 2}
+      propertyPath: triggerEventAtPercentage
+      value: 0.261
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9461eadf56a8cb04a9ab93236754c42f, type: 2}

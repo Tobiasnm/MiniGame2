@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 1
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 595370cf0a5494b42a24e66b3d27208b, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 71b634fec31b38b46a30f6185273a772, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1358542599}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.4035251, g: 0.44704765, b: 0.54552746, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3331,7 +3331,7 @@ Prefab:
     - target: {fileID: 218803499718818236, guid: 95f731b9343e91d488daed3546332e3b,
         type: 2}
       propertyPath: m_DetailObjectDistance
-      value: 115
+      value: 126.2
       objectReference: {fileID: 0}
     - target: {fileID: 154040835390999204, guid: 95f731b9343e91d488daed3546332e3b,
         type: 2}
@@ -3347,7 +3347,17 @@ Prefab:
     - target: {fileID: 218803499718818236, guid: 95f731b9343e91d488daed3546332e3b,
         type: 2}
       propertyPath: m_TreeBillboardDistance
-      value: 47
+      value: 133
+      objectReference: {fileID: 0}
+    - target: {fileID: 218803499718818236, guid: 95f731b9343e91d488daed3546332e3b,
+        type: 2}
+      propertyPath: m_DetailObjectDensity
+      value: 0.147
+      objectReference: {fileID: 0}
+    - target: {fileID: 218803499718818236, guid: 95f731b9343e91d488daed3546332e3b,
+        type: 2}
+      propertyPath: m_TreeCrossFadeLength
+      value: 52.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95f731b9343e91d488daed3546332e3b, type: 2}
