@@ -33,7 +33,7 @@ public class ObstacleHandler : MonoBehaviour
         foreach (MeshRenderer child in renderedChildren)
         {
             obstacles.Enqueue(child.gameObject);
-            Debug.Log(child.name);
+
         }
         if (events.Length <= 0)
             eventQueue = new Queue<MusicEvent>();
@@ -47,7 +47,6 @@ public class ObstacleHandler : MonoBehaviour
         tapsDone += 1;
         AkSoundEngine.PostEvent(tapSound, gameObject);
         this.GetComponentInChildren<ParticleSystem>().Emit(Mathf.CeilToInt(200 / tapsToBreak));
-        Debug.Log("Tap");
 
         latestEvent = CheckForEvents();
         if (latestEvent != null)

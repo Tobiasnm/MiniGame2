@@ -29,7 +29,6 @@ public class HandleRain : MonoBehaviour
         isRaining = true;
         theRain.RainIntensity = 1;
         AkSoundEngine.SetRTPCValue("RainIntensity", 4, rain, 3000);
-        Debug.Log("Rain begun!");
     }
 
     public void StopRain()
@@ -37,14 +36,13 @@ public class HandleRain : MonoBehaviour
         isRaining = false;
         theRain.RainIntensity = 0;
         AkSoundEngine.SetRTPCValue("RainIntensity", 0, rain, 4000);
-        Debug.Log("Rain stopped!");
+
         InvokeRepeating("LerpToLight", 0.1f, 0.1f);
     }
 
 
     private void LerpToDarkness()
     {
-        Debug.Log("Started lerping to dark");
 
         theSun.intensity = Mathf.Lerp(theSun.intensity, darknessLevel, Time.deltaTime*10 / lightTransitionDuration);
 
