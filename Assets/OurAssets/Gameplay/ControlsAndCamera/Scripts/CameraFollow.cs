@@ -10,17 +10,31 @@ public class CameraFollow : MonoBehaviour
     public float distance = 12.6f;//the distance from camera and player
 
     private Transform player;
+    private Transform cursor;
     private float roll;//XZ
     private float rot;//YZ
     private Vector3 targetPos;
 
-    public float zoomInRollAngleValue = -88.2f;
-    public float zoomInrotAngleValue = 20f;
-    public float zoomIndistanceValue = 5f;
+    private float zoomInRollAngleValue = -88.2f;
+    private float zoomInrotAngleValue = 20f;
+    private float zoomIndistanceValue = 5f;
 
-    public float zoomOutRollAngleValue = -80f;
-    public float zoomOutrotAngleValue = 50f;
-    public float zoomOutdistanceValue = 20f;
+    private float zoomOutRollAngleValue = -80f;
+    private float zoomOutrotAngleValue = 50f;
+    private float zoomOutdistanceValue = 20f;
+
+    public float rotRollR = -180f;
+    public float rotRotR = 20f;
+    public float rotDisR = 5f;
+
+    public float rotRollL = 30f;
+    public float rotRotL = 20f;
+    public float rotDisL = 5f;
+
+    private Vector3 rotatCamPosR;
+    private Vector3 rotatCamPosL;
+
+    private bool accessisRunning;
 
     private Vector3 CameraPos;//camera position  
 
@@ -28,12 +42,13 @@ public class CameraFollow : MonoBehaviour
     void Start()
     {
         player = GameObject.FindWithTag("Player").transform;
+        cursor = GameObject.FindWithTag("Cursor").transform;
     }
     private void LateUpdate()
     {
         UpdatePosition(); 
         Zooming();
-
+        RotationController();
     }
 
     public void UpdatePosition()
@@ -41,7 +56,8 @@ public class CameraFollow : MonoBehaviour
         roll = rollAngle * Mathf.PI * 2 / 360;
         rot = rotAngle * Mathf.PI * 2 / 360;
 
-        targetPos = new Vector3(player.position.x,player.position.y,player.position.z+3f) ;//Target position
+        targetPos = new Vector3(player.position.x,player.position.y,player.position.z) ;//Target position
+
 
         float height = distance * Mathf.Sin(rot);//hight of camera
         float d = distance * Mathf.Cos(rot);
@@ -57,8 +73,9 @@ public class CameraFollow : MonoBehaviour
      void Zooming()
     {
         //zoom in
-        if(Input.GetMouseButton(0))
+        if(cursor.GetComponent<CursorController>().isRunning == true)
         {
+            Debug.Log("zoomin");
             StartCoroutine(ChangeRotAngleValue(rotAngle, zoomInrotAngleValue, 1f));
             StartCoroutine(ChangeDistanceValue(distance, zoomIndistanceValue, 1f));
             StartCoroutine(ChangeRollAngleValue(rollAngle,zoomInRollAngleValue, 1f));
@@ -72,7 +89,7 @@ public class CameraFollow : MonoBehaviour
             StartCoroutine(ChangeRollAngleValue(rollAngle, zoomOutRollAngleValue, 1f));
         }
         //Back to orignal position
-        if(Input.GetMouseButton(2))
+        if(cursor.GetComponent<CursorController>().isRunning == false)
         {
             StartCoroutine(ChangeRotAngleValue(rotAngle, 45.4f, 1f));
             StartCoroutine(ChangeDistanceValue(distance, 12.6f, 1f));
@@ -90,18 +107,21 @@ public class CameraFollow : MonoBehaviour
         Gizmos.DrawSphere(transform.position, 0.5f); // draw a solid sphere with camera position.
     }
 
-    private void RotationController()
+    void RotationController()
     {
-        float smooth = 5.0f;
-        float tiltAngle = 60.0f;
-        float h_joystick = CursorController.joystick.Horizontal;
-        float v_joystick = CursorController.joystick.Vertical;
-        float tiltAroundZ = h_joystick * tiltAngle;
-        float tiltAroundX = v_joystick * tiltAngle;
 
-        Quaternion target = Quaternion.Euler(tiltAroundX, 0, tiltAroundZ);
-        // Dampen towards the target rotation
-        transform.rotation = Quaternion.Slerp(transform.rotation, target, Time.deltaTime * smooth);
+        if (Input.GetKey("e"))
+        {
+            StartCoroutine(ChangeRotAngleValue(rotAngle, rotRotR, 1f));
+            StartCoroutine(ChangeDistanceValue(distance, rotDisR, 1f));
+            StartCoroutine(ChangeRollAngleValue(rollAngle, rotRollR, 1f));
+        }
+        if (Input.GetKey("r"))
+        {
+            StartCoroutine(ChangeRotAngleValue(rotAngle, rotRotL, 1f));
+            StartCoroutine(ChangeDistanceValue(distance, rotDisL, 1f));
+            StartCoroutine(ChangeRollAngleValue(rollAngle, rotRollL, 1f));
+        }
 
     }
 
