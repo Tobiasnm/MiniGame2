@@ -22,7 +22,7 @@
 								<Property Name="BlendBehavior" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-9</Value>
+										<Value>-8</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{07BA5883-4355-4604-A013-35F1F74BA163}" ShortID="17350234">
@@ -770,7 +770,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-11</Value>
+										<Value>-8</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
