@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class CursorController : MonoBehaviour
 {
 
     public static Joystick joystick;
+    public bool isRunning = false;
     public float minSpeed = 10f;
     public float maxSpeed = 20f;
     public float maxDistanceFromPlayer = 5;
@@ -19,6 +21,7 @@ public class CursorController : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+
         joystick = FindObjectOfType<Joystick>();
         joybutton = FindObjectOfType<JoystickButton>();
         cursor = GameObject.FindWithTag("Cursor").transform;
@@ -34,12 +37,20 @@ public class CursorController : MonoBehaviour
         rigidbody.velocity = new Vector3(joystick.Horizontal * speedModifier, 0, joystick.Vertical * speedModifier);
         if (Vector3.Distance(player.position, cursor.position) > maxDistanceFromPlayer)
             rigidbody.velocity = new Vector3(0, 0, 0);
+        if(rigidbody.velocity != new Vector3(0,0,0))
+        {
+            isRunning = true;
+        }
+        else{
+            isRunning = false;
+        }
 
         //Vector3 move = new Vector3(joystick.Horizontal*speedModifier , 0, joystick.Vertical*speedModifier );
         //if (Vector3.Distance(player.position, cursor.position) > maxDistanceFromPlayer)
         //    move = new Vector3(0, 0, 0);
 
         //cursor.transform.position = Vector3.Lerp(cursor.position, (cursor.position + move), Time.deltaTime);
+
     }
 
 
