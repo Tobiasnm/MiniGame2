@@ -35,11 +35,12 @@ public class SubtitlesScript : MonoBehaviour {
             if (subObjects[i] != null && subObjects[i].name == "SubTwo") subTwo = subObjects[i];
         }
 
-        if (subOne != null) subOne.GetComponent<Text>().text = subtitles[subIndex];
+       
     }
 	
 	// Update is called once per frame
 	void Update () {
+
         if (startAnimation)
         {
             if (timer >= timeLimits[subIndex])
@@ -111,5 +112,12 @@ public class SubtitlesScript : MonoBehaviour {
         subOne.GetComponent<Text>().text = subtitles[subIndex];
     }
 
+
+
+    public void SetWalkieTalkieStrings(string[] strings)
+    {
+        subtitles = strings;
+        if (subOne != null) subOne.GetComponent<Text>().text = subtitles[0];
+    }
 
 }
