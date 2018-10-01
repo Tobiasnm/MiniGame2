@@ -1908,6 +1908,57 @@
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7B533535-4201-4B94-9675-1FE3D41F10DD}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Folder Name="Gate Open Close" ID="{3D73CC78-54E5-4551-804B-A9C286BD1FB0}" ShortID="648068091">
+							<ChildrenList>
+								<Sound Name="Gate_CLose" ID="{69E2BD3F-BEE0-4B6E-B248-D500C2929013}" ShortID="269323896">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B6753272-8AAE-410A-A6BE-F784408B7732}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7B533535-4201-4B94-9675-1FE3D41F10DD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GATE_Metal_Close_03_stereo" ID="{75350355-2E36-408D-9A07-644CFFC3B4C3}" ShortID="815372615">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.503290545549216"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.08969329128087"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>GATE_Metal_Close_03_stereo.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GATE_Metal_Close_03_stereo" ID="{75350355-2E36-408D-9A07-644CFFC3B4C3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Gate_Open" ID="{A2959B15-F4C5-401B-8FDD-4E61B80A09F2}" ShortID="628999671">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B6753272-8AAE-410A-A6BE-F784408B7732}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7B533535-4201-4B94-9675-1FE3D41F10DD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GATE_Metal_Open_04_Squeal_stereo" ID="{46C4EE1E-0A7E-422B-A80C-9825D2669A87}" ShortID="632132391">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.383680981595092"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>GATE_Metal_Open_04_Squeal_stereo.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GATE_Metal_Open_04_Squeal_stereo" ID="{46C4EE1E-0A7E-422B-A80C-9825D2669A87}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="UI" ID="{46D1143B-FD5C-4299-B10B-29062BBF5F39}" ShortID="152060687">
 					<ReferenceList>

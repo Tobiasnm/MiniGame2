@@ -241,6 +241,34 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Gate_CLose" ID="{849496F6-E48E-482D-B517-3A93647DC604}">
+					<ChildrenList>
+						<Action Name="" ID="{116E6737-2820-4678-9D99-8B8424B1A407}" ShortID="768348789">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gate_CLose" ID="{69E2BD3F-BEE0-4B6E-B248-D500C2929013}" WorkUnitID="{13EEEA71-2979-435A-8F44-172814FC0E97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Gate_Open" ID="{54606E89-2FFE-4A87-B731-F860852097F0}">
+					<ChildrenList>
+						<Action Name="" ID="{9A4F3A65-4370-480F-8751-6C06E29D8272}" ShortID="363030952">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gate_Open" ID="{A2959B15-F4C5-401B-8FDD-4E61B80A09F2}" WorkUnitID="{13EEEA71-2979-435A-8F44-172814FC0E97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
