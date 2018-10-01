@@ -37,15 +37,15 @@ public class CursorController : MonoBehaviour
         rigidbody.velocity = new Vector3(joystick.Horizontal * speed, 0, joystick.Vertical * speed);
         if (Vector3.Distance(player.position, cursor.position) > maxDistanceFromPlayer)
             rigidbody.velocity = new Vector3(0, 0, 0);
-        if(rigidbody.velocity != new Vector3(0,0,0))
+        if (rigidbody.velocity != new Vector3(0, 0, 0))
         {
             isRunning = true;
         }
-        else{
+        else {
             isRunning = false;
         }
 
-        if(joystick.Horizontal<=0.01f && joystick.Vertical <= 0.01f)
+        if (joystick.Horizontal==0.0f && joystick.Vertical == 0.0f)
             rigidbody.velocity = new Vector3(0, 0, 0);
 
         //Vector3 move = new Vector3(joystick.Horizontal*speedModifier , 0, joystick.Vertical*speedModifier );

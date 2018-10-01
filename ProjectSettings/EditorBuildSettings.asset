@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/OurAssets/Interface/Mathies_UI/Scenes/SubtitlesScene.unity
     guid: 255e28b40d3bb6c4d98c2e0a6281c010
+  - enabled: 1
+    path: Assets/OurAssets/Interface/Cinematics/Amy_Locall_Scenes/EndingScene.unity
+    guid: 8f63b32f2ece8374ba6eb42fcae18e2a
   m_configObjects: {}

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.5748171, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -396,9 +396,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   subtitles:
   - 
-  - '**door opens**'
+  - FX:door opens
   - '**footsteps down stairs**'
-  - 'Ruben! '
+  - 'S:Ruben! '
   - Ruben! Ruben!
   - I found the entrance to the compound...
   - They didn't even hide it superwell.
@@ -719,31 +719,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   subtitles:
   - 
-  - FX:(Door opens)
-  - FX:(Footsteps down stairs)
+  - FX:door opens
+  - FX:footsteps down stairs
   - 'S:Ruben! '
   - S:Ruben! Ruben!
   - S:I found the entrance to the compound...
   - S:They didn't even hide it superwell.
   - "R:I\u2026 I can\u2019t move my leg. "
   - S:Oh
+  - S:I thought you were doing better already?
   - R:Yeah, I thought so too...
   - S:Hold on, I willl check this compound...
+  - S:they will have the needed supplies there!
   - "R:No! Don\u2019t go outside."
-  - S:Oh, I thought you were doing better already?
-  - S:Oh, I thought you were doing better already?
-  - S:Oh, I thought you were doing better already?
-  - S:Oh, I thought you were doing better already?
-  - S:Oh, I thought you were doing better already?
-  - S:Oh, I thought you were doing better already?
-  - S:Oh, I thought you were doing better already?
-  - S:Oh, I thought you were doing better already?
-  - S:Oh, I thought you were doing better already?
-  - S:Oh, I thought you were doing better already?
-  - S:Oh, I thought you were doing better already?
-  - S:Oh, I thought you were doing better already?
-  - S:Oh, I thought you were doing better already?
-  - S:Oh, I thought you were doing better already?
+  - "R:You don\u2019t know how many of them there are!"
+  - "S:Don\u2019t worry!"
+  - 'S:I can sneak past those assholes. '
+  - 'R:But not a whole army! '
+  - "S:\u2026 I will always take care of you, you can\u2019t stop me! "
+  - "R:Ah\u2026 just please"
+  - "R:promise you\u2019ll be back, sis."
+  - 'S:You sound like a whiny little boy! '
+  - "S:Of course I\u2019ll be back! "
+  - FX:smackig kiss
+  - FX:footsteps upstairs
+  - 
   timeLimits:
   - 1.5
   - 3.5
@@ -767,10 +767,10 @@ MonoBehaviour:
   - 1.31
   - 2.19
   - 1.6
-  - 1.5
-  - 0.7
-  - 2.2
-  - 3
+  - 1.87
+  - 1.3
+  - 2.5
+  - 0
   startAnimation: 1
   gameplayScene: 0
 --- !u!95 &1196522265

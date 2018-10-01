@@ -191,19 +191,8 @@ public class GameUIManagerScript : MonoBehaviour {
         SceneManager.LoadScene("MainMenu");
     }
 
-
-    public void SetWalkieTalkieStrings(string[] strings)
-    {
-        hintTexts = strings;
-    }
-
-    public void SetWalkieTalkie(int hintIndex)
-    {
-        walkieTalkieUI.SetActive(true);
-        walkieTalkieUI.GetComponentInChildren<Button>().GetComponentInChildren<Text>().text = hintTexts[hintIndex];
-    }
-
-    public void ShowWalkieTalkieText()
+    //ShowWalkieTalkieText("some text here", 3);
+    public void ShowWalkieTalkieText(string text, float duration)
     {
         SetChildrenActive(1, true);
         SetChildrenActive(0, false);
