@@ -191,9 +191,19 @@ public class GameUIManagerScript : MonoBehaviour {
         SceneManager.LoadScene("MainMenu");
     }
 
-    //ShowWalkieTalkieText("some text here", 3);
-    public void ShowWalkieTalkieText(string text, float duration)
+    public void DoWalkieTalkie()
     {
+        string[] text = { "something, something", "aasss", "ass" };
+        float[] duration = { 6f, 5f, 6f, };
+        ShowWalkieTalkieText(text, duration);
+    }
+
+    //ShowWalkieTalkieText("some text here", 3);string text, float duration
+    public void ShowWalkieTalkieText(string[] text, float[] duration)
+    {
+
+        subtitlesScript.subtitles = text;
+        subtitlesScript.timeLimits = duration;
         SetChildrenActive(1, true);
         SetChildrenActive(0, false);
         subtitlesScript.startAnimation = true;
@@ -202,7 +212,7 @@ public class GameUIManagerScript : MonoBehaviour {
 
     public void RemoveWalkieTalkie()
     {
+        //SetChildrenActive(1, false);
         subtitlesScript.ResetSubtitles();
-        walkieTalkieUI.SetActive(false);
     }
 }
