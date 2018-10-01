@@ -39,7 +39,7 @@ GameObject:
   - component: {fileID: 114875617042962114}
   m_Layer: 0
   m_Name: StoryManager
-  m_TagString: Untagged
+  m_TagString: StoryManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -119,8 +119,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1653492130386838}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 828.26, y: 97.43, z: -78.14}
-  m_LocalScale: {x: 4.171552, y: 4.171552, z: 4.171552}
+  m_LocalPosition: {x: 291.13, y: 67.14, z: -226.37}
+  m_LocalScale: {x: 62.690727, y: 4.171552, z: 4.171552}
   m_Children: []
   m_Father: {fileID: 4398673205245080}
   m_RootOrder: 0
@@ -131,13 +131,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1115827114696630}
-  m_LocalRotation: {x: -0, y: 0.13999969, z: -0, w: 0.9901516}
-  m_LocalPosition: {x: 694.7, y: 97.43, z: 161.6}
-  m_LocalScale: {x: 4.17155, y: 4.17155, z: 102.77193}
+  m_LocalRotation: {x: -0, y: 0.019766571, z: -0, w: 0.9998046}
+  m_LocalPosition: {x: 267.6, y: 67.6, z: -52.5}
+  m_LocalScale: {x: 4.17155, y: 4.17155, z: 43.257732}
   m_Children: []
   m_Father: {fileID: 4398673205245080}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 16.096, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 2.265, z: 0}
 --- !u!4 &4398673205245080
 Transform:
   m_ObjectHideFlags: 1
@@ -163,8 +163,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1280146845443216}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 831.1, y: 97.43, z: 43.91}
-  m_LocalScale: {x: 4.17155, y: 4.17155, z: 4.17155}
+  m_LocalPosition: {x: 310.15, y: 67.06383, z: -131.61}
+  m_LocalScale: {x: 3.3220136, y: 3.3220136, z: 3.3220136}
   m_Children: []
   m_Father: {fileID: 4398673205245080}
   m_RootOrder: 2
@@ -175,13 +175,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1575821811055832}
-  m_LocalRotation: {x: -0, y: 0.25601962, z: -0, w: 0.96667165}
-  m_LocalPosition: {x: 641.5, y: 97.43, z: 206.26}
-  m_LocalScale: {x: 4.17155, y: 4.17155, z: 4.17155}
+  m_LocalRotation: {x: -0, y: 0.07016653, z: -0, w: 0.9975353}
+  m_LocalPosition: {x: 136.23, y: 66.31, z: -28.21}
+  m_LocalScale: {x: 2.6872537, y: 2.6872537, z: 3.7747855}
   m_Children: []
   m_Father: {fileID: 4398673205245080}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 29.668001, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 8.047, z: 0}
 --- !u!4 &4944280762785840
 Transform:
   m_ObjectHideFlags: 1
@@ -189,7 +189,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1645301998039522}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 815.86, y: 97.43, z: -5.96}
+  m_LocalPosition: {x: 287.1548, y: 67.3, z: -180.25064}
   m_LocalScale: {x: 136.96245, y: 4.17155, z: 4.17155}
   m_Children: []
   m_Father: {fileID: 4398673205245080}
@@ -267,12 +267,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   causeRain: 1
-  doSoundInSeconds: 10
   startRainInSeconds: 30
+  doThunderInSeconds: 10
   isWinCondition: 0
-  story:
-  - "Sina: aw shed, that's the entr\xE9 to the basecamp"
-  - 'Ruben: double noice, get in, be careful'
+  pauseToListen: 0
+  conversation: []
   nextLevelName: 
 --- !u!114 &114362821269330546
 MonoBehaviour:
@@ -286,14 +285,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   causeRain: 0
-  doSoundInSeconds: 1
   startRainInSeconds: 10
+  doThunderInSeconds: 10
   isWinCondition: 0
-  story:
-  - 'Ruben: how is it looking'
-  - 'Sina: umm?'
-  - 'Ruben: post-apocalyptic?'
-  - aw yeah!
+  pauseToListen: 0
+  conversation:
+  - text: How is it out there, any danger?
+    audioClipName: intro_dialouge
+    conversationLength: 3.5
+  - text: Eeeeh, you remember that show..cringy text blabla
+    audioClipName: 
+    conversationLength: 5
+  - text: You mean like.. post-apocalyptic...OMFG THE CRINGEEEE
+    audioClipName: 
+    conversationLength: 3
+  - text: '*Insert panda growling sounds here*'
+    audioClipName: 
+    conversationLength: 2
   nextLevelName: 
 --- !u!114 &114660636741311346
 MonoBehaviour:
@@ -307,13 +315,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   causeRain: 0
-  doSoundInSeconds: 1
   startRainInSeconds: 10
+  doThunderInSeconds: 10
   isWinCondition: 0
-  story:
-  - 'Ruben: ya okay?'
-  - 'Sina: luckily, yeah!'
-  - 'Ruben: NOICE'
+  pauseToListen: 1
+  conversation:
+  - text: freeze you son of a gremlin
+    audioClipName: Play_Thunderclap
+    conversationLength: 10
   nextLevelName: 
 --- !u!114 &114744548829791102
 MonoBehaviour:
@@ -327,11 +336,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   causeRain: 0
-  doSoundInSeconds: 1
   startRainInSeconds: 10
+  doThunderInSeconds: 10
   isWinCondition: 1
-  story:
-  - Hasta la vista, sista <3
+  pauseToListen: 1
+  conversation: []
   nextLevelName: level2
 --- !u!114 &114767468521544588
 MonoBehaviour:
@@ -345,13 +354,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   causeRain: 1
-  doSoundInSeconds: 1
   startRainInSeconds: 20
+  doThunderInSeconds: 5
   isWinCondition: 0
-  story:
-  - 'Ruben: Oh no, rain! seek shelter'
-  - 'Sina: shit, I will'
-  - 'Ruben: good luck'
+  pauseToListen: 0
+  conversation: []
   nextLevelName: 
 --- !u!114 &114875617042962114
 MonoBehaviour:
@@ -365,4 +372,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerHandler: {fileID: 0}
-  nextLevelName: 

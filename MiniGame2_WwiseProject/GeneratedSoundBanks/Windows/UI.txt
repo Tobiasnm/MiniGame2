@@ -1,14 +1,15 @@
 Event	ID	Name			Wwise Object Path	Notes
 	807462833	Play_MenuTrack1			\Default Work Unit\Play_MenuTrack1	
 	1250373215	Play_MiniGame2_INtroSoundscape			\Default Work Unit\Play_MiniGame2_INtroSoundscape	
+	1554289743	Stop_MenuTrack1			\Default Work Unit\Stop_MenuTrack1	
 	2149395099	Play_Resume			\Default Work Unit\Play_Resume	
 	2461875428	Play_Button2			\Default Work Unit\Play_Button2	
 	2461875431	Play_Button1			\Default Work Unit\Play_Button1	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	199205389	MiniGame2_INtroSoundscape	C:\Users\faggka\Desktop\Git\MiniGame\MiniGame2_WwiseProject\.cache\Windows\SFX\MiniGame2_INtroSoundscape_56D34C19.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\UI\MiniGame2_INtroSoundscape		13368432
-	361388268	MenuTrack1	C:\Users\faggka\Desktop\Git\MiniGame\MiniGame2_WwiseProject\.cache\Windows\SFX\MenuTrack1_A14709A9.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\UI\MenuTrack1		9940964
-	489016350	UI_Beep_Bend_Short_stereo	C:\Users\faggka\Desktop\Git\MiniGame\MiniGame2_WwiseProject\.cache\Windows\SFX\UI_Beep_Bend_Short_stereo_56D34C19.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\UI\Button2\UI_Beep_Bend_Short_stereo		10984
-	619622850	Resume	C:\Users\faggka\Desktop\Git\MiniGame\MiniGame2_WwiseProject\.cache\Windows\SFX\WHOOSH_Air_Super_Fast_RR4_mono_56D34C19.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\UI\Resume		7582
-	800148568	UI_Beep_Single_Clean_stereo	C:\Users\faggka\Desktop\Git\MiniGame\MiniGame2_WwiseProject\.cache\Windows\SFX\UI_Beep_Single_Clean_stereo_56D34C19.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\UI\Button1\UI_Beep_Single_Clean_stereo		7216
+	199205389	MiniGame2_INtroSoundscape	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Windows\SFX\MiniGame2_INtroSoundscape_56D34C19.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\UI\MiniGame2_INtroSoundscape		13368432
+	361388268	MenuTrack1	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Windows\SFX\MenuTrack1_A14709A9.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\UI\MenuTrack1		9940964
+	489016350	UI_Beep_Bend_Short_stereo	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Windows\SFX\UI_Beep_Bend_Short_stereo_56D34C19.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\UI\Button2\UI_Beep_Bend_Short_stereo		10984
+	619622850	Resume	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Windows\SFX\WHOOSH_Air_Super_Fast_RR4_mono_56D34C19.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\UI\Resume		7582
+	800148568	UI_Beep_Single_Clean_stereo	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Windows\SFX\UI_Beep_Single_Clean_stereo_56D34C19.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\UI\Button1\UI_Beep_Single_Clean_stereo		7216
 

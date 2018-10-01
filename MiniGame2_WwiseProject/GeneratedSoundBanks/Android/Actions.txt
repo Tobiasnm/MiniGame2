@@ -1,5 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
+	1676603786	Play_Gate_CLose			\Default Work Unit\Play_Gate_CLose	
 	1720809208	Play_Detected			\Default Work Unit\Play_Detected	
+	3023115453	Play_Search_Trash			\Default Work Unit\Play_Search_Trash	
+	4089264814	Play_Gate_Open			\Default Work Unit\Play_Gate_Open	
 
 Effect plug-ins	ID	Name	Type				Notes
 	550632737	High_Pass_60Hz (Custom)	Wwise Parametric EQ			
@@ -9,6 +12,15 @@ Effect plug-ins	ID	Name	Type				Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	373338240	Stinger3	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\Stinger3_7E90B02E.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Reactions\Detected\Stinger3		454388
+	489207521	TrashSearch1_01	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\TrashSearch1_9200EF4B.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Search_Trash\Trash1\TrashSearch1_01		18160
+	515322455	TrashSearch1_02	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\TrashSearch1_180F0752.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Search_Trash\Trash2\TrashSearch1_02		28140
+	537442384	TrashSearch4_01	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\TrashSearch4_48E70B2A.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Search_Trash\Trash2\TrashSearch4_01		21208
+	632132391	Gate_Open	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\GATE_Metal_Open_04_Squeal_stereo_39F08C3C.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\3D\Gate Open Close\Gate_Open		485752
+	682261727	TrashSearch3	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\TrashSearch3_4D314F0F.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Search_Trash\Trash4\TrashSearch3		28652
 	735211814	Stinger1	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\Stinger1_5110075D.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Reactions\Detected\Stinger1		807892
+	815372615	Gate_CLose	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\GATE_Metal_Close_03_stereo_398450BE.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\3D\Gate Open Close\Gate_CLose		96174
+	853319014	TrashSearch1	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\TrashSearch1_1EAB9A35.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Search_Trash\Trash1\TrashSearch1		22728
+	878006226	TrashSearch4	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\TrashSearch4_E58C17F4.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Search_Trash\Trash3\TrashSearch4		24420
 	960059470	6 Big Metal Hit	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\6 Big Metal Hit _1199FC32.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Reactions\Detected\6 Big Metal Hit		783440
+	973755901	TrashSearch3_01	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\TrashSearch3_9AB94BDD.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Search_Trash\Trash3\TrashSearch3_01		24252
 

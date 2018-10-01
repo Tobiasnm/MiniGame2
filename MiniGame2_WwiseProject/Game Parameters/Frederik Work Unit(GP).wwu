@@ -22,6 +22,11 @@
 								<Property Name="InitialValue" Type="Real64" Value="100"/>
 							</PropertyList>
 						</GameParameter>
+						<GameParameter Name="UIVolume" ID="{90749C0D-23B1-4449-9DEC-4A2403ECAB2F}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="100"/>
+							</PropertyList>
+						</GameParameter>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

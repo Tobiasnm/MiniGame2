@@ -5,18 +5,17 @@ using UnityEngine;
 [RequireComponent(typeof(Collider))]
 public class TriggerStory : MonoBehaviour
 {
-
-    //private string storyText = "";
-    [Header("Toogle and fill if this should cause rain.")]
+    [Header("Toogle and fill if this should cause rain")]
     public bool causeRain = false;
-    public float doSoundInSeconds = 1;
     public float startRainInSeconds = 10;
-    [Header("...")]
+    public float doThunderInSeconds = 10;
 
+    [Header("Story-related parameters")]
     public bool isWinCondition = false;
-    //public Transform focusTarget;
-    //public float stopLookingInSeconds = 5;
-    public List<string> story = new List<string>();
+    public bool pauseToListen = false;
+
+    public List<Sentence> conversation = new List<Sentence>();
+
     public string nextLevelName;
 
     private Collider storyCollider;
@@ -24,23 +23,19 @@ public class TriggerStory : MonoBehaviour
     private AkEvent audioSource;
     private CameraHandler cameraHandler;
     private HandleRain rainHandler;
-    //private GameObject rain;
+
+    private GameUIManagerScript uiManager;
 
 
-    // Use this for initialization
     void Start()
     {
         storyCollider = GetComponent<Collider>();
-        storyManager = GetComponentInParent<StoryManager>();
+
+        storyManager = GameObject.FindGameObjectWithTag("StoryManager").GetComponent<StoryManager>();        
+
         audioSource = GetComponent<AkEvent>();
         cameraHandler = Camera.main.GetComponent<CameraHandler>();
         rainHandler = GameObject.FindGameObjectWithTag("RainManager").GetComponent<HandleRain>();
-        //rain = GameObject.FindGameObjectWithTag("TheRain");
-    }
-
-    private void DoSound()
-    {
-        //AkSoundEngine.PostEvent("Thunderstrike", rain);
     }
 
 
@@ -49,29 +44,16 @@ public class TriggerStory : MonoBehaviour
 
         if (other.tag == "Player")
         {
-            //storyManager.nextLevelName = nextLevelName;
-            storyManager.hasWon = isWinCondition;
+            storyManager.AddStory(this);
 
-            storyManager.textList = new Queue<string>(story);
             if (causeRain)
             {
-                DoSoundInSeconds(doSoundInSeconds);
-                rainHandler.StartRainInSeconds(startRainInSeconds);
-
+                rainHandler.StartRainInSeconds(startRainInSeconds, doThunderInSeconds);
             }
-
-            //if (focusTarget)
-            //    cameraHandler.target = focusTarget;
-            foreach (var text in story)
-                storyManager.ShowText(text);
-
-            Destroy(this.gameObject);
+            
+            this.gameObject.GetComponent<Collider>().enabled = false;
         }
     }
 
-    private void DoSoundInSeconds(float seconds)
-    {
-
-        Invoke("DoSound", seconds);
-    }
+    
 }

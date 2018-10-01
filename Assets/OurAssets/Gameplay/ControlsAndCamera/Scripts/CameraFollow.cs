@@ -18,7 +18,11 @@ public class CameraFollow : MonoBehaviour
     public float zoomInrotAngleValue = 20f;
     public float zoomIndistanceValue = 5f;
 
+<<<<<<< HEAD
     public float zoomOutRollAngleValue = 20f;
+=======
+    public float zoomOutRollAngleValue = -80f;
+>>>>>>> Production
     public float zoomOutrotAngleValue = 50f;
     public float zoomOutdistanceValue = 20f;
 
@@ -62,7 +66,7 @@ public class CameraFollow : MonoBehaviour
             StartCoroutine(ChangeRotAngleValue(rotAngle, zoomInrotAngleValue, 1f));
             StartCoroutine(ChangeDistanceValue(distance, zoomIndistanceValue, 1f));
             StartCoroutine(ChangeRollAngleValue(rollAngle,zoomInRollAngleValue, 1f));
-            Debug.Log("zoomIn");
+
         }
         //zoom out
         if(Input.GetMouseButton(1))
@@ -102,7 +106,10 @@ public class CameraFollow : MonoBehaviour
         Quaternion target = Quaternion.Euler(tiltAroundX, 0, tiltAroundZ);
         // Dampen towards the target rotation
         transform.rotation = Quaternion.Slerp(transform.rotation, target, Time.deltaTime * smooth);
+<<<<<<< HEAD
         Debug.Log("rotation");
+=======
+>>>>>>> Production
 
     }
 

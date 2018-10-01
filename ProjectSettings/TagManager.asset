@@ -4,9 +4,20 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - MenuPanel
+  - Joystick
+  - Pause
+  - ChapterButton
+  - Language
   - Cursor
-  - CameraFollow
-  - Scrollbar
+  - Enemy
+  - Obstacle
+  - RainManager
+  - RainAudio
+  - StoryManager
+  - LanguageButton
+  - UIManager
+  - TheSun
   layers:
   - Default
   - TransparentFX
@@ -17,14 +28,14 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - MenuPanel
+  - Terrain
+  - IgnoreCollisions
+  - Obstacles
+  - Player
+  - Obstacles
+  - IgnoreCollisions
+  - Terrain
   - 
   - 
   - 

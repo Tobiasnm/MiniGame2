@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using cakeslice;
 using UnityEngine.SceneManagement;
+using UnityStandardAssets.Characters.ThirdPerson;
 
 public class PlayerHandler : MonoBehaviour
 {
     public float distanceToTap = 100;
-
-
-    private int maxHealth = 100;
+    public float healthPercentageLostOnRainCollision = 50;
+    private float maxHealth = 100;
     //private HandleGirl girlHandler;
     private bool hasPickedFood = false;
     private GameObject food;
@@ -17,19 +17,25 @@ public class PlayerHandler : MonoBehaviour
     private bool canHowl = false;
     private bool doHowl = false;
     private int obstacleRaycastMask = 1 << 12;
-    //private float storedAgentSpeed;
+    private AICharacterControl playerController;
+
+
+    // Use this for initialization
+    void Start()
+    {
+        mainCamera = Camera.main;
+        //girlHandler = littleGirl.GetComponent<HandleGirl>();
+        playerController = GetComponent<AICharacterControl>();
+    }
 
     public void StopLocomotion()
     {
-        //playerController.CanMove = false;
-        //playerController.Agent.isStopped = true;
-        //playerController.Agent.SetDestination(playerController.transform.position);
+        playerController.SetTarget(this.transform);
     }
 
     public void StartLocomotion()
     {
-        //playerController.CanMove = true;
-        //playerController.Agent.isStopped = false;
+        playerController.SetCursorAsTarget();
     }
 
 
@@ -38,12 +44,18 @@ public class PlayerHandler : MonoBehaviour
         maxHealth -= amount;
     }
 
+
+    public void RemoveHealthOnRainCollision()
+    {
+        maxHealth -= healthPercentageLostOnRainCollision;
+    }
+
     public void AddHealth(int amount)
     {
         maxHealth += amount;
     }
 
-    public int GetHealth(int amount)
+    public float GetHealth()
     {
         return maxHealth;
     }
@@ -52,35 +64,29 @@ public class PlayerHandler : MonoBehaviour
     {
         if (maxHealth <= 0)
         {
-            SceneManager.LoadScene("GameOver", LoadSceneMode.Single);
+            this.GetComponent<Animator>().SetTrigger("Die");
+            Invoke("GoToGameOverScene", 3);
         }
+    }
 
+    private void GoToGameOverScene()
+    {
+        SceneManager.LoadScene("MainMenu", LoadSceneMode.Single);
     }
 
     public void HandleDetection(bool isDeadly)
     {
         if (isDeadly)
+        {
             Debug.Log("You are dead. Fuckin casual..");
-        //SceneManager.LoadScene("GameOver", LoadSceneMode.Single);
-
-
-    }
-
-
-    // Use this for initialization
-    void Start()
-    {
-        mainCamera = Camera.main;
-        //girlHandler = littleGirl.GetComponent<HandleGirl>();
-        //playerController = GameObject.FindGameObjectWithTag("Cursor").GetComponent<PlayerController>();
+            GoToGameOverScene();
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-
         HandleDeath();
-
 
 #if UNITY_STANDALONE
         //if (Input.GetKeyDown("h"))
@@ -131,8 +137,6 @@ public class PlayerHandler : MonoBehaviour
 
     void DoTapCalculations()
     {
-
-
         if (Application.platform == RuntimePlatform.Android)
         {
             if (Input.touchCount > 0 && Input.touchCount < 2)

@@ -129,20 +129,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Military_Base_Ambience" ID="{C702E52B-B539-407C-B292-1E604BB51BBA}">
-					<ChildrenList>
-						<Action Name="" ID="{6D972432-82EE-4F93-B730-24DED917C923}" ShortID="352422010">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Military_Base_Ambience" ID="{F84FEE51-527A-4F32-B2CE-46E6F34D4840}" WorkUnitID="{13EEEA71-2979-435A-8F44-172814FC0E97}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_MenuTrack1" ID="{F62D028B-DE04-4549-BC70-3F31E98BC30C}">
 					<ChildrenList>
 						<Action Name="" ID="{F5762C4D-48A0-4C9F-9BC8-4F14118D03CE}" ShortID="826764064">
@@ -180,6 +166,104 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Thunderclap" ID="{479521AC-8B59-4EAE-A431-9F64BCB58330}" WorkUnitID="{13EEEA71-2979-435A-8F44-172814FC0E97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Idle_Truck" ID="{054F8475-DC30-44AB-8642-CBC5B18C6B8F}">
+					<ChildrenList>
+						<Action Name="" ID="{228DE6C6-4AED-4033-A157-D93D33DF38C5}" ShortID="158350014">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Idle_Truck" ID="{F8924D5A-E6CB-499A-8501-EB92378B6979}" WorkUnitID="{13EEEA71-2979-435A-8F44-172814FC0E97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Tent_Noises" ID="{9C06EFE7-7B83-4A66-8E9F-730F73C9A684}">
+					<ChildrenList>
+						<Action Name="" ID="{2A42874A-94FA-4A0A-9011-A120B0A6E3CE}" ShortID="151857079">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tent_Noises" ID="{9A699879-7C18-4D63-A291-BDC398C5D0A4}" WorkUnitID="{13EEEA71-2979-435A-8F44-172814FC0E97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Military_Base_Ambience" ID="{E3CE51B0-2BFC-4762-A648-6A42C7ED6476}">
+					<ChildrenList>
+						<Action Name="" ID="{93F212F2-CEEA-4E4B-97C7-024829D88DD6}" ShortID="975313037">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Military_Base_Ambience" ID="{F84FEE51-527A-4F32-B2CE-46E6F34D4840}" WorkUnitID="{13EEEA71-2979-435A-8F44-172814FC0E97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Search_Trash" ID="{A7846941-C8E7-483D-B4F4-49B228985230}">
+					<ChildrenList>
+						<Action Name="" ID="{96EB2D38-372B-4CB6-8D7D-1BEE96DEEFD6}" ShortID="735316427">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Search_Trash" ID="{EB48F90E-16B0-4B02-9F91-30EB46CBCD83}" WorkUnitID="{13EEEA71-2979-435A-8F44-172814FC0E97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MenuTrack1" ID="{F7B33046-689A-4A3F-BCE4-146D9B82DBAD}">
+					<ChildrenList>
+						<Action Name="" ID="{4C07FBE6-F176-4A48-BE28-34D120547D80}" ShortID="559836281">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MenuTrack1" ID="{AD27115F-F13F-42D3-A5A1-2DCB944BD0FD}" WorkUnitID="{13EEEA71-2979-435A-8F44-172814FC0E97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Gate_CLose" ID="{849496F6-E48E-482D-B517-3A93647DC604}">
+					<ChildrenList>
+						<Action Name="" ID="{116E6737-2820-4678-9D99-8B8424B1A407}" ShortID="768348789">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gate_CLose" ID="{69E2BD3F-BEE0-4B6E-B248-D500C2929013}" WorkUnitID="{13EEEA71-2979-435A-8F44-172814FC0E97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Gate_Open" ID="{54606E89-2FFE-4A87-B731-F860852097F0}">
+					<ChildrenList>
+						<Action Name="" ID="{9A4F3A65-4370-480F-8751-6C06E29D8272}" ShortID="363030952">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gate_Open" ID="{A2959B15-F4C5-401B-8FDD-4E61B80A09F2}" WorkUnitID="{13EEEA71-2979-435A-8F44-172814FC0E97}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
