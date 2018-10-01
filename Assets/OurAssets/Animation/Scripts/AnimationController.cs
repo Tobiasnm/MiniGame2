@@ -252,7 +252,7 @@ public class AnimationController : MonoBehaviour
         
         foreach(int n in neigh){
             currCost = Cost(n);
-            if (currCost < bestCost) {
+            if (currCost < bestCost && n > currentFrame || n < currentFrame - 15 ) {
                 bestCost = currCost;
                 bestFrame = n;
             }
