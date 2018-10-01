@@ -13,8 +13,8 @@ public class StoryManager : MonoBehaviour
 
     private bool conversationLockEnabled = false;
 
-    private GameUIManagerScript gUIManager = GameObject.FindGameObjectWithTag("GUICanvas").GetComponent<GameUIManagerScript>();
-    private SubtitlesScript subtitlesManager = GameObject.FindGameObjectWithTag("GUICanvas").GetComponent<SubtitlesScript>();
+    //private GameUIManagerScript gUIManager = GameObject.FindGameObjectWithTag("GUICanvas").GetComponent<GameUIManagerScript>();
+    //private SubtitlesScript subtitlesManager = GameObject.FindGameObjectWithTag("GUICanvas").GetComponent<SubtitlesScript>();
 
     public void AddStory(TriggerStory story)
     {
@@ -36,7 +36,6 @@ public class StoryManager : MonoBehaviour
         //subtitlesManager.SetWalkieTalkieStrings(tempConv);
         //gUIManager.ShowWalkieTalkieText();
 
-        Debug.Log("Audio name: " + line.audioClipName + " Duration: " + line.conversationLength + " Text: " + line.text);
     }
 
     void FixedUpdate()
