@@ -116,27 +116,6 @@
 							</DuckingList>
 						</Bus>
 					</ChildrenList>
-					<StateInfo>
-						<StateGroupList>
-							<StateGroupInfo>
-								<StateGroupRef Name="Pause_Menu_Filter" ID="{FB19D227-BF31-417B-BC00-B89825A938E4}"/>
-							</StateGroupInfo>
-						</StateGroupList>
-						<CustomStateList>
-							<CustomState>
-								<StateRef Name="Pause_On" ID="{541553AB-8D1D-43AA-9CB7-3855FAD024D4}"/>
-								<State Name="" ID="{08563340-EAA2-4AED-9895-EB634A562EFE}" ShortID="61729223">
-									<PropertyList>
-										<Property Name="Lowpass" Type="int16" Value="80"/>
-									</PropertyList>
-								</State>
-							</CustomState>
-							<CustomState>
-								<StateRef Name="Pause_Off" ID="{7F090BE7-5191-453A-BCAC-C31C0E804FB3}"/>
-								<State Name="" ID="{A0523A93-4652-4B1D-ADD1-3ED232429FE3}" ShortID="694111956"/>
-							</CustomState>
-						</CustomStateList>
-					</StateInfo>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>
