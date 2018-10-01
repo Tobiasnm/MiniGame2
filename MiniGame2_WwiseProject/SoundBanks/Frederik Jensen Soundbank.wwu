@@ -42,10 +42,15 @@
 				</SoundBank>
 				<SoundBank Name="Actions" ID="{FDCABFCB-9FEC-46C4-8AAC-8DB2B0E0D25F}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_Box_Breaking" ID="{ED86DCE4-9C2D-41CC-9DD4-0135C12CBB4E}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Detected" ID="{3C28F38F-7F46-4464-AB2D-BAEF1EDF3862}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Gazebo_Tear" ID="{2DF55C00-7E99-45C8-B7F2-973660EB7647}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Gate_CLose" ID="{849496F6-E48E-482D-B517-3A93647DC604}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Search_Trash" ID="{A7846941-C8E7-483D-B4F4-49B228985230}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Gate_Open" ID="{54606E89-2FFE-4A87-B731-F860852097F0}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Pull_Plank" ID="{FA619902-2316-4AD2-A956-02BDDC8EF5D5}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Branches_Snapping" ID="{554B2E3D-5269-4B34-BE96-8A32AA2E2577}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Hit_Wood" ID="{34DFA7E4-FB3D-4C18-BF35-71761C2CC05C}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
