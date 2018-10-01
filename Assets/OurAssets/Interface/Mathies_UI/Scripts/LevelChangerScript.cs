@@ -21,6 +21,11 @@ public class LevelChangerScript : MonoBehaviour {
         animator.SetTrigger("menu_fade_out");
     }
 
+    public void SkipCutscene()
+    {
+        animator.SetTrigger("end_subtitles");
+    }
+
     public void FadeComplete()
     {
         SceneManager.LoadScene(scenename);
