@@ -269,6 +269,76 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Hit_Wood" ID="{34DFA7E4-FB3D-4C18-BF35-71761C2CC05C}">
+					<ChildrenList>
+						<Action Name="" ID="{D1A3CC3A-9E02-4AB2-A993-40287666793D}" ShortID="375071021">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hit_Wood" ID="{F010B8DC-1565-4FBB-8520-A3C778A871C1}" WorkUnitID="{13EEEA71-2979-435A-8F44-172814FC0E97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Box_Breaking" ID="{ED86DCE4-9C2D-41CC-9DD4-0135C12CBB4E}">
+					<ChildrenList>
+						<Action Name="" ID="{BD33873F-3171-4A22-A7BB-CAE72E78916A}" ShortID="601189063">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Box_Breaking" ID="{72C67634-6438-4FC9-9F54-2D92802D7A3C}" WorkUnitID="{13EEEA71-2979-435A-8F44-172814FC0E97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Gazebo_Tear" ID="{2DF55C00-7E99-45C8-B7F2-973660EB7647}">
+					<ChildrenList>
+						<Action Name="" ID="{C7719EC2-9337-4B4B-A08F-66C4421087E7}" ShortID="329474977">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gazebo_Tear" ID="{61A57C7A-C2E1-453B-9280-EE78A6729E21}" WorkUnitID="{13EEEA71-2979-435A-8F44-172814FC0E97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Branches_Snapping" ID="{554B2E3D-5269-4B34-BE96-8A32AA2E2577}">
+					<ChildrenList>
+						<Action Name="" ID="{2CA0F5A0-0D26-4757-9BE1-0E2A7014940D}" ShortID="78922956">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Branches_Snapping" ID="{57894963-429C-41EF-B7B7-34F7CCB8C6FE}" WorkUnitID="{13EEEA71-2979-435A-8F44-172814FC0E97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Pull_Plank" ID="{FA619902-2316-4AD2-A956-02BDDC8EF5D5}">
+					<ChildrenList>
+						<Action Name="" ID="{FBE9B7CF-667F-44E5-A10C-952079D7E6B6}" ShortID="996766668">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pull_Plank" ID="{F28FFA6F-5B45-4FC5-B9B2-06A3A2FB376A}" WorkUnitID="{13EEEA71-2979-435A-8F44-172814FC0E97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
