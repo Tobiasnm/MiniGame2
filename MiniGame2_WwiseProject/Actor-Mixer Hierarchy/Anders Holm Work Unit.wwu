@@ -137,13 +137,14 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B6753272-8AAE-410A-A6BE-F784408B7732}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7B533535-4201-4B94-9675-1FE3D41F10DD}"/>
+									<ObjectRef Name="Ambience Bus" ID="{54A18F44-5BED-466D-B9B4-E6F6A1D46553}" WorkUnitID="{7B533535-4201-4B94-9675-1FE3D41F10DD}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -811,6 +812,27 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Menu_Filter" ID="{C35C4D99-1537-4A45-AF2F-613D50D7E606}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Pause_Off" ID="{4FF6BFAE-A52F-44CF-9D0F-C1A13C7E4215}"/>
+										<State Name="" ID="{DBBCB5AE-69D5-4BA8-885C-00AB5455F413}" ShortID="947744984"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Pause_On" ID="{078D970D-ADAC-4880-B266-D7121968E5DA}"/>
+										<State Name="" ID="{75FDE547-CD2F-4547-B255-2B2443C77D25}" ShortID="307882829">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="100"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 						</BlendContainer>
 						<BlendContainer Name="Background Music" ID="{91398EDB-BC50-47AC-AA2D-2191B9FD19ED}" ShortID="328395515">
 							<PropertyList>
