@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System;
 
 public class SubtitlesScript : MonoBehaviour {
 
@@ -50,14 +51,29 @@ public class SubtitlesScript : MonoBehaviour {
         subIndex++;
         if (subIndex < subtitles.Length)
         {
+            string sub = subtitles[subIndex];
+            if (sub.StartsWith("S:") || sub.StartsWith("R:"))
+            {
+                sub = sub.Substring(2);
+            }
+            if (sub.StartsWith("FX:"))
+            {
+                sub = sub.Substring(3);
+                subOne.GetComponent<Text>().fontStyle = FontStyle.Italic;
+                subTwo.GetComponent<Text>().fontStyle = FontStyle.Italic;
+            } else
+            {
+                subOne.GetComponent<Text>().fontStyle = FontStyle.Normal;
+                subTwo.GetComponent<Text>().fontStyle = FontStyle.Normal;
+            }
             if ((subIndex + 1) % 2 == 0)
             {
-                subTwo.GetComponent<Text>().text = subtitles[subIndex];
+                subTwo.GetComponent<Text>().text = sub;
                 animator.SetTrigger("next_subtitle");
             }
             else
             {
-                subOne.GetComponent<Text>().text = subtitles[subIndex];
+                subOne.GetComponent<Text>().text = sub;
                 animator.SetTrigger("next_next_subtitle");
             }
         } else
