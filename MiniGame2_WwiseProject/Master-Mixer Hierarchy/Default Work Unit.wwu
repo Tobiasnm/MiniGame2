@@ -115,6 +115,7 @@
 								</DuckItem>
 							</DuckingList>
 						</Bus>
+						<Bus Name="Ambience Bus" ID="{54A18F44-5BED-466D-B9B4-E6F6A1D46553}"/>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

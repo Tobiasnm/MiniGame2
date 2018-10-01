@@ -49,6 +49,21 @@ namespace AK
         static const AkUniqueID STOP_MENUTRACK1 = 1554289743U;
     } // namespace EVENTS
 
+    namespace STATES
+    {
+        namespace MENU_FILTER
+        {
+            static const AkUniqueID GROUP = 3284061781U;
+
+            namespace STATE
+            {
+                static const AkUniqueID PAUSE_OFF = 3967028551U;
+                static const AkUniqueID PAUSE_ON = 3537680115U;
+            } // namespace STATE
+        } // namespace MENU_FILTER
+
+    } // namespace STATES
+
     namespace GAME_PARAMETERS
     {
         static const AkUniqueID DANGER_LEVEL = 129997755U;
@@ -74,6 +89,7 @@ namespace AK
 
     namespace BUSSES
     {
+        static const AkUniqueID AMBIENCE_BUS = 4202237879U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
         static const AkUniqueID MUSIC_VOLUME_BUS = 3172045954U;
         static const AkUniqueID UI_SOUND_BUS = 518162140U;

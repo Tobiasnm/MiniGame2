@@ -2,6 +2,17 @@ Event	ID	Name			Wwise Object Path	Notes
 	509637542	Play_Thunderclap			\Default Work Unit\Play_Thunderclap	
 	2838936948	Play_Rain			\Default Work Unit\Play_Rain	
 
+State Group	ID	Name			Wwise Object Path	Notes
+	3284061781	Menu_Filter			\Default Work Unit\Frederik Work Unit (States)\Menu_Filter	
+
+State	ID	Name	State Group			Notes
+	0	None	Menu_Filter			
+	3537680115	Pause_On	Menu_Filter			
+	3967028551	Pause_Off	Menu_Filter			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	962599018	Pause_On	Menu_Filter	\Actor-Mixer Hierarchy\Frederik Work Unit\2D\Rain		
+
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	1866329414	RainIntensity			\Frederik Work Unit(GP)\RainIntensity	Intenisty of the rain sound effect.
 
