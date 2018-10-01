@@ -18,6 +18,7 @@ TagManager:
   - LanguageButton
   - UIManager
   - TheSun
+  - AmbienceSoundBank
   layers:
   - Default
   - TransparentFX

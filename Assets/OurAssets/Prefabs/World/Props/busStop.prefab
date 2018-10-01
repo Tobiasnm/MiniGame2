@@ -328,8 +328,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1106559271747084}
-  m_LocalRotation: {x: -0, y: -0.0058760187, z: -0, w: -0.9999828}
-  m_LocalPosition: {x: 309.8, y: 65.07, z: -132.9}
+  m_LocalRotation: {x: -0, y: 0.9979075, z: -0, w: -0.064657554}
+  m_LocalPosition: {x: 136.94, y: 65.14, z: -27.34}
   m_LocalScale: {x: 1.9999998, y: 1, z: 0.9999999}
   m_Children:
   - {fileID: 4949215691826460}
@@ -338,7 +338,7 @@ Transform:
   - {fileID: 4068175140707628}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -508.787, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -532.586, z: 0}
 --- !u!4 &4422593544394270
 Transform:
   m_ObjectHideFlags: 1
@@ -663,6 +663,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bba9616af763c9140a122770e6286b6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  events:
+  - audioClipName: Play_Thunderclap
+    soundLevel: 2
+    triggerEventAtPercentage: 0.388
   tapsToBreak: 30
   tapsDone: 0
   tapSound: Play_Thunderclap
