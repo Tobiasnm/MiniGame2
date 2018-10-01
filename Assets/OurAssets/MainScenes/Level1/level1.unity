@@ -417,7 +417,7 @@ Prefab:
     - target: {fileID: 114362821269330546, guid: 0080c0361987ff842bf18a950342ebc6,
         type: 2}
       propertyPath: pauseToListen
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114744548829791102, guid: 0080c0361987ff842bf18a950342ebc6,
         type: 2}
@@ -2416,12 +2416,26 @@ Prefab:
     - target: {fileID: 114421268779159600, guid: 31bf73073e377664daa3cf03c9426c3b,
         type: 2}
       propertyPath: maxSpeed
-      value: 30
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 114421268779159600, guid: 31bf73073e377664daa3cf03c9426c3b,
         type: 2}
       propertyPath: speedIncrease
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 23556261863323000, guid: 31bf73073e377664daa3cf03c9426c3b,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114421268779159600, guid: 31bf73073e377664daa3cf03c9426c3b,
+        type: 2}
+      propertyPath: speed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975598243390606, guid: 31bf73073e377664daa3cf03c9426c3b, type: 2}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31bf73073e377664daa3cf03c9426c3b, type: 2}
@@ -2657,12 +2671,12 @@ Prefab:
     - target: {fileID: 54695621696830342, guid: c4a20a98cbf71ab41bcdb2f89ec2839f,
         type: 2}
       propertyPath: m_Drag
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 54695621696830342, guid: c4a20a98cbf71ab41bcdb2f89ec2839f,
         type: 2}
       propertyPath: m_Mass
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 54695621696830342, guid: c4a20a98cbf71ab41bcdb2f89ec2839f,
         type: 2}
@@ -2673,6 +2687,16 @@ Prefab:
         type: 2}
       propertyPath: distanceToTap
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 195986393846427180, guid: c4a20a98cbf71ab41bcdb2f89ec2839f,
+        type: 2}
+      propertyPath: m_StoppingDistance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114988973328884264, guid: c4a20a98cbf71ab41bcdb2f89ec2839f,
+        type: 2}
+      propertyPath: m_MoveSpeedMultiplier
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c4a20a98cbf71ab41bcdb2f89ec2839f, type: 2}
@@ -2738,7 +2762,7 @@ Terrain:
   m_DetailObjectDistance: 83.9
   m_DetailObjectDensity: 0.116
   m_HeightmapPixelError: 5
-  m_SplatMapDistance: 512
+  m_SplatMapDistance: 237
   m_HeightmapMaximumLOD: 0
   m_CastShadows: 1
   m_DrawHeightmap: 1

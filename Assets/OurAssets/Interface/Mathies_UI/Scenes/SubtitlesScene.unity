@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.5748171, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -382,7 +382,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &430243711
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -461,7 +461,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -699,7 +699,7 @@ RectTransform:
   m_Children:
   - {fileID: 1306462417}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -721,10 +721,28 @@ MonoBehaviour:
   - 
   - FX:(Door opens)
   - FX:(Footsteps down stairs)
-  - S:Ruben! Ruben! Ruben!
-  - S:I think I found the entrance to the compound.
-  - S:Actually they haven't hidden it very well
-  - "R:(moans, his voice sounds shaky) I\u2026 I can\u2019t move my leg. "
+  - 'S:Ruben! '
+  - S:Ruben! Ruben!
+  - S:I found the entrance to the compound...
+  - S:They didn't even hide it superwell.
+  - "R:I\u2026 I can\u2019t move my leg. "
+  - S:Oh
+  - R:Yeah, I thought so too...
+  - S:Hold on, I willl check this compound...
+  - "R:No! Don\u2019t go outside."
+  - S:Oh, I thought you were doing better already?
+  - S:Oh, I thought you were doing better already?
+  - S:Oh, I thought you were doing better already?
+  - S:Oh, I thought you were doing better already?
+  - S:Oh, I thought you were doing better already?
+  - S:Oh, I thought you were doing better already?
+  - S:Oh, I thought you were doing better already?
+  - S:Oh, I thought you were doing better already?
+  - S:Oh, I thought you were doing better already?
+  - S:Oh, I thought you were doing better already?
+  - S:Oh, I thought you were doing better already?
+  - S:Oh, I thought you were doing better already?
+  - S:Oh, I thought you were doing better already?
   - S:Oh, I thought you were doing better already?
   timeLimits:
   - 1.5
@@ -992,7 +1010,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1716235494
 GameObject:
@@ -1023,7 +1041,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1716235496
 MonoBehaviour:
