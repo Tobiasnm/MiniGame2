@@ -1436,6 +1436,35 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 54b422afefd2b8e409f33b468ae9f8d4,
     type: 3}
   m_PrefabInternal: {fileID: 471800125}
+--- !u!1 &989478501
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 989478502}
+  m_Layer: 0
+  m_Name: HintArrows
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &989478502
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 989478501}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.303832, y: 89.478226, z: -54.530907}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1152697222}
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1081868638
 Prefab:
   m_ObjectHideFlags: 0
@@ -1542,7 +1571,7 @@ GameObject:
   - component: {fileID: 1152697219}
   - component: {fileID: 1152697221}
   m_Layer: 0
-  m_Name: HintArrow
+  m_Name: HintArrow1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1608,15 +1637,15 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1152697218}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -132.78598}
+  m_LocalPosition: {x: 0, y: 0, z: -78.25507}
   m_LocalScale: {x: 1.0000689, y: 1, z: 1.0000689}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_Father: {fileID: 989478502}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 301.80078, y: 68.07}
+  m_AnchoredPosition: {x: 309.70383, y: -21.408226}
   m_SizeDelta: {x: 8, y: 6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1170518270 stripped
