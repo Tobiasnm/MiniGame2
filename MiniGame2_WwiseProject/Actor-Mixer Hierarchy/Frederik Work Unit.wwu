@@ -3657,6 +3657,21 @@
 							</ReferenceList>
 							<ChildrenList>
 								<RandomSequenceContainer Name="Search_Trash" ID="{EB48F90E-16B0-4B02-9F91-30EB46CBCD83}" ShortID="724092599">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{D45896C3-39DD-44D7-A7DA-3376D38A9DB4}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="30"/>
+															<Property Name="Min" Type="Real64" Value="-30"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B6753272-8AAE-410A-A6BE-F784408B7732}"/>
@@ -3930,6 +3945,21 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Hit_Wood" ID="{F010B8DC-1565-4FBB-8520-A3C778A871C1}" ShortID="497064614">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{14FC0EF1-5DB3-4150-B753-E8B71EC578AE}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="30"/>
+															<Property Name="Min" Type="Real64" Value="-30"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B6753272-8AAE-410A-A6BE-F784408B7732}"/>
@@ -4064,8 +4094,8 @@
 													<Modifier Name="" ID="{9690575D-F0C7-41D6-94B3-594ED317B1C9}">
 														<PropertyList>
 															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="10"/>
-															<Property Name="Min" Type="Real64" Value="-10"/>
+															<Property Name="Max" Type="Real64" Value="30"/>
+															<Property Name="Min" Type="Real64" Value="-30"/>
 														</PropertyList>
 													</Modifier>
 												</ModifierInfo>
@@ -4118,8 +4148,8 @@
 													<Modifier Name="" ID="{77270D34-6A4F-46D7-9AC1-02960CA5CAEC}">
 														<PropertyList>
 															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="10"/>
-															<Property Name="Min" Type="Real64" Value="-10"/>
+															<Property Name="Max" Type="Real64" Value="30"/>
+															<Property Name="Min" Type="Real64" Value="-30"/>
 														</PropertyList>
 													</Modifier>
 												</ModifierInfo>
@@ -4170,8 +4200,8 @@
 													<Modifier Name="" ID="{A25D943A-14AA-4328-B66A-E33B38A83EFF}">
 														<PropertyList>
 															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="10"/>
-															<Property Name="Min" Type="Real64" Value="-10"/>
+															<Property Name="Max" Type="Real64" Value="30"/>
+															<Property Name="Min" Type="Real64" Value="-30"/>
 														</PropertyList>
 													</Modifier>
 												</ModifierInfo>
@@ -4272,8 +4302,9 @@
 												<ModifierInfo>
 													<Modifier Name="" ID="{68FFB296-17CD-42EA-8D18-730449B214C5}">
 														<PropertyList>
-															<Property Name="Max" Type="Real64" Value="10"/>
-															<Property Name="Min" Type="Real64" Value="-10"/>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="30"/>
+															<Property Name="Min" Type="Real64" Value="-30"/>
 														</PropertyList>
 													</Modifier>
 												</ModifierInfo>
