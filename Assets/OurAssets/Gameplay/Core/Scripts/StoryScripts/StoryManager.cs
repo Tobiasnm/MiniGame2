@@ -77,4 +77,6 @@ public class StoryManager : MonoBehaviour
         playerHandler.StartLocomotion();
     }
 
+
+
 }
