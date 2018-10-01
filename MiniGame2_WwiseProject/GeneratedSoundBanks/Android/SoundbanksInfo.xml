@@ -390,15 +390,52 @@
 			<ShortName>Actions</ShortName>
 			<Path>Actions.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3394714855" Name="Play_Box_Breaking" ObjectPath="\Events\Default Work Unit\Play_Box_Breaking"/>
+				<Event Id="3800970461" Name="Play_Branches_Snapping" ObjectPath="\Events\Default Work Unit\Play_Branches_Snapping"/>
 				<Event Id="1720809208" Name="Play_Detected" ObjectPath="\Events\Default Work Unit\Play_Detected"/>
 				<Event Id="1676603786" Name="Play_Gate_CLose" ObjectPath="\Events\Default Work Unit\Play_Gate_CLose"/>
 				<Event Id="4089264814" Name="Play_Gate_Open" ObjectPath="\Events\Default Work Unit\Play_Gate_Open"/>
+				<Event Id="1761571631" Name="Play_Gazebo_Tear" ObjectPath="\Events\Default Work Unit\Play_Gazebo_Tear"/>
+				<Event Id="1722917615" Name="Play_Hit_Wood" ObjectPath="\Events\Default Work Unit\Play_Hit_Wood"/>
+				<Event Id="3780378942" Name="Play_Pull_Plank" ObjectPath="\Events\Default Work Unit\Play_Pull_Plank"/>
 				<Event Id="3023115453" Name="Play_Search_Trash" ObjectPath="\Events\Default Work Unit\Play_Search_Trash"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="41270468" Language="SFX">
+					<ShortName>164472__adam-n__crack-of-branch-3.wav</ShortName>
+					<Path>SFX\164472__adam-n__crack-of-branch-3_035D40D1.wem</Path>
+				</File>
+				<File Id="99884765" Language="SFX">
+					<ShortName>BREAK_Snap_Crack_stereo.wav</ShortName>
+					<Path>SFX\BREAK_Snap_Crack_stereo_2125EB1A.wem</Path>
+				</File>
+				<File Id="165415640" Language="SFX">
+					<ShortName>pullplank1.wav</ShortName>
+					<Path>SFX\pullplank1_B35241C0.wem</Path>
+				</File>
+				<File Id="174848939" Language="SFX">
+					<ShortName>IMPACT_Wood_Plank_On_Wood_Pile_02_Slide_mono.wav</ShortName>
+					<Path>SFX\IMPACT_Wood_Plank_On_Wood_Pile_02_Slide_mono_92A09959.wem</Path>
+				</File>
+				<File Id="277468038" Language="SFX">
+					<ShortName>IMPACT_Wood_Plank_On_Wood_Pile_04_Multiple_mono.wav</ShortName>
+					<Path>SFX\IMPACT_Wood_Plank_On_Wood_Pile_04_Multiple_mono_13496D0D.wem</Path>
+				</File>
+				<File Id="287160250" Language="SFX">
+					<ShortName>pullplank2.wav</ShortName>
+					<Path>SFX\pullplank2_12BEB5B7.wem</Path>
+				</File>
+				<File Id="288085049" Language="SFX">
+					<ShortName>IMPACT_Wood_Plank_On_Wood_Pile_06_Short_mono.wav</ShortName>
+					<Path>SFX\IMPACT_Wood_Plank_On_Wood_Pile_06_Short_mono_9768CE23.wem</Path>
+				</File>
 				<File Id="373338240" Language="SFX">
 					<ShortName>Stinger3.wav</ShortName>
 					<Path>SFX\Stinger3_7E90B02E.wem</Path>
+				</File>
+				<File Id="425320271" Language="SFX">
+					<ShortName>IMPACT_Wood_Plank_On_Wood_Pile_05_mono.wav</ShortName>
+					<Path>SFX\IMPACT_Wood_Plank_On_Wood_Pile_05_mono_5D843933.wem</Path>
 				</File>
 				<File Id="489207521" Language="SFX">
 					<ShortName>TrashSearch1.wav</ShortName>
@@ -424,13 +461,25 @@
 					<ShortName>Stinger1.wav</ShortName>
 					<Path>SFX\Stinger1_5110075D.wem</Path>
 				</File>
+				<File Id="750255720" Language="SFX">
+					<ShortName>GazeboTear.wav</ShortName>
+					<Path>SFX\GazeboTear_A3B51D52.wem</Path>
+				</File>
 				<File Id="815372615" Language="SFX">
 					<ShortName>GATE_Metal_Close_03_stereo.wav</ShortName>
 					<Path>SFX\GATE_Metal_Close_03_stereo_398450BE.wem</Path>
 				</File>
+				<File Id="849369928" Language="SFX">
+					<ShortName>SNAP_Twig_mono.wav</ShortName>
+					<Path>SFX\SNAP_Twig_mono_56D34C19.wem</Path>
+				</File>
 				<File Id="853319014" Language="SFX">
 					<ShortName>TrashSearch1.wav</ShortName>
 					<Path>SFX\TrashSearch1_1EAB9A35.wem</Path>
+				</File>
+				<File Id="854355060" Language="SFX">
+					<ShortName>BoxBreaking.wav</ShortName>
+					<Path>SFX\BoxBreaking_56D34C19.wem</Path>
 				</File>
 				<File Id="878006226" Language="SFX">
 					<ShortName>TrashSearch4.wav</ShortName>
@@ -443,6 +492,10 @@
 				<File Id="973755901" Language="SFX">
 					<ShortName>TrashSearch3.wav</ShortName>
 					<Path>SFX\TrashSearch3_9AB94BDD.wem</Path>
+				</File>
+				<File Id="984082999" Language="SFX">
+					<ShortName>IMPACT_Wood_Plank_On_Wood_Pile_03_Fall_mono.wav</ShortName>
+					<Path>SFX\IMPACT_Wood_Plank_On_Wood_Pile_03_Fall_mono_64864E14.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

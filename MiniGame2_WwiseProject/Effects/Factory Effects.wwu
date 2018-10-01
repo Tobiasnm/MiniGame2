@@ -1964,11 +1964,7 @@
 						</Folder>
 						<Folder Name="Transpose" ID="{3356F030-FA3F-489C-9CC9-BC27F83083C3}" ShortID="691881135">
 							<ChildrenList>
-								<Effect Name="Chipmunk" ID="{54F9F04F-0D14-46AB-B38B-21CFD2EB46F6}" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
-									<PropertyList>
-										<Property Name="Pitch" Type="Real32" Value="1200"/>
-									</PropertyList>
-								</Effect>
+								<Effect Name="Chipmunk" ID="{54F9F04F-0D14-46AB-B38B-21CFD2EB46F6}" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3"/>
 								<Effect Name="Monsterize" ID="{99F80B38-1C45-42CE-9BCD-E94F3885DCAA}" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
 									<PropertyList>
 										<Property Name="FilterFrequency" Type="Real32" Value="2000"/>

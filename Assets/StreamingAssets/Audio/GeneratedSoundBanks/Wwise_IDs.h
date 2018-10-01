@@ -19,16 +19,21 @@ namespace AK
         static const AkUniqueID INTRO_DIALOUGE = 2635468458U;
         static const AkUniqueID ONE_GATE_FOUND = 17964378U;
         static const AkUniqueID PLAY_BACKGROUND_MUSIC = 65769146U;
+        static const AkUniqueID PLAY_BOX_BREAKING = 3394714855U;
+        static const AkUniqueID PLAY_BRANCHES_SNAPPING = 3800970461U;
         static const AkUniqueID PLAY_BUTTON1 = 2461875431U;
         static const AkUniqueID PLAY_BUTTON2 = 2461875428U;
         static const AkUniqueID PLAY_DETECTED = 1720809208U;
         static const AkUniqueID PLAY_FOREST_AMBIANCE = 2215933556U;
         static const AkUniqueID PLAY_GATE_CLOSE = 1676603786U;
         static const AkUniqueID PLAY_GATE_OPEN = 4089264814U;
+        static const AkUniqueID PLAY_GAZEBO_TEAR = 1761571631U;
+        static const AkUniqueID PLAY_HIT_WOOD = 1722917615U;
         static const AkUniqueID PLAY_IDLE_TRUCK = 3255314544U;
         static const AkUniqueID PLAY_MENUTRACK1 = 807462833U;
         static const AkUniqueID PLAY_MILITARY_BASE_AMBIENCE = 1631227588U;
         static const AkUniqueID PLAY_MINIGAME2_INTROSOUNDSCAPE = 1250373215U;
+        static const AkUniqueID PLAY_PULL_PLANK = 3780378942U;
         static const AkUniqueID PLAY_RAIN = 2838936948U;
         static const AkUniqueID PLAY_RESUME = 2149395099U;
         static const AkUniqueID PLAY_SEARCH_TRASH = 3023115453U;
@@ -43,21 +48,6 @@ namespace AK
         static const AkUniqueID SHELTER_SAFE = 3627809544U;
         static const AkUniqueID STOP_MENUTRACK1 = 1554289743U;
     } // namespace EVENTS
-
-    namespace STATES
-    {
-        namespace PAUSE_MENU_FILTER
-        {
-            static const AkUniqueID GROUP = 1405248606U;
-
-            namespace STATE
-            {
-                static const AkUniqueID PAUSE_OFF = 3967028551U;
-                static const AkUniqueID PAUSE_ON = 3537680115U;
-            } // namespace STATE
-        } // namespace PAUSE_MENU_FILTER
-
-    } // namespace STATES
 
     namespace GAME_PARAMETERS
     {
