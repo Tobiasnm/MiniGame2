@@ -2755,12 +2755,12 @@ Terrain:
   m_Enabled: 1
   serializedVersion: 3
   m_TerrainData: {fileID: 15600000, guid: a277f1f16e54d7548aa8306bd20a68d8, type: 2}
-  m_TreeDistance: 451
+  m_TreeDistance: 318
   m_TreeBillboardDistance: 200
   m_TreeCrossFadeLength: 12.1
   m_TreeMaximumFullLODCount: 50
-  m_DetailObjectDistance: 18
-  m_DetailObjectDensity: 0.033
+  m_DetailObjectDistance: 56.4
+  m_DetailObjectDensity: 0.229
   m_HeightmapPixelError: 5
   m_SplatMapDistance: 237
   m_HeightmapMaximumLOD: 0
