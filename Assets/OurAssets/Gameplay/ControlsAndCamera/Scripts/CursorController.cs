@@ -13,7 +13,7 @@ public class CursorController : MonoBehaviour
     private Transform cursor;
     private Transform player;
     private JoystickButton joybutton;
-    private float speedModifier = 10f;
+    public float speed = 10f;
     private Rigidbody rigidbody;
 
     // Use this for initialization
@@ -30,9 +30,12 @@ public class CursorController : MonoBehaviour
     void Update()
     {
 
-        SpeedController();
-        rigidbody.velocity = new Vector3(joystick.Horizontal * speedModifier, 0, joystick.Vertical * speedModifier);
+        //SpeedController();
+        rigidbody.velocity = new Vector3(joystick.Horizontal * speed, 0, joystick.Vertical * speed);
         if (Vector3.Distance(player.position, cursor.position) > maxDistanceFromPlayer)
+            rigidbody.velocity = new Vector3(0, 0, 0);
+
+        if(joystick.Horizontal<=0.01f && joystick.Vertical <= 0.01f)
             rigidbody.velocity = new Vector3(0, 0, 0);
 
         //Vector3 move = new Vector3(joystick.Horizontal*speedModifier , 0, joystick.Vertical*speedModifier );
@@ -47,17 +50,17 @@ public class CursorController : MonoBehaviour
     {
         if (joybutton.Pressed)
         {
-            speedModifier = maxSpeed;
+            speed = maxSpeed;
         }
         else if (!joybutton.Pressed)
         {
-            if (speedModifier > minSpeed)
+            if (speed > minSpeed)
             {
-                speedModifier -= speedIncrease * Time.deltaTime;
+                speed -= speedIncrease * Time.deltaTime;
             }
             else
             {
-                speedModifier = minSpeed;
+                speed = minSpeed;
             }
         }
 
