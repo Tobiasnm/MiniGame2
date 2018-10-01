@@ -23,6 +23,7 @@ public class LevelChangerScript : MonoBehaviour {
 
     public void SkipCutscene()
     {
+        AkSoundEngine.StopAll();
         animator.SetTrigger("end_subtitles");
     }
 

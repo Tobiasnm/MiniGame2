@@ -319,6 +319,78 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Pause_intro_dialouge" ID="{37BADF2C-248D-48A2-99E5-53D86A33BD3D}">
+					<ChildrenList>
+						<Action Name="" ID="{F6F1FFCD-5637-4757-BE69-6970BEB8AF23}" ShortID="15052170">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WalkieTalkieNoise" ID="{E1560412-CDB2-4003-817E-ADFBEDFDFA28}" WorkUnitID="{2A43D33F-EF5A-4399-A127-482C5C486717}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{CF9AA764-98C7-4759-A757-25F414CBA7E4}" ShortID="406127366">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+								<Property Name="Delay" Type="Real64" Value="0.4"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="1_intro" ID="{CCDB5D39-3539-431C-B4C5-3CE91B6FD5DC}" WorkUnitID="{2A43D33F-EF5A-4399-A127-482C5C486717}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{231BAF80-D430-4B3F-8BCC-CE30B30B926B}" ShortID="656435169">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+								<Property Name="Delay" Type="Real64" Value="13.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WalkieTalkieNoise" ID="{E1560412-CDB2-4003-817E-ADFBEDFDFA28}" WorkUnitID="{2A43D33F-EF5A-4399-A127-482C5C486717}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Resume_intro_dialouge" ID="{421FCC9A-C1CC-4724-A1CA-674B2269CA65}">
+					<ChildrenList>
+						<Action Name="" ID="{3721A7A4-F500-4DC0-A70E-6C63290AC97E}" ShortID="512370133">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WalkieTalkieNoise" ID="{E1560412-CDB2-4003-817E-ADFBEDFDFA28}" WorkUnitID="{2A43D33F-EF5A-4399-A127-482C5C486717}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{760A6AED-101B-4D91-97C1-E082E7AE0EA4}" ShortID="626524002">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+								<Property Name="Delay" Type="Real64" Value="0.4"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="1_intro" ID="{CCDB5D39-3539-431C-B4C5-3CE91B6FD5DC}" WorkUnitID="{2A43D33F-EF5A-4399-A127-482C5C486717}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{50D9BA23-8FC2-4F3C-861C-6382366BBBF9}" ShortID="919709592">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+								<Property Name="Delay" Type="Real64" Value="13.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WalkieTalkieNoise" ID="{E1560412-CDB2-4003-817E-ADFBEDFDFA28}" WorkUnitID="{2A43D33F-EF5A-4399-A127-482C5C486717}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
