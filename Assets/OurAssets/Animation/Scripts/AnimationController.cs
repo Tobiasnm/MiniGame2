@@ -41,6 +41,8 @@ public class AnimationController : MonoBehaviour
     //private string nextAnim = "startWalk0";  // Animation state name of the Animator Controller
     private string nextAnim = "LongTake";
     private float nextAnimFrame = 0;    // Frame within the 'nextAnim' state
+    private GameObject player;
+
 
     private List<FrameInfo> walking, jogging, turnLeft, turnRight, fastLeft, fastRight, running, startWalk, stop;  // Frame info of each animation file
     private ANIM_TYPE currentAnim = ANIM_TYPE.StartWalk;  // Current animation type (see enum above)
@@ -98,7 +100,7 @@ public class AnimationController : MonoBehaviour
         // Reading knn data
         //ReadCSV();
         //SetStatesAndFrames();
-
+        player = GameObject.FindGameObjectWithTag("Player");
         Debug.Log(framedb.GetAllFrames().Count);
 
     }
