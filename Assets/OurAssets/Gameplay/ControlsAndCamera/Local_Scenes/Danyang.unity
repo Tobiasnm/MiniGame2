@@ -857,9 +857,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 611569102}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d32b5f59b16114754bfcbcdab8e47c0c, type: 3}
+  m_Script: {fileID: 11500000, guid: 8532aa9de61945843baf7a770f22e859, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rollAngle: -79.7
+  rotAngle: 45.4
+  distance: 12.6
+  rotRollR: -180
+  rotRotR: 20
+  rotDisR: 5
+  rotRollL: 30
+  rotRotL: 20
+  rotDisL: 5
 --- !u!20 &611569108
 Camera:
   m_ObjectHideFlags: 0

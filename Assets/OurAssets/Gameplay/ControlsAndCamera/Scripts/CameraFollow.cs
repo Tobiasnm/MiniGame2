@@ -75,7 +75,7 @@ public class CameraFollow : MonoBehaviour
         //zoom in
         if(cursor.GetComponent<CursorController>().isRunning == true)
         {
-            Debug.Log("zoomin");
+
             StartCoroutine(ChangeRotAngleValue(rotAngle, zoomInrotAngleValue, 1f));
             StartCoroutine(ChangeDistanceValue(distance, zoomIndistanceValue, 1f));
             StartCoroutine(ChangeRollAngleValue(rollAngle,zoomInRollAngleValue, 1f));
@@ -158,4 +158,5 @@ public class CameraFollow : MonoBehaviour
         }
         rollAngle = v_end;
     }
+
 }
