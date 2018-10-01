@@ -140,6 +140,7 @@ public class GameUIManagerScript : MonoBehaviour {
 
     public void PauseGame()
     {
+        AkSoundEngine.SetState("Pause_Menu_Filter", "Pause_On");
         SetChildrenActive(0, true);
         if (subtitlesScript.startAnimation) subtitlesScript.ResetSubtitles();
         animator.SetTrigger("pause_fade");
@@ -154,6 +155,7 @@ public class GameUIManagerScript : MonoBehaviour {
     {
         SetChildrenActive(1, false);
         Time.timeScale = 1f;
+        AkSoundEngine.SetState("Pause_Menu_Filter", "Pause_Off");
         animator.SetTrigger("pause_disable");
     }
 

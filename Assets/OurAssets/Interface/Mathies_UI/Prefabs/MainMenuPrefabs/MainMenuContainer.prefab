@@ -2025,6 +2025,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f858843001364984d815bf72490fd435, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scenename: 
 --- !u!114 &114178313485777976
 MonoBehaviour:
   m_ObjectHideFlags: 1
