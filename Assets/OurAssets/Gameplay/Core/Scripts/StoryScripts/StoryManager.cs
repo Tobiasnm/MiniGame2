@@ -31,10 +31,10 @@ public class StoryManager : MonoBehaviour
     {
         if (line.audioClipName != "")
             AkSoundEngine.PostEvent(line.audioClipName, gameObject);
-        string[] tempConv = new string[1];
-        tempConv[0] = line.text;
-        subtitlesManager.SetWalkieTalkieStrings(tempConv);
-        gUIManager.ShowWalkieTalkieText();
+        // string[] tempConv = new string[1];
+        //tempConv[0] = line.text;
+        //subtitlesManager.SetWalkieTalkieStrings(tempConv);
+        //gUIManager.ShowWalkieTalkieText();
 
         Debug.Log("Audio name: " + line.audioClipName + " Duration: " + line.conversationLength + " Text: " + line.text);
     }
