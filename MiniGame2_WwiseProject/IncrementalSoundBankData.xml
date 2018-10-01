@@ -9,15 +9,15 @@
 				<File Name="Character" Hash="1462615780" Timestamp="1538402831"/>
 				<File Name="Dialouge" Hash="4060093253" Timestamp="1538386205"/>
 				<File Name="Init" Hash="1864663016" Timestamp="1538404961"/>
-				<File Name="MilitaryBase" Hash="3623212801" Timestamp="1538393831"/>
-				<File Name="Rain" Hash="4250134354" Timestamp="1538402832"/>
+				<File Name="MilitaryBase" Hash="221732018" Timestamp="1538405186"/>
+				<File Name="Rain" Hash="1985739467" Timestamp="1538405187"/>
 				<File Name="Soldier" Hash="2991509712" Timestamp="1538378917"/>
 				<File Name="UI" Hash="2553413786" Timestamp="1538378917"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="1609797970" Timestamp="1538404961"/>
+				<File Name="" Hash="1609797970" Timestamp="1538405187"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

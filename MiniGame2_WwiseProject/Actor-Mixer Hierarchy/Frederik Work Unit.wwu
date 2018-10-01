@@ -20,6 +20,7 @@
 						<BlendContainer Name="Rain" ID="{8B1C8717-7F45-442C-90F5-F4705A7EB30C}" ShortID="814983664">
 							<PropertyList>
 								<Property Name="BlendBehavior" Type="int16" Value="1"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-8</Value>
@@ -57,7 +58,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B6753272-8AAE-410A-A6BE-F784408B7732}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7B533535-4201-4B94-9675-1FE3D41F10DD}"/>
+									<ObjectRef Name="Ambience Bus" ID="{54A18F44-5BED-466D-B9B4-E6F6A1D46553}" WorkUnitID="{7B533535-4201-4B94-9675-1FE3D41F10DD}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -543,6 +544,27 @@
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Menu_Filter" ID="{C35C4D99-1537-4A45-AF2F-613D50D7E606}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Pause_Off" ID="{4FF6BFAE-A52F-44CF-9D0F-C1A13C7E4215}"/>
+										<State Name="" ID="{B467EB43-8161-4E5A-BB1E-5C8040458940}" ShortID="402856903"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Pause_On" ID="{078D970D-ADAC-4880-B266-D7121968E5DA}"/>
+										<State Name="" ID="{F9CB61C3-8C84-4C31-B830-7A5569AAD069}" ShortID="962599018">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="60"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<BlendTrackList>
 								<BlendTrack Name="Light Rain" ID="{8A9E8651-542E-4A74-843E-39464C7C019C}" ShortID="331056264">
 									<PropertyList>
@@ -847,6 +869,7 @@
 								<BlendContainer Name="Military_Base_Ambience" ID="{F84FEE51-527A-4F32-B2CE-46E6F34D4840}" ShortID="649560053">
 									<PropertyList>
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>5</Value>
@@ -884,7 +907,7 @@
 											</Custom>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7B533535-4201-4B94-9675-1FE3D41F10DD}"/>
+											<ObjectRef Name="Ambience Bus" ID="{54A18F44-5BED-466D-B9B4-E6F6A1D46553}" WorkUnitID="{7B533535-4201-4B94-9675-1FE3D41F10DD}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -1785,10 +1808,32 @@
 											</PositioningInfo>
 										</RandomSequenceContainer>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Menu_Filter" ID="{C35C4D99-1537-4A45-AF2F-613D50D7E606}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Pause_Off" ID="{4FF6BFAE-A52F-44CF-9D0F-C1A13C7E4215}"/>
+												<State Name="" ID="{828F30BE-C69E-4854-833E-04E960E067FE}" ShortID="236109599"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Pause_On" ID="{078D970D-ADAC-4880-B266-D7121968E5DA}"/>
+												<State Name="" ID="{4F13E5FD-ADCA-42BC-88C2-62C5C3A18E07}" ShortID="484051161">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="60"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 								</BlendContainer>
 								<RandomSequenceContainer Name="Tent_Noises" ID="{9A699879-7C18-4D63-A291-BDC398C5D0A4}" ShortID="536673957">
 									<PropertyList>
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -1829,7 +1874,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B6753272-8AAE-410A-A6BE-F784408B7732}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7B533535-4201-4B94-9675-1FE3D41F10DD}"/>
+											<ObjectRef Name="Ambience Bus" ID="{54A18F44-5BED-466D-B9B4-E6F6A1D46553}" WorkUnitID="{7B533535-4201-4B94-9675-1FE3D41F10DD}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -1860,11 +1905,33 @@
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Menu_Filter" ID="{C35C4D99-1537-4A45-AF2F-613D50D7E606}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Pause_Off" ID="{4FF6BFAE-A52F-44CF-9D0F-C1A13C7E4215}"/>
+												<State Name="" ID="{D49FA847-A244-4452-9600-05566A527136}" ShortID="232508122"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Pause_On" ID="{078D970D-ADAC-4880-B266-D7121968E5DA}"/>
+												<State Name="" ID="{FC72F838-97EF-4B43-A06B-6C995FAFBA7C}" ShortID="1012222269">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="60"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 								</RandomSequenceContainer>
 								<Sound Name="Idle_Truck" ID="{F8924D5A-E6CB-499A-8501-EB92378B6979}" ShortID="535755116">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1897,7 +1964,7 @@
 											</Custom>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7B533535-4201-4B94-9675-1FE3D41F10DD}"/>
+											<ObjectRef Name="Ambience Bus" ID="{54A18F44-5BED-466D-B9B4-E6F6A1D46553}" WorkUnitID="{7B533535-4201-4B94-9675-1FE3D41F10DD}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -1906,6 +1973,27 @@
 											<AudioFile>TRUCK_Idle_02_Crop_loop_mono.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Menu_Filter" ID="{C35C4D99-1537-4A45-AF2F-613D50D7E606}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Pause_Off" ID="{4FF6BFAE-A52F-44CF-9D0F-C1A13C7E4215}"/>
+												<State Name="" ID="{9EF67CF0-1A73-4515-941A-4232586DFF9E}" ShortID="938713285"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Pause_On" ID="{078D970D-ADAC-4880-B266-D7121968E5DA}"/>
+												<State Name="" ID="{9D9C1D76-C18F-44D4-8F38-D06E0E6856AD}" ShortID="378434895">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="60"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<ActiveSourceList>
 										<ActiveSource Name="TRUCK_Idle_02_Crop_loop_mono" ID="{54A063D5-A471-4A9B-8CA5-15E9B03E946B}" Platform="Linked"/>
 									</ActiveSourceList>
