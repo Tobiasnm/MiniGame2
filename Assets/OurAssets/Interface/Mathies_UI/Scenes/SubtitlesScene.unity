@@ -437,6 +437,7 @@ MonoBehaviour:
   - 3.5
   - 4
   startAnimation: 1
+  gameplayScene: 0
 --- !u!95 &1196522265
 Animator:
   serializedVersion: 3
@@ -466,6 +467,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f858843001364984d815bf72490fd435, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scenename: level1
 --- !u!1 &1306462416
 GameObject:
   m_ObjectHideFlags: 0
