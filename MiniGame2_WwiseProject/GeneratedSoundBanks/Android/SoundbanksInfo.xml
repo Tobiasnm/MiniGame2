@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Android" BasePlatform="Android" SchemaVersion="11" SoundbankVersion="132">
 	<RootPaths>
-		<ProjectRoot>D:\Git\MiniGame2\MiniGame2_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>D:\Git\MiniGame2\MiniGame2_WwiseProject\.cache\Android\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Git\MiniGame2\MiniGame2_WwiseProject\GeneratedSoundBanks\Android\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\GeneratedSoundBanks\Android\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\Git\MiniGame2\MiniGame2_WwiseProject\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -391,6 +391,8 @@
 			<Path>Actions.bnk</Path>
 			<IncludedEvents>
 				<Event Id="1720809208" Name="Play_Detected" ObjectPath="\Events\Default Work Unit\Play_Detected"/>
+				<Event Id="1676603786" Name="Play_Gate_CLose" ObjectPath="\Events\Default Work Unit\Play_Gate_CLose"/>
+				<Event Id="4089264814" Name="Play_Gate_Open" ObjectPath="\Events\Default Work Unit\Play_Gate_Open"/>
 				<Event Id="3023115453" Name="Play_Search_Trash" ObjectPath="\Events\Default Work Unit\Play_Search_Trash"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
@@ -410,6 +412,10 @@
 					<ShortName>TrashSearch4.wav</ShortName>
 					<Path>SFX\TrashSearch4_48E70B2A.wem</Path>
 				</File>
+				<File Id="632132391" Language="SFX">
+					<ShortName>GATE_Metal_Open_04_Squeal_stereo.wav</ShortName>
+					<Path>SFX\GATE_Metal_Open_04_Squeal_stereo_106DB9BA.wem</Path>
+				</File>
 				<File Id="682261727" Language="SFX">
 					<ShortName>TrashSearch3.wav</ShortName>
 					<Path>SFX\TrashSearch3_4D314F0F.wem</Path>
@@ -417,6 +423,10 @@
 				<File Id="735211814" Language="SFX">
 					<ShortName>Stinger1.wav</ShortName>
 					<Path>SFX\Stinger1_5110075D.wem</Path>
+				</File>
+				<File Id="815372615" Language="SFX">
+					<ShortName>GATE_Metal_Close_03_stereo.wav</ShortName>
+					<Path>SFX\GATE_Metal_Close_03_stereo_134F08A0.wem</Path>
 				</File>
 				<File Id="853319014" Language="SFX">
 					<ShortName>TrashSearch1.wav</ShortName>

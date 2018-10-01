@@ -43,7 +43,9 @@
 				<SoundBank Name="Actions" ID="{FDCABFCB-9FEC-46C4-8AAC-8DB2B0E0D25F}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Detected" ID="{3C28F38F-7F46-4464-AB2D-BAEF1EDF3862}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Gate_CLose" ID="{849496F6-E48E-482D-B517-3A93647DC604}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Search_Trash" ID="{A7846941-C8E7-483D-B4F4-49B228985230}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Gate_Open" ID="{54606E89-2FFE-4A87-B731-F860852097F0}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

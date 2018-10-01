@@ -23,6 +23,8 @@ namespace AK
         static const AkUniqueID PLAY_BUTTON2 = 2461875428U;
         static const AkUniqueID PLAY_DETECTED = 1720809208U;
         static const AkUniqueID PLAY_FOREST_AMBIANCE = 2215933556U;
+        static const AkUniqueID PLAY_GATE_CLOSE = 1676603786U;
+        static const AkUniqueID PLAY_GATE_OPEN = 4089264814U;
         static const AkUniqueID PLAY_IDLE_TRUCK = 3255314544U;
         static const AkUniqueID PLAY_MENUTRACK1 = 807462833U;
         static const AkUniqueID PLAY_MILITARY_BASE_AMBIENCE = 1631227588U;
