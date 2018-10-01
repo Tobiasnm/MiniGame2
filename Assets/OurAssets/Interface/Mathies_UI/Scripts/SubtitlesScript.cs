@@ -19,10 +19,15 @@ public class SubtitlesScript : MonoBehaviour {
     public bool startAnimation = false;
     public bool gameplayScene = false;
 
+    private Vector3 signePosition;
+    private Vector3 rubenPosition;
+
 	// Use this for initialization
 	void Start () {
         subIndex = 0;
         timer = 0;
+        signePosition = new Vector3(-200, 300, 0);
+        rubenPosition = new Vector3(200, -160, 0);
         animator = GetComponent<Animator>();
         GameObject[] subObjects = GameObject.FindGameObjectsWithTag("Language");
         for (int i = 0; i < subObjects.Length; i++) {
@@ -51,29 +56,36 @@ public class SubtitlesScript : MonoBehaviour {
         subIndex++;
         if (subIndex < subtitles.Length)
         {
+            var newPosition = new Vector3(0,0,0);
+            var newFont = FontStyle.Normal;
             string sub = subtitles[subIndex];
-            if (sub.StartsWith("S:") || sub.StartsWith("R:"))
+            if (sub.StartsWith("S:"))
             {
                 sub = sub.Substring(2);
+                newPosition = signePosition;
             }
-            if (sub.StartsWith("FX:"))
+            else if (sub.StartsWith("R:"))
+            {
+                sub = sub.Substring(2);
+                newPosition = rubenPosition;
+            }
+            else if (sub.StartsWith("FX:"))
             {
                 sub = sub.Substring(3);
-                subOne.GetComponent<Text>().fontStyle = FontStyle.Italic;
-                subTwo.GetComponent<Text>().fontStyle = FontStyle.Italic;
-            } else
-            {
-                subOne.GetComponent<Text>().fontStyle = FontStyle.Normal;
-                subTwo.GetComponent<Text>().fontStyle = FontStyle.Normal;
+                newFont = FontStyle.Italic;
             }
             if ((subIndex + 1) % 2 == 0)
             {
                 subTwo.GetComponent<Text>().text = sub;
+                subTwo.GetComponent<RectTransform>().anchoredPosition = newPosition;
+                subTwo.GetComponent<Text>().fontStyle = newFont;
                 animator.SetTrigger("next_subtitle");
             }
             else
             {
+                subOne.GetComponent<RectTransform>().anchoredPosition = newPosition;
                 subOne.GetComponent<Text>().text = sub;
+                subOne.GetComponent<Text>().fontStyle = newFont;
                 animator.SetTrigger("next_next_subtitle");
             }
         } else
