@@ -5,7 +5,7 @@ using UnityEngine;
 public class ObstacleHandler : MonoBehaviour
 {
     [Range(0,1)]
-    private float triggerEventAtPercentage = 0.0f;
+    public float triggerEventAtPercentage = 0.0f;
 
     private Queue<GameObject> obstacles = new Queue<GameObject>();
 
