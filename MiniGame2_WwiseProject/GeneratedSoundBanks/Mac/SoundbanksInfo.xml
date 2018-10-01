@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="132">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\mathi\OneDrive\Documents\Github\MiniGame2\MiniGame2_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\mathi\OneDrive\Documents\Github\MiniGame2\MiniGame2_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\mathi\OneDrive\Documents\Github\MiniGame2\MiniGame2_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\mathi\OneDrive\Documents\Github\MiniGame2\MiniGame2_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
