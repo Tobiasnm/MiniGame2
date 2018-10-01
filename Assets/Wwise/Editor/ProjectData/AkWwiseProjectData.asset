@@ -70,8 +70,8 @@ MonoBehaviour:
     PhysicalPath: SoundBanks\Default Work Unit.wwu
     List: []
   - Guid: '{4D7AC21B-028A-48E8-A7B2-965EC6111045}'
-    m_lastTimePart2: -1999231101
-    m_lastTimePsrt1: -1951774989
+    m_lastTimePart2: -1999231086
+    m_lastTimePsrt1: -1787640695
     ParentPhysicalPath: 
     PhysicalPath: SoundBanks\Frederik Jensen Soundbank.wwu
     List:
@@ -281,11 +281,35 @@ MonoBehaviour:
       maxDuration: 0
       minDuration: 0
   - Guid: '{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}'
-    m_lastTimePart2: -1999231101
-    m_lastTimePsrt1: -1955154881
+    m_lastTimePart2: -1999231086
+    m_lastTimePsrt1: -1792349482
     ParentPhysicalPath: 
     PhysicalPath: Events\Default Work Unit.wwu
     List:
+    - Guid: e4dc86ed2d9ccc419dd40135c12cbb4e
+      ID: -900252441
+      Name: Play_Box_Breaking
+      Path: Default Work Unit\Play_Box_Breaking
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Box_Breaking
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 3d2e4b556952344bbe968a32aa2e2577
+      ID: -493996835
+      Name: Play_Branches_Snapping
+      Path: Default Work Unit\Play_Branches_Snapping
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Branches_Snapping
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - Guid: 86293988573d374983ae5d068b1a6524
       ID: -1833091865
       Name: Play_Button1
@@ -346,6 +370,30 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - Guid: 005cf52d997ec845b7f2973660eb7647
+      ID: 1761571631
+      Name: Play_Gazebo_Tear
+      Path: Default Work Unit\Play_Gazebo_Tear
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Gazebo_Tear
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: e4a7df343dfb184cbf3571761c2cc05c
+      ID: 1722917615
+      Name: Play_Hit_Wood
+      Path: Default Work Unit\Play_Hit_Wood
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Hit_Wood
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - Guid: 75844f0530dcab448642cbc5b18c6b8f
       ID: -1039652752
       Name: Play_Idle_Truck
@@ -390,6 +438,18 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
       - ElementName: Play_MiniGame2_INtroSoundscape
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 029961fa1623d24aa95602bddc8ef5d5
+      ID: -514588354
+      Name: Play_Pull_Plank
+      Path: Default Work Unit\Play_Pull_Plank
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Pull_Plank
         ObjectType: 3
       maxAttenuation: 0
       maxDuration: 0
@@ -517,6 +577,7 @@ MonoBehaviour:
   ExpandedItems:
   - /MiniGame2_WwiseProject
   - /MiniGame2_WwiseProject/Events
+  - /MiniGame2_WwiseProject/Events/Anders Holm Work Unit
   - /MiniGame2_WwiseProject/SoundBanks
   RtpcWwu:
   - Guid: '{88215F09-63D1-4934-8FF5-4D20C78D0D2D}'
