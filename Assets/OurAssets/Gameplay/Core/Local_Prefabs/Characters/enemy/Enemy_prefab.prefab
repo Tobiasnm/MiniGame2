@@ -1106,7 +1106,7 @@ Transform:
   m_GameObject: {fileID: 1021359319763762}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.05, y: 1, z: 1.94}
   m_Children: []
   m_Father: {fileID: 4106115952101972}
   m_RootOrder: 0
@@ -1201,8 +1201,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1217108934094440}
-  m_LocalRotation: {x: -0, y: -0.8613529, z: -0, w: -0.50800705}
-  m_LocalPosition: {x: 106.25, y: 65.1, z: 169.76}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 119.7, y: 65.1, z: 248.3}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 4931556380088212}
@@ -1627,8 +1627,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1065317019038774}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 9.062501}
-  m_LocalScale: {x: 2.4081388, y: 1.2500001, z: 0.54563814}
+  m_LocalPosition: {x: 0, y: 0, z: 19}
+  m_LocalScale: {x: 7.79, y: 1.2500001, z: 4.32}
   m_Children: []
   m_Father: {fileID: 4014486712967168}
   m_RootOrder: 0
@@ -1950,8 +1950,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.74, y: 3.01, z: 18.46}
-  m_Center: {x: 0, y: 0.57, z: 10.1}
+  m_Size: {x: 30.358486, y: 5.7409472, z: 50.993305}
+  m_Center: {x: 1.0679722, y: 1.9354727, z: 26.366655}
 --- !u!95 &95607354242060910
 Animator:
   serializedVersion: 3
@@ -1993,7 +1993,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points:
-  - {fileID: 4265336180986980}
+  - {fileID: 0}
+  - {fileID: 0}
   player: {fileID: 0}
   hasSeenPlayer: 0
 --- !u!114 &114347962797131294
@@ -2076,8 +2077,8 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Radius: 2.2849858
+  m_Center: {x: -0.14477356, y: 0, z: 0}
 --- !u!135 &135804503804198030
 SphereCollider:
   m_ObjectHideFlags: 1
@@ -2236,8 +2237,8 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.7
-  m_Speed: 2
-  m_Acceleration: 1
+  m_Speed: 30
+  m_Acceleration: 5
   avoidancePriority: 50
   m_AngularSpeed: 90
   m_StoppingDistance: 0.1
