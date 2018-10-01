@@ -44,21 +44,6 @@ namespace AK
         static const AkUniqueID STOP_MENUTRACK1 = 1554289743U;
     } // namespace EVENTS
 
-    namespace STATES
-    {
-        namespace PAUSE_MENU_FILTER
-        {
-            static const AkUniqueID GROUP = 1405248606U;
-
-            namespace STATE
-            {
-                static const AkUniqueID PAUSE_OFF = 3967028551U;
-                static const AkUniqueID PAUSE_ON = 3537680115U;
-            } // namespace STATE
-        } // namespace PAUSE_MENU_FILTER
-
-    } // namespace STATES
-
     namespace GAME_PARAMETERS
     {
         static const AkUniqueID DANGER_LEVEL = 129997755U;

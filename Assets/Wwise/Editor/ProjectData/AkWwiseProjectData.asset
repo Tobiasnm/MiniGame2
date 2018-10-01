@@ -24,8 +24,8 @@ MonoBehaviour:
     List: []
   AuxBusWwu:
   - Guid: '{7B533535-4201-4B94-9675-1FE3D41F10DD}'
-    m_lastTimePart2: -1999231504
-    m_lastTimePsrt1: -1529172128
+    m_lastTimePart2: -1999231103
+    m_lastTimePsrt1: -1271640967
     ParentPhysicalPath: 
     PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     List: []
@@ -70,8 +70,8 @@ MonoBehaviour:
     PhysicalPath: SoundBanks\Default Work Unit.wwu
     List: []
   - Guid: '{4D7AC21B-028A-48E8-A7B2-965EC6111045}'
-    m_lastTimePart2: -1999231499
-    m_lastTimePsrt1: -854167448
+    m_lastTimePart2: -1999231115
+    m_lastTimePsrt1: -88924757
     ParentPhysicalPath: 
     PhysicalPath: SoundBanks\Frederik Jensen Soundbank.wwu
     List:
@@ -131,8 +131,8 @@ MonoBehaviour:
         ObjectType: 7
   EventWwu:
   - Guid: '{E7381F8F-9844-4ADD-A61A-A1508F46025D}'
-    m_lastTimePart2: -1999231849
-    m_lastTimePsrt1: 1435421661
+    m_lastTimePart2: -1999231103
+    m_lastTimePsrt1: 1188599904
     ParentPhysicalPath: 
     PhysicalPath: Events\Anders Holm Work Unit.wwu
     List:
@@ -196,6 +196,18 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - Guid: 2cdfba378d24a24899e553d86a33bd3d
+      ID: -345420513
+      Name: Pause_intro_dialouge
+      Path: Anders Holm Work Unit\Pause_intro_dialouge
+      PathAndIcons:
+      - ElementName: Anders Holm Work Unit
+        ObjectType: 12
+      - ElementName: Pause_intro_dialouge
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - Guid: 7a89d0c7fcfc1948affa5dff8fa1c5dc
       ID: 65769146
       Name: Play_Background_Music
@@ -232,6 +244,18 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - Guid: 9acc1f42ccc12447a1ca674b2269ca65
+      ID: 1463519488
+      Name: Resume_intro_dialouge
+      Path: Anders Holm Work Unit\Resume_intro_dialouge
+      PathAndIcons:
+      - ElementName: Anders Holm Work Unit
+        ObjectType: 12
+      - ElementName: Resume_intro_dialouge
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - Guid: 8dc4ef7d1c11ce4daac5380bb138da48
       ID: 1407973414
       Name: ruben_mad
@@ -257,8 +281,8 @@ MonoBehaviour:
       maxDuration: 0
       minDuration: 0
   - Guid: '{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}'
-    m_lastTimePart2: -1999231499
-    m_lastTimePsrt1: -862146278
+    m_lastTimePart2: -1999231115
+    m_lastTimePsrt1: -101804750
     ParentPhysicalPath: 
     PhysicalPath: Events\Default Work Unit.wwu
     List:
@@ -294,6 +318,30 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
       - ElementName: Play_Detected
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: f69694848ee42d48b5173a93647dc604
+      ID: 1676603786
+      Name: Play_Gate_CLose
+      Path: Default Work Unit\Play_Gate_CLose
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Gate_CLose
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 896e6054fe2f874ab731f860852097f0
+      ID: -205702482
+      Name: Play_Gate_Open
+      Path: Default Work Unit\Play_Gate_Open
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Gate_Open
         ObjectType: 3
       maxAttenuation: 0
       maxDuration: 0
@@ -469,6 +517,7 @@ MonoBehaviour:
   ExpandedItems:
   - /MiniGame2_WwiseProject
   - /MiniGame2_WwiseProject/Events
+  - /MiniGame2_WwiseProject/Events/Anders Holm Work Unit
   - /MiniGame2_WwiseProject/Events/Default Work Unit
   - /MiniGame2_WwiseProject/SoundBanks
   - /MiniGame2_WwiseProject/SoundBanks/Frederik Jensen Soundbank
@@ -544,10 +593,16 @@ MonoBehaviour:
         ObjectType: 13
   StateWwu:
   - Guid: '{6262B9FF-1619-4BA7-9A20-6F88731B5C4C}'
-    m_lastTimePart2: -1999232000
-    m_lastTimePsrt1: -1677486118
+    m_lastTimePart2: -1999231109
+    m_lastTimePsrt1: -2061502537
     ParentPhysicalPath: 
     PhysicalPath: States\Default Work Unit.wwu
+    List: []
+  - Guid: '{F23BE000-12F2-4A69-B2F6-F58F4A9A75AB}'
+    m_lastTimePart2: -1999231103
+    m_lastTimePsrt1: -1271600908
+    ParentPhysicalPath: States\Default Work Unit.wwu
+    PhysicalPath: States\Frederik Work Unit (States).wwu
     List: []
   SwitchWwu:
   - Guid: '{4AB545B4-F536-4416-938F-FAE96AD1C93D}'
