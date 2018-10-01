@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Android" BasePlatform="Android" SchemaVersion="11" SoundbankVersion="132">
 	<RootPaths>
-		<ProjectRoot>C:\Users\mathi\OneDrive\Documents\Github\MiniGame2\MiniGame2_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\mathi\OneDrive\Documents\Github\MiniGame2\MiniGame2_WwiseProject\.cache\Android\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\mathi\OneDrive\Documents\Github\MiniGame2\MiniGame2_WwiseProject\GeneratedSoundBanks\Android\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\GeneratedSoundBanks\Android\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\mathi\OneDrive\Documents\Github\MiniGame2\MiniGame2_WwiseProject\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -403,31 +403,31 @@
 			<IncludedMemoryFiles>
 				<File Id="41270468" Language="SFX">
 					<ShortName>164472__adam-n__crack-of-branch-3.wav</ShortName>
-					<Path>SFX\164472__adam-n__crack-of-branch-3_035D40D1.wem</Path>
+					<Path>SFX\164472__adam-n__crack-of-branch-3_33596366.wem</Path>
 				</File>
 				<File Id="99884765" Language="SFX">
 					<ShortName>BREAK_Snap_Crack_stereo.wav</ShortName>
-					<Path>SFX\BREAK_Snap_Crack_stereo_2125EB1A.wem</Path>
+					<Path>SFX\BREAK_Snap_Crack_stereo_1ADB8604.wem</Path>
 				</File>
 				<File Id="165415640" Language="SFX">
 					<ShortName>pullplank1.wav</ShortName>
-					<Path>SFX\pullplank1_B35241C0.wem</Path>
+					<Path>SFX\pullplank1_F38CE5E7.wem</Path>
 				</File>
 				<File Id="174848939" Language="SFX">
 					<ShortName>IMPACT_Wood_Plank_On_Wood_Pile_02_Slide_mono.wav</ShortName>
-					<Path>SFX\IMPACT_Wood_Plank_On_Wood_Pile_02_Slide_mono_92A09959.wem</Path>
+					<Path>SFX\IMPACT_Wood_Plank_On_Wood_Pile_02_Slide_mono_6240F212.wem</Path>
 				</File>
 				<File Id="277468038" Language="SFX">
 					<ShortName>IMPACT_Wood_Plank_On_Wood_Pile_04_Multiple_mono.wav</ShortName>
-					<Path>SFX\IMPACT_Wood_Plank_On_Wood_Pile_04_Multiple_mono_13496D0D.wem</Path>
+					<Path>SFX\IMPACT_Wood_Plank_On_Wood_Pile_04_Multiple_mono_6D4B0394.wem</Path>
 				</File>
 				<File Id="287160250" Language="SFX">
 					<ShortName>pullplank2.wav</ShortName>
-					<Path>SFX\pullplank2_12BEB5B7.wem</Path>
+					<Path>SFX\pullplank2_E0EAF8E4.wem</Path>
 				</File>
 				<File Id="288085049" Language="SFX">
 					<ShortName>IMPACT_Wood_Plank_On_Wood_Pile_06_Short_mono.wav</ShortName>
-					<Path>SFX\IMPACT_Wood_Plank_On_Wood_Pile_06_Short_mono_9768CE23.wem</Path>
+					<Path>SFX\IMPACT_Wood_Plank_On_Wood_Pile_06_Short_mono_752D7C59.wem</Path>
 				</File>
 				<File Id="373338240" Language="SFX">
 					<ShortName>Stinger3.wav</ShortName>
@@ -435,19 +435,19 @@
 				</File>
 				<File Id="425320271" Language="SFX">
 					<ShortName>IMPACT_Wood_Plank_On_Wood_Pile_05_mono.wav</ShortName>
-					<Path>SFX\IMPACT_Wood_Plank_On_Wood_Pile_05_mono_5D843933.wem</Path>
+					<Path>SFX\IMPACT_Wood_Plank_On_Wood_Pile_05_mono_4920CB49.wem</Path>
 				</File>
 				<File Id="489207521" Language="SFX">
 					<ShortName>TrashSearch1.wav</ShortName>
-					<Path>SFX\TrashSearch1_9200EF4B.wem</Path>
+					<Path>SFX\TrashSearch1_101719AA.wem</Path>
 				</File>
 				<File Id="515322455" Language="SFX">
 					<ShortName>TrashSearch1.wav</ShortName>
-					<Path>SFX\TrashSearch1_180F0752.wem</Path>
+					<Path>SFX\TrashSearch1_A8D4D677.wem</Path>
 				</File>
 				<File Id="537442384" Language="SFX">
 					<ShortName>TrashSearch4.wav</ShortName>
-					<Path>SFX\TrashSearch4_48E70B2A.wem</Path>
+					<Path>SFX\TrashSearch4_D3F0E100.wem</Path>
 				</File>
 				<File Id="632132391" Language="SFX">
 					<ShortName>GATE_Metal_Open_04_Squeal_stereo.wav</ShortName>
@@ -455,19 +455,31 @@
 				</File>
 				<File Id="682261727" Language="SFX">
 					<ShortName>TrashSearch3.wav</ShortName>
-					<Path>SFX\TrashSearch3_4D314F0F.wem</Path>
+					<Path>SFX\TrashSearch3_43ABFF20.wem</Path>
 				</File>
 				<File Id="735211814" Language="SFX">
 					<ShortName>Stinger1.wav</ShortName>
 					<Path>SFX\Stinger1_5110075D.wem</Path>
 				</File>
+				<File Id="746144388" Language="SFX">
+					<ShortName>TrashSearch4.wav</ShortName>
+					<Path>SFX\TrashSearch4_DC7C7426.wem</Path>
+				</File>
 				<File Id="750255720" Language="SFX">
 					<ShortName>GazeboTear.wav</ShortName>
-					<Path>SFX\GazeboTear_A3B51D52.wem</Path>
+					<Path>SFX\GazeboTear_B62DD8BA.wem</Path>
+				</File>
+				<File Id="795572999" Language="SFX">
+					<ShortName>pullplank2.wav</ShortName>
+					<Path>SFX\pullplank2_50E745F1.wem</Path>
 				</File>
 				<File Id="815372615" Language="SFX">
 					<ShortName>GATE_Metal_Close_03_stereo.wav</ShortName>
 					<Path>SFX\GATE_Metal_Close_03_stereo_398450BE.wem</Path>
+				</File>
+				<File Id="847788105" Language="SFX">
+					<ShortName>GazeboTear.wav</ShortName>
+					<Path>SFX\GazeboTear_F6BA44F1.wem</Path>
 				</File>
 				<File Id="849369928" Language="SFX">
 					<ShortName>SNAP_Twig_mono.wav</ShortName>
@@ -475,7 +487,7 @@
 				</File>
 				<File Id="853319014" Language="SFX">
 					<ShortName>TrashSearch1.wav</ShortName>
-					<Path>SFX\TrashSearch1_1EAB9A35.wem</Path>
+					<Path>SFX\TrashSearch1_F421F29F.wem</Path>
 				</File>
 				<File Id="854355060" Language="SFX">
 					<ShortName>BoxBreaking.wav</ShortName>
@@ -483,7 +495,15 @@
 				</File>
 				<File Id="878006226" Language="SFX">
 					<ShortName>TrashSearch4.wav</ShortName>
-					<Path>SFX\TrashSearch4_E58C17F4.wem</Path>
+					<Path>SFX\TrashSearch4_9CFDBE70.wem</Path>
+				</File>
+				<File Id="898014509" Language="SFX">
+					<ShortName>GazeboTear.wav</ShortName>
+					<Path>SFX\GazeboTear_80BF3C1A.wem</Path>
+				</File>
+				<File Id="918086970" Language="SFX">
+					<ShortName>GazeboTear.wav</ShortName>
+					<Path>SFX\GazeboTear_D78066BD.wem</Path>
 				</File>
 				<File Id="960059470" Language="SFX">
 					<ShortName>6 Big Metal Hit .wav</ShortName>
@@ -491,11 +511,15 @@
 				</File>
 				<File Id="973755901" Language="SFX">
 					<ShortName>TrashSearch3.wav</ShortName>
-					<Path>SFX\TrashSearch3_9AB94BDD.wem</Path>
+					<Path>SFX\TrashSearch3_EA50F9EB.wem</Path>
 				</File>
 				<File Id="984082999" Language="SFX">
 					<ShortName>IMPACT_Wood_Plank_On_Wood_Pile_03_Fall_mono.wav</ShortName>
-					<Path>SFX\IMPACT_Wood_Plank_On_Wood_Pile_03_Fall_mono_64864E14.wem</Path>
+					<Path>SFX\IMPACT_Wood_Plank_On_Wood_Pile_03_Fall_mono_70DB417D.wem</Path>
+				</File>
+				<File Id="1021342188" Language="SFX">
+					<ShortName>pullplank1.wav</ShortName>
+					<Path>SFX\pullplank1_038341A4.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
