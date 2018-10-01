@@ -19,6 +19,7 @@ TagManager:
   - UIManager
   - TheSun
   - AmbienceSoundBank
+  - GUICanvas
   layers:
   - Default
   - TransparentFX

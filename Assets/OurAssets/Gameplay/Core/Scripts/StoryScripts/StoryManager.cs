@@ -13,6 +13,8 @@ public class StoryManager : MonoBehaviour
 
     private bool conversationLockEnabled = false;
 
+    private GameUIManagerScript gUIManager = GameObject.FindGameObjectWithTag("GUICanvas").GetComponent<GameUIManagerScript>();
+
     public void AddStory(TriggerStory story)
     {
         activeStory = story;
@@ -28,6 +30,10 @@ public class StoryManager : MonoBehaviour
     {
         if (line.audioClipName != "")
             AkSoundEngine.PostEvent(line.audioClipName, gameObject);
+        string[] tempConv = new string[1];
+        tempConv[0] = line.text;
+        gUIManager.SetWalkieTalkieStrings(tempConv);
+        gUIManager.ShowWalkieTalkieText();
 
         Debug.Log("Audio name: " + line.audioClipName + " Duration: " + line.conversationLength + " Text: " + line.text);
     }
