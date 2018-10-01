@@ -159,7 +159,7 @@
 						<Value Platform="Windows"></Value>
 					</ValueList>
 				</Property>
-				<Property Name="SoundEngine\BusMapping\{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" Type="string" Value=""/>
+				<Property Name="SoundEngine\BusMapping\{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" Type="string" Value="{764DC373-257E-4B79-81AE-050EEAC14855}167504887"/>
 			</PropertyList>
 		</UserProjectSettings>
 	</UserProjectSettingsInfo>

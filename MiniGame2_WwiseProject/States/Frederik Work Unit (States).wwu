@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F23BE000-12F2-4A69-B2F6-F58F4A9A75AB}" SchemaVersion="89" RootDocumentID="{6262B9FF-1619-4BA7-9A20-6F88731B5C4C}">
+	<States>
+		<WorkUnit Name="Frederik Work Unit (States)" ID="{F23BE000-12F2-4A69-B2F6-F58F4A9A75AB}" OwnerID="{6262B9FF-1619-4BA7-9A20-6F88731B5C4C}" PersistMode="Nested">
+			<ChildrenList>
+				<StateGroup Name="Pause_Menu_Filter" ID="{FB19D227-BF31-417B-BC00-B89825A938E4}">
+					<ChildrenList>
+						<State Name="None" ID="{61D6BB28-2C96-4B5B-A20C-D69DD39F511F}"/>
+						<State Name="Pause_On" ID="{541553AB-8D1D-43AA-9CB7-3855FAD024D4}"/>
+						<State Name="Pause_Off" ID="{7F090BE7-5191-453A-BCAC-C31C0E804FB3}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Pause_Off" ID="{7F090BE7-5191-453A-BCAC-C31C0E804FB3}"/>
+							<EndState Name="Pause_On" ID="{541553AB-8D1D-43AA-9CB7-3855FAD024D4}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Pause_On" ID="{541553AB-8D1D-43AA-9CB7-3855FAD024D4}"/>
+							<EndState Name="Pause_Off" ID="{7F090BE7-5191-453A-BCAC-C31C0E804FB3}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>
