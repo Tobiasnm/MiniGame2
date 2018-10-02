@@ -3,7 +3,7 @@
 	<Platform GUID="{8AD9F681-2C42-481F-9B67-BF65D0D57318}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Actions" Hash="2674264981" Timestamp="1538464765"/>
+				<File Name="Actions" Hash="3661882273" Timestamp="1538465612"/>
 				<File Name="Ambiance" Hash="2875220711" Timestamp="1538404960"/>
 				<File Name="Ambiences" Hash="3298676260" Timestamp="1538386205"/>
 				<File Name="Character" Hash="1462615780" Timestamp="1538402831"/>
@@ -17,7 +17,7 @@
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="558926514" Timestamp="1538464766"/>
+				<File Name="" Hash="113642854" Timestamp="1538465612"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

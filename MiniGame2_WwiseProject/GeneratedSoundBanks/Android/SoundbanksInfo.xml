@@ -403,6 +403,7 @@
 				<Event Id="4089264814" Name="Play_Gate_Open" ObjectPath="\Events\Default Work Unit\Play_Gate_Open"/>
 				<Event Id="1761571631" Name="Play_Gazebo_Tear" ObjectPath="\Events\Default Work Unit\Play_Gazebo_Tear"/>
 				<Event Id="3955959628" Name="Play_Gunshot" ObjectPath="\Events\Default Work Unit\Play_Gunshot"/>
+				<Event Id="4105918416" Name="Play_GunshotWet" ObjectPath="\Events\Default Work Unit\Play_GunshotWet"/>
 				<Event Id="1722917615" Name="Play_Hit_Wood" ObjectPath="\Events\Default Work Unit\Play_Hit_Wood"/>
 				<Event Id="3780378942" Name="Play_Pull_Plank" ObjectPath="\Events\Default Work Unit\Play_Pull_Plank"/>
 				<Event Id="3023115453" Name="Play_Search_Trash" ObjectPath="\Events\Default Work Unit\Play_Search_Trash"/>
@@ -467,6 +468,10 @@
 				<File Id="682261727" Language="SFX">
 					<ShortName>TrashSearch3.wav</ShortName>
 					<Path>SFX\TrashSearch3_6D3DA4CC.wem</Path>
+				</File>
+				<File Id="700491321" Language="SFX">
+					<ShortName>GunshotWet.wav</ShortName>
+					<Path>SFX\GunshotWet_56D34C19.wem</Path>
 				</File>
 				<File Id="735211814" Language="SFX">
 					<ShortName>Stinger1.wav</ShortName>

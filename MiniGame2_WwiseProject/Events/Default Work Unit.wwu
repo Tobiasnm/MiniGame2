@@ -339,6 +339,48 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_DeathMusic" ID="{603ACAF9-68BB-4AD2-9CB9-ED248CB7843D}">
+					<ChildrenList>
+						<Action Name="" ID="{F1EB2991-5D35-4717-A836-683E744AD173}" ShortID="411052614">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DeathMusic" ID="{F19C6833-BA41-4168-9AEB-6E0F248B1DDC}" WorkUnitID="{13EEEA71-2979-435A-8F44-172814FC0E97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_DeathSound" ID="{F3D5D703-4C61-4890-8976-20D99CE09CA2}">
+					<ChildrenList>
+						<Action Name="" ID="{2E7312E6-42EB-433C-ABD2-7BE75A8F8805}" ShortID="242772351">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DeathSound" ID="{01529517-F4E1-4A65-A1F4-FEECAF10563C}" WorkUnitID="{13EEEA71-2979-435A-8F44-172814FC0E97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Gunshot" ID="{8F78BED5-718B-4A52-B253-B0A9AC19AD0A}">
+					<ChildrenList>
+						<Action Name="" ID="{991442D6-1C50-44D1-8F13-084C4A890F0F}" ShortID="43729791">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gunshot" ID="{E929C0A4-0819-4854-A9A7-9E5901CA7B79}" WorkUnitID="{13EEEA71-2979-435A-8F44-172814FC0E97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

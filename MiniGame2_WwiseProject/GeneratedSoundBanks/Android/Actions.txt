@@ -10,13 +10,15 @@ Event	ID	Name			Wwise Object Path	Notes
 	3800970461	Play_Branches_Snapping			\Default Work Unit\Play_Branches_Snapping	
 	3955959628	Play_Gunshot			\Default Work Unit\Play_Gunshot	
 	4089264814	Play_Gate_Open			\Default Work Unit\Play_Gate_Open	
+	4105918416	Play_GunshotWet			\Default Work Unit\Play_GunshotWet	
 
 Effect plug-ins	ID	Name	Type				Notes
-	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
 	550632737	High_Pass_60Hz (Custom)	Wwise Parametric EQ			
 	746958789	Have_U_Ever_Been_Outside (Custom)	Wwise RoomVerb			
 	758768032	Have_U_Ever_Been_Outside (Custom)	Wwise RoomVerb			
+	764844195	Have_U_Ever_Been_Outside (Custom)	Wwise RoomVerb			
 	939486497	High_Pass_60Hz (Custom)	Wwise Parametric EQ			
+	1036888846	Have_U_Ever_Been_Outside (Custom)	Wwise RoomVerb			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	41270468	164472__adam-n__crack-of-branch-3	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\164472__adam-n__crack-of-branch-3_33596366.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Branches_Snapping\164472__adam-n__crack-of-branch-3		37608
@@ -34,6 +36,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	537442384	TrashSearch4_01	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\TrashSearch4_79D9A373.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Search_Trash\Trash4\TrashSearch4_01		25560
 	632132391	Gate_Open	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\GATE_Metal_Open_04_Squeal_stereo_39F08C3C.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\3D\Gate Open Close\Gate_Open		485752
 	682261727	TrashSearch3	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\TrashSearch3_6D3DA4CC.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Search_Trash\Trash4\TrashSearch3		35616
+	700491321	GunshotWet	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\GunshotWet_56D34C19.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\GunshotWet		564544
 	735211814	Stinger1	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\Stinger1_5110075D.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Reactions\Detected\Stinger1		807892
 	746144388	TrashSearch4_01	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\TrashSearch4_C4ACC6DC.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Search_Trash\Trash2\TrashSearch4_01		29328
 	750255720	GazeboTear	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\GazeboTear_B62DD8BA.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Gazebo_Tear\GazeboTear		79784

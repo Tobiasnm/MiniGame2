@@ -31,6 +31,7 @@ namespace AK
         static const AkUniqueID PLAY_GATE_OPEN = 4089264814U;
         static const AkUniqueID PLAY_GAZEBO_TEAR = 1761571631U;
         static const AkUniqueID PLAY_GUNSHOT = 3955959628U;
+        static const AkUniqueID PLAY_GUNSHOTWET = 4105918416U;
         static const AkUniqueID PLAY_HIT_WOOD = 1722917615U;
         static const AkUniqueID PLAY_IDLE_TRUCK = 3255314544U;
         static const AkUniqueID PLAY_MENUTRACK1 = 807462833U;
