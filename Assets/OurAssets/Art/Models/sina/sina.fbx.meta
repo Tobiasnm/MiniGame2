@@ -99,7 +99,12 @@ ModelImporter:
     9500000: //RootNode
     13700000: sina_geo
     2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 913eca33a306f554f95b9025c7dcdb0e, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

@@ -21,6 +21,7 @@
 						<ObjectRef Name="Play_MiniGame2_INtroSoundscape" ID="{C742A1C9-1638-47A2-83FF-DB330A6AD152}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Button1" ID="{88392986-3D57-4937-83AE-5D068B1A6524}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_MenuTrack1" ID="{F7B33046-689A-4A3F-BCE4-146D9B82DBAD}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_DeathMusic" ID="{603ACAF9-68BB-4AD2-9CB9-ED248CB7843D}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
@@ -45,8 +46,11 @@
 						<ObjectRef Name="Play_Box_Breaking" ID="{ED86DCE4-9C2D-41CC-9DD4-0135C12CBB4E}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Detected" ID="{3C28F38F-7F46-4464-AB2D-BAEF1EDF3862}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Gazebo_Tear" ID="{2DF55C00-7E99-45C8-B7F2-973660EB7647}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_GunshotWet" ID="{EB986884-A7B7-478E-BD50-576A52275EBC}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Gate_CLose" ID="{849496F6-E48E-482D-B517-3A93647DC604}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Search_Trash" ID="{A7846941-C8E7-483D-B4F4-49B228985230}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_DeathSound" ID="{F3D5D703-4C61-4890-8976-20D99CE09CA2}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Gunshot" ID="{8F78BED5-718B-4A52-B253-B0A9AC19AD0A}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Gate_Open" ID="{54606E89-2FFE-4A87-B731-F860852097F0}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Pull_Plank" ID="{FA619902-2316-4AD2-A956-02BDDC8EF5D5}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Branches_Snapping" ID="{554B2E3D-5269-4B34-BE96-8A32AA2E2577}" WorkUnitID="{AECD3A49-EEAE-4BAB-9532-C5F21F55F23D}" Filter="7" Origin="Manual"/>
