@@ -19,7 +19,7 @@ public class CameraRay : MonoBehaviour
 
     void FixedUpdate()
     {
-        points[0] = player.position + offset*1.5f;
+        points[0] = player.position + offset;
         points[4] = player.position + Vector3.up * distance;
 
         points[1] = Vector3.Lerp(points[0], points[4], 0.25f);
@@ -71,7 +71,9 @@ public class CameraRay : MonoBehaviour
 
     void AdjustCamera()
     {
+        
         Quaternion rotation = Quaternion.LookRotation(player.position - transform.position);
         transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * 20f);
+    
     }
 }

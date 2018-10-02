@@ -19,7 +19,7 @@ public class CameraFollow : MonoBehaviour
     private float zoomInrotAngleValue = 20f;
     private float zoomIndistanceValue = 5f;
 
-    private float zoomOutRollAngleValue = -80f;
+    private float zoomOutRollAngleValue = -40f;
     private float zoomOutrotAngleValue = 50f;
     private float zoomOutdistanceValue = 20f;
 
@@ -33,6 +33,9 @@ public class CameraFollow : MonoBehaviour
 
     private Vector3 rotatCamPosR;
     private Vector3 rotatCamPosL;
+    private float speed = 10f;
+    public Vector3 zoomInpos;
+    public Vector3 zoomOutpos;
 
     private bool accessisRunning;
 
@@ -67,30 +70,30 @@ public class CameraFollow : MonoBehaviour
 
         transform.position = CameraPos;//update position
        // RotationController();
+        transform.eulerAngles = new Vector3(transform.eulerAngles.x, 0, 0);
         transform.LookAt(targetPos);
     }
 
      void Zooming()
     {
         //zoom in
-       // cursor.GetComponent<CursorController>().isRunning == true
-        if(Input.GetMouseButton(0))
+        if (cursor.GetComponent<CursorController>().isRunning == true)
         {
 
             StartCoroutine(ChangeRotAngleValue(rotAngle, zoomInrotAngleValue, 1f));
             StartCoroutine(ChangeDistanceValue(distance, zoomIndistanceValue, 1f));
-            StartCoroutine(ChangeRollAngleValue(rollAngle,zoomInRollAngleValue, 1f));
+            StartCoroutine(ChangeRollAngleValue(rollAngle, zoomInRollAngleValue, 1f));
 
         }
         //zoom out
-        if(Input.GetMouseButton(1))
+        if (Input.GetMouseButton(1))
         {
             StartCoroutine(ChangeRotAngleValue(rotAngle, zoomOutrotAngleValue, 1f));
             StartCoroutine(ChangeDistanceValue(distance, zoomOutdistanceValue, 1f));
             StartCoroutine(ChangeRollAngleValue(rollAngle, zoomOutRollAngleValue, 1f));
         }
         //Back to orignal position
-        if(Input.GetMouseButton(2))
+        if (cursor.GetComponent<CursorController>().isRunning == false)
         {
             StartCoroutine(ChangeRotAngleValue(rotAngle, 45.4f, 1f));
             StartCoroutine(ChangeDistanceValue(distance, 12.6f, 1f));

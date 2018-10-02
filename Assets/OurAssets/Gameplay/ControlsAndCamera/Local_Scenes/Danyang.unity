@@ -1317,6 +1317,7 @@ GameObject:
   - component: {fileID: 611569104}
   - component: {fileID: 611569106}
   - component: {fileID: 611569103}
+  - component: {fileID: 611569109}
   - component: {fileID: 611569107}
   m_Layer: 0
   m_Name: Main Camera
@@ -1414,11 +1415,22 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 611569102}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d32b5f59b16114754bfcbcdab8e47c0c, type: 3}
+  m_Script: {fileID: 11500000, guid: 8532aa9de61945843baf7a770f22e859, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rollAngle: -79.7
+  rotAngle: 45.4
+  distance: 12.6
+  rotRollR: -180
+  rotRotR: 20
+  rotDisR: 5
+  rotRollL: 30
+  rotRotL: 20
+  rotDisL: 5
+  zoomInpos: {x: 0, y: 0, z: 0}
+  zoomOutpos: {x: 0, y: 0, z: 0}
 --- !u!20 &611569108
 Camera:
   m_ObjectHideFlags: 0
@@ -1459,6 +1471,17 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &611569109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 611569102}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d124dc25cf81240d2b35bd002ac1dffe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &637524891 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1061441722895318, guid: 80ee18bf597705c42a51f47ade3dc0c5,
@@ -1861,6 +1884,8 @@ MonoBehaviour:
   rotRollL: 30
   rotRotL: 20
   rotDisL: 5
+  zoomInpos: {x: 0, y: 0, z: 0}
+  zoomOutpos: {x: 0, y: 0, z: 0}
 --- !u!114 &839606862
 MonoBehaviour:
   m_ObjectHideFlags: 0
