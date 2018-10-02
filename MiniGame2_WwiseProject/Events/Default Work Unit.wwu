@@ -381,6 +381,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_GunshotWet" ID="{EB986884-A7B7-478E-BD50-576A52275EBC}">
+					<ChildrenList>
+						<Action Name="" ID="{07881A6C-71FF-4B6F-AAC8-7788A8FE24CE}" ShortID="179513824">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GunshotWet" ID="{43F90AD2-3614-46C7-9FF5-F3D5C41BE7A1}" WorkUnitID="{13EEEA71-2979-435A-8F44-172814FC0E97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
