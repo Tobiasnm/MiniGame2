@@ -13,6 +13,10 @@
 				</SoundBank>
 				<SoundBank Name="Character" ID="{4D349807-7094-4B98-8B65-CEEEF4EB677D}">
 					<ObjectInclusionList>
+						<ObjectRef Name="death_rain" ID="{0263F82D-D68C-432D-82A1-24A49EE7A1C8}" WorkUnitID="{E7381F8F-9844-4ADD-A61A-A1508F46025D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="death_gunshot" ID="{F2C5AA20-2619-435F-8E1A-D4A3DC8D5CCC}" WorkUnitID="{E7381F8F-9844-4ADD-A61A-A1508F46025D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="enemy_idle" ID="{32B9DCB4-F12E-46F9-A3AF-90B775199445}" WorkUnitID="{E7381F8F-9844-4ADD-A61A-A1508F46025D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="enemy_sina_detected" ID="{0F1A3F1D-4BBB-474D-96AD-A897F09C5B1D}" WorkUnitID="{E7381F8F-9844-4ADD-A61A-A1508F46025D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Footstep_grass" ID="{6C41C38C-BB8F-49AB-9A0C-7C7C6459D884}" WorkUnitID="{E7381F8F-9844-4ADD-A61A-A1508F46025D}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
@@ -20,13 +24,19 @@
 				</SoundBank>
 				<SoundBank Name="Dialouge" ID="{9D10B159-D209-4DD0-A323-165337977632}">
 					<ObjectInclusionList>
-						<ObjectRef Name="one_gate_found" ID="{F1BBE98F-F4C8-4137-938B-A84D14A4B75B}" WorkUnitID="{B6F57FE7-6FB3-4ED0-9B7C-37A3A2D96D96}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="hurry_up" ID="{CDFCF18C-50B9-4186-A363-AD1703113064}" WorkUnitID="{B6F57FE7-6FB3-4ED0-9B7C-37A3A2D96D96}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="be_careful" ID="{91A77C62-3FD2-418B-98F0-A201429B7579}" WorkUnitID="{B6F57FE7-6FB3-4ED0-9B7C-37A3A2D96D96}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="rainfall_dialouge" ID="{C2FD4942-EBBE-498C-91C7-86A9670A76EC}" WorkUnitID="{B6F57FE7-6FB3-4ED0-9B7C-37A3A2D96D96}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="intro_dialouge" ID="{44AFEF04-3865-4B09-A606-F527F6247C63}" WorkUnitID="{B6F57FE7-6FB3-4ED0-9B7C-37A3A2D96D96}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="shelter_safe" ID="{03CAB974-EB78-4DA7-A213-543E49B6199A}" WorkUnitID="{B6F57FE7-6FB3-4ED0-9B7C-37A3A2D96D96}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="ruben_mad" ID="{7DEFC48D-111C-4DCE-AAC5-380BB138DA48}" WorkUnitID="{B6F57FE7-6FB3-4ED0-9B7C-37A3A2D96D96}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="right_behind_me" ID="{48248198-F73B-40B6-BEB1-AEBF30E93B7F}" WorkUnitID="{E7381F8F-9844-4ADD-A61A-A1508F46025D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="one_gate_found" ID="{F1BBE98F-F4C8-4137-938B-A84D14A4B75B}" WorkUnitID="{E7381F8F-9844-4ADD-A61A-A1508F46025D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="medical_truck" ID="{7D3110C1-7081-4175-BE70-E21EEAE8211E}" WorkUnitID="{E7381F8F-9844-4ADD-A61A-A1508F46025D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="hurry_up" ID="{CDFCF18C-50B9-4186-A363-AD1703113064}" WorkUnitID="{E7381F8F-9844-4ADD-A61A-A1508F46025D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="be_careful" ID="{91A77C62-3FD2-418B-98F0-A201429B7579}" WorkUnitID="{E7381F8F-9844-4ADD-A61A-A1508F46025D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="dont_let_them_see_you" ID="{026163F6-BB1C-47DA-BCD7-A78677C34FED}" WorkUnitID="{E7381F8F-9844-4ADD-A61A-A1508F46025D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="careful_guards" ID="{86657215-EF06-4839-B4DC-D06F8A4D9047}" WorkUnitID="{E7381F8F-9844-4ADD-A61A-A1508F46025D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="are_you_in" ID="{9A238367-16A9-4876-A64F-2AD7F49A3C6E}" WorkUnitID="{E7381F8F-9844-4ADD-A61A-A1508F46025D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="rainfall_dialouge" ID="{C2FD4942-EBBE-498C-91C7-86A9670A76EC}" WorkUnitID="{E7381F8F-9844-4ADD-A61A-A1508F46025D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="intro_dialouge" ID="{44AFEF04-3865-4B09-A606-F527F6247C63}" WorkUnitID="{E7381F8F-9844-4ADD-A61A-A1508F46025D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="shelter_safe" ID="{03CAB974-EB78-4DA7-A213-543E49B6199A}" WorkUnitID="{E7381F8F-9844-4ADD-A61A-A1508F46025D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="ruben_mad" ID="{7DEFC48D-111C-4DCE-AAC5-380BB138DA48}" WorkUnitID="{E7381F8F-9844-4ADD-A61A-A1508F46025D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="shit_loud" ID="{E6CC74AC-4293-4E0C-9801-17F7FDFEE87F}" WorkUnitID="{E7381F8F-9844-4ADD-A61A-A1508F46025D}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

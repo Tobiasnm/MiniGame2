@@ -38,6 +38,7 @@
 				<Property Name="Event Action List\{D4D67533-49B3-46E4-8AAD-257686A29DCC}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{D6226017-863C-4769-BC91-12004BF62CB1}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{E3CE51B0-2BFC-4762-A648-6A42C7ED6476}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{EB986884-A7B7-478E-BD50-576A52275EBC}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{ED86DCE4-9C2D-41CC-9DD4-0135C12CBB4E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{F1BBE98F-F4C8-4137-938B-A84D14A4B75B}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{F3D5D703-4C61-4890-8976-20D99CE09CA2}\x64_Expand States" Type="string" Value=""/>
@@ -88,10 +89,10 @@
 				<Property Name="ProjectExplorer\FirstVisible_10_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_11_0" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
-				<Property Name="ProjectExplorer\FirstVisible_1_0" Type="string" Value="{F84FEE51-527A-4F32-B2CE-46E6F34D4840}"/>
+				<Property Name="ProjectExplorer\FirstVisible_1_0" Type="string" Value="{60BF1A14-B569-42C9-A87F-1AF23389211F}"/>
 				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{2388DAEA-9775-46C6-A2ED-C5222A397756}"/>
 				<Property Name="ProjectExplorer\FirstVisible_3_0" Type="string" Value="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}"/>
-				<Property Name="ProjectExplorer\FirstVisible_3_1" Type="string" Value="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}"/>
+				<Property Name="ProjectExplorer\FirstVisible_3_1" Type="string" Value="{603ACAF9-68BB-4AD2-9CB9-ED248CB7843D}"/>
 				<Property Name="ProjectExplorer\FirstVisible_4_0" Type="string" Value="{CB6175F1-6080-4A23-92EF-0807E304D0C1}"/>
 				<Property Name="ProjectExplorer\FirstVisible_4_1" Type="string" Value="{CB6175F1-6080-4A23-92EF-0807E304D0C1}"/>
 				<Property Name="ProjectExplorer\FirstVisible_6_0" Type="string" Value="{C98E673F-A24C-48A8-960F-10565FFE70A0}"/>
