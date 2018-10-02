@@ -16,12 +16,88 @@
 			<ShortName>Character</ShortName>
 			<Path>Character.bnk</Path>
 			<IncludedEvents>
+				<Event Id="1210420834" Name="death_gunshot" ObjectPath="\Events\Anders Holm Work Unit\death_gunshot"/>
+				<Event Id="4150793134" Name="death_rain" ObjectPath="\Events\Anders Holm Work Unit\death_rain"/>
+				<Event Id="1814182224" Name="enemy_idle" ObjectPath="\Events\Anders Holm Work Unit\enemy_idle" MaxAttenuation="100.000000"/>
+				<Event Id="4131361578" Name="enemy_sina_detected" ObjectPath="\Events\Anders Holm Work Unit\enemy_sina_detected" MaxAttenuation="100.000000"/>
 				<Event Id="4256116324" Name="Footstep_grass" ObjectPath="\Events\Anders Holm Work Unit\Footstep_grass"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="60570286" Language="SFX">
+					<ShortName>Untitled_1#04.wav</ShortName>
+					<Path>SFX\Untitled_1#04_98057E75.wem</Path>
+				</File>
+				<File Id="195742109" Language="SFX">
+					<ShortName>Untitled_1#03.wav</ShortName>
+					<Path>SFX\Untitled_1#03_994D3711.wem</Path>
+				</File>
+				<File Id="215219499" Language="SFX">
+					<ShortName>Untitled_1#05.wav</ShortName>
+					<Path>SFX\Untitled_1#05_BBAA6448.wem</Path>
+				</File>
+				<File Id="224718683" Language="SFX">
+					<ShortName>Untitled_1#05.wav</ShortName>
+					<Path>SFX\Untitled_1#05_894D4B2D.wem</Path>
+				</File>
+				<File Id="224909879" Language="SFX">
+					<ShortName>Untitled_1#13.wav</ShortName>
+					<Path>SFX\Untitled_1#13_829E1335.wem</Path>
+				</File>
+				<File Id="275285685" Language="SFX">
+					<ShortName>Untitled_1#05.wav</ShortName>
+					<Path>SFX\Untitled_1#05_2E330173.wem</Path>
+				</File>
+				<File Id="429761458" Language="SFX">
+					<ShortName>Untitled_1#04.wav</ShortName>
+					<Path>SFX\Untitled_1#04_D610B96F.wem</Path>
+				</File>
+				<File Id="462562424" Language="SFX">
+					<ShortName>Ruben#46.wav</ShortName>
+					<Path>SFX\Ruben#46_85AE32B2.wem</Path>
+				</File>
+				<File Id="541696228" Language="SFX">
+					<ShortName>Ruben#46.wav</ShortName>
+					<Path>SFX\Ruben#46_A4DF5677.wem</Path>
+				</File>
+				<File Id="657232512" Language="SFX">
+					<ShortName>Untitled_1#15.wav</ShortName>
+					<Path>SFX\Untitled_1#15_91D3C49C.wem</Path>
+				</File>
+				<File Id="734980473" Language="SFX">
+					<ShortName>Untitled_1#06.wav</ShortName>
+					<Path>SFX\Untitled_1#06_A6474CB8.wem</Path>
+				</File>
+				<File Id="763052987" Language="SFX">
+					<ShortName>Untitled_1#11.wav</ShortName>
+					<Path>SFX\Untitled_1#11_F530E7A2.wem</Path>
+				</File>
+				<File Id="910910378" Language="SFX">
+					<ShortName>Ruben#45.wav</ShortName>
+					<Path>SFX\Ruben#45_3865F447.wem</Path>
+				</File>
 				<File Id="960551753" Language="SFX">
 					<ShortName>38874__swuing__footstep-grass.wav</ShortName>
-					<Path>SFX\38874__swuing__footstep-grass_56D34C19.wem</Path>
+					<Path>SFX\38874__swuing__footstep-grass_BF755129.wem</Path>
+				</File>
+				<File Id="1023714334" Language="SFX">
+					<ShortName>Untitled_1#02.wav</ShortName>
+					<Path>SFX\Untitled_1#02_16AB48AA.wem</Path>
+				</File>
+				<File Id="1023722983" Language="SFX">
+					<ShortName>Untitled_1#14.wav</ShortName>
+					<Path>SFX\Untitled_1#14_17EF8110.wem</Path>
+				</File>
+				<File Id="1033862774" Language="SFX">
+					<ShortName>Ruben#45.wav</ShortName>
+					<Path>SFX\Ruben#45_66368476.wem</Path>
+				</File>
+				<File Id="1039311711" Language="SFX">
+					<ShortName>Untitled_1#04.wav</ShortName>
+					<Path>SFX\Untitled_1#04_B9DEFD56.wem</Path>
+				</File>
+				<File Id="1055298425" Language="SFX">
+					<ShortName>Ruben#46.wav</ShortName>
+					<Path>SFX\Ruben#46_D2B84E2D.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -51,27 +127,27 @@
 			<IncludedMemoryFiles>
 				<File Id="199205389" Language="SFX">
 					<ShortName>MiniGame2_INtroSoundscape.wav</ShortName>
-					<Path>SFX\MiniGame2_INtroSoundscape_56D34C19.wem</Path>
+					<Path>SFX\MiniGame2_INtroSoundscape_BF755129.wem</Path>
 				</File>
 				<File Id="361388268" Language="SFX">
 					<ShortName>MenuTrack1.wav</ShortName>
-					<Path>SFX\MenuTrack1_A14709A9.wem</Path>
+					<Path>SFX\MenuTrack1_411B6159.wem</Path>
 				</File>
 				<File Id="489016350" Language="SFX">
 					<ShortName>UI_Beep_Bend_Short_stereo.wav</ShortName>
-					<Path>SFX\UI_Beep_Bend_Short_stereo_56D34C19.wem</Path>
+					<Path>SFX\UI_Beep_Bend_Short_stereo_BF755129.wem</Path>
 				</File>
 				<File Id="619622850" Language="SFX">
 					<ShortName>WHOOSH_Air_Super_Fast_RR4_mono.wav</ShortName>
-					<Path>SFX\WHOOSH_Air_Super_Fast_RR4_mono_56D34C19.wem</Path>
+					<Path>SFX\WHOOSH_Air_Super_Fast_RR4_mono_BF755129.wem</Path>
 				</File>
 				<File Id="700939131" Language="SFX">
 					<ShortName>DeathMusic.wav</ShortName>
-					<Path>SFX\DeathMusic_4345F9C6.wem</Path>
+					<Path>SFX\DeathMusic_C9E2EE76.wem</Path>
 				</File>
 				<File Id="800148568" Language="SFX">
 					<ShortName>UI_Beep_Single_Clean_stereo.wav</ShortName>
-					<Path>SFX\UI_Beep_Single_Clean_stereo_56D34C19.wem</Path>
+					<Path>SFX\UI_Beep_Single_Clean_stereo_BF755129.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -86,63 +162,63 @@
 			<IncludedMemoryFiles>
 				<File Id="101782059" Language="SFX">
 					<ShortName>thunder_mountainous_big_crack_02.wav</ShortName>
-					<Path>SFX\thunder_mountainous_big_crack_02_56D34C19.wem</Path>
+					<Path>SFX\thunder_mountainous_big_crack_02_BF755129.wem</Path>
 				</File>
 				<File Id="166099676" Language="SFX">
 					<ShortName>RATH - Rain Hard Loop 08.wav</ShortName>
-					<Path>SFX\RATH - Rain Hard Loop 08_84CB93B1.wem</Path>
+					<Path>SFX\RATH - Rain Hard Loop 08_4D33B3C1.wem</Path>
 				</File>
 				<File Id="308894312" Language="SFX">
 					<ShortName>Vindpust1.wav</ShortName>
-					<Path>SFX\Vindpust1_56D34C19.wem</Path>
+					<Path>SFX\Vindpust1_BF755129.wem</Path>
 				</File>
 				<File Id="367148356" Language="SFX">
 					<ShortName>THUNDER_Clap_Rumble_01_stereo.wav</ShortName>
-					<Path>SFX\THUNDER_Clap_Rumble_01_stereo_56D34C19.wem</Path>
+					<Path>SFX\THUNDER_Clap_Rumble_01_stereo_BF755129.wem</Path>
 				</File>
 				<File Id="679480057" Language="SFX">
 					<ShortName>Vindpust2.wav</ShortName>
-					<Path>SFX\Vindpust2_56D34C19.wem</Path>
+					<Path>SFX\Vindpust2_BF755129.wem</Path>
 				</File>
 				<File Id="716116991" Language="SFX">
 					<ShortName>THUNDER_Clap_Rumble_03_stereo.wav</ShortName>
-					<Path>SFX\THUNDER_Clap_Rumble_03_stereo_56D34C19.wem</Path>
+					<Path>SFX\THUNDER_Clap_Rumble_03_stereo_BF755129.wem</Path>
 				</File>
 				<File Id="746519542" Language="SFX">
 					<ShortName>Vindpust3.wav</ShortName>
-					<Path>SFX\Vindpust3_56D34C19.wem</Path>
+					<Path>SFX\Vindpust3_BF755129.wem</Path>
 				</File>
 				<File Id="828872827" Language="SFX">
 					<ShortName>Vindpust5.wav</ShortName>
-					<Path>SFX\Vindpust5_56D34C19.wem</Path>
+					<Path>SFX\Vindpust5_BF755129.wem</Path>
 				</File>
 				<File Id="869447023" Language="SFX">
 					<ShortName>Rain in forest the day_120118_13.wav</ShortName>
-					<Path>SFX\Rain in forest the day_120118_13_69BAF378.wem</Path>
+					<Path>SFX\Rain in forest the day_120118_13_FF08B868.wem</Path>
 				</File>
 				<File Id="897929999" Language="SFX">
 					<ShortName>Wind2d.wav</ShortName>
-					<Path>SFX\Wind2d_9716411F.wem</Path>
+					<Path>SFX\Wind2d_746EC52F.wem</Path>
 				</File>
 				<File Id="964968574" Language="SFX">
 					<ShortName>thunder_clap_04.wav</ShortName>
-					<Path>SFX\thunder_clap_04_DFF406D2.wem</Path>
+					<Path>SFX\thunder_clap_04_3A1C24E2.wem</Path>
 				</File>
 				<File Id="971076657" Language="SFX">
 					<ShortName>thunder_strike_03.wav</ShortName>
-					<Path>SFX\thunder_strike_03_56D34C19.wem</Path>
+					<Path>SFX\thunder_strike_03_BF755129.wem</Path>
 				</File>
 				<File Id="971949006" Language="SFX">
 					<ShortName>THUNDER_Clap_Rumble_02_stereo.wav</ShortName>
-					<Path>SFX\THUNDER_Clap_Rumble_02_stereo_56D34C19.wem</Path>
+					<Path>SFX\THUNDER_Clap_Rumble_02_stereo_BF755129.wem</Path>
 				</File>
 				<File Id="999435447" Language="SFX">
 					<ShortName>THUNDER_Clap_Rumble_02_stereo.wav</ShortName>
-					<Path>SFX\THUNDER_Clap_Rumble_02_stereo_1B0F69B6.wem</Path>
+					<Path>SFX\THUNDER_Clap_Rumble_02_stereo_D71316C6.wem</Path>
 				</File>
 				<File Id="1049510695" Language="SFX">
 					<ShortName>Vindpust4.wav</ShortName>
-					<Path>SFX\Vindpust4_56D34C19.wem</Path>
+					<Path>SFX\Vindpust4_BF755129.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -157,79 +233,79 @@
 			<IncludedMemoryFiles>
 				<File Id="10456786" Language="SFX">
 					<ShortName>31 Robin's Song01.wav</ShortName>
-					<Path>SFX\31 Robin's Song01_F72E6BF9.wem</Path>
+					<Path>SFX\31 Robin's Song01_8EBF73A9.wem</Path>
 				</File>
 				<File Id="142449055" Language="SFX">
 					<ShortName>Drone_layer_three_02.wav</ShortName>
-					<Path>SFX\Drone_layer_three_02_5EDA3C1D.wem</Path>
+					<Path>SFX\Drone_layer_three_02_AABDF78D.wem</Path>
 				</File>
 				<File Id="159363823" Language="SFX">
 					<ShortName>Drone_layer_five.wav</ShortName>
-					<Path>SFX\Drone_layer_five_0A97210C.wem</Path>
+					<Path>SFX\Drone_layer_five_4F77EB5C.wem</Path>
 				</File>
 				<File Id="225813450" Language="SFX">
 					<ShortName>31 Robin's Song01.wav</ShortName>
-					<Path>SFX\31 Robin's Song01_61E7AD31.wem</Path>
+					<Path>SFX\31 Robin's Song01_B2B7B601.wem</Path>
 				</File>
 				<File Id="230540445" Language="SFX">
 					<ShortName>31 Robin's Song01.wav</ShortName>
-					<Path>SFX\31 Robin's Song01_FD71E5BE.wem</Path>
+					<Path>SFX\31 Robin's Song01_214CD48E.wem</Path>
 				</File>
 				<File Id="235432440" Language="SFX">
 					<ShortName>31 Robin's Song01.wav</ShortName>
-					<Path>SFX\31 Robin's Song01_033345BA.wem</Path>
+					<Path>SFX\31 Robin's Song01_B6D0636A.wem</Path>
 				</File>
 				<File Id="252083019" Language="SFX">
 					<ShortName>Drone_layer_two_01.wav</ShortName>
-					<Path>SFX\Drone_layer_two_01_E411DAF8.wem</Path>
+					<Path>SFX\Drone_layer_two_01_FDB632A8.wem</Path>
 				</File>
 				<File Id="344927456" Language="SFX">
 					<ShortName>drone_layer_four.wav</ShortName>
-					<Path>SFX\drone_layer_four_56D34C19.wem</Path>
+					<Path>SFX\drone_layer_four_BF755129.wem</Path>
 				</File>
 				<File Id="427878890" Language="SFX">
 					<ShortName>Bird Crow01.wav</ShortName>
-					<Path>SFX\Bird Crow01_736B31A6.wem</Path>
+					<Path>SFX\Bird Crow01_FCDC6D96.wem</Path>
 				</File>
 				<File Id="457143373" Language="SFX">
 					<ShortName>Wind_Forest_Fienup_001.302.wav</ShortName>
-					<Path>SFX\Wind_Forest_Fienup_001.302_EC906126.wem</Path>
+					<Path>SFX\Wind_Forest_Fienup_001.302_093F5E56.wem</Path>
 				</File>
 				<File Id="572004116" Language="SFX">
 					<ShortName>31 Robin's Song01.wav</ShortName>
-					<Path>SFX\31 Robin's Song01_FEAFF7F1.wem</Path>
+					<Path>SFX\31 Robin's Song01_EEA85B01.wem</Path>
 				</File>
 				<File Id="578688371" Language="SFX">
 					<ShortName>Drone_layer_two_02.wav</ShortName>
-					<Path>SFX\Drone_layer_two_02_AAA4B23A.wem</Path>
+					<Path>SFX\Drone_layer_two_02_0F1D334A.wem</Path>
 				</File>
 				<File Id="710671698" Language="SFX">
 					<ShortName>Drone_layer_one.wav</ShortName>
-					<Path>SFX\Drone_layer_one_69911DE4.wem</Path>
+					<Path>SFX\Drone_layer_one_3D43E5F4.wem</Path>
 				</File>
 				<File Id="726941450" Language="SFX">
 					<ShortName>Bird Crow01.wav</ShortName>
-					<Path>SFX\Bird Crow01_1BEDEB52.wem</Path>
+					<Path>SFX\Bird Crow01_C2AF9B62.wem</Path>
 				</File>
 				<File Id="750336811" Language="SFX">
 					<ShortName>31 Robin's Song01.wav</ShortName>
-					<Path>SFX\31 Robin's Song01_932895DF.wem</Path>
+					<Path>SFX\31 Robin's Song01_265E064F.wem</Path>
 				</File>
 				<File Id="766883646" Language="SFX">
 					<ShortName>Drone_layer_three_01.wav</ShortName>
-					<Path>SFX\Drone_layer_three_01_F1DF0C59.wem</Path>
+					<Path>SFX\Drone_layer_three_01_26A7D5C9.wem</Path>
 				</File>
 				<File Id="785451198" Language="SFX">
 					<ShortName>SW002_Stethoscope_Chest_Heart_Heartbeat_Blood_Flow_A.wav</ShortName>
-					<Path>SFX\SW002_Stethoscope_Chest_Heart_Heartbeat_Blood_Flow_A_8956FC97.wem</Path>
+					<Path>SFX\SW002_Stethoscope_Chest_Heart_Heartbeat_Blood_Flow_A_3CBE38A7.wem</Path>
 				</File>
 				<File Id="1008812096" Language="SFX">
 					<ShortName>31 Robin's Song01.wav</ShortName>
-					<Path>SFX\31 Robin's Song01_2D24BF06.wem</Path>
+					<Path>SFX\31 Robin's Song01_3EC3FA76.wem</Path>
 				</File>
 				<File Id="1051169781" Language="SFX">
 					<ShortName>32 Moorhen03.wav</ShortName>
-					<Path>SFX\32 Moorhen03_56D34C19.wem</Path>
+					<Path>SFX\32 Moorhen03_BF755129.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -245,35 +321,35 @@
 			<IncludedMemoryFiles>
 				<File Id="10736095" Language="SFX">
 					<ShortName>Noise7.wav</ShortName>
-					<Path>SFX\Noise7_56D34C19.wem</Path>
+					<Path>SFX\Noise7_BF755129.wem</Path>
 				</File>
 				<File Id="68484846" Language="SFX">
 					<ShortName>Noise3.wav</ShortName>
-					<Path>SFX\Noise3_56D34C19.wem</Path>
+					<Path>SFX\Noise3_BF755129.wem</Path>
 				</File>
 				<File Id="132177151" Language="SFX">
 					<ShortName>FABRIC_Flag_or_Fabric_in_Wind_loop_mono.wav</ShortName>
-					<Path>SFX\FABRIC_Flag_or_Fabric_in_Wind_loop_mono_210D5088.wem</Path>
+					<Path>SFX\FABRIC_Flag_or_Fabric_in_Wind_loop_mono_BE00D4F8.wem</Path>
 				</File>
 				<File Id="189872014" Language="SFX">
 					<ShortName>Noise6.wav</ShortName>
-					<Path>SFX\Noise6_56D34C19.wem</Path>
+					<Path>SFX\Noise6_BF755129.wem</Path>
 				</File>
 				<File Id="457010429" Language="SFX">
 					<ShortName>Noise4.wav</ShortName>
-					<Path>SFX\Noise4_56D34C19.wem</Path>
+					<Path>SFX\Noise4_BF755129.wem</Path>
 				</File>
 				<File Id="635977214" Language="SFX">
 					<ShortName>Noise5.wav</ShortName>
-					<Path>SFX\Noise5_56D34C19.wem</Path>
+					<Path>SFX\Noise5_BF755129.wem</Path>
 				</File>
 				<File Id="737833130" Language="SFX">
 					<ShortName>TRUCK_Idle_02_Crop_loop_mono.wav</ShortName>
-					<Path>SFX\TRUCK_Idle_02_Crop_loop_mono_8956FC97.wem</Path>
+					<Path>SFX\TRUCK_Idle_02_Crop_loop_mono_3CBE38A7.wem</Path>
 				</File>
 				<File Id="941368560" Language="SFX">
 					<ShortName>Noise1.wav</ShortName>
-					<Path>SFX\Noise1_56D34C19.wem</Path>
+					<Path>SFX\Noise1_BF755129.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -290,103 +366,103 @@
 			<IncludedMemoryFiles>
 				<File Id="5406923" Language="SFX">
 					<ShortName>Fsp3.wav</ShortName>
-					<Path>SFX\Fsp3_56D34C19.wem</Path>
+					<Path>SFX\Fsp3_BF755129.wem</Path>
 				</File>
 				<File Id="85180155" Language="SFX">
 					<ShortName>Fsp2.wav</ShortName>
-					<Path>SFX\Fsp2_56D34C19.wem</Path>
+					<Path>SFX\Fsp2_BF755129.wem</Path>
 				</File>
 				<File Id="138428989" Language="SFX">
 					<ShortName>Fsa4.wav</ShortName>
-					<Path>SFX\Fsa4_56D34C19.wem</Path>
+					<Path>SFX\Fsa4_BF755129.wem</Path>
 				</File>
 				<File Id="221040264" Language="SFX">
 					<ShortName>AG1.wav</ShortName>
-					<Path>SFX\AG1_976815A2.wem</Path>
+					<Path>SFX\AG1_3DF4D292.wem</Path>
 				</File>
 				<File Id="245767875" Language="SFX">
 					<ShortName>FOOTSTEP_Trainers_Gravel_Compact_Run_RR3_mono.wav</ShortName>
-					<Path>SFX\FOOTSTEP_Trainers_Gravel_Compact_Run_RR3_mono_56D34C19.wem</Path>
+					<Path>SFX\FOOTSTEP_Trainers_Gravel_Compact_Run_RR3_mono_BF755129.wem</Path>
 				</File>
 				<File Id="266814016" Language="SFX">
 					<ShortName>FOOTSTEP_Trainers_Gravel_Compact_Run_RR1_mono.wav</ShortName>
-					<Path>SFX\FOOTSTEP_Trainers_Gravel_Compact_Run_RR1_mono_56D34C19.wem</Path>
+					<Path>SFX\FOOTSTEP_Trainers_Gravel_Compact_Run_RR1_mono_BF755129.wem</Path>
 				</File>
 				<File Id="289672608" Language="SFX">
 					<ShortName>AG4.wav</ShortName>
-					<Path>SFX\AG4_ABCCFCE4.wem</Path>
+					<Path>SFX\AG4_6512FB74.wem</Path>
 				</File>
 				<File Id="489486064" Language="SFX">
 					<ShortName>AG2.wav</ShortName>
-					<Path>SFX\AG2_CA3DB4DC.wem</Path>
+					<Path>SFX\AG2_B28AF58C.wem</Path>
 				</File>
 				<File Id="489598189" Language="SFX">
 					<ShortName>Fsp5.wav</ShortName>
-					<Path>SFX\Fsp5_56D34C19.wem</Path>
+					<Path>SFX\Fsp5_BF755129.wem</Path>
 				</File>
 				<File Id="498428051" Language="SFX">
 					<ShortName>Fsp4.wav</ShortName>
-					<Path>SFX\Fsp4_56D34C19.wem</Path>
+					<Path>SFX\Fsp4_BF755129.wem</Path>
 				</File>
 				<File Id="501912401" Language="SFX">
 					<ShortName>FS1.wav</ShortName>
-					<Path>SFX\FS1_439C9263.wem</Path>
+					<Path>SFX\FS1_7EE662D3.wem</Path>
 				</File>
 				<File Id="519037421" Language="SFX">
 					<ShortName>FS2.wav</ShortName>
-					<Path>SFX\FS2_CAA296BA.wem</Path>
+					<Path>SFX\FS2_59E5216A.wem</Path>
 				</File>
 				<File Id="550863026" Language="SFX">
 					<ShortName>FS4.wav</ShortName>
-					<Path>SFX\FS4_64D36FE8.wem</Path>
+					<Path>SFX\FS4_54FC48B8.wem</Path>
 				</File>
 				<File Id="608000289" Language="SFX">
 					<ShortName>AG5.wav</ShortName>
-					<Path>SFX\AG5_9B6D086F.wem</Path>
+					<Path>SFX\AG5_E4EE5E1F.wem</Path>
 				</File>
 				<File Id="613321222" Language="SFX">
 					<ShortName>AG3.wav</ShortName>
-					<Path>SFX\AG3_8C434CCC.wem</Path>
+					<Path>SFX\AG3_9DFFD8DC.wem</Path>
 				</File>
 				<File Id="616120344" Language="SFX">
 					<ShortName>Fsa1.wav</ShortName>
-					<Path>SFX\Fsa1_56D34C19.wem</Path>
+					<Path>SFX\Fsa1_BF755129.wem</Path>
 				</File>
 				<File Id="693354133" Language="SFX">
 					<ShortName>FOOTSTEP_Trainers_Gravel_Compact_Run_RR2_mono.wav</ShortName>
-					<Path>SFX\FOOTSTEP_Trainers_Gravel_Compact_Run_RR2_mono_56D34C19.wem</Path>
+					<Path>SFX\FOOTSTEP_Trainers_Gravel_Compact_Run_RR2_mono_BF755129.wem</Path>
 				</File>
 				<File Id="700851822" Language="SFX">
 					<ShortName>FS5.wav</ShortName>
-					<Path>SFX\FS5_06AE37B3.wem</Path>
+					<Path>SFX\FS5_0DF2EF83.wem</Path>
 				</File>
 				<File Id="744683102" Language="SFX">
 					<ShortName>Fsa3.wav</ShortName>
-					<Path>SFX\Fsa3_56D34C19.wem</Path>
+					<Path>SFX\Fsa3_BF755129.wem</Path>
 				</File>
 				<File Id="751344678" Language="SFX">
 					<ShortName>Fsa2.wav</ShortName>
-					<Path>SFX\Fsa2_56D34C19.wem</Path>
+					<Path>SFX\Fsa2_BF755129.wem</Path>
 				</File>
 				<File Id="878935706" Language="SFX">
 					<ShortName>FOOTSTEP_Trainers_Gravel_Compact_Run_RR4_mono.wav</ShortName>
-					<Path>SFX\FOOTSTEP_Trainers_Gravel_Compact_Run_RR4_mono_56D34C19.wem</Path>
+					<Path>SFX\FOOTSTEP_Trainers_Gravel_Compact_Run_RR4_mono_BF755129.wem</Path>
 				</File>
 				<File Id="954080899" Language="SFX">
 					<ShortName>Fsp1.wav</ShortName>
-					<Path>SFX\Fsp1_56D34C19.wem</Path>
+					<Path>SFX\Fsp1_BF755129.wem</Path>
 				</File>
 				<File Id="1029876179" Language="SFX">
 					<ShortName>FOOTSTEP_Trainers_Gravel_Compact_Run_RR5_mono.wav</ShortName>
-					<Path>SFX\FOOTSTEP_Trainers_Gravel_Compact_Run_RR5_mono_56D34C19.wem</Path>
+					<Path>SFX\FOOTSTEP_Trainers_Gravel_Compact_Run_RR5_mono_BF755129.wem</Path>
 				</File>
 				<File Id="1037788437" Language="SFX">
 					<ShortName>Fsa5.wav</ShortName>
-					<Path>SFX\Fsa5_56D34C19.wem</Path>
+					<Path>SFX\Fsa5_BF755129.wem</Path>
 				</File>
 				<File Id="1066471746" Language="SFX">
 					<ShortName>FS3.wav</ShortName>
-					<Path>SFX\FS3_35884397.wem</Path>
+					<Path>SFX\FS3_2399D867.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -411,135 +487,135 @@
 			<IncludedMemoryFiles>
 				<File Id="41270468" Language="SFX">
 					<ShortName>164472__adam-n__crack-of-branch-3.wav</ShortName>
-					<Path>SFX\164472__adam-n__crack-of-branch-3_33596366.wem</Path>
+					<Path>SFX\164472__adam-n__crack-of-branch-3_84D48256.wem</Path>
 				</File>
 				<File Id="99884765" Language="SFX">
 					<ShortName>BREAK_Snap_Crack_stereo.wav</ShortName>
-					<Path>SFX\BREAK_Snap_Crack_stereo_B33EAD6A.wem</Path>
+					<Path>SFX\BREAK_Snap_Crack_stereo_11B0613A.wem</Path>
 				</File>
 				<File Id="165415640" Language="SFX">
 					<ShortName>pullplank1.wav</ShortName>
-					<Path>SFX\pullplank1_52B5A0EC.wem</Path>
+					<Path>SFX\pullplank1_FA5B66DC.wem</Path>
 				</File>
 				<File Id="174848939" Language="SFX">
 					<ShortName>IMPACT_Wood_Plank_On_Wood_Pile_02_Slide_mono.wav</ShortName>
-					<Path>SFX\IMPACT_Wood_Plank_On_Wood_Pile_02_Slide_mono_6240F212.wem</Path>
+					<Path>SFX\IMPACT_Wood_Plank_On_Wood_Pile_02_Slide_mono_2CD8AB42.wem</Path>
 				</File>
 				<File Id="277468038" Language="SFX">
 					<ShortName>IMPACT_Wood_Plank_On_Wood_Pile_04_Multiple_mono.wav</ShortName>
-					<Path>SFX\IMPACT_Wood_Plank_On_Wood_Pile_04_Multiple_mono_6D4B0394.wem</Path>
+					<Path>SFX\IMPACT_Wood_Plank_On_Wood_Pile_04_Multiple_mono_E83F65E4.wem</Path>
 				</File>
 				<File Id="287160250" Language="SFX">
 					<ShortName>pullplank2.wav</ShortName>
-					<Path>SFX\pullplank2_C90290C3.wem</Path>
+					<Path>SFX\pullplank2_11F024D3.wem</Path>
 				</File>
 				<File Id="288085049" Language="SFX">
 					<ShortName>IMPACT_Wood_Plank_On_Wood_Pile_06_Short_mono.wav</ShortName>
-					<Path>SFX\IMPACT_Wood_Plank_On_Wood_Pile_06_Short_mono_752D7C59.wem</Path>
+					<Path>SFX\IMPACT_Wood_Plank_On_Wood_Pile_06_Short_mono_637DAEA9.wem</Path>
 				</File>
 				<File Id="373338240" Language="SFX">
 					<ShortName>Stinger3.wav</ShortName>
-					<Path>SFX\Stinger3_7E90B02E.wem</Path>
+					<Path>SFX\Stinger3_00B4215E.wem</Path>
 				</File>
 				<File Id="425320271" Language="SFX">
 					<ShortName>IMPACT_Wood_Plank_On_Wood_Pile_05_mono.wav</ShortName>
-					<Path>SFX\IMPACT_Wood_Plank_On_Wood_Pile_05_mono_4920CB49.wem</Path>
+					<Path>SFX\IMPACT_Wood_Plank_On_Wood_Pile_05_mono_032F12D9.wem</Path>
 				</File>
 				<File Id="489207521" Language="SFX">
 					<ShortName>TrashSearch1.wav</ShortName>
-					<Path>SFX\TrashSearch1_9C6BB720.wem</Path>
+					<Path>SFX\TrashSearch1_CD48B930.wem</Path>
 				</File>
 				<File Id="515322455" Language="SFX">
 					<ShortName>TrashSearch1.wav</ShortName>
-					<Path>SFX\TrashSearch1_BBD86FF9.wem</Path>
+					<Path>SFX\TrashSearch1_48B6CE89.wem</Path>
 				</File>
 				<File Id="534379739" Language="SFX">
 					<ShortName>DeathSound.wav</ShortName>
-					<Path>SFX\DeathSound_56D34C19.wem</Path>
+					<Path>SFX\DeathSound_BF755129.wem</Path>
 				</File>
 				<File Id="537442384" Language="SFX">
 					<ShortName>TrashSearch4.wav</ShortName>
-					<Path>SFX\TrashSearch4_79D9A373.wem</Path>
+					<Path>SFX\TrashSearch4_ED3AA6C3.wem</Path>
 				</File>
 				<File Id="632132391" Language="SFX">
 					<ShortName>GATE_Metal_Open_04_Squeal_stereo.wav</ShortName>
-					<Path>SFX\GATE_Metal_Open_04_Squeal_stereo_39F08C3C.wem</Path>
+					<Path>SFX\GATE_Metal_Open_04_Squeal_stereo_D9D6240C.wem</Path>
 				</File>
 				<File Id="682261727" Language="SFX">
 					<ShortName>TrashSearch3.wav</ShortName>
-					<Path>SFX\TrashSearch3_6D3DA4CC.wem</Path>
+					<Path>SFX\TrashSearch3_5508BD7C.wem</Path>
 				</File>
 				<File Id="700491321" Language="SFX">
 					<ShortName>GunshotWet.wav</ShortName>
-					<Path>SFX\GunshotWet_56D34C19.wem</Path>
+					<Path>SFX\GunshotWet_BF755129.wem</Path>
 				</File>
 				<File Id="735211814" Language="SFX">
 					<ShortName>Stinger1.wav</ShortName>
-					<Path>SFX\Stinger1_5110075D.wem</Path>
+					<Path>SFX\Stinger1_4B512F8D.wem</Path>
 				</File>
 				<File Id="746144388" Language="SFX">
 					<ShortName>TrashSearch4.wav</ShortName>
-					<Path>SFX\TrashSearch4_C4ACC6DC.wem</Path>
+					<Path>SFX\TrashSearch4_FA9BD8EC.wem</Path>
 				</File>
 				<File Id="750255720" Language="SFX">
 					<ShortName>GazeboTear.wav</ShortName>
-					<Path>SFX\GazeboTear_B62DD8BA.wem</Path>
+					<Path>SFX\GazeboTear_DDD7AC2A.wem</Path>
 				</File>
 				<File Id="795572999" Language="SFX">
 					<ShortName>pullplank2.wav</ShortName>
-					<Path>SFX\pullplank2_9E113D98.wem</Path>
+					<Path>SFX\pullplank2_8CCB0A88.wem</Path>
 				</File>
 				<File Id="815372615" Language="SFX">
 					<ShortName>GATE_Metal_Close_03_stereo.wav</ShortName>
-					<Path>SFX\GATE_Metal_Close_03_stereo_398450BE.wem</Path>
+					<Path>SFX\GATE_Metal_Close_03_stereo_1DDE000E.wem</Path>
 				</File>
 				<File Id="847788105" Language="SFX">
 					<ShortName>GazeboTear.wav</ShortName>
-					<Path>SFX\GazeboTear_ABCE0AFF.wem</Path>
+					<Path>SFX\GazeboTear_02A42C0F.wem</Path>
 				</File>
 				<File Id="849369928" Language="SFX">
 					<ShortName>SNAP_Twig_mono.wav</ShortName>
-					<Path>SFX\SNAP_Twig_mono_56D34C19.wem</Path>
+					<Path>SFX\SNAP_Twig_mono_BF755129.wem</Path>
 				</File>
 				<File Id="853319014" Language="SFX">
 					<ShortName>TrashSearch1.wav</ShortName>
-					<Path>SFX\TrashSearch1_30582E1C.wem</Path>
+					<Path>SFX\TrashSearch1_89A5122C.wem</Path>
 				</File>
 				<File Id="854355060" Language="SFX">
 					<ShortName>BoxBreaking.wav</ShortName>
-					<Path>SFX\BoxBreaking_56D34C19.wem</Path>
+					<Path>SFX\BoxBreaking_BF755129.wem</Path>
 				</File>
 				<File Id="878006226" Language="SFX">
 					<ShortName>TrashSearch4.wav</ShortName>
-					<Path>SFX\TrashSearch4_2461F749.wem</Path>
+					<Path>SFX\TrashSearch4_70A91EB9.wem</Path>
 				</File>
 				<File Id="898014509" Language="SFX">
 					<ShortName>GazeboTear.wav</ShortName>
-					<Path>SFX\GazeboTear_5DBD3174.wem</Path>
+					<Path>SFX\GazeboTear_423D78A4.wem</Path>
 				</File>
 				<File Id="918086970" Language="SFX">
 					<ShortName>GazeboTear.wav</ShortName>
-					<Path>SFX\GazeboTear_999BC151.wem</Path>
+					<Path>SFX\GazeboTear_3186E841.wem</Path>
 				</File>
 				<File Id="960059470" Language="SFX">
 					<ShortName>6 Big Metal Hit .wav</ShortName>
-					<Path>SFX\6 Big Metal Hit _1199FC32.wem</Path>
+					<Path>SFX\6 Big Metal Hit _41088242.wem</Path>
 				</File>
 				<File Id="973755901" Language="SFX">
 					<ShortName>TrashSearch3.wav</ShortName>
-					<Path>SFX\TrashSearch3_1E444B70.wem</Path>
+					<Path>SFX\TrashSearch3_50973E00.wem</Path>
 				</File>
 				<File Id="984082999" Language="SFX">
 					<ShortName>IMPACT_Wood_Plank_On_Wood_Pile_03_Fall_mono.wav</ShortName>
-					<Path>SFX\IMPACT_Wood_Plank_On_Wood_Pile_03_Fall_mono_70DB417D.wem</Path>
+					<Path>SFX\IMPACT_Wood_Plank_On_Wood_Pile_03_Fall_mono_94982C0D.wem</Path>
 				</File>
 				<File Id="1010275441" Language="SFX">
 					<ShortName>gun_revolver_pistol_shot_04.wav</ShortName>
-					<Path>SFX\gun_revolver_pistol_shot_04_3DD95D72.wem</Path>
+					<Path>SFX\gun_revolver_pistol_shot_04_793DB38A.wem</Path>
 				</File>
 				<File Id="1021342188" Language="SFX">
 					<ShortName>pullplank1.wav</ShortName>
-					<Path>SFX\pullplank1_3AF26323.wem</Path>
+					<Path>SFX\pullplank1_FF73C313.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -548,74 +624,112 @@
 			<ShortName>Dialouge</ShortName>
 			<Path>Dialouge.bnk</Path>
 			<IncludedEvents>
+				<Event Id="403473673" Name="are_you_in" ObjectPath="\Events\Anders Holm Work Unit\are_you_in"/>
 				<Event Id="950269311" Name="be_careful" ObjectPath="\Events\Anders Holm Work Unit\be_careful"/>
+				<Event Id="29310280" Name="careful_guards" ObjectPath="\Events\Anders Holm Work Unit\careful_guards"/>
+				<Event Id="2799099855" Name="dont_let_them_see_you" ObjectPath="\Events\Anders Holm Work Unit\dont_let_them_see_you"/>
 				<Event Id="4180122351" Name="hurry_up" ObjectPath="\Events\Anders Holm Work Unit\hurry_up"/>
 				<Event Id="2635468458" Name="intro_dialouge" ObjectPath="\Events\Anders Holm Work Unit\intro_dialouge"/>
+				<Event Id="1767553322" Name="medical_truck" ObjectPath="\Events\Anders Holm Work Unit\medical_truck"/>
 				<Event Id="17964378" Name="one_gate_found" ObjectPath="\Events\Anders Holm Work Unit\one_gate_found"/>
 				<Event Id="4004327001" Name="rainfall_dialouge" ObjectPath="\Events\Anders Holm Work Unit\rainfall_dialouge"/>
+				<Event Id="1043131493" Name="right_behind_me" ObjectPath="\Events\Anders Holm Work Unit\right_behind_me"/>
 				<Event Id="1407973414" Name="ruben_mad" ObjectPath="\Events\Anders Holm Work Unit\ruben_mad"/>
 				<Event Id="3627809544" Name="shelter_safe" ObjectPath="\Events\Anders Holm Work Unit\shelter_safe"/>
+				<Event Id="3858786474" Name="shit_loud" ObjectPath="\Events\Anders Holm Work Unit\shit_loud"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="3490709" Language="SFX">
 					<ShortName>Walkie Talkie,Cobra MicroTalk,Radio Communication,End,Noise Squelch,Beep,Series.wav</ShortName>
-					<Path>SFX\Walkie Talkie,Cobra MicroTalk,Radio Communication,End,Noise Squelch,Beep,Series_AFD470DF.wem</Path>
+					<Path>SFX\Walkie Talkie,Cobra MicroTalk,Radio Communication,End,Noise Squelch,Beep,Series_737DCECF.wem</Path>
 				</File>
 				<File Id="40631703" Language="SFX">
 					<ShortName>Walkie Talkie,Cobra MicroTalk,Radio Communication,End,Noise Squelch,Beep,Series.wav</ShortName>
-					<Path>SFX\Walkie Talkie,Cobra MicroTalk,Radio Communication,End,Noise Squelch,Beep,Series_9EAB9B0E.wem</Path>
+					<Path>SFX\Walkie Talkie,Cobra MicroTalk,Radio Communication,End,Noise Squelch,Beep,Series_C7FFD99E.wem</Path>
 				</File>
 				<File Id="41417492" Language="SFX">
 					<ShortName>Walkie Talkie,Cobra MicroTalk,Radio Communication,End,Noise Squelch,Beep,Series.wav</ShortName>
-					<Path>SFX\Walkie Talkie,Cobra MicroTalk,Radio Communication,End,Noise Squelch,Beep,Series_B2E5A3BD.wem</Path>
+					<Path>SFX\Walkie Talkie,Cobra MicroTalk,Radio Communication,End,Noise Squelch,Beep,Series_17EFBFCD.wem</Path>
 				</File>
 				<File Id="168905330" Language="SFX">
 					<ShortName>1_be_careful.wav</ShortName>
-					<Path>SFX\1_be_careful_56D34C19.wem</Path>
+					<Path>SFX\1_be_careful_BF755129.wem</Path>
 				</File>
 				<File Id="182675609" Language="SFX">
 					<ShortName>1_intro.wav</ShortName>
-					<Path>SFX\1_intro_56D34C19.wem</Path>
+					<Path>SFX\1_intro_BF755129.wem</Path>
 				</File>
 				<File Id="222076653" Language="SFX">
 					<ShortName>1_sina_end.wav</ShortName>
-					<Path>SFX\1_sina_end_56D34C19.wem</Path>
+					<Path>SFX\1_sina_end_BF755129.wem</Path>
 				</File>
 				<File Id="264411909" Language="SFX">
 					<ShortName>Walkie Talkie,Cobra MicroTalk,Radio Communication,End,Noise Squelch,Beep,Series.wav</ShortName>
-					<Path>SFX\Walkie Talkie,Cobra MicroTalk,Radio Communication,End,Noise Squelch,Beep,Series_10D6A664.wem</Path>
+					<Path>SFX\Walkie Talkie,Cobra MicroTalk,Radio Communication,End,Noise Squelch,Beep,Series_9CDACF34.wem</Path>
+				</File>
+				<File Id="355446649" Language="SFX">
+					<ShortName>2_right_behind_me.wav</ShortName>
+					<Path>SFX\2_right_behind_me_BF755129.wem</Path>
+				</File>
+				<File Id="360443461" Language="SFX">
+					<ShortName>2_careful_guards.wav</ShortName>
+					<Path>SFX\2_careful_guards_BF755129.wem</Path>
+				</File>
+				<File Id="378439954" Language="SFX">
+					<ShortName>2_sina_shit.wav</ShortName>
+					<Path>SFX\2_sina_shit_BF755129.wem</Path>
 				</File>
 				<File Id="409572928" Language="SFX">
 					<ShortName>1_shelter_safe_dialouge.wav</ShortName>
-					<Path>SFX\1_shelter_safe_dialouge_56D34C19.wem</Path>
+					<Path>SFX\1_shelter_safe_dialouge_BF755129.wem</Path>
 				</File>
 				<File Id="421875732" Language="SFX">
 					<ShortName>1_gate_found_ruben.wav</ShortName>
-					<Path>SFX\1_gate_found_ruben_56D34C19.wem</Path>
+					<Path>SFX\1_gate_found_ruben_BF755129.wem</Path>
 				</File>
 				<File Id="507179249" Language="SFX">
 					<ShortName>1_hurry_up.wav</ShortName>
-					<Path>SFX\1_hurry_up_56D34C19.wem</Path>
+					<Path>SFX\1_hurry_up_BF755129.wem</Path>
 				</File>
 				<File Id="600791617" Language="SFX">
 					<ShortName>1_ruben.wav</ShortName>
-					<Path>SFX\1_ruben_56D34C19.wem</Path>
+					<Path>SFX\1_ruben_BF755129.wem</Path>
 				</File>
 				<File Id="634723468" Language="SFX">
 					<ShortName>1_rainfall_dialouge.wav</ShortName>
-					<Path>SFX\1_rainfall_dialouge_56D34C19.wem</Path>
+					<Path>SFX\1_rainfall_dialouge_BF755129.wem</Path>
+				</File>
+				<File Id="639404622" Language="SFX">
+					<ShortName>2_ruben_hide.wav</ShortName>
+					<Path>SFX\2_ruben_hide_BF755129.wem</Path>
+				</File>
+				<File Id="739385996" Language="SFX">
+					<ShortName>2_ruben_dont_lt_thm_see_you.wav</ShortName>
+					<Path>SFX\2_ruben_dont_lt_thm_see_you_BF755129.wem</Path>
 				</File>
 				<File Id="781333106" Language="SFX">
 					<ShortName>1_gate_found_sina.wav</ShortName>
-					<Path>SFX\1_gate_found_sina_56D34C19.wem</Path>
+					<Path>SFX\1_gate_found_sina_BF755129.wem</Path>
+				</File>
+				<File Id="791957227" Language="SFX">
+					<ShortName>2_are_you_in.wav</ShortName>
+					<Path>SFX\2_are_you_in_BF755129.wem</Path>
+				</File>
+				<File Id="819416748" Language="SFX">
+					<ShortName>2_medical.wav</ShortName>
+					<Path>SFX\2_medical_BF755129.wem</Path>
 				</File>
 				<File Id="838800734" Language="SFX">
 					<ShortName>Walkie Talkie,Cobra MicroTalk,Radio Communication,End,Noise Squelch,Beep,Series.wav</ShortName>
-					<Path>SFX\Walkie Talkie,Cobra MicroTalk,Radio Communication,End,Noise Squelch,Beep,Series_62848D22.wem</Path>
+					<Path>SFX\Walkie Talkie,Cobra MicroTalk,Radio Communication,End,Noise Squelch,Beep,Series_8BB92672.wem</Path>
+				</File>
+				<File Id="920933305" Language="SFX">
+					<ShortName>2_sine_medical.wav</ShortName>
+					<Path>SFX\2_sine_medical_BF755129.wem</Path>
 				</File>
 				<File Id="975177487" Language="SFX">
 					<ShortName>Walkie Talkie,Cobra MicroTalk,Radio Communication,End,Noise Squelch,Beep,Series.wav</ShortName>
-					<Path>SFX\Walkie Talkie,Cobra MicroTalk,Radio Communication,End,Noise Squelch,Beep,Series_BCC9271A.wem</Path>
+					<Path>SFX\Walkie Talkie,Cobra MicroTalk,Radio Communication,End,Noise Squelch,Beep,Series_EDE56A2A.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

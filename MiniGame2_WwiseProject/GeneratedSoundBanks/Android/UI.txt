@@ -8,10 +8,10 @@ Event	ID	Name			Wwise Object Path	Notes
 	2461875431	Play_Button1			\Default Work Unit\Play_Button1	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	199205389	MiniGame2_INtroSoundscape	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\MiniGame2_INtroSoundscape_56D34C19.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\UI\MiniGame2_INtroSoundscape		13368432
-	361388268	MenuTrack1	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\MenuTrack1_A14709A9.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\UI\MenuTrack1		9940964
-	489016350	UI_Beep_Bend_Short_stereo	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\UI_Beep_Bend_Short_stereo_56D34C19.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\UI\Button2\UI_Beep_Bend_Short_stereo		10984
-	619622850	Resume	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\WHOOSH_Air_Super_Fast_RR4_mono_56D34C19.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\UI\Resume		7582
-	700939131	DeathMusic	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\DeathMusic_4345F9C6.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Reactions\Player_Death\DeathMusic		9940964
-	800148568	UI_Beep_Single_Clean_stereo	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\UI_Beep_Single_Clean_stereo_56D34C19.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\UI\Button1\UI_Beep_Single_Clean_stereo		7216
+	199205389	MiniGame2_INtroSoundscape	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\MiniGame2_INtroSoundscape_BF755129.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\UI\MiniGame2_INtroSoundscape		947992
+	361388268	MenuTrack1	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\MenuTrack1_411B6159.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\UI\MenuTrack1		870112
+	489016350	UI_Beep_Bend_Short_stereo	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\UI_Beep_Bend_Short_stereo_BF755129.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\UI\Button2\UI_Beep_Bend_Short_stereo		1857
+	619622850	Resume	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\WHOOSH_Air_Super_Fast_RR4_mono_BF755129.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\UI\Resume		1181
+	700939131	DeathMusic	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\DeathMusic_C9E2EE76.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Reactions\Player_Death\DeathMusic		879718
+	800148568	UI_Beep_Single_Clean_stereo	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\UI_Beep_Single_Clean_stereo_BF755129.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\UI\Button1\UI_Beep_Single_Clean_stereo		728
 

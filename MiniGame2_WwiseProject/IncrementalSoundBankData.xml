@@ -3,21 +3,21 @@
 	<Platform GUID="{8AD9F681-2C42-481F-9B67-BF65D0D57318}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Actions" Hash="3661882273" Timestamp="1538465612"/>
-				<File Name="Ambiance" Hash="2875220711" Timestamp="1538404960"/>
+				<File Name="Actions" Hash="498769122" Timestamp="1538467759"/>
+				<File Name="Ambiance" Hash="2513122243" Timestamp="1538467759"/>
 				<File Name="Ambiences" Hash="3298676260" Timestamp="1538386205"/>
-				<File Name="Character" Hash="1462615780" Timestamp="1538402831"/>
-				<File Name="Dialouge" Hash="4060093253" Timestamp="1538386205"/>
-				<File Name="Init" Hash="1864663016" Timestamp="1538404961"/>
-				<File Name="MilitaryBase" Hash="221732018" Timestamp="1538405186"/>
-				<File Name="Rain" Hash="1985739467" Timestamp="1538405187"/>
-				<File Name="Soldier" Hash="2991509712" Timestamp="1538378917"/>
-				<File Name="UI" Hash="3138615779" Timestamp="1538464766"/>
+				<File Name="Character" Hash="1874379050" Timestamp="1538467759"/>
+				<File Name="Dialouge" Hash="3953026361" Timestamp="1538467759"/>
+				<File Name="Init" Hash="3226774059" Timestamp="1538467761"/>
+				<File Name="MilitaryBase" Hash="481481547" Timestamp="1538467760"/>
+				<File Name="Rain" Hash="1944105211" Timestamp="1538467760"/>
+				<File Name="Soldier" Hash="1577700852" Timestamp="1538467760"/>
+				<File Name="UI" Hash="451741785" Timestamp="1538467760"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="113642854" Timestamp="1538465612"/>
+				<File Name="" Hash="1313191045" Timestamp="1538467761"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

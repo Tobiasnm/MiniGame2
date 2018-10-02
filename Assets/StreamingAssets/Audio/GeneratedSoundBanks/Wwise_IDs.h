@@ -13,10 +13,18 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID ARE_YOU_IN = 403473673U;
         static const AkUniqueID BE_CAREFUL = 950269311U;
+        static const AkUniqueID CAREFUL_GUARDS = 29310280U;
+        static const AkUniqueID DEATH_GUNSHOT = 1210420834U;
+        static const AkUniqueID DEATH_RAIN = 4150793134U;
+        static const AkUniqueID DONT_LET_THEM_SEE_YOU = 2799099855U;
+        static const AkUniqueID ENEMY_IDLE = 1814182224U;
+        static const AkUniqueID ENEMY_SINA_DETECTED = 4131361578U;
         static const AkUniqueID FOOTSTEP_GRASS = 4256116324U;
         static const AkUniqueID HURRY_UP = 4180122351U;
         static const AkUniqueID INTRO_DIALOUGE = 2635468458U;
+        static const AkUniqueID MEDICAL_TRUCK = 1767553322U;
         static const AkUniqueID ONE_GATE_FOUND = 17964378U;
         static const AkUniqueID PLAY_BACKGROUND_MUSIC = 65769146U;
         static const AkUniqueID PLAY_BOX_BREAKING = 3394714855U;
@@ -48,8 +56,10 @@ namespace AK
         static const AkUniqueID PLAY_TENT_NOISES = 2574704709U;
         static const AkUniqueID PLAY_THUNDERCLAP = 509637542U;
         static const AkUniqueID RAINFALL_DIALOUGE = 4004327001U;
+        static const AkUniqueID RIGHT_BEHIND_ME = 1043131493U;
         static const AkUniqueID RUBEN_MAD = 1407973414U;
         static const AkUniqueID SHELTER_SAFE = 3627809544U;
+        static const AkUniqueID SHIT_LOUD = 3858786474U;
         static const AkUniqueID STOP_MENUTRACK1 = 1554289743U;
     } // namespace EVENTS
 
@@ -94,6 +104,7 @@ namespace AK
     namespace BUSSES
     {
         static const AkUniqueID AMBIENCE_BUS = 4202237879U;
+        static const AkUniqueID DIALOUGE = 3362655095U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
         static const AkUniqueID MUSIC_VOLUME_BUS = 3172045954U;
         static const AkUniqueID UI_SOUND_BUS = 518162140U;

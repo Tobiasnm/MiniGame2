@@ -43,7 +43,11 @@
 					</PropertyList>
 					<ConversionPluginInfoList>
 						<ConversionPluginInfo Platform="Android">
-							<ConversionPlugin Name="" ID="{5C4B9763-CA1F-41AF-A5DA-432475BE7BF4}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+							<ConversionPlugin Name="" ID="{288DFBCE-1112-459E-B8DD-8651B4D2750A}" PluginName="Vorbis" CompanyID="0" PluginID="4">
+								<PropertyList>
+									<Property Name="QualityFactor" Type="Real32" Value="3"/>
+								</PropertyList>
+							</ConversionPlugin>
 						</ConversionPluginInfo>
 						<ConversionPluginInfo Platform="Mac">
 							<ConversionPlugin Name="" ID="{2D8F2DB2-06D3-4E07-B40C-88E9087B1C29}" PluginName="PCM" CompanyID="0" PluginID="1"/>

@@ -1,6 +1,28 @@
 Event	ID	Name			Wwise Object Path	Notes
+	1210420834	death_gunshot			\Anders Holm Work Unit\death_gunshot	
+	1814182224	enemy_idle			\Anders Holm Work Unit\enemy_idle	
+	4131361578	enemy_sina_detected			\Anders Holm Work Unit\enemy_sina_detected	
+	4150793134	death_rain			\Anders Holm Work Unit\death_rain	
 	4256116324	Footstep_grass			\Anders Holm Work Unit\Footstep_grass	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	960551753	38874__swuing__footstep-grass	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\38874__swuing__footstep-grass_56D34C19.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\Character\Footsteps\Grass\38874__swuing__footstep-grass		80384
+	60570286	Untitled_1#04	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\Untitled_1#04_98057E75.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\3D\Enemies\Sounds\Untitled_1#04		34038
+	195742109	Untitled_1#03	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\Untitled_1#03_994D3711.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\3D\Enemies\Sounds\Untitled_1#03		100113
+	215219499	Untitled_1#05_01	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\Untitled_1#05_BBAA6448.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\3D\Enemies\Detected\Untitled_1#05_01		17135
+	224718683	Untitled_1#05_02	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\Untitled_1#05_894D4B2D.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\3D\Enemies\Detected\Untitled_1#05_02		36249
+	224909879	Untitled_1#13	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\Untitled_1#13_829E1335.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\3D\Enemies\Sounds\Untitled_1#13		109977
+	275285685	Untitled_1#05	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\Untitled_1#05_2E330173.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\3D\Enemies\Detected\Untitled_1#05		13892
+	429761458	Untitled_1#04_02	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\Untitled_1#04_D610B96F.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\3D\Enemies\Sounds\Untitled_1#04_02		19178
+	462562424	Ruben#46	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\Ruben#46_85AE32B2.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\Character\Death\Rain\Ruben#46		30324
+	541696228	Ruben#46_02	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\Ruben#46_A4DF5677.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\Character\Death\Rain\Ruben#46_02		42044
+	657232512	Untitled_1#15	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\Untitled_1#15_91D3C49C.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\3D\Enemies\Sounds\Untitled_1#15		39620
+	734980473	Untitled_1#06	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\Untitled_1#06_A6474CB8.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\3D\Enemies\Detected\Untitled_1#06		14037
+	763052987	Untitled_1#11	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\Untitled_1#11_F530E7A2.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\3D\Enemies\Sounds\Untitled_1#11		133094
+	910910378	Ruben#45_01	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\Ruben#45_3865F447.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\Character\Death\Gunshot\Ruben#45_01		31260
+	960551753	38874__swuing__footstep-grass	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\38874__swuing__footstep-grass_BF755129.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\Character\Footsteps\Grass\38874__swuing__footstep-grass		4997
+	1023714334	Untitled_1#02	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\Untitled_1#02_16AB48AA.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\3D\Enemies\Sounds\Untitled_1#02		108930
+	1023722983	Untitled_1#14	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\Untitled_1#14_17EF8110.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\3D\Enemies\Sounds\Untitled_1#14		207465
+	1033862774	Ruben#45	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\Ruben#45_66368476.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\Character\Death\Gunshot\Ruben#45		16934
+	1039311711	Untitled_1#04_01	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\Untitled_1#04_B9DEFD56.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\3D\Enemies\Sounds\Untitled_1#04_01		39610
+	1055298425	Ruben#46_01	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\Ruben#46_D2B84E2D.wem		\Actor-Mixer Hierarchy\Anders Holm Work Unit\Character\Death\Rain\Ruben#46_01		30158
 
