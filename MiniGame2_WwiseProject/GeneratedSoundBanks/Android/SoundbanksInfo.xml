@@ -118,7 +118,6 @@
 			<IncludedEvents>
 				<Event Id="2461875431" Name="Play_Button1" ObjectPath="\Events\Default Work Unit\Play_Button1"/>
 				<Event Id="2461875428" Name="Play_Button2" ObjectPath="\Events\Default Work Unit\Play_Button2"/>
-				<Event Id="477908357" Name="Play_DeathMusic" ObjectPath="\Events\Default Work Unit\Play_DeathMusic"/>
 				<Event Id="807462833" Name="Play_MenuTrack1" ObjectPath="\Events\Default Work Unit\Play_MenuTrack1"/>
 				<Event Id="1250373215" Name="Play_MiniGame2_INtroSoundscape" ObjectPath="\Events\Default Work Unit\Play_MiniGame2_INtroSoundscape"/>
 				<Event Id="2149395099" Name="Play_Resume" ObjectPath="\Events\Default Work Unit\Play_Resume"/>
@@ -473,13 +472,10 @@
 			<IncludedEvents>
 				<Event Id="3394714855" Name="Play_Box_Breaking" ObjectPath="\Events\Default Work Unit\Play_Box_Breaking"/>
 				<Event Id="3800970461" Name="Play_Branches_Snapping" ObjectPath="\Events\Default Work Unit\Play_Branches_Snapping"/>
-				<Event Id="1523662489" Name="Play_DeathSound" ObjectPath="\Events\Default Work Unit\Play_DeathSound"/>
 				<Event Id="1720809208" Name="Play_Detected" ObjectPath="\Events\Default Work Unit\Play_Detected"/>
 				<Event Id="1676603786" Name="Play_Gate_CLose" ObjectPath="\Events\Default Work Unit\Play_Gate_CLose"/>
 				<Event Id="4089264814" Name="Play_Gate_Open" ObjectPath="\Events\Default Work Unit\Play_Gate_Open"/>
 				<Event Id="1761571631" Name="Play_Gazebo_Tear" ObjectPath="\Events\Default Work Unit\Play_Gazebo_Tear"/>
-				<Event Id="3955959628" Name="Play_Gunshot" ObjectPath="\Events\Default Work Unit\Play_Gunshot"/>
-				<Event Id="4105918416" Name="Play_GunshotWet" ObjectPath="\Events\Default Work Unit\Play_GunshotWet"/>
 				<Event Id="1722917615" Name="Play_Hit_Wood" ObjectPath="\Events\Default Work Unit\Play_Hit_Wood"/>
 				<Event Id="3780378942" Name="Play_Pull_Plank" ObjectPath="\Events\Default Work Unit\Play_Pull_Plank"/>
 				<Event Id="3023115453" Name="Play_Search_Trash" ObjectPath="\Events\Default Work Unit\Play_Search_Trash"/>

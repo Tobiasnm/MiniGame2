@@ -1,24 +1,19 @@
 Event	ID	Name			Wwise Object Path	Notes
-	1523662489	Play_DeathSound			\Default Work Unit\Play_DeathSound	
-	1676603786	Play_Gate_CLose			\Default Work Unit\Play_Gate_CLose	
-	1720809208	Play_Detected			\Default Work Unit\Play_Detected	
-	1722917615	Play_Hit_Wood			\Default Work Unit\Play_Hit_Wood	
-	1761571631	Play_Gazebo_Tear			\Default Work Unit\Play_Gazebo_Tear	
-	3023115453	Play_Search_Trash			\Default Work Unit\Play_Search_Trash	
-	3394714855	Play_Box_Breaking			\Default Work Unit\Play_Box_Breaking	
-	3780378942	Play_Pull_Plank			\Default Work Unit\Play_Pull_Plank	
-	3800970461	Play_Branches_Snapping			\Default Work Unit\Play_Branches_Snapping	
-	3955959628	Play_Gunshot			\Default Work Unit\Play_Gunshot	
-	4089264814	Play_Gate_Open			\Default Work Unit\Play_Gate_Open	
-	4105918416	Play_GunshotWet			\Default Work Unit\Play_GunshotWet	
+	1676603786	Play_Gate_CLose			\Default Work Unit\Play_Gate_CLose
+	1720809208	Play_Detected			\Default Work Unit\Play_Detected
+	1722917615	Play_Hit_Wood			\Default Work Unit\Play_Hit_Wood
+	1761571631	Play_Gazebo_Tear			\Default Work Unit\Play_Gazebo_Tear
+	3023115453	Play_Search_Trash			\Default Work Unit\Play_Search_Trash
+	3394714855	Play_Box_Breaking			\Default Work Unit\Play_Box_Breaking
+	3780378942	Play_Pull_Plank			\Default Work Unit\Play_Pull_Plank
+	3800970461	Play_Branches_Snapping			\Default Work Unit\Play_Branches_Snapping
+	4089264814	Play_Gate_Open			\Default Work Unit\Play_Gate_Open
 
 Effect plug-ins	ID	Name	Type				Notes
-	550632737	High_Pass_60Hz (Custom)	Wwise Parametric EQ			
-	746958789	Have_U_Ever_Been_Outside (Custom)	Wwise RoomVerb			
-	758768032	Have_U_Ever_Been_Outside (Custom)	Wwise RoomVerb			
-	764844195	Have_U_Ever_Been_Outside (Custom)	Wwise RoomVerb			
-	939486497	High_Pass_60Hz (Custom)	Wwise Parametric EQ			
-	1036888846	Have_U_Ever_Been_Outside (Custom)	Wwise RoomVerb			
+	550632737	High_Pass_60Hz (Custom)	Wwise Parametric EQ
+	746958789	Have_U_Ever_Been_Outside (Custom)	Wwise RoomVerb
+	758768032	Have_U_Ever_Been_Outside (Custom)	Wwise RoomVerb
+	939486497	High_Pass_60Hz (Custom)	Wwise Parametric EQ
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	41270468	164472__adam-n__crack-of-branch-3	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\164472__adam-n__crack-of-branch-3_84D48256.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Branches_Snapping\164472__adam-n__crack-of-branch-3		5066
@@ -54,4 +49,3 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	984082999	IMPACT_Wood_Plank_On_Wood_Pile_03_Fall_mono	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\IMPACT_Wood_Plank_On_Wood_Pile_03_Fall_mono_94982C0D.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Hit_Wood\IMPACT_Wood_Plank_On_Wood_Pile_03_Fall_mono		2409
 	1010275441	Gunshot	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\gun_revolver_pistol_shot_04_793DB38A.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Gunshot		20356
 	1021342188	pullplank1_01	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\pullplank1_FF73C313.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Pull_Plank\pullplank1_01		6067
-

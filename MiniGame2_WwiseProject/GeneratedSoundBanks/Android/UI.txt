@@ -1,11 +1,10 @@
 Event	ID	Name			Wwise Object Path	Notes
-	477908357	Play_DeathMusic			\Default Work Unit\Play_DeathMusic	
-	807462833	Play_MenuTrack1			\Default Work Unit\Play_MenuTrack1	
-	1250373215	Play_MiniGame2_INtroSoundscape			\Default Work Unit\Play_MiniGame2_INtroSoundscape	
-	1554289743	Stop_MenuTrack1			\Default Work Unit\Stop_MenuTrack1	
-	2149395099	Play_Resume			\Default Work Unit\Play_Resume	
-	2461875428	Play_Button2			\Default Work Unit\Play_Button2	
-	2461875431	Play_Button1			\Default Work Unit\Play_Button1	
+	807462833	Play_MenuTrack1			\Default Work Unit\Play_MenuTrack1
+	1250373215	Play_MiniGame2_INtroSoundscape			\Default Work Unit\Play_MiniGame2_INtroSoundscape
+	1554289743	Stop_MenuTrack1			\Default Work Unit\Stop_MenuTrack1
+	2149395099	Play_Resume			\Default Work Unit\Play_Resume
+	2461875428	Play_Button2			\Default Work Unit\Play_Button2
+	2461875431	Play_Button1			\Default Work Unit\Play_Button1
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	199205389	MiniGame2_INtroSoundscape	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\MiniGame2_INtroSoundscape_BF755129.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\UI\MiniGame2_INtroSoundscape		947992
@@ -14,4 +13,3 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	619622850	Resume	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\WHOOSH_Air_Super_Fast_RR4_mono_BF755129.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\UI\Resume		1181
 	700939131	DeathMusic	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\DeathMusic_C9E2EE76.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Reactions\Player_Death\DeathMusic		879718
 	800148568	UI_Beep_Single_Clean_stereo	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\UI_Beep_Single_Clean_stereo_BF755129.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\UI\Button1\UI_Beep_Single_Clean_stereo		728
-
