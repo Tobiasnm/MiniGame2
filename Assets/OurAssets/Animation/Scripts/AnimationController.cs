@@ -31,7 +31,7 @@ public class AnimationController : MonoBehaviour
     #region Attributes
     private Animator animator;  // Character animator component
 
-    private int frames = 3038; //Amount of frames in the fbx
+    private int frames = 7382; //Amount of frames in the fbx
     private float frameNumber = 3.0f; //Which frame you want to play
     private int frameCount = 0; // How many frames have been played after last frame search. Used for loop protection
 
@@ -40,7 +40,7 @@ public class AnimationController : MonoBehaviour
     private bool playingAnim = false;   // True if the system is automatically playing frames
 
     //private string nextAnim = "startWalk0";  // Animation state name of the Animator Controller
-    private string nextAnim = "take1";
+    private string nextAnim = "20min";
     private float nextAnimFrame = 0;    // Frame within the 'nextAnim' state
     private GameObject player;
     private GameObject cursor;
@@ -75,8 +75,8 @@ public class AnimationController : MonoBehaviour
     #region Attributes for new DB approach
     private float currentFrame;
 
-    private float longTakeFrameCount = 3038; // TODO: Delete this and read it from file
-    private string longTakeStateName = "take1";
+    private float longTakeFrameCount = 7382; // TODO: Delete this and read it from file
+    private string longTakeStateName = "20min";
 
     public FrameDB framedb;
     private float currSpeed, nextSpeed;
@@ -160,7 +160,7 @@ public class AnimationController : MonoBehaviour
 
 
             frameCount++;   // Increment count to know when to stop playing frames
-            if (frameCount >= 10)   // When 10 frames are played, it's time to choose a frame again
+            if (frameCount >= 5)   // When 10 frames are played, it's time to choose a frame again
             {
                 playingAnim = false;
                 frameCount = 0;
@@ -266,6 +266,12 @@ public class AnimationController : MonoBehaviour
                 
             }
         }
+
+        if(bestFrame == -1)
+        {
+            bestFrame = (int)currentFrame + 1;
+        }
+
         playerVel = player.GetComponent <NavMeshAgent>().velocity.magnitude;
         targetRot = cursor.transform.position - player.transform.position;
         playerRotation = Vector3.SignedAngle(player.transform.forward, targetRot, Vector3.up);
@@ -279,8 +285,8 @@ public class AnimationController : MonoBehaviour
     private float Cost(int nextFrame) {
         Frame next = framedb.GetFrame(nextFrame);
 
-        float deltaDirection = (nextRot - next.GetDirection())/180;
-        float deltaSpeed = (nextSpeed - next.GetSpeed())/3;
+        float deltaDirection = (nextRot / 180 - next.GetDirection());
+        float deltaSpeed = (nextSpeed - next.GetSpeed());
 
         float cost = Mathf.Abs(deltaDirection) + Mathf.Max(deltaSpeed, 0);
 

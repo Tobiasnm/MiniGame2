@@ -39,7 +39,7 @@ public class CSV_Reader : MonoBehaviour {
         int index;
         float direction, velocity;
         List<int> neighs = new List<int>();
-        int N = 15;
+        int N = 5;
 
         for (int i = 0; i < TotalLines(full_path) - 1; i++)
         {

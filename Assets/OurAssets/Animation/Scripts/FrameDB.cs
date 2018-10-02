@@ -11,7 +11,7 @@ public class FrameDB : ScriptableObject{
     #region Attributes
     private List<Frame> frames = createDB();
 
-    private static string longTakeFileName = "take1-15NN.csv";
+    private static string longTakeFileName = "ReducedData.csv";
     #endregion
 
     // Constructor
