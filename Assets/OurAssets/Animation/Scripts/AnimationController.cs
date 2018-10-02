@@ -269,7 +269,8 @@ public class AnimationController : MonoBehaviour
         playerVel = player.GetComponent <NavMeshAgent>().velocity.magnitude;
         targetRot = cursor.transform.position - player.transform.position;
         playerRotation = Vector3.SignedAngle(player.transform.forward, targetRot, Vector3.up);
-        print("vel: " + playerVel + "rot: " + playerRotation);
+        Frame ff = framedb.GetFrame(bestFrame);
+        print("vel: " + playerVel + " rot: " + playerRotation + " framerot: " + ff.GetDirection() + " framespeed " + ff.GetSpeed());
         UpdateParams(playerRotation, playerVel);
         return framedb.GetFrame(bestFrame);
     }
@@ -278,10 +279,10 @@ public class AnimationController : MonoBehaviour
     private float Cost(int nextFrame) {
         Frame next = framedb.GetFrame(nextFrame);
 
-        float deltaDirection = nextRot - next.GetDirection();
-        float deltaSpeed = nextSpeed - next.GetSpeed();
+        float deltaDirection = (nextRot - next.GetDirection())/180;
+        float deltaSpeed = (nextSpeed - next.GetSpeed())/3;
 
-        float cost = deltaDirection + deltaSpeed;
+        float cost = Mathf.Abs(deltaDirection) + Mathf.Max(deltaSpeed, 0);
 
         return cost;
     }
