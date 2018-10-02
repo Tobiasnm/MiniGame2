@@ -1,5 +1,4 @@
 Event	ID	Name			Wwise Object Path	Notes
-	1523662489	Play_DeathSound			\Default Work Unit\Play_DeathSound	
 	1676603786	Play_Gate_CLose			\Default Work Unit\Play_Gate_CLose	
 	1720809208	Play_Detected			\Default Work Unit\Play_Detected	
 	1722917615	Play_Hit_Wood			\Default Work Unit\Play_Hit_Wood	
@@ -8,50 +7,43 @@ Event	ID	Name			Wwise Object Path	Notes
 	3394714855	Play_Box_Breaking			\Default Work Unit\Play_Box_Breaking	
 	3780378942	Play_Pull_Plank			\Default Work Unit\Play_Pull_Plank	
 	3800970461	Play_Branches_Snapping			\Default Work Unit\Play_Branches_Snapping	
-	3955959628	Play_Gunshot			\Default Work Unit\Play_Gunshot	
 	4089264814	Play_Gate_Open			\Default Work Unit\Play_Gate_Open	
-	4105918416	Play_GunshotWet			\Default Work Unit\Play_GunshotWet	
 
 Effect plug-ins	ID	Name	Type				Notes
 	550632737	High_Pass_60Hz (Custom)	Wwise Parametric EQ			
 	746958789	Have_U_Ever_Been_Outside (Custom)	Wwise RoomVerb			
 	758768032	Have_U_Ever_Been_Outside (Custom)	Wwise RoomVerb			
-	764844195	Have_U_Ever_Been_Outside (Custom)	Wwise RoomVerb			
 	939486497	High_Pass_60Hz (Custom)	Wwise Parametric EQ			
-	1036888846	Have_U_Ever_Been_Outside (Custom)	Wwise RoomVerb			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	41270468	164472__adam-n__crack-of-branch-3	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\164472__adam-n__crack-of-branch-3_33596366.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Branches_Snapping\164472__adam-n__crack-of-branch-3		37608
-	99884765	BREAK_Snap_Crack_stereo	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\BREAK_Snap_Crack_stereo_B33EAD6A.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Branches_Snapping\BREAK_Snap_Crack_stereo		24516
-	165415640	pullplank1	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\pullplank1_52B5A0EC.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Pull_Plank\pullplank1		100368
+	99884765	BREAK_Snap_Crack_stereo	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\BREAK_Snap_Crack_stereo_1ADB8604.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Branches_Snapping\BREAK_Snap_Crack_stereo		24516
+	165415640	pullplank1	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\pullplank1_F38CE5E7.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Pull_Plank\pullplank1		100368
 	174848939	IMPACT_Wood_Plank_On_Wood_Pile_02_Slide_mono	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\IMPACT_Wood_Plank_On_Wood_Pile_02_Slide_mono_6240F212.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Hit_Wood\IMPACT_Wood_Plank_On_Wood_Pile_02_Slide_mono		15162
 	277468038	IMPACT_Wood_Plank_On_Wood_Pile_04_Multiple_mono	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\IMPACT_Wood_Plank_On_Wood_Pile_04_Multiple_mono_6D4B0394.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Hit_Wood\IMPACT_Wood_Plank_On_Wood_Pile_04_Multiple_mono		14538
-	287160250	pullplank2	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\pullplank2_C90290C3.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Pull_Plank\pullplank2		131068
+	287160250	pullplank2	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\pullplank2_E0EAF8E4.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Pull_Plank\pullplank2		131068
 	288085049	IMPACT_Wood_Plank_On_Wood_Pile_06_Short_mono	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\IMPACT_Wood_Plank_On_Wood_Pile_06_Short_mono_752D7C59.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Hit_Wood\IMPACT_Wood_Plank_On_Wood_Pile_06_Short_mono		8180
 	373338240	Stinger3	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\Stinger3_7E90B02E.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Reactions\Detected\Stinger3		454388
 	425320271	IMPACT_Wood_Plank_On_Wood_Pile_05_mono	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\IMPACT_Wood_Plank_On_Wood_Pile_05_mono_4920CB49.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Hit_Wood\IMPACT_Wood_Plank_On_Wood_Pile_05_mono		12172
-	489207521	TrashSearch1_01	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\TrashSearch1_9C6BB720.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Search_Trash\Trash1\TrashSearch1_01		34268
-	515322455	TrashSearch1_02	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\TrashSearch1_BBD86FF9.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Search_Trash\Trash2\TrashSearch1_02		29880
-	534379739	DeathSound	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\DeathSound_56D34C19.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Reactions\Player_Death\DeathSound		679668
-	537442384	TrashSearch4_01	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\TrashSearch4_79D9A373.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Search_Trash\Trash4\TrashSearch4_01		25560
+	489207521	TrashSearch1_01	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\TrashSearch1_101719AA.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Search_Trash\Trash1\TrashSearch1_01		34268
+	515322455	TrashSearch1_02	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\TrashSearch1_A8D4D677.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Search_Trash\Trash2\TrashSearch1_02		29880
+	537442384	TrashSearch4_01	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\TrashSearch4_D3F0E100.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Search_Trash\Trash4\TrashSearch4_01		25560
 	632132391	Gate_Open	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\GATE_Metal_Open_04_Squeal_stereo_39F08C3C.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\3D\Gate Open Close\Gate_Open		485752
-	682261727	TrashSearch3	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\TrashSearch3_6D3DA4CC.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Search_Trash\Trash4\TrashSearch3		35616
-	700491321	GunshotWet	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\GunshotWet_56D34C19.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\GunshotWet		564544
+	682261727	TrashSearch3	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\TrashSearch3_43ABFF20.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Search_Trash\Trash4\TrashSearch3		35616
 	735211814	Stinger1	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\Stinger1_5110075D.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Reactions\Detected\Stinger1		807892
-	746144388	TrashSearch4_01	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\TrashSearch4_C4ACC6DC.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Search_Trash\Trash2\TrashSearch4_01		29328
+	746144388	TrashSearch4_01	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\TrashSearch4_DC7C7426.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Search_Trash\Trash2\TrashSearch4_01		29328
 	750255720	GazeboTear	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\GazeboTear_B62DD8BA.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Gazebo_Tear\GazeboTear		79784
-	795572999	pullplank2_01	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\pullplank2_9E113D98.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Pull_Plank\pullplank2_01		134288
+	795572999	pullplank2_01	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\pullplank2_50E745F1.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Pull_Plank\pullplank2_01		134288
 	815372615	Gate_CLose	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\GATE_Metal_Close_03_stereo_398450BE.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\3D\Gate Open Close\Gate_CLose		96174
-	847788105	GazeboTear_01	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\GazeboTear_ABCE0AFF.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Gazebo_Tear\GazeboTear_01		81844
+	847788105	GazeboTear_01	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\GazeboTear_F6BA44F1.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Gazebo_Tear\GazeboTear_01		81844
 	849369928	SNAP_Twig_mono	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\SNAP_Twig_mono_56D34C19.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Branches_Snapping\SNAP_Twig_mono		33076
-	853319014	TrashSearch1	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\TrashSearch1_30582E1C.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Search_Trash\Trash1\TrashSearch1		32732
+	853319014	TrashSearch1	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\TrashSearch1_F421F29F.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Search_Trash\Trash1\TrashSearch1		32732
 	854355060	BoxBreaking	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\BoxBreaking_56D34C19.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Box_Breaking\BoxBreaking		330808
-	878006226	TrashSearch4	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\TrashSearch4_2461F749.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Search_Trash\Trash3\TrashSearch4		29496
-	898014509	GazeboTear_02	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\GazeboTear_5DBD3174.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Gazebo_Tear\GazeboTear_02		74368
-	918086970	GazeboTear_03	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\GazeboTear_999BC151.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Gazebo_Tear\GazeboTear_03		72900
+	878006226	TrashSearch4	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\TrashSearch4_9CFDBE70.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Search_Trash\Trash3\TrashSearch4		29496
+	898014509	GazeboTear_02	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\GazeboTear_80BF3C1A.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Gazebo_Tear\GazeboTear_02		74368
+	918086970	GazeboTear_03	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\GazeboTear_D78066BD.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Gazebo_Tear\GazeboTear_03		72900
 	960059470	6 Big Metal Hit	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\6 Big Metal Hit _1199FC32.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Reactions\Detected\6 Big Metal Hit		783440
-	973755901	TrashSearch3_01	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\TrashSearch3_1E444B70.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Search_Trash\Trash3\TrashSearch3_01		26864
+	973755901	TrashSearch3_01	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\TrashSearch3_EA50F9EB.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Search_Trash\Trash3\TrashSearch3_01		26864
 	984082999	IMPACT_Wood_Plank_On_Wood_Pile_03_Fall_mono	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\IMPACT_Wood_Plank_On_Wood_Pile_03_Fall_mono_70DB417D.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Hit_Wood\IMPACT_Wood_Plank_On_Wood_Pile_03_Fall_mono		17068
-	1010275441	Gunshot	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\gun_revolver_pistol_shot_04_3DD95D72.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Gunshot		213488
-	1021342188	pullplank1_01	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\pullplank1_3AF26323.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Pull_Plank\pullplank1_01		94224
+	1021342188	pullplank1_01	C:\Users\Bruger\Documents\GitHub\MiniGame2\MiniGame2_WwiseProject\.cache\Android\SFX\pullplank1_038341A4.wem		\Actor-Mixer Hierarchy\Frederik Work Unit\Characters\Actions\Pull_Plank\pullplank1_01		94224
 

@@ -23,15 +23,11 @@ namespace AK
         static const AkUniqueID PLAY_BRANCHES_SNAPPING = 3800970461U;
         static const AkUniqueID PLAY_BUTTON1 = 2461875431U;
         static const AkUniqueID PLAY_BUTTON2 = 2461875428U;
-        static const AkUniqueID PLAY_DEATHMUSIC = 477908357U;
-        static const AkUniqueID PLAY_DEATHSOUND = 1523662489U;
         static const AkUniqueID PLAY_DETECTED = 1720809208U;
         static const AkUniqueID PLAY_FOREST_AMBIANCE = 2215933556U;
         static const AkUniqueID PLAY_GATE_CLOSE = 1676603786U;
         static const AkUniqueID PLAY_GATE_OPEN = 4089264814U;
         static const AkUniqueID PLAY_GAZEBO_TEAR = 1761571631U;
-        static const AkUniqueID PLAY_GUNSHOT = 3955959628U;
-        static const AkUniqueID PLAY_GUNSHOTWET = 4105918416U;
         static const AkUniqueID PLAY_HIT_WOOD = 1722917615U;
         static const AkUniqueID PLAY_IDLE_TRUCK = 3255314544U;
         static const AkUniqueID PLAY_MENUTRACK1 = 807462833U;
