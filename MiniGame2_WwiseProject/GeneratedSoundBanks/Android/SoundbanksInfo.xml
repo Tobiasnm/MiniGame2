@@ -42,6 +42,7 @@
 			<IncludedEvents>
 				<Event Id="2461875431" Name="Play_Button1" ObjectPath="\Events\Default Work Unit\Play_Button1"/>
 				<Event Id="2461875428" Name="Play_Button2" ObjectPath="\Events\Default Work Unit\Play_Button2"/>
+				<Event Id="477908357" Name="Play_DeathMusic" ObjectPath="\Events\Default Work Unit\Play_DeathMusic"/>
 				<Event Id="807462833" Name="Play_MenuTrack1" ObjectPath="\Events\Default Work Unit\Play_MenuTrack1"/>
 				<Event Id="1250373215" Name="Play_MiniGame2_INtroSoundscape" ObjectPath="\Events\Default Work Unit\Play_MiniGame2_INtroSoundscape"/>
 				<Event Id="2149395099" Name="Play_Resume" ObjectPath="\Events\Default Work Unit\Play_Resume"/>
@@ -63,6 +64,10 @@
 				<File Id="619622850" Language="SFX">
 					<ShortName>WHOOSH_Air_Super_Fast_RR4_mono.wav</ShortName>
 					<Path>SFX\WHOOSH_Air_Super_Fast_RR4_mono_56D34C19.wem</Path>
+				</File>
+				<File Id="700939131" Language="SFX">
+					<ShortName>DeathMusic.wav</ShortName>
+					<Path>SFX\DeathMusic_4345F9C6.wem</Path>
 				</File>
 				<File Id="800148568" Language="SFX">
 					<ShortName>UI_Beep_Single_Clean_stereo.wav</ShortName>
@@ -392,10 +397,12 @@
 			<IncludedEvents>
 				<Event Id="3394714855" Name="Play_Box_Breaking" ObjectPath="\Events\Default Work Unit\Play_Box_Breaking"/>
 				<Event Id="3800970461" Name="Play_Branches_Snapping" ObjectPath="\Events\Default Work Unit\Play_Branches_Snapping"/>
+				<Event Id="1523662489" Name="Play_DeathSound" ObjectPath="\Events\Default Work Unit\Play_DeathSound"/>
 				<Event Id="1720809208" Name="Play_Detected" ObjectPath="\Events\Default Work Unit\Play_Detected"/>
 				<Event Id="1676603786" Name="Play_Gate_CLose" ObjectPath="\Events\Default Work Unit\Play_Gate_CLose"/>
 				<Event Id="4089264814" Name="Play_Gate_Open" ObjectPath="\Events\Default Work Unit\Play_Gate_Open"/>
 				<Event Id="1761571631" Name="Play_Gazebo_Tear" ObjectPath="\Events\Default Work Unit\Play_Gazebo_Tear"/>
+				<Event Id="3955959628" Name="Play_Gunshot" ObjectPath="\Events\Default Work Unit\Play_Gunshot"/>
 				<Event Id="1722917615" Name="Play_Hit_Wood" ObjectPath="\Events\Default Work Unit\Play_Hit_Wood"/>
 				<Event Id="3780378942" Name="Play_Pull_Plank" ObjectPath="\Events\Default Work Unit\Play_Pull_Plank"/>
 				<Event Id="3023115453" Name="Play_Search_Trash" ObjectPath="\Events\Default Work Unit\Play_Search_Trash"/>
@@ -407,11 +414,11 @@
 				</File>
 				<File Id="99884765" Language="SFX">
 					<ShortName>BREAK_Snap_Crack_stereo.wav</ShortName>
-					<Path>SFX\BREAK_Snap_Crack_stereo_1ADB8604.wem</Path>
+					<Path>SFX\BREAK_Snap_Crack_stereo_B33EAD6A.wem</Path>
 				</File>
 				<File Id="165415640" Language="SFX">
 					<ShortName>pullplank1.wav</ShortName>
-					<Path>SFX\pullplank1_F38CE5E7.wem</Path>
+					<Path>SFX\pullplank1_52B5A0EC.wem</Path>
 				</File>
 				<File Id="174848939" Language="SFX">
 					<ShortName>IMPACT_Wood_Plank_On_Wood_Pile_02_Slide_mono.wav</ShortName>
@@ -423,7 +430,7 @@
 				</File>
 				<File Id="287160250" Language="SFX">
 					<ShortName>pullplank2.wav</ShortName>
-					<Path>SFX\pullplank2_E0EAF8E4.wem</Path>
+					<Path>SFX\pullplank2_C90290C3.wem</Path>
 				</File>
 				<File Id="288085049" Language="SFX">
 					<ShortName>IMPACT_Wood_Plank_On_Wood_Pile_06_Short_mono.wav</ShortName>
@@ -439,15 +446,19 @@
 				</File>
 				<File Id="489207521" Language="SFX">
 					<ShortName>TrashSearch1.wav</ShortName>
-					<Path>SFX\TrashSearch1_101719AA.wem</Path>
+					<Path>SFX\TrashSearch1_9C6BB720.wem</Path>
 				</File>
 				<File Id="515322455" Language="SFX">
 					<ShortName>TrashSearch1.wav</ShortName>
-					<Path>SFX\TrashSearch1_A8D4D677.wem</Path>
+					<Path>SFX\TrashSearch1_BBD86FF9.wem</Path>
+				</File>
+				<File Id="534379739" Language="SFX">
+					<ShortName>DeathSound.wav</ShortName>
+					<Path>SFX\DeathSound_56D34C19.wem</Path>
 				</File>
 				<File Id="537442384" Language="SFX">
 					<ShortName>TrashSearch4.wav</ShortName>
-					<Path>SFX\TrashSearch4_D3F0E100.wem</Path>
+					<Path>SFX\TrashSearch4_79D9A373.wem</Path>
 				</File>
 				<File Id="632132391" Language="SFX">
 					<ShortName>GATE_Metal_Open_04_Squeal_stereo.wav</ShortName>
@@ -455,7 +466,7 @@
 				</File>
 				<File Id="682261727" Language="SFX">
 					<ShortName>TrashSearch3.wav</ShortName>
-					<Path>SFX\TrashSearch3_43ABFF20.wem</Path>
+					<Path>SFX\TrashSearch3_6D3DA4CC.wem</Path>
 				</File>
 				<File Id="735211814" Language="SFX">
 					<ShortName>Stinger1.wav</ShortName>
@@ -463,7 +474,7 @@
 				</File>
 				<File Id="746144388" Language="SFX">
 					<ShortName>TrashSearch4.wav</ShortName>
-					<Path>SFX\TrashSearch4_DC7C7426.wem</Path>
+					<Path>SFX\TrashSearch4_C4ACC6DC.wem</Path>
 				</File>
 				<File Id="750255720" Language="SFX">
 					<ShortName>GazeboTear.wav</ShortName>
@@ -471,7 +482,7 @@
 				</File>
 				<File Id="795572999" Language="SFX">
 					<ShortName>pullplank2.wav</ShortName>
-					<Path>SFX\pullplank2_50E745F1.wem</Path>
+					<Path>SFX\pullplank2_9E113D98.wem</Path>
 				</File>
 				<File Id="815372615" Language="SFX">
 					<ShortName>GATE_Metal_Close_03_stereo.wav</ShortName>
@@ -479,7 +490,7 @@
 				</File>
 				<File Id="847788105" Language="SFX">
 					<ShortName>GazeboTear.wav</ShortName>
-					<Path>SFX\GazeboTear_F6BA44F1.wem</Path>
+					<Path>SFX\GazeboTear_ABCE0AFF.wem</Path>
 				</File>
 				<File Id="849369928" Language="SFX">
 					<ShortName>SNAP_Twig_mono.wav</ShortName>
@@ -487,7 +498,7 @@
 				</File>
 				<File Id="853319014" Language="SFX">
 					<ShortName>TrashSearch1.wav</ShortName>
-					<Path>SFX\TrashSearch1_F421F29F.wem</Path>
+					<Path>SFX\TrashSearch1_30582E1C.wem</Path>
 				</File>
 				<File Id="854355060" Language="SFX">
 					<ShortName>BoxBreaking.wav</ShortName>
@@ -495,15 +506,15 @@
 				</File>
 				<File Id="878006226" Language="SFX">
 					<ShortName>TrashSearch4.wav</ShortName>
-					<Path>SFX\TrashSearch4_9CFDBE70.wem</Path>
+					<Path>SFX\TrashSearch4_2461F749.wem</Path>
 				</File>
 				<File Id="898014509" Language="SFX">
 					<ShortName>GazeboTear.wav</ShortName>
-					<Path>SFX\GazeboTear_80BF3C1A.wem</Path>
+					<Path>SFX\GazeboTear_5DBD3174.wem</Path>
 				</File>
 				<File Id="918086970" Language="SFX">
 					<ShortName>GazeboTear.wav</ShortName>
-					<Path>SFX\GazeboTear_D78066BD.wem</Path>
+					<Path>SFX\GazeboTear_999BC151.wem</Path>
 				</File>
 				<File Id="960059470" Language="SFX">
 					<ShortName>6 Big Metal Hit .wav</ShortName>
@@ -511,15 +522,19 @@
 				</File>
 				<File Id="973755901" Language="SFX">
 					<ShortName>TrashSearch3.wav</ShortName>
-					<Path>SFX\TrashSearch3_EA50F9EB.wem</Path>
+					<Path>SFX\TrashSearch3_1E444B70.wem</Path>
 				</File>
 				<File Id="984082999" Language="SFX">
 					<ShortName>IMPACT_Wood_Plank_On_Wood_Pile_03_Fall_mono.wav</ShortName>
 					<Path>SFX\IMPACT_Wood_Plank_On_Wood_Pile_03_Fall_mono_70DB417D.wem</Path>
 				</File>
+				<File Id="1010275441" Language="SFX">
+					<ShortName>gun_revolver_pistol_shot_04.wav</ShortName>
+					<Path>SFX\gun_revolver_pistol_shot_04_3DD95D72.wem</Path>
+				</File>
 				<File Id="1021342188" Language="SFX">
 					<ShortName>pullplank1.wav</ShortName>
-					<Path>SFX\pullplank1_038341A4.wem</Path>
+					<Path>SFX\pullplank1_3AF26323.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
